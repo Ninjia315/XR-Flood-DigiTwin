@@ -1,0 +1,38 @@
+\doxysection{Genesis.\+Utilities.\+Web\+Request\+Async\+Utility.\+Web\+Request\+Simple\+Async Class Reference}
+\hypertarget{class_genesis_1_1_utilities_1_1_web_request_async_utility_1_1_web_request_simple_async}{}\label{class_genesis_1_1_utilities_1_1_web_request_async_utility_1_1_web_request_simple_async}\index{Genesis.Utilities.WebRequestAsyncUtility.WebRequestSimpleAsync@{Genesis.Utilities.WebRequestAsyncUtility.WebRequestSimpleAsync}}
+
+
+Simple Web\+Request without JSON parsing. Returns plain text.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static async Task$<$ string $>$ \mbox{\hyperlink{class_genesis_1_1_utilities_1_1_web_request_async_utility_1_1_web_request_simple_async_a33800929c7d420af7858fce52e076cde}{Send\+Web\+Request\+Async}} (string url, \mbox{\hyperlink{namespace_genesis_1_1_utilities_a23994df9c793c5b25820cf7bc2c6e3c5}{HTTPVerb}} verb=\mbox{\hyperlink{namespace_genesis_1_1_utilities_a23994df9c793c5b25820cf7bc2c6e3c5a7528035a93ee69cedb1dbddb2f0bfcc8}{HTTPVerb.\+GET}}, string post\+Data=null, params Tuple$<$ string, string $>$\mbox{[}$\,$\mbox{]} request\+Headers)
+\begin{DoxyCompactList}\small\item\em Performs a Web\+Request with the given URL. The response is expected to be a JSON serialized object of type {\itshape T}  and is automatically being deserialized and returned. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Simple Web\+Request without JSON parsing. Returns plain text. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_genesis_1_1_utilities_1_1_web_request_async_utility_1_1_web_request_simple_async_a33800929c7d420af7858fce52e076cde}\index{Genesis.Utilities.WebRequestAsyncUtility.WebRequestSimpleAsync@{Genesis.Utilities.WebRequestAsyncUtility.WebRequestSimpleAsync}!SendWebRequestAsync@{SendWebRequestAsync}}
+\index{SendWebRequestAsync@{SendWebRequestAsync}!Genesis.Utilities.WebRequestAsyncUtility.WebRequestSimpleAsync@{Genesis.Utilities.WebRequestAsyncUtility.WebRequestSimpleAsync}}
+\doxysubsubsection{\texorpdfstring{SendWebRequestAsync()}{SendWebRequestAsync()}}
+{\footnotesize\ttfamily \label{class_genesis_1_1_utilities_1_1_web_request_async_utility_1_1_web_request_simple_async_a33800929c7d420af7858fce52e076cde} 
+static async Task$<$ string $>$ Genesis.\+Utilities.\+Web\+Request\+Async\+Utility.\+Web\+Request\+Simple\+Async.\+Send\+Web\+Request\+Async (\begin{DoxyParamCaption}\item[{string}]{url}{, }\item[{\mbox{\hyperlink{namespace_genesis_1_1_utilities_a23994df9c793c5b25820cf7bc2c6e3c5}{HTTPVerb}}}]{verb}{ = {\ttfamily \mbox{\hyperlink{namespace_genesis_1_1_utilities_a23994df9c793c5b25820cf7bc2c6e3c5a7528035a93ee69cedb1dbddb2f0bfcc8}{HTTPVerb\+::\+GET}}}, }\item[{string}]{post\+Data}{ = {\ttfamily null}, }\item[{params Tuple$<$ string, string $>$\mbox{[}$\,$\mbox{]}}]{request\+Headers}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Performs a Web\+Request with the given URL. The response is expected to be a JSON serialized object of type {\itshape T}  and is automatically being deserialized and returned. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & the type that this web request returns.\\
+\hline
+\end{DoxyTemplParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Packages/com.\+doji.\+genesis/\+Runtime/\+Scripts/\+Utils/\mbox{\hyperlink{_web_request_async_utility_8cs}{Web\+Request\+Async\+Utility.\+cs}}\end{DoxyCompactItemize}

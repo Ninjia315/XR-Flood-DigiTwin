@@ -1,0 +1,25 @@
+<map id="TMRI.Client.TMRIOnlineScene" name="TMRI.Client.TMRIOnlineScene">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1337,87,1541,112"/>
+<area shape="rect" id="Node000002" href="$class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback.html" title="Base class for all objects wishing to receive network callbacks from the TMRI system." alt="" coords="453,5,664,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="679,22,969,43,1314,77,1360,83,1359,89,1313,82,968,48,679,27"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="50,81,161,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,73,229,48,344,29,453,19,453,24,345,34,230,53,152,78"/>
+<area shape="rect" id="Node000005" href="$class_t_m_r_i_1_1_core_1_1_flood_data_player.html" title=" " alt="" coords="1002,87,1189,112"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="177,86,231,85,603,87,974,93,1001,94,1001,99,974,98,602,92,231,90,177,92"/>
+<area shape="rect" id="Node000007" href="$class_geometry_data_reader.html" title=" " alt="" coords="688,129,836,155"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="177,97,688,134,687,139,176,102"/>
+<area shape="rect" id="Node000008" href="$class_generate_mesh_from_data.html" title=" " alt="" coords="260,160,424,186"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="162,110,302,157,300,162,160,115"/>
+<area shape="rect" id="Node000004" href="$interface_t_m_r_i_1_1_client_1_1_i_settings_listener.html" title=" " alt="" coords="998,136,1192,162"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1204,131,1344,110,1345,116,1205,136"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1205,97,1337,97,1337,102,1205,102"/>
+<area shape="rect" id="Node000006" href="$interface_t_m_r_i_1_1_core_1_1_i_asset_listener.html" title=" " alt="" coords="255,215,429,240"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="445,225,551,221,663,210,752,196,821,182,888,163,973,133,997,121,1031,110,1033,115,999,126,975,138,890,168,822,188,753,202,664,215,551,227,445,231"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="444,211,550,194,663,170,721,153,723,158,664,175,551,199,445,217"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="851,128,1001,109,1001,114,852,133"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="440,166,663,151,687,148,687,154,664,156,440,171"/>
+<area shape="rect" id="Node000009" href="$interface_i_shader_change_event_listener.html" title=" " alt="" coords="10,173,201,199"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="216,177,259,175,260,180,217,183"/>
+<area shape="rect" id="Node000010" href="$interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener.html" title=" " alt="" coords="5,223,206,264"/>
+<area shape="poly" id="edge13_Node000008_Node000010" title=" " alt="" coords="189,216,296,184,297,189,191,221"/>
+</map>

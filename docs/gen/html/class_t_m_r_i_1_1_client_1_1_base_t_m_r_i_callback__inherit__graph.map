@@ -1,0 +1,25 @@
+<map id="TMRI.Client.BaseTMRICallback" name="TMRI.Client.BaseTMRICallback">
+<area shape="rect" id="Node000001" title="Base class for all objects wishing to receive network callbacks from the TMRI system." alt="" coords="165,153,375,179"/>
+<area shape="rect" id="Node000003" href="$class_flood_data_listener.html" title=" " alt="" coords="465,5,592,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="292,140,348,89,383,62,422,40,464,25,465,30,424,45,386,67,351,93,295,144"/>
+<area shape="rect" id="Node000004" href="$class_panorama_behaviour.html" title=" " alt="" coords="460,55,598,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="306,143,360,115,422,89,459,78,460,83,424,94,362,120,308,148"/>
+<area shape="rect" id="Node000005" href="$class_t_m_r_i_1_1_client_1_1_landmark_behaviour.html" title=" " alt="" coords="423,104,634,130"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="355,147,457,128,458,133,356,152"/>
+<area shape="rect" id="Node000006" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene.html" title=" " alt="" coords="427,153,630,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="391,164,427,164,427,169,391,169"/>
+<area shape="rect" id="Node000007" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_player.html" title=" " alt="" coords="446,203,612,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="356,180,458,199,457,205,355,185"/>
+<area shape="rect" id="Node000008" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_scene.html" title=" " alt="" coords="446,252,612,278"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="308,185,362,212,424,238,460,249,458,254,422,243,360,217,306,189"/>
+<area shape="rect" id="Node000009" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback.html" title="A base class for objects who&#39;s properties are shared accross the network session. An object inheritin..." alt="" coords="423,301,634,327"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="295,188,351,239,386,266,424,288,452,298,450,303,422,293,383,270,348,243,292,192"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,153,117,179"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,164,164,164,164,169,132,169"/>
+<area shape="rect" id="Node000010" href="$class_draw_on_mesh.html" title=" " alt="" coords="686,252,787,278"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="603,295,634,288,685,275,686,280,635,293,605,300"/>
+<area shape="rect" id="Node000011" href="$class_flood_info_panel.html" title=" " alt="" coords="682,301,791,327"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="650,312,682,312,682,317,650,317"/>
+<area shape="rect" id="Node000012" href="$class_goal_point.html" title=" " alt="" coords="697,351,776,376"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="602,329,697,352,696,357,600,334"/>
+</map>

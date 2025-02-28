@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,13,145,38"/>
+<area shape="rect" id="Node000001" href="$class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_device_web_socket_behaviour.html" title=" " alt="" coords="193,5,419,46"/>
+<area shape="poly" id="edge362_Node000000_Node000001" title=" " alt="" coords="160,23,192,23,192,28,160,28"/>
+<area shape="rect" id="Node000002" href="$class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_room_connected_client.html" title=" " alt="" coords="467,5,660,46"/>
+<area shape="poly" id="edge363_Node000001_Node000002" title=" " alt="" coords="435,23,466,23,466,28,435,28"/>
+<area shape="rect" id="Node000003" href="$class_websocket_server_with_g_u_i_1_1_asset_enabled_client.html" title=" " alt="" coords="708,5,922,46"/>
+<area shape="poly" id="edge364_Node000002_Node000003" title=" " alt="" coords="676,23,708,23,708,28,676,28"/>
+</map>

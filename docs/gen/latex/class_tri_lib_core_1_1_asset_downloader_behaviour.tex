@@ -1,0 +1,118 @@
+\doxysection{Tri\+Lib\+Core.\+Asset\+Downloader\+Behaviour Class Reference}
+\hypertarget{class_tri_lib_core_1_1_asset_downloader_behaviour}{}\label{class_tri_lib_core_1_1_asset_downloader_behaviour}\index{TriLibCore.AssetDownloaderBehaviour@{TriLibCore.AssetDownloaderBehaviour}}
+
+
+Represents a class used to download Models with Coroutines used by the Asset Downloader.  
+
+
+
+
+Inheritance diagram for Tri\+Lib\+Core.\+Asset\+Downloader\+Behaviour\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=221pt]{class_tri_lib_core_1_1_asset_downloader_behaviour__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\+Lib\+Core.\+Asset\+Downloader\+Behaviour\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=221pt]{class_tri_lib_core_1_1_asset_downloader_behaviour__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+IEnumerator \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_behaviour_a8e3c739784d97e613119c900f7c40637}{Download\+Asset}} (Unity\+Web\+Request unity\+Web\+Request, Action$<$ Asset\+Loader\+Context $>$ on\+Load, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load, Action$<$ Asset\+Loader\+Context, float $>$ on\+Progress, Game\+Object wrapper\+Game\+Object, Action$<$ IContextualized\+Error $>$ on\+Error, Asset\+Loader\+Options asset\+Loader\+Options, object custom\+Context\+Data, string file\+Extension, bool? is\+Zip\+File=null)
+\begin{DoxyCompactList}\small\item\em Downloads the Model using the given Request and options. \end{DoxyCompactList}\item 
+IEnumerator \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_behaviour_a8e3c739784d97e613119c900f7c40637}{Download\+Asset}} (Unity\+Web\+Request unity\+Web\+Request, Action$<$ Asset\+Loader\+Context $>$ on\+Load, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load, Action$<$ Asset\+Loader\+Context, float $>$ on\+Progress, Game\+Object wrapper\+Game\+Object, Action$<$ IContextualized\+Error $>$ on\+Error, Asset\+Loader\+Options asset\+Loader\+Options, object custom\+Context\+Data, string file\+Extension, bool? is\+Zip\+File=null)
+\begin{DoxyCompactList}\small\item\em Downloads the Model using the given Request and options. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a class used to download Models with Coroutines used by the Asset Downloader. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tri_lib_core_1_1_asset_downloader_behaviour_a8e3c739784d97e613119c900f7c40637}\index{TriLibCore.AssetDownloaderBehaviour@{TriLibCore.AssetDownloaderBehaviour}!DownloadAsset@{DownloadAsset}}
+\index{DownloadAsset@{DownloadAsset}!TriLibCore.AssetDownloaderBehaviour@{TriLibCore.AssetDownloaderBehaviour}}
+\doxysubsubsection{\texorpdfstring{DownloadAsset()}{DownloadAsset()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_downloader_behaviour_a8e3c739784d97e613119c900f7c40637} 
+IEnumerator Tri\+Lib\+Core.\+Asset\+Downloader\+Behaviour.\+Download\+Asset (\begin{DoxyParamCaption}\item[{Unity\+Web\+Request}]{unity\+Web\+Request}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Load}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Materials\+Load}{, }\item[{Action$<$ Asset\+Loader\+Context, float $>$}]{on\+Progress}{, }\item[{Game\+Object}]{wrapper\+Game\+Object}{, }\item[{Action$<$ IContextualized\+Error $>$}]{on\+Error}{, }\item[{Asset\+Loader\+Options}]{asset\+Loader\+Options}{, }\item[{object}]{custom\+Context\+Data}{, }\item[{string}]{file\+Extension}{, }\item[{bool?}]{is\+Zip\+File}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Downloads the Model using the given Request and options. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em unity\+Web\+Request} & The Unity Web Request used to load the Model. You can use the Create\+Web\+Request method to create a new Unity Web Request or pass your instance.\\
+\hline
+{\em on\+Load} & The Method to call on the Main Thread when the Model is loaded but resources may still pending.\\
+\hline
+{\em on\+Materials\+Load} & The Method to call on the Main Thread when the Model and resources are loaded.\\
+\hline
+{\em on\+Progress} & The Method to call when the Model loading progress changes.\\
+\hline
+{\em wrapper\+Game\+Object} & The Game \doxylink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object} that will be the parent of the loaded Game \doxylink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object}. Can be null.\\
+\hline
+{\em on\+Error} & The Method to call on the Main Thread when any error occurs.\\
+\hline
+{\em asset\+Loader\+Options} & The options to use when loading the Model.\\
+\hline
+{\em custom\+Context\+Data} & The Custom Data that will be passed along the Context.\\
+\hline
+{\em file\+Extension} & The extension of the URI Model.\\
+\hline
+{\em is\+Zip\+File} & Pass {\ttfamily true} if your file is a Zip file.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The download coroutine enumerator.
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_asset_downloader_behaviour_a8e3c739784d97e613119c900f7c40637}\index{TriLibCore.AssetDownloaderBehaviour@{TriLibCore.AssetDownloaderBehaviour}!DownloadAsset@{DownloadAsset}}
+\index{DownloadAsset@{DownloadAsset}!TriLibCore.AssetDownloaderBehaviour@{TriLibCore.AssetDownloaderBehaviour}}
+\doxysubsubsection{\texorpdfstring{DownloadAsset()}{DownloadAsset()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_downloader_behaviour_a8e3c739784d97e613119c900f7c40637} 
+IEnumerator Tri\+Lib\+Core.\+Asset\+Downloader\+Behaviour.\+Download\+Asset (\begin{DoxyParamCaption}\item[{Unity\+Web\+Request}]{unity\+Web\+Request}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Load}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Materials\+Load}{, }\item[{Action$<$ Asset\+Loader\+Context, float $>$}]{on\+Progress}{, }\item[{Game\+Object}]{wrapper\+Game\+Object}{, }\item[{Action$<$ IContextualized\+Error $>$}]{on\+Error}{, }\item[{Asset\+Loader\+Options}]{asset\+Loader\+Options}{, }\item[{object}]{custom\+Context\+Data}{, }\item[{string}]{file\+Extension}{, }\item[{bool?}]{is\+Zip\+File}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Downloads the Model using the given Request and options. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em unity\+Web\+Request} & The Unity Web Request used to load the Model. You can use the Create\+Web\+Request method to create a new Unity Web Request or pass your instance.\\
+\hline
+{\em on\+Load} & The Method to call on the Main Thread when the Model is loaded but resources may still pending.\\
+\hline
+{\em on\+Materials\+Load} & The Method to call on the Main Thread when the Model and resources are loaded.\\
+\hline
+{\em on\+Progress} & The Method to call when the Model loading progress changes.\\
+\hline
+{\em wrapper\+Game\+Object} & The Game \doxylink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object} that will be the parent of the loaded Game \doxylink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object}. Can be null.\\
+\hline
+{\em on\+Error} & The Method to call on the Main Thread when any error occurs.\\
+\hline
+{\em asset\+Loader\+Options} & The options to use when loading the Model.\\
+\hline
+{\em custom\+Context\+Data} & The Custom Data that will be passed along the Context.\\
+\hline
+{\em file\+Extension} & The extension of the URI Model.\\
+\hline
+{\em is\+Zip\+File} & Pass {\ttfamily true} if your file is a Zip file.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The download coroutine enumerator.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Core/\+Scripts/\+Asset\+Loaders/\mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_core_2_scripts_2_asset_loaders_2_asset_downloader_behaviour_8cs}{Asset\+Downloader\+Behaviour.\+cs}}\item 
+docs/src/server/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Core/\+Scripts/\+Asset\+Loaders/\mbox{\hyperlink{server_2_assets_2_tri_lib_2_tri_lib_core_2_scripts_2_asset_loaders_2_asset_downloader_behaviour_8cs}{Asset\+Downloader\+Behaviour.\+cs}}\end{DoxyCompactItemize}

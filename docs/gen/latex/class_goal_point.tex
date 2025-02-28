@@ -1,0 +1,116 @@
+\doxysection{Goal\+Point Class Reference}
+\hypertarget{class_goal_point}{}\label{class_goal_point}\index{GoalPoint@{GoalPoint}}
+
+
+Inheritance diagram for Goal\+Point\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{class_goal_point__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Goal\+Point\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{class_goal_point__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ string $>$ \mbox{\hyperlink{class_goal_point_a7eadf16c57f541a776c3056b9d551b3c}{Players\+At\+Goal}} = new()
+\item 
+string \mbox{\hyperlink{class_goal_point_a7d89948686551a818fd4dc5f474e11a2}{Network\+ID}}
+\item 
+int \mbox{\hyperlink{class_goal_point_a97fa73e43862c1325bea590e34397003}{Team}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_goal_point_ae31ffb12c996ade258f2b2587d2dad24}{On\+State\+Message}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback}{TMRI.\+Client.\+TMRIState\+Callback}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a21e7d53559af94292cdc02124438a868}{On\+State\+Message}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a11d33db1f6dd9f4127ff6e3cbefcf700}{do\+On\+Websocket\+Connected}} (Web\+Socket w)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_af7f710890cdbe576963b415482769b16}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651}{Send}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_goal_point_a43ce53b00db75a8f5f3f6670bc585fd0}{ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback}{TMRI.\+Client.\+TMRIState\+Callback}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a89b69230b74b26e2f6859f8c5a736b7e}{ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The network ID that will be used to determine if this object is shared or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c}{is\+Connection\+Open}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a}{On\+Enable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_goal_point_ae31ffb12c996ade258f2b2587d2dad24}\index{GoalPoint@{GoalPoint}!OnStateMessage@{OnStateMessage}}
+\index{OnStateMessage@{OnStateMessage}!GoalPoint@{GoalPoint}}
+\doxysubsubsection{\texorpdfstring{OnStateMessage()}{OnStateMessage()}}
+{\footnotesize\ttfamily \label{class_goal_point_ae31ffb12c996ade258f2b2587d2dad24} 
+override void Goal\+Point.\+On\+State\+Message (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_goal_point_a7d89948686551a818fd4dc5f474e11a2}\index{GoalPoint@{GoalPoint}!NetworkID@{NetworkID}}
+\index{NetworkID@{NetworkID}!GoalPoint@{GoalPoint}}
+\doxysubsubsection{\texorpdfstring{NetworkID}{NetworkID}}
+{\footnotesize\ttfamily \label{class_goal_point_a7d89948686551a818fd4dc5f474e11a2} 
+string Goal\+Point.\+Network\+ID}
+
+\Hypertarget{class_goal_point_a7eadf16c57f541a776c3056b9d551b3c}\index{GoalPoint@{GoalPoint}!PlayersAtGoal@{PlayersAtGoal}}
+\index{PlayersAtGoal@{PlayersAtGoal}!GoalPoint@{GoalPoint}}
+\doxysubsubsection{\texorpdfstring{PlayersAtGoal}{PlayersAtGoal}}
+{\footnotesize\ttfamily \label{class_goal_point_a7eadf16c57f541a776c3056b9d551b3c} 
+List$<$string$>$ Goal\+Point.\+Players\+At\+Goal = new()}
+
+\Hypertarget{class_goal_point_a97fa73e43862c1325bea590e34397003}\index{GoalPoint@{GoalPoint}!Team@{Team}}
+\index{Team@{Team}!GoalPoint@{GoalPoint}}
+\doxysubsubsection{\texorpdfstring{Team}{Team}}
+{\footnotesize\ttfamily \label{class_goal_point_a97fa73e43862c1325bea590e34397003} 
+int Goal\+Point.\+Team}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_goal_point_a43ce53b00db75a8f5f3f6670bc585fd0}\index{GoalPoint@{GoalPoint}!ID@{ID}}
+\index{ID@{ID}!GoalPoint@{GoalPoint}}
+\doxysubsubsection{\texorpdfstring{ID}{ID}}
+{\footnotesize\ttfamily \label{class_goal_point_a43ce53b00db75a8f5f3f6670bc585fd0} 
+override string Goal\+Point.\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Scripts/\mbox{\hyperlink{_goal_point_8cs}{Goal\+Point.\+cs}}\end{DoxyCompactItemize}

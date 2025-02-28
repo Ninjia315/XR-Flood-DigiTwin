@@ -1,0 +1,86 @@
+{
+	"ipAddress": "163.221.195.115",
+	"display_size": {"x":1.0,"y":9,"z":0.6},
+	"markers": [
+	    {
+	        "name" : "IMD lab QR",
+	        "defaultToLoad": "Kizugawa",
+	        "link" : "https://drive.google.com/uc?export=download&id=1tTe57-Gw2Dm22LUUhwGJzrW1rIixY5lC",
+	        "printwidth": 0.126
+	    }
+    ],
+  	"assets": [
+        {
+            "id" : "Kizugawa",
+            "initialScale": 0.0003,
+            "conversionValue": 1,
+            "models":
+            [
+                {
+                    "url": "https://drive.google.com/uc?export=download&id=1o-9oDEDdeYFaeHEBXS_DoWSEQdAbTnLT",
+                    "lodLevel": 1,
+                    "triangles": 0,
+                    "screenVisibleFraction": 0
+                },
+                {
+                    "url": "https://drive.google.com/uc?export=download&id=1_vpbwD5l99DZfLGn1YuwXCN-vB6lMQBF",
+                    "lodLevel": 3,
+                    "triangles": 425451,
+                    "screenVisibleFraction": 0.7
+                },
+                {
+                    "url": "https://drive.google.com/uc?export=download&id=1r1jhK1ZmhvUn-XRe_eO_kNfi1qCKHVgz",
+                    "lodLevel": 4,
+                    "triangles": 1000000,
+                    "screenVisibleFraction": 0.99
+                },
+            ],
+            "originLatLonAlt": {"x": 34.75469589, "y": 135.8183975, "z": 37.69},
+            "minLatLonAlt": {"x": 34.71686902062959, "y": 135.79090689984403, "z": 0},
+            "maxLatLonAlt": {"x": 34.80457697478258, "y": 135.85714423528336, "z": 0},
+            "assetBundles" : [],
+            "landmarks": [
+                {
+                    "label": "川西町中央体育館",
+                    "icon": 1,
+                    "position": {"x": 34.5871614926376, "y": 135.7737975613166, "z": 48},
+                    "level": 2
+                },
+                
+            ],
+            "panoramas": [
+                {
+                    "multiplePanoramasUrl": "Panoramas/Kawanishi_area"
+                },
+            ],
+            "geoImages": [
+                {
+                    "id": "hazard_flood",
+                    "minLatLon": {"x": 34.735018, "y": 135.786381, "z": 0},
+                    "maxLatLon": {"x": 34.787338, "y": 135.820026, "z": 0},
+                    "imageUrl": "GeoImages/Kizuhara_1.png",
+                    "opacity": 0.5
+                },
+                {
+                    "id": "地形分類",
+                    "minLatLon": {"x": 34.726906, "y": 135.779428, "z": 0},
+                    "maxLatLon": {"x": 34.767669, "y": 135.838480, "z": 0},
+                    "imageUrl": "GeoImages/Kizuhara_2.png",
+                    "opacity": 0.5
+                }
+            ],
+            "geoData": {
+                "dataUrls": ["CSV_files/BP066_00100m.csv","CSV_files/BP066_00400m.csv"],
+                "numFiles": 1,
+                "fileStartIndex": 0,
+                "scale": 1.0,
+                "filenameFormat": "BP066_{0:000#}0m.csv",
+                "delimiter": ",",
+                "numColumns": 23,
+                "elevationColumnIndex": 1,
+                "dataValueColumnIndex": 2,
+                "latLngShapeStartColumnIndex": 4
+            }
+        }
+    ]
+}

@@ -1,0 +1,290 @@
+\doxysection{Geometry\+Data\+Reader Class Reference}
+\hypertarget{class_geometry_data_reader}{}\label{class_geometry_data_reader}\index{GeometryDataReader@{GeometryDataReader}}
+
+
+Inheritance diagram for Geometry\+Data\+Reader\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_geometry_data_reader__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Geometry\+Data\+Reader\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_geometry_data_reader__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_geometry_data_reader_1_1_geometry_quad}{Geometry\+Quad}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async void \mbox{\hyperlink{class_geometry_data_reader_a17ecadf3a278b9e3e4463695cb05ae13}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_geometry_data_reader_ab143be3cc4bfbe0d6025bc3ce8ce467a}{Set\+Reference\+Origin}} (Vector3 geographic\+Origin)
+\item 
+async Task$<$ List$<$ \mbox{\hyperlink{class_geometry_data_reader_1_1_geometry_quad}{Geometry\+Quad}} $>$ $>$ \mbox{\hyperlink{class_geometry_data_reader_abe2cfc45a09fd011b52618be2f770d9a}{Read\+Data}} (string persistent\+Data\+Path, int current\+File\+Index=0)
+\item 
+void \mbox{\hyperlink{class_geometry_data_reader_a6d3046f56e873d923ac137cc6209b42d}{On\+Asset\+Loading}} (string \mbox{\hyperlink{class_geometry_data_reader_a1eb9fa10a0b7cb0da720c905f3c406c4}{asset\+ID}})
+\item 
+void \mbox{\hyperlink{class_geometry_data_reader_afd2852d83f2d8b95687c555b7a9d893b}{On\+Asset\+Changed}} (string \mbox{\hyperlink{class_geometry_data_reader_a1eb9fa10a0b7cb0da720c905f3c406c4}{asset\+ID}})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_geometry_data_reader_a1eb9fa10a0b7cb0da720c905f3c406c4}{asset\+ID}}
+\item 
+string \mbox{\hyperlink{class_geometry_data_reader_a529799601d5f469454733876b744c8b1}{data\+Path\+Or\+URL}}
+\item 
+bool \mbox{\hyperlink{class_geometry_data_reader_a990f6422d88b12815a4f76b793046943}{from\+Streaming\+Assets}}
+\item 
+string \mbox{\hyperlink{class_geometry_data_reader_acbf39726bdaa9d6ef5cff34a28e31588}{optional\+Filename\+Format}}
+\item 
+int \mbox{\hyperlink{class_geometry_data_reader_a5a1f0854ea12922a0429d14467124933}{filename\+Format\+Max\+Files\+Count}}
+\item 
+int \mbox{\hyperlink{class_geometry_data_reader_a73fa415354c72013f615f4f65f0835cd}{start\+Index}} = 0
+\item 
+char \mbox{\hyperlink{class_geometry_data_reader_a030f7f3f78dcce7dc255b91467fe4c80}{delimiter}} = \textquotesingle{},\textquotesingle{}
+\item 
+int \mbox{\hyperlink{class_geometry_data_reader_accf56d1bba6920dd41fa442a36a971d7}{num\+Columns}}
+\item 
+int \mbox{\hyperlink{class_geometry_data_reader_a56604e712e92c5db275b1c9b8edeb409}{altitude\+Column\+Index}}
+\item 
+int \mbox{\hyperlink{class_geometry_data_reader_a250bd5147c0b5dd3ddf811320a520060}{flood\+Depth\+Column\+Index}}
+\item 
+int \mbox{\hyperlink{class_geometry_data_reader_a923c863d475a7d9ece97add468278f32}{lon\+Lat\+Ordered\+Quad\+Start\+Index}}
+\item 
+float \mbox{\hyperlink{class_geometry_data_reader_aa2336138147e2d69a5e2716bbfb42208}{scale\+Multiplier}} = 1f
+\item 
+double \mbox{\hyperlink{class_geometry_data_reader_ae4374d89dbf00692acd2860fdaa591ca}{reference\+Latitude}}
+\item 
+double \mbox{\hyperlink{class_geometry_data_reader_a0ef70a382840376b5b5bad58db9b19de}{reference\+Longitude}}
+\item 
+double \mbox{\hyperlink{class_geometry_data_reader_a2406508689374abdc1302ed5c5f87a15}{reference\+Altitude}}
+\item 
+double \mbox{\hyperlink{class_geometry_data_reader_ae574e1d9b74e7a864d4854db4465787f}{reference\+Elevation}}
+\item 
+double \mbox{\hyperlink{class_geometry_data_reader_a7facae802ae4f8682d8802ed39a0c912}{min\+Latitude}}
+\item 
+double \mbox{\hyperlink{class_geometry_data_reader_a7cae8a9f38b217f760d54257944e4c49}{min\+Longitude}}
+\item 
+double \mbox{\hyperlink{class_geometry_data_reader_a115a92db0bedce9baa6dddb5a586a297}{max\+Latitude}}
+\item 
+double \mbox{\hyperlink{class_geometry_data_reader_ad2438ecf9bb7fe9690eeed90fb72bfa8}{max\+Longitude}}
+\item 
+float \mbox{\hyperlink{class_geometry_data_reader_a0c32c824debb170c30f5db0c5395ece0}{depth\+Multiplier}} = 1f
+\item 
+\mbox{\hyperlink{class_generate_mesh_from_data}{Generate\+Mesh\+From\+Data}} \mbox{\hyperlink{class_geometry_data_reader_aa8b0593de722f3c13ed2b6388a22f20f}{Generate\+Mesh\+Prefab}}
+\item 
+Game\+Object \mbox{\hyperlink{class_geometry_data_reader_a8e18186157eb4a88a1360ee16f0486e7}{Override\+Chunked\+Mesh\+Prefab}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ string $>$ \mbox{\hyperlink{class_geometry_data_reader_a76be511be68b09a167d2a2f2c3e72c39}{Data\+Urls}} = new()\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_geometry_data_reader_afd2852d83f2d8b95687c555b7a9d893b}\index{GeometryDataReader@{GeometryDataReader}!OnAssetChanged@{OnAssetChanged}}
+\index{OnAssetChanged@{OnAssetChanged}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{OnAssetChanged()}{OnAssetChanged()}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_afd2852d83f2d8b95687c555b7a9d893b} 
+void Geometry\+Data\+Reader.\+On\+Asset\+Changed (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_asset_listener_ae816e5d0db39e55bbdd77b93ebc2d131}{TMRI.\+Core.\+IAsset\+Listener}}.
+
+\Hypertarget{class_geometry_data_reader_a6d3046f56e873d923ac137cc6209b42d}\index{GeometryDataReader@{GeometryDataReader}!OnAssetLoading@{OnAssetLoading}}
+\index{OnAssetLoading@{OnAssetLoading}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{OnAssetLoading()}{OnAssetLoading()}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a6d3046f56e873d923ac137cc6209b42d} 
+void Geometry\+Data\+Reader.\+On\+Asset\+Loading (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_asset_listener_aa13f952c90ea705eecbf8c0df969741f}{TMRI.\+Core.\+IAsset\+Listener}}.
+
+\Hypertarget{class_geometry_data_reader_abe2cfc45a09fd011b52618be2f770d9a}\index{GeometryDataReader@{GeometryDataReader}!ReadData@{ReadData}}
+\index{ReadData@{ReadData}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{ReadData()}{ReadData()}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_abe2cfc45a09fd011b52618be2f770d9a} 
+async Task$<$ List$<$ \mbox{\hyperlink{class_geometry_data_reader_1_1_geometry_quad}{Geometry\+Quad}} $>$ $>$ Geometry\+Data\+Reader.\+Read\+Data (\begin{DoxyParamCaption}\item[{string}]{persistent\+Data\+Path}{, }\item[{int}]{current\+File\+Index}{ = {\ttfamily 0}}\end{DoxyParamCaption})}
+
+\Hypertarget{class_geometry_data_reader_ab143be3cc4bfbe0d6025bc3ce8ce467a}\index{GeometryDataReader@{GeometryDataReader}!SetReferenceOrigin@{SetReferenceOrigin}}
+\index{SetReferenceOrigin@{SetReferenceOrigin}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{SetReferenceOrigin()}{SetReferenceOrigin()}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_ab143be3cc4bfbe0d6025bc3ce8ce467a} 
+void Geometry\+Data\+Reader.\+Set\+Reference\+Origin (\begin{DoxyParamCaption}\item[{Vector3}]{geographic\+Origin}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_geometry_data_reader_a17ecadf3a278b9e3e4463695cb05ae13}\index{GeometryDataReader@{GeometryDataReader}!Start@{Start}}
+\index{Start@{Start}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a17ecadf3a278b9e3e4463695cb05ae13} 
+async void Geometry\+Data\+Reader.\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_geometry_data_reader_a56604e712e92c5db275b1c9b8edeb409}\index{GeometryDataReader@{GeometryDataReader}!altitudeColumnIndex@{altitudeColumnIndex}}
+\index{altitudeColumnIndex@{altitudeColumnIndex}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{altitudeColumnIndex}{altitudeColumnIndex}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a56604e712e92c5db275b1c9b8edeb409} 
+int Geometry\+Data\+Reader.\+altitude\+Column\+Index}
+
+\Hypertarget{class_geometry_data_reader_a1eb9fa10a0b7cb0da720c905f3c406c4}\index{GeometryDataReader@{GeometryDataReader}!assetID@{assetID}}
+\index{assetID@{assetID}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{assetID}{assetID}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a1eb9fa10a0b7cb0da720c905f3c406c4} 
+string Geometry\+Data\+Reader.\+asset\+ID}
+
+\Hypertarget{class_geometry_data_reader_a529799601d5f469454733876b744c8b1}\index{GeometryDataReader@{GeometryDataReader}!dataPathOrURL@{dataPathOrURL}}
+\index{dataPathOrURL@{dataPathOrURL}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{dataPathOrURL}{dataPathOrURL}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a529799601d5f469454733876b744c8b1} 
+string Geometry\+Data\+Reader.\+data\+Path\+Or\+URL}
+
+\Hypertarget{class_geometry_data_reader_a030f7f3f78dcce7dc255b91467fe4c80}\index{GeometryDataReader@{GeometryDataReader}!delimiter@{delimiter}}
+\index{delimiter@{delimiter}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{delimiter}{delimiter}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a030f7f3f78dcce7dc255b91467fe4c80} 
+char Geometry\+Data\+Reader.\+delimiter = \textquotesingle{},\textquotesingle{}}
+
+\Hypertarget{class_geometry_data_reader_a0c32c824debb170c30f5db0c5395ece0}\index{GeometryDataReader@{GeometryDataReader}!depthMultiplier@{depthMultiplier}}
+\index{depthMultiplier@{depthMultiplier}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{depthMultiplier}{depthMultiplier}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a0c32c824debb170c30f5db0c5395ece0} 
+float Geometry\+Data\+Reader.\+depth\+Multiplier = 1f}
+
+\Hypertarget{class_geometry_data_reader_a5a1f0854ea12922a0429d14467124933}\index{GeometryDataReader@{GeometryDataReader}!filenameFormatMaxFilesCount@{filenameFormatMaxFilesCount}}
+\index{filenameFormatMaxFilesCount@{filenameFormatMaxFilesCount}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{filenameFormatMaxFilesCount}{filenameFormatMaxFilesCount}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a5a1f0854ea12922a0429d14467124933} 
+int Geometry\+Data\+Reader.\+filename\+Format\+Max\+Files\+Count}
+
+\Hypertarget{class_geometry_data_reader_a250bd5147c0b5dd3ddf811320a520060}\index{GeometryDataReader@{GeometryDataReader}!floodDepthColumnIndex@{floodDepthColumnIndex}}
+\index{floodDepthColumnIndex@{floodDepthColumnIndex}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{floodDepthColumnIndex}{floodDepthColumnIndex}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a250bd5147c0b5dd3ddf811320a520060} 
+int Geometry\+Data\+Reader.\+flood\+Depth\+Column\+Index}
+
+\Hypertarget{class_geometry_data_reader_a990f6422d88b12815a4f76b793046943}\index{GeometryDataReader@{GeometryDataReader}!fromStreamingAssets@{fromStreamingAssets}}
+\index{fromStreamingAssets@{fromStreamingAssets}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{fromStreamingAssets}{fromStreamingAssets}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a990f6422d88b12815a4f76b793046943} 
+bool Geometry\+Data\+Reader.\+from\+Streaming\+Assets}
+
+\Hypertarget{class_geometry_data_reader_aa8b0593de722f3c13ed2b6388a22f20f}\index{GeometryDataReader@{GeometryDataReader}!GenerateMeshPrefab@{GenerateMeshPrefab}}
+\index{GenerateMeshPrefab@{GenerateMeshPrefab}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{GenerateMeshPrefab}{GenerateMeshPrefab}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_aa8b0593de722f3c13ed2b6388a22f20f} 
+\mbox{\hyperlink{class_generate_mesh_from_data}{Generate\+Mesh\+From\+Data}} Geometry\+Data\+Reader.\+Generate\+Mesh\+Prefab}
+
+\Hypertarget{class_geometry_data_reader_a923c863d475a7d9ece97add468278f32}\index{GeometryDataReader@{GeometryDataReader}!lonLatOrderedQuadStartIndex@{lonLatOrderedQuadStartIndex}}
+\index{lonLatOrderedQuadStartIndex@{lonLatOrderedQuadStartIndex}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{lonLatOrderedQuadStartIndex}{lonLatOrderedQuadStartIndex}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a923c863d475a7d9ece97add468278f32} 
+int Geometry\+Data\+Reader.\+lon\+Lat\+Ordered\+Quad\+Start\+Index}
+
+\Hypertarget{class_geometry_data_reader_a115a92db0bedce9baa6dddb5a586a297}\index{GeometryDataReader@{GeometryDataReader}!maxLatitude@{maxLatitude}}
+\index{maxLatitude@{maxLatitude}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{maxLatitude}{maxLatitude}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a115a92db0bedce9baa6dddb5a586a297} 
+double Geometry\+Data\+Reader.\+max\+Latitude}
+
+\Hypertarget{class_geometry_data_reader_ad2438ecf9bb7fe9690eeed90fb72bfa8}\index{GeometryDataReader@{GeometryDataReader}!maxLongitude@{maxLongitude}}
+\index{maxLongitude@{maxLongitude}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{maxLongitude}{maxLongitude}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_ad2438ecf9bb7fe9690eeed90fb72bfa8} 
+double Geometry\+Data\+Reader.\+max\+Longitude}
+
+\Hypertarget{class_geometry_data_reader_a7facae802ae4f8682d8802ed39a0c912}\index{GeometryDataReader@{GeometryDataReader}!minLatitude@{minLatitude}}
+\index{minLatitude@{minLatitude}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{minLatitude}{minLatitude}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a7facae802ae4f8682d8802ed39a0c912} 
+double Geometry\+Data\+Reader.\+min\+Latitude}
+
+\Hypertarget{class_geometry_data_reader_a7cae8a9f38b217f760d54257944e4c49}\index{GeometryDataReader@{GeometryDataReader}!minLongitude@{minLongitude}}
+\index{minLongitude@{minLongitude}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{minLongitude}{minLongitude}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a7cae8a9f38b217f760d54257944e4c49} 
+double Geometry\+Data\+Reader.\+min\+Longitude}
+
+\Hypertarget{class_geometry_data_reader_accf56d1bba6920dd41fa442a36a971d7}\index{GeometryDataReader@{GeometryDataReader}!numColumns@{numColumns}}
+\index{numColumns@{numColumns}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{numColumns}{numColumns}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_accf56d1bba6920dd41fa442a36a971d7} 
+int Geometry\+Data\+Reader.\+num\+Columns}
+
+\Hypertarget{class_geometry_data_reader_acbf39726bdaa9d6ef5cff34a28e31588}\index{GeometryDataReader@{GeometryDataReader}!optionalFilenameFormat@{optionalFilenameFormat}}
+\index{optionalFilenameFormat@{optionalFilenameFormat}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{optionalFilenameFormat}{optionalFilenameFormat}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_acbf39726bdaa9d6ef5cff34a28e31588} 
+string Geometry\+Data\+Reader.\+optional\+Filename\+Format}
+
+\Hypertarget{class_geometry_data_reader_a8e18186157eb4a88a1360ee16f0486e7}\index{GeometryDataReader@{GeometryDataReader}!OverrideChunkedMeshPrefab@{OverrideChunkedMeshPrefab}}
+\index{OverrideChunkedMeshPrefab@{OverrideChunkedMeshPrefab}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{OverrideChunkedMeshPrefab}{OverrideChunkedMeshPrefab}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a8e18186157eb4a88a1360ee16f0486e7} 
+Game\+Object Geometry\+Data\+Reader.\+Override\+Chunked\+Mesh\+Prefab}
+
+\Hypertarget{class_geometry_data_reader_a2406508689374abdc1302ed5c5f87a15}\index{GeometryDataReader@{GeometryDataReader}!referenceAltitude@{referenceAltitude}}
+\index{referenceAltitude@{referenceAltitude}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{referenceAltitude}{referenceAltitude}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a2406508689374abdc1302ed5c5f87a15} 
+double Geometry\+Data\+Reader.\+reference\+Altitude}
+
+\Hypertarget{class_geometry_data_reader_ae574e1d9b74e7a864d4854db4465787f}\index{GeometryDataReader@{GeometryDataReader}!referenceElevation@{referenceElevation}}
+\index{referenceElevation@{referenceElevation}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{referenceElevation}{referenceElevation}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_ae574e1d9b74e7a864d4854db4465787f} 
+double Geometry\+Data\+Reader.\+reference\+Elevation}
+
+\Hypertarget{class_geometry_data_reader_ae4374d89dbf00692acd2860fdaa591ca}\index{GeometryDataReader@{GeometryDataReader}!referenceLatitude@{referenceLatitude}}
+\index{referenceLatitude@{referenceLatitude}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{referenceLatitude}{referenceLatitude}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_ae4374d89dbf00692acd2860fdaa591ca} 
+double Geometry\+Data\+Reader.\+reference\+Latitude}
+
+\Hypertarget{class_geometry_data_reader_a0ef70a382840376b5b5bad58db9b19de}\index{GeometryDataReader@{GeometryDataReader}!referenceLongitude@{referenceLongitude}}
+\index{referenceLongitude@{referenceLongitude}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{referenceLongitude}{referenceLongitude}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a0ef70a382840376b5b5bad58db9b19de} 
+double Geometry\+Data\+Reader.\+reference\+Longitude}
+
+\Hypertarget{class_geometry_data_reader_aa2336138147e2d69a5e2716bbfb42208}\index{GeometryDataReader@{GeometryDataReader}!scaleMultiplier@{scaleMultiplier}}
+\index{scaleMultiplier@{scaleMultiplier}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{scaleMultiplier}{scaleMultiplier}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_aa2336138147e2d69a5e2716bbfb42208} 
+float Geometry\+Data\+Reader.\+scale\+Multiplier = 1f}
+
+\Hypertarget{class_geometry_data_reader_a73fa415354c72013f615f4f65f0835cd}\index{GeometryDataReader@{GeometryDataReader}!startIndex@{startIndex}}
+\index{startIndex@{startIndex}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{startIndex}{startIndex}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a73fa415354c72013f615f4f65f0835cd} 
+int Geometry\+Data\+Reader.\+start\+Index = 0}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_geometry_data_reader_a76be511be68b09a167d2a2f2c3e72c39}\index{GeometryDataReader@{GeometryDataReader}!DataUrls@{DataUrls}}
+\index{DataUrls@{DataUrls}!GeometryDataReader@{GeometryDataReader}}
+\doxysubsubsection{\texorpdfstring{DataUrls}{DataUrls}}
+{\footnotesize\ttfamily \label{class_geometry_data_reader_a76be511be68b09a167d2a2f2c3e72c39} 
+List$<$string$>$ Geometry\+Data\+Reader.\+Data\+Urls = new()\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/server/\+Packages/com.\+imd.\+tmri.\+core/\+Runtime/\mbox{\hyperlink{_geometry_data_reader_8cs}{Geometry\+Data\+Reader.\+cs}}\end{DoxyCompactItemize}

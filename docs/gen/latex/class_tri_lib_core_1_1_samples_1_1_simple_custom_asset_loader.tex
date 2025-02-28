@@ -1,0 +1,190 @@
+\doxysection{Tri\+Lib\+Core.\+Samples.\+Simple\+Custom\+Asset\+Loader Class Reference}
+\hypertarget{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader}{}\label{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader}\index{TriLibCore.Samples.SimpleCustomAssetLoader@{TriLibCore.Samples.SimpleCustomAssetLoader}}
+
+
+Represents a class used to load models from Byte Arrays using callbacks to map External Data and Textures.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Asset\+Loader\+Context \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_a5fbf75ec67b40660052ee89148a9d8cb}{Load\+Model\+From\+Byte\+Data}} (byte\mbox{[}$\,$\mbox{]} data, string model\+Extension, Action$<$ IContextualized\+Error $>$ on\+Error, Action$<$ Asset\+Loader\+Context, float $>$ on\+Progress, Action$<$ Asset\+Loader\+Context $>$ on\+Model\+Fully\+Load, Func$<$ string, Stream $>$ custom\+Data\+Receiving\+Callback, Func$<$ string, string $>$ custom\+Filename\+Receiving\+Callback, Func$<$ ITexture, Stream $>$ custom\+Texture\+Receiving\+Callback, string model\+Filename=null, Game\+Object wrapper\+Game\+Object=null, Asset\+Loader\+Options asset\+Loader\+Options=null, object custom\+Data=null)
+\begin{DoxyCompactList}\small\item\em Loads a model from the given Byte Array data using the given callbacks to handle events/external data. \end{DoxyCompactList}\item 
+static Asset\+Loader\+Context \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_aa3dc76c81104c002940ed9b23a0fd832}{Load\+Model\+From\+Stream}} (Stream stream, string model\+Extension, Action$<$ IContextualized\+Error $>$ on\+Error, Action$<$ Asset\+Loader\+Context, float $>$ on\+Progress, Action$<$ Asset\+Loader\+Context $>$ on\+Model\+Fully\+Load, Func$<$ string, Stream $>$ custom\+Data\+Receiving\+Callback, Func$<$ string, string $>$ custom\+Filename\+Receiving\+Callback, Func$<$ ITexture, Stream $>$ custom\+Texture\+Receiving\+Callback, string model\+Filename=null, Game\+Object wrapper\+Game\+Object=null, Asset\+Loader\+Options asset\+Loader\+Options=null, object custom\+Data=null)
+\begin{DoxyCompactList}\small\item\em Loads a model from the given Byte Array data using the given callbacks to handle events/external data. \end{DoxyCompactList}\item 
+static Asset\+Loader\+Context \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_a5fbf75ec67b40660052ee89148a9d8cb}{Load\+Model\+From\+Byte\+Data}} (byte\mbox{[}$\,$\mbox{]} data, string model\+Extension, Action$<$ IContextualized\+Error $>$ on\+Error, Action$<$ Asset\+Loader\+Context, float $>$ on\+Progress, Action$<$ Asset\+Loader\+Context $>$ on\+Model\+Fully\+Load, Func$<$ string, Stream $>$ custom\+Data\+Receiving\+Callback, Func$<$ string, string $>$ custom\+Filename\+Receiving\+Callback, Func$<$ ITexture, Stream $>$ custom\+Texture\+Receiving\+Callback, string model\+Filename=null, Game\+Object wrapper\+Game\+Object=null, Asset\+Loader\+Options asset\+Loader\+Options=null, object custom\+Data=null)
+\begin{DoxyCompactList}\small\item\em Loads a model from the given Byte Array data using the given callbacks to handle events/external data. \end{DoxyCompactList}\item 
+static Asset\+Loader\+Context \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_aa3dc76c81104c002940ed9b23a0fd832}{Load\+Model\+From\+Stream}} (Stream stream, string model\+Extension, Action$<$ IContextualized\+Error $>$ on\+Error, Action$<$ Asset\+Loader\+Context, float $>$ on\+Progress, Action$<$ Asset\+Loader\+Context $>$ on\+Model\+Fully\+Load, Func$<$ string, Stream $>$ custom\+Data\+Receiving\+Callback, Func$<$ string, string $>$ custom\+Filename\+Receiving\+Callback, Func$<$ ITexture, Stream $>$ custom\+Texture\+Receiving\+Callback, string model\+Filename=null, Game\+Object wrapper\+Game\+Object=null, Asset\+Loader\+Options asset\+Loader\+Options=null, object custom\+Data=null)
+\begin{DoxyCompactList}\small\item\em Loads a model from the given Byte Array data using the given callbacks to handle events/external data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a class used to load models from Byte Arrays using callbacks to map External Data and Textures. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_a5fbf75ec67b40660052ee89148a9d8cb}\index{TriLibCore.Samples.SimpleCustomAssetLoader@{TriLibCore.Samples.SimpleCustomAssetLoader}!LoadModelFromByteData@{LoadModelFromByteData}}
+\index{LoadModelFromByteData@{LoadModelFromByteData}!TriLibCore.Samples.SimpleCustomAssetLoader@{TriLibCore.Samples.SimpleCustomAssetLoader}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromByteData()}{LoadModelFromByteData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_a5fbf75ec67b40660052ee89148a9d8cb} 
+static Asset\+Loader\+Context Tri\+Lib\+Core.\+Samples.\+Simple\+Custom\+Asset\+Loader.\+Load\+Model\+From\+Byte\+Data (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{data}{, }\item[{string}]{model\+Extension}{, }\item[{Action$<$ IContextualized\+Error $>$}]{on\+Error}{, }\item[{Action$<$ Asset\+Loader\+Context, float $>$}]{on\+Progress}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Model\+Fully\+Load}{, }\item[{Func$<$ string, Stream $>$}]{custom\+Data\+Receiving\+Callback}{, }\item[{Func$<$ string, string $>$}]{custom\+Filename\+Receiving\+Callback}{, }\item[{Func$<$ ITexture, Stream $>$}]{custom\+Texture\+Receiving\+Callback}{, }\item[{string}]{model\+Filename}{ = {\ttfamily null}, }\item[{Game\+Object}]{wrapper\+Game\+Object}{ = {\ttfamily null}, }\item[{Asset\+Loader\+Options}]{asset\+Loader\+Options}{ = {\ttfamily null}, }\item[{object}]{custom\+Data}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Loads a model from the given Byte Array data using the given callbacks to handle events/external data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The model data Byte Array.\\
+\hline
+{\em model\+Extension} & The model file extension.\\
+\hline
+{\em on\+Error} & The error event callback (optional).\\
+\hline
+{\em on\+Progress} & The loading progress event callback.\\
+\hline
+{\em on\+Model\+Fully\+Load} & The model loading event callback.\\
+\hline
+{\em custom\+Data\+Receiving\+Callback} & The event that returns a Stream to read the external data passed to it.\\
+\hline
+{\em custom\+Filename\+Receiving\+Callback} & The event that returns a file-\/system complete filename from the filename passed to it (optional).\\
+\hline
+{\em custom\+Texture\+Receiving\+Callback} & The event that returns a Stream to read Texture data from the filename passed to it.\\
+\hline
+{\em model\+Filename} & The model filename (optional).\\
+\hline
+{\em wrapper\+Game\+Object} & The Game\+Object to wrap the loaded model (optional).\\
+\hline
+{\em asset\+Loader\+Options} & The options to use when loading the Model.\\
+\hline
+{\em custom\+Data} & Any custom data to pass to the loading method, which can be retrieved later (optional).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Asset\+Loader\+Context containing all common data regarding the model loading.
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_a5fbf75ec67b40660052ee89148a9d8cb}\index{TriLibCore.Samples.SimpleCustomAssetLoader@{TriLibCore.Samples.SimpleCustomAssetLoader}!LoadModelFromByteData@{LoadModelFromByteData}}
+\index{LoadModelFromByteData@{LoadModelFromByteData}!TriLibCore.Samples.SimpleCustomAssetLoader@{TriLibCore.Samples.SimpleCustomAssetLoader}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromByteData()}{LoadModelFromByteData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_a5fbf75ec67b40660052ee89148a9d8cb} 
+static Asset\+Loader\+Context Tri\+Lib\+Core.\+Samples.\+Simple\+Custom\+Asset\+Loader.\+Load\+Model\+From\+Byte\+Data (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{data}{, }\item[{string}]{model\+Extension}{, }\item[{Action$<$ IContextualized\+Error $>$}]{on\+Error}{, }\item[{Action$<$ Asset\+Loader\+Context, float $>$}]{on\+Progress}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Model\+Fully\+Load}{, }\item[{Func$<$ string, Stream $>$}]{custom\+Data\+Receiving\+Callback}{, }\item[{Func$<$ string, string $>$}]{custom\+Filename\+Receiving\+Callback}{, }\item[{Func$<$ ITexture, Stream $>$}]{custom\+Texture\+Receiving\+Callback}{, }\item[{string}]{model\+Filename}{ = {\ttfamily null}, }\item[{Game\+Object}]{wrapper\+Game\+Object}{ = {\ttfamily null}, }\item[{Asset\+Loader\+Options}]{asset\+Loader\+Options}{ = {\ttfamily null}, }\item[{object}]{custom\+Data}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Loads a model from the given Byte Array data using the given callbacks to handle events/external data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The model data Byte Array.\\
+\hline
+{\em model\+Extension} & The model file extension.\\
+\hline
+{\em on\+Error} & The error event callback (optional).\\
+\hline
+{\em on\+Progress} & The loading progress event callback.\\
+\hline
+{\em on\+Model\+Fully\+Load} & The model loading event callback.\\
+\hline
+{\em custom\+Data\+Receiving\+Callback} & The event that returns a Stream to read the external data passed to it.\\
+\hline
+{\em custom\+Filename\+Receiving\+Callback} & The event that returns a file-\/system complete filename from the filename passed to it (optional).\\
+\hline
+{\em custom\+Texture\+Receiving\+Callback} & The event that returns a Stream to read Texture data from the filename passed to it.\\
+\hline
+{\em model\+Filename} & The model filename (optional).\\
+\hline
+{\em wrapper\+Game\+Object} & The Game\+Object to wrap the loaded model (optional).\\
+\hline
+{\em asset\+Loader\+Options} & The options to use when loading the Model.\\
+\hline
+{\em custom\+Data} & Any custom data to pass to the loading method, which can be retrieved later (optional).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Asset\+Loader\+Context containing all common data regarding the model loading.
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_aa3dc76c81104c002940ed9b23a0fd832}\index{TriLibCore.Samples.SimpleCustomAssetLoader@{TriLibCore.Samples.SimpleCustomAssetLoader}!LoadModelFromStream@{LoadModelFromStream}}
+\index{LoadModelFromStream@{LoadModelFromStream}!TriLibCore.Samples.SimpleCustomAssetLoader@{TriLibCore.Samples.SimpleCustomAssetLoader}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromStream()}{LoadModelFromStream()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_aa3dc76c81104c002940ed9b23a0fd832} 
+static Asset\+Loader\+Context Tri\+Lib\+Core.\+Samples.\+Simple\+Custom\+Asset\+Loader.\+Load\+Model\+From\+Stream (\begin{DoxyParamCaption}\item[{Stream}]{stream}{, }\item[{string}]{model\+Extension}{, }\item[{Action$<$ IContextualized\+Error $>$}]{on\+Error}{, }\item[{Action$<$ Asset\+Loader\+Context, float $>$}]{on\+Progress}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Model\+Fully\+Load}{, }\item[{Func$<$ string, Stream $>$}]{custom\+Data\+Receiving\+Callback}{, }\item[{Func$<$ string, string $>$}]{custom\+Filename\+Receiving\+Callback}{, }\item[{Func$<$ ITexture, Stream $>$}]{custom\+Texture\+Receiving\+Callback}{, }\item[{string}]{model\+Filename}{ = {\ttfamily null}, }\item[{Game\+Object}]{wrapper\+Game\+Object}{ = {\ttfamily null}, }\item[{Asset\+Loader\+Options}]{asset\+Loader\+Options}{ = {\ttfamily null}, }\item[{object}]{custom\+Data}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Loads a model from the given Byte Array data using the given callbacks to handle events/external data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stream} & The model data Stream.\\
+\hline
+{\em model\+Extension} & The model file extension.\\
+\hline
+{\em on\+Error} & The error event callback (optional).\\
+\hline
+{\em on\+Progress} & The loading progress event callback.\\
+\hline
+{\em on\+Model\+Fully\+Load} & The model loading event callback.\\
+\hline
+{\em custom\+Data\+Receiving\+Callback} & The event that returns a Stream to read the external data passed to it.\\
+\hline
+{\em custom\+Filename\+Receiving\+Callback} & The event that returns a file-\/system complete filename from the filename passed to it (optional).\\
+\hline
+{\em custom\+Texture\+Receiving\+Callback} & The event that returns a Stream to read Texture data from the filename passed to it.\\
+\hline
+{\em model\+Filename} & The model filename (optional).\\
+\hline
+{\em wrapper\+Game\+Object} & The Game\+Object to wrap the loaded model (optional).\\
+\hline
+{\em asset\+Loader\+Options} & The options to use when loading the Model.\\
+\hline
+{\em custom\+Data} & Any custom data to pass to the loading method, which can be retrieved later (optional).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Asset\+Loader\+Context containing all common data regarding the model loading.
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_aa3dc76c81104c002940ed9b23a0fd832}\index{TriLibCore.Samples.SimpleCustomAssetLoader@{TriLibCore.Samples.SimpleCustomAssetLoader}!LoadModelFromStream@{LoadModelFromStream}}
+\index{LoadModelFromStream@{LoadModelFromStream}!TriLibCore.Samples.SimpleCustomAssetLoader@{TriLibCore.Samples.SimpleCustomAssetLoader}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromStream()}{LoadModelFromStream()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_simple_custom_asset_loader_aa3dc76c81104c002940ed9b23a0fd832} 
+static Asset\+Loader\+Context Tri\+Lib\+Core.\+Samples.\+Simple\+Custom\+Asset\+Loader.\+Load\+Model\+From\+Stream (\begin{DoxyParamCaption}\item[{Stream}]{stream}{, }\item[{string}]{model\+Extension}{, }\item[{Action$<$ IContextualized\+Error $>$}]{on\+Error}{, }\item[{Action$<$ Asset\+Loader\+Context, float $>$}]{on\+Progress}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Model\+Fully\+Load}{, }\item[{Func$<$ string, Stream $>$}]{custom\+Data\+Receiving\+Callback}{, }\item[{Func$<$ string, string $>$}]{custom\+Filename\+Receiving\+Callback}{, }\item[{Func$<$ ITexture, Stream $>$}]{custom\+Texture\+Receiving\+Callback}{, }\item[{string}]{model\+Filename}{ = {\ttfamily null}, }\item[{Game\+Object}]{wrapper\+Game\+Object}{ = {\ttfamily null}, }\item[{Asset\+Loader\+Options}]{asset\+Loader\+Options}{ = {\ttfamily null}, }\item[{object}]{custom\+Data}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Loads a model from the given Byte Array data using the given callbacks to handle events/external data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stream} & The model data Stream.\\
+\hline
+{\em model\+Extension} & The model file extension.\\
+\hline
+{\em on\+Error} & The error event callback (optional).\\
+\hline
+{\em on\+Progress} & The loading progress event callback.\\
+\hline
+{\em on\+Model\+Fully\+Load} & The model loading event callback.\\
+\hline
+{\em custom\+Data\+Receiving\+Callback} & The event that returns a Stream to read the external data passed to it.\\
+\hline
+{\em custom\+Filename\+Receiving\+Callback} & The event that returns a file-\/system complete filename from the filename passed to it (optional).\\
+\hline
+{\em custom\+Texture\+Receiving\+Callback} & The event that returns a Stream to read Texture data from the filename passed to it.\\
+\hline
+{\em model\+Filename} & The model filename (optional).\\
+\hline
+{\em wrapper\+Game\+Object} & The Game\+Object to wrap the loaded model (optional).\\
+\hline
+{\em asset\+Loader\+Options} & The options to use when loading the Model.\\
+\hline
+{\em custom\+Data} & Any custom data to pass to the loading method, which can be retrieved later (optional).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Asset\+Loader\+Context containing all common data regarding the model loading.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Samples/\+Simple\+Custom\+Asset\+Loader/\+Scripts/\mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_samples_2_simple_custom_asset_loader_2_scripts_2_simple_custom_asset_loader_8cs}{Simple\+Custom\+Asset\+Loader.\+cs}}\item 
+docs/src/server/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Samples/\+Simple\+Custom\+Asset\+Loader/\+Scripts/\mbox{\hyperlink{server_2_assets_2_tri_lib_2_tri_lib_samples_2_simple_custom_asset_loader_2_scripts_2_simple_custom_asset_loader_8cs}{Simple\+Custom\+Asset\+Loader.\+cs}}\end{DoxyCompactItemize}

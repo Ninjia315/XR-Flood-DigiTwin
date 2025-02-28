@@ -1,0 +1,104 @@
+\doxysection{TMRI.\+Client.\+TMRIState\+Callback Class Reference}
+\hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback}{}\label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback}\index{TMRI.Client.TMRIStateCallback@{TMRI.Client.TMRIStateCallback}}
+
+
+A base class for objects who\textquotesingle{}s properties are shared accross the network session. An object inheriting from this base will use the STATE-\/type websocket message.  
+
+
+
+
+Inheritance diagram for TMRI.\+Client.\+TMRIState\+Callback\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMRI.\+Client.\+TMRIState\+Callback\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=239pt]{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a21e7d53559af94292cdc02124438a868}{On\+State\+Message}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a11d33db1f6dd9f4127ff6e3cbefcf700}{do\+On\+Websocket\+Connected}} (Web\+Socket w)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_af7f710890cdbe576963b415482769b16}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651}{Send}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a89b69230b74b26e2f6859f8c5a736b7e}{ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The network ID that will be used to determine if this object is shared or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c}{is\+Connection\+Open}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a}{On\+Enable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A base class for objects who\textquotesingle{}s properties are shared accross the network session. An object inheriting from this base will use the STATE-\/type websocket message. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a11d33db1f6dd9f4127ff6e3cbefcf700}\index{TMRI.Client.TMRIStateCallback@{TMRI.Client.TMRIStateCallback}!doOnWebsocketConnected@{doOnWebsocketConnected}}
+\index{doOnWebsocketConnected@{doOnWebsocketConnected}!TMRI.Client.TMRIStateCallback@{TMRI.Client.TMRIStateCallback}}
+\doxysubsubsection{\texorpdfstring{doOnWebsocketConnected()}{doOnWebsocketConnected()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a11d33db1f6dd9f4127ff6e3cbefcf700} 
+override void TMRI.\+Client.\+TMRIState\+Callback.\+do\+On\+Websocket\+Connected (\begin{DoxyParamCaption}\item[{Web\+Socket}]{w}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a2fe9d96e3be9689b34aee523c5f6830d}{TMRI.\+Client.\+Base\+TMRICallback}}.
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a21e7d53559af94292cdc02124438a868}\index{TMRI.Client.TMRIStateCallback@{TMRI.Client.TMRIStateCallback}!OnStateMessage@{OnStateMessage}}
+\index{OnStateMessage@{OnStateMessage}!TMRI.Client.TMRIStateCallback@{TMRI.Client.TMRIStateCallback}}
+\doxysubsubsection{\texorpdfstring{OnStateMessage()}{OnStateMessage()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a21e7d53559af94292cdc02124438a868} 
+void TMRI.\+Client.\+TMRIState\+Callback.\+On\+State\+Message (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_af7f710890cdbe576963b415482769b16}\index{TMRI.Client.TMRIStateCallback@{TMRI.Client.TMRIStateCallback}!OnTMRIMessage@{OnTMRIMessage}}
+\index{OnTMRIMessage@{OnTMRIMessage}!TMRI.Client.TMRIStateCallback@{TMRI.Client.TMRIStateCallback}}
+\doxysubsubsection{\texorpdfstring{OnTMRIMessage()}{OnTMRIMessage()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_af7f710890cdbe576963b415482769b16} 
+override void TMRI.\+Client.\+TMRIState\+Callback.\+On\+TMRIMessage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a89b69230b74b26e2f6859f8c5a736b7e}\index{TMRI.Client.TMRIStateCallback@{TMRI.Client.TMRIStateCallback}!ID@{ID}}
+\index{ID@{ID}!TMRI.Client.TMRIStateCallback@{TMRI.Client.TMRIStateCallback}}
+\doxysubsubsection{\texorpdfstring{ID}{ID}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a89b69230b74b26e2f6859f8c5a736b7e} 
+string TMRI.\+Client.\+TMRIState\+Callback.\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+
+
+The network ID that will be used to determine if this object is shared or not. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Packages/com.\+imd.\+tmri.\+client/\+Runtime/\mbox{\hyperlink{_t_m_r_i_network_object_8cs}{TMRINetwork\+Object.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="TriLibCore.Samples.AutodeskInteractiveMaterialsSample" name="TriLibCore.Samples.AutodeskInteractiveMaterialsSample">
+<area shape="rect" id="Node000001" title="Represents a sample that loads a Model from a file&#45;picker, and uses a custom Material Mapper to creat..." alt="" coords="5,79,201,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="47,5,159,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,46,106,79,100,79,100,46"/>
+</map>

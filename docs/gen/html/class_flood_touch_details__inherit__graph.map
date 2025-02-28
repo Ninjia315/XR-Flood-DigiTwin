@@ -1,0 +1,7 @@
+<map id="FloodTouchDetails" name="FloodTouchDetails">
+<area shape="rect" id="Node000001" title=" " alt="" coords="86,94,215,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,117,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,47,138,91,135,95,84,51"/>
+<area shape="rect" id="Node000003" href="$interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener.html" title=" " alt="" coords="141,5,341,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,58,166,95,163,91,205,54"/>
+</map>

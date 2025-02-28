@@ -1,0 +1,6 @@
+<map id="TriLibCore.Mappers.ZipFileTextureMapper" name="TriLibCore.Mappers.ZipFileTextureMapper">
+<area shape="rect" id="Node000001" title="Represents a Mapper used to load Textures from Zip files." alt="" coords="5,79,184,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="41,5,148,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,46,89,79,84,79,83,47"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="106,47,105,79,100,79,100,46"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="TriLibCore.LipSyncMapping" name="TriLibCore.LipSyncMapping">
+<area shape="rect" id="Node000001" title="Represents the Viseme to Blend&#45;Shape Keys mapped indices. The indices are generated from the Lip Sync..." alt="" coords="5,79,187,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="40,5,152,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,46,92,78,86,79,85,46"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="107,46,106,79,100,78,102,46"/>
+</map>

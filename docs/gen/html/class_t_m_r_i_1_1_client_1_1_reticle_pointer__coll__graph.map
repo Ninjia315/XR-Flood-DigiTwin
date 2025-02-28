@@ -1,0 +1,14 @@
+<map id="TMRI.Client.ReticlePointer" name="TMRI.Client.ReticlePointer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,258,184,283"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="96,5,208,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,40,71,57,49,82,40,105,38,129,40,154,47,179,68,224,88,256,83,259,63,226,42,181,35,155,32,129,35,103,44,79,67,53,97,35"/>
+<area shape="rect" id="Node000003" href="$class_t_m_r_i_1_1_client_1_1_toggle_x_r_mode.html" title=" " alt="" coords="59,80,244,106"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="154,46,154,80,149,80,149,46"/>
+<area shape="rect" id="Node000005" href="$class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback.html" title="Base class for all objects wishing to receive network callbacks from the TMRI system." alt="" coords="268,80,478,106"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="204,34,337,77,335,82,202,39"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,120,122,144,110,170,100,218,97,257,92,257,94,217,105,168,117,141,132,117"/>
+<area shape="rect" id="Node000004" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_player.html" title=" " alt="" coords="177,169,343,195"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="180,114,246,166,243,170,177,118"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="224,205,119,259,116,255,222,200"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="347,118,277,170,274,166,344,113"/>
+</map>

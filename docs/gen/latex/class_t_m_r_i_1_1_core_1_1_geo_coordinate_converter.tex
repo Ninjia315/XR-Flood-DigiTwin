@@ -1,0 +1,103 @@
+\doxysection{TMRI.\+Core.\+Geo\+Coordinate\+Converter Class Reference}
+\hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter}{}\label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Vector3 \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_ac2d48c8601ea7a287f7f121c4d5be485}{Unity4\+To\+Geo}} (Vector3 unity\+Position)
+\item 
+static Vector3 \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a99f919b56a9b89b2dd7400ffd9c530c3}{Geo\+To\+Unity}} (double latitude, double longitude, double altitude)
+\item 
+static Vector3 \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_ae627474207a8033ad4f38a6eef237497}{Geo\+To\+Unity}} (double latitude, double longitude, double altitude, double ref\+Lat, double ref\+Lng, double ref\+Alt, float scale)
+\begin{DoxyCompactList}\small\item\em Converts geodetic coordinates (latitude, longitude, altitude) to Unity coordinates relative to a reference point, projected onto the XZ-\/plane. \end{DoxyCompactList}\item 
+static Vector3 \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a11ded5d48a8f3b70766f9a46a263344a}{Geo\+To\+Unity2}} (double latitude, double longitude, double altitude, double ref\+Lat, double ref\+Lng, double ref\+Alt, float scale)
+\item 
+static void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a8f13f4b163456054bae3705562543d73}{Geodetic\+To\+Ecef}} (double lat, double lon, double h, out double x, out double y, out double z)
+\item 
+static void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a7860a155d6229a04f7081f22b7955124}{Ecef\+To\+Enu}} (double x, double y, double z, double lat0, double lon0, double h0, out double x\+East, out double y\+North, out double z\+Up)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a8e9160f7e7917b6ac2c04c303fca4169}{reference\+Latitude}}
+\item 
+static double \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_acdcc716e168a2363e2e00630e013ef80}{reference\+Longitude}}
+\item 
+static double \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a0a8b3f537ab20c962b58f489fd893cce}{reference\+Altitude}}
+\item 
+static double \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a8f1fc1d3596fdc2608fa0b0ed4e4e79c}{reference\+Elevation}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a7860a155d6229a04f7081f22b7955124}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!EcefToEnu@{EcefToEnu}}
+\index{EcefToEnu@{EcefToEnu}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{EcefToEnu()}{EcefToEnu()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a7860a155d6229a04f7081f22b7955124} 
+static void TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+Ecef\+To\+Enu (\begin{DoxyParamCaption}\item[{double}]{x}{, }\item[{double}]{y}{, }\item[{double}]{z}{, }\item[{double}]{lat0}{, }\item[{double}]{lon0}{, }\item[{double}]{h0}{, }\item[{out double}]{x\+East}{, }\item[{out double}]{y\+North}{, }\item[{out double}]{z\+Up}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a8f13f4b163456054bae3705562543d73}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!GeodeticToEcef@{GeodeticToEcef}}
+\index{GeodeticToEcef@{GeodeticToEcef}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{GeodeticToEcef()}{GeodeticToEcef()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a8f13f4b163456054bae3705562543d73} 
+static void TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+Geodetic\+To\+Ecef (\begin{DoxyParamCaption}\item[{double}]{lat}{, }\item[{double}]{lon}{, }\item[{double}]{h}{, }\item[{out double}]{x}{, }\item[{out double}]{y}{, }\item[{out double}]{z}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a99f919b56a9b89b2dd7400ffd9c530c3}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!GeoToUnity@{GeoToUnity}}
+\index{GeoToUnity@{GeoToUnity}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{GeoToUnity()}{GeoToUnity()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a99f919b56a9b89b2dd7400ffd9c530c3} 
+static Vector3 TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+Geo\+To\+Unity (\begin{DoxyParamCaption}\item[{double}]{latitude}{, }\item[{double}]{longitude}{, }\item[{double}]{altitude}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_ae627474207a8033ad4f38a6eef237497}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!GeoToUnity@{GeoToUnity}}
+\index{GeoToUnity@{GeoToUnity}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{GeoToUnity()}{GeoToUnity()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_ae627474207a8033ad4f38a6eef237497} 
+static Vector3 TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+Geo\+To\+Unity (\begin{DoxyParamCaption}\item[{double}]{latitude}{, }\item[{double}]{longitude}{, }\item[{double}]{altitude}{, }\item[{double}]{ref\+Lat}{, }\item[{double}]{ref\+Lng}{, }\item[{double}]{ref\+Alt}{, }\item[{float}]{scale}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Converts geodetic coordinates (latitude, longitude, altitude) to Unity coordinates relative to a reference point, projected onto the XZ-\/plane. 
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a11ded5d48a8f3b70766f9a46a263344a}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!GeoToUnity2@{GeoToUnity2}}
+\index{GeoToUnity2@{GeoToUnity2}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{GeoToUnity2()}{GeoToUnity2()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a11ded5d48a8f3b70766f9a46a263344a} 
+static Vector3 TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+Geo\+To\+Unity2 (\begin{DoxyParamCaption}\item[{double}]{latitude}{, }\item[{double}]{longitude}{, }\item[{double}]{altitude}{, }\item[{double}]{ref\+Lat}{, }\item[{double}]{ref\+Lng}{, }\item[{double}]{ref\+Alt}{, }\item[{float}]{scale}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_ac2d48c8601ea7a287f7f121c4d5be485}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!Unity4ToGeo@{Unity4ToGeo}}
+\index{Unity4ToGeo@{Unity4ToGeo}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{Unity4ToGeo()}{Unity4ToGeo()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_ac2d48c8601ea7a287f7f121c4d5be485} 
+static Vector3 TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+Unity4\+To\+Geo (\begin{DoxyParamCaption}\item[{Vector3}]{unity\+Position}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a0a8b3f537ab20c962b58f489fd893cce}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!referenceAltitude@{referenceAltitude}}
+\index{referenceAltitude@{referenceAltitude}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{referenceAltitude}{referenceAltitude}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a0a8b3f537ab20c962b58f489fd893cce} 
+double TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+reference\+Altitude\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a8f1fc1d3596fdc2608fa0b0ed4e4e79c}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!referenceElevation@{referenceElevation}}
+\index{referenceElevation@{referenceElevation}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{referenceElevation}{referenceElevation}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a8f1fc1d3596fdc2608fa0b0ed4e4e79c} 
+double TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+reference\+Elevation\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a8e9160f7e7917b6ac2c04c303fca4169}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!referenceLatitude@{referenceLatitude}}
+\index{referenceLatitude@{referenceLatitude}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{referenceLatitude}{referenceLatitude}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_a8e9160f7e7917b6ac2c04c303fca4169} 
+double TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+reference\+Latitude\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_acdcc716e168a2363e2e00630e013ef80}\index{TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}!referenceLongitude@{referenceLongitude}}
+\index{referenceLongitude@{referenceLongitude}!TMRI.Core.GeoCoordinateConverter@{TMRI.Core.GeoCoordinateConverter}}
+\doxysubsubsection{\texorpdfstring{referenceLongitude}{referenceLongitude}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter_acdcc716e168a2363e2e00630e013ef80} 
+double TMRI.\+Core.\+Geo\+Coordinate\+Converter.\+reference\+Longitude\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/server/\+Packages/com.\+imd.\+tmri.\+core/\+Runtime/\mbox{\hyperlink{_geo_utilitites_8cs}{Geo\+Utilitites.\+cs}}\end{DoxyCompactItemize}

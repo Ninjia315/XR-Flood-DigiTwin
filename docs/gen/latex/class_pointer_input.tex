@@ -1,0 +1,169 @@
+\doxysection{Pointer\+Input Class Reference}
+\hypertarget{class_pointer_input}{}\label{class_pointer_input}\index{PointerInput@{PointerInput}}
+
+
+Inheritance diagram for Pointer\+Input\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{class_pointer_input__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Pointer\+Input\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{class_pointer_input__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_pointer_input_1_1_default_actions}{Default\+Actions}}
+\item 
+interface \mbox{\hyperlink{interface_pointer_input_1_1_i_default_actions}{IDefault\+Actions}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_pointer_input_a2e5769d59ffe63a1d7254f49a6a1033c}{Pointer\+Input}} ()
+\item 
+void \mbox{\hyperlink{class_pointer_input_a5096b75cdb341c37e85434bdfac20a5b}{Dispose}} ()
+\item 
+bool \mbox{\hyperlink{class_pointer_input_aa105dd2bc168fabd03981872044d3a84}{Contains}} (Input\+Action action)
+\item 
+IEnumerator$<$ Input\+Action $>$ \mbox{\hyperlink{class_pointer_input_a47edbdf675df46a45bc84f1b17a2c3de}{Get\+Enumerator}} ()
+\item 
+void \mbox{\hyperlink{class_pointer_input_acc421c67770a35b7f21e980ed9801ec0}{Enable}} ()
+\item 
+void \mbox{\hyperlink{class_pointer_input_a499c169246f3a6a1c0dc44501364380c}{Disable}} ()
+\item 
+Input\+Action \mbox{\hyperlink{class_pointer_input_accb6d49f2f99f5ed3dc82af7f725f491}{Find\+Action}} (string action\+Name\+Or\+Id, bool throw\+If\+Not\+Found=false)
+\item 
+int \mbox{\hyperlink{class_pointer_input_abd356d002cb4bb030a334f51359ec478}{Find\+Binding}} (Input\+Binding \mbox{\hyperlink{class_pointer_input_a000994433d66ccfdc738a0a2409e4b5a}{binding\+Mask}}, out Input\+Action action)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Input\+Action\+Asset \mbox{\hyperlink{class_pointer_input_a0f73d4827a8d1e29b81204c7846e6006}{asset}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Input\+Binding? \mbox{\hyperlink{class_pointer_input_a000994433d66ccfdc738a0a2409e4b5a}{binding\+Mask}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Read\+Only\+Array$<$ Input\+Device $>$? \mbox{\hyperlink{class_pointer_input_acb7b767dfae255e910e752109da056ff}{devices}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Read\+Only\+Array$<$ Input\+Control\+Scheme $>$ \mbox{\hyperlink{class_pointer_input_a3cfa3d4040859258657fee440c944745}{control\+Schemes}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+IEnumerable$<$ Input\+Binding $>$ \mbox{\hyperlink{class_pointer_input_a41a7a8fd63555eb1d5fa7878faa2d4df}{bindings}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{struct_pointer_input_1_1_default_actions}{Default\+Actions}} \mbox{\hyperlink{class_pointer_input_af2c07b52003d8dd2ad892a558ffd0995}{Default}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Input\+Control\+Scheme \mbox{\hyperlink{class_pointer_input_ad5136feb7ac3839aba3ab37d4f4f1dfb}{Default\+Scheme}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_pointer_input_a2e5769d59ffe63a1d7254f49a6a1033c}\index{PointerInput@{PointerInput}!PointerInput@{PointerInput}}
+\index{PointerInput@{PointerInput}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{PointerInput()}{PointerInput()}}
+{\footnotesize\ttfamily \label{class_pointer_input_a2e5769d59ffe63a1d7254f49a6a1033c} 
+Pointer\+Input.\+Pointer\+Input (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_pointer_input_aa105dd2bc168fabd03981872044d3a84}\index{PointerInput@{PointerInput}!Contains@{Contains}}
+\index{Contains@{Contains}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{Contains()}{Contains()}}
+{\footnotesize\ttfamily \label{class_pointer_input_aa105dd2bc168fabd03981872044d3a84} 
+bool Pointer\+Input.\+Contains (\begin{DoxyParamCaption}\item[{Input\+Action}]{action}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_pointer_input_a499c169246f3a6a1c0dc44501364380c}\index{PointerInput@{PointerInput}!Disable@{Disable}}
+\index{Disable@{Disable}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{Disable()}{Disable()}}
+{\footnotesize\ttfamily \label{class_pointer_input_a499c169246f3a6a1c0dc44501364380c} 
+void Pointer\+Input.\+Disable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_pointer_input_a5096b75cdb341c37e85434bdfac20a5b}\index{PointerInput@{PointerInput}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily \label{class_pointer_input_a5096b75cdb341c37e85434bdfac20a5b} 
+void Pointer\+Input.\+Dispose (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_pointer_input_acc421c67770a35b7f21e980ed9801ec0}\index{PointerInput@{PointerInput}!Enable@{Enable}}
+\index{Enable@{Enable}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{Enable()}{Enable()}}
+{\footnotesize\ttfamily \label{class_pointer_input_acc421c67770a35b7f21e980ed9801ec0} 
+void Pointer\+Input.\+Enable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_pointer_input_accb6d49f2f99f5ed3dc82af7f725f491}\index{PointerInput@{PointerInput}!FindAction@{FindAction}}
+\index{FindAction@{FindAction}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{FindAction()}{FindAction()}}
+{\footnotesize\ttfamily \label{class_pointer_input_accb6d49f2f99f5ed3dc82af7f725f491} 
+Input\+Action Pointer\+Input.\+Find\+Action (\begin{DoxyParamCaption}\item[{string}]{action\+Name\+Or\+Id}{, }\item[{bool}]{throw\+If\+Not\+Found}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+\Hypertarget{class_pointer_input_abd356d002cb4bb030a334f51359ec478}\index{PointerInput@{PointerInput}!FindBinding@{FindBinding}}
+\index{FindBinding@{FindBinding}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{FindBinding()}{FindBinding()}}
+{\footnotesize\ttfamily \label{class_pointer_input_abd356d002cb4bb030a334f51359ec478} 
+int Pointer\+Input.\+Find\+Binding (\begin{DoxyParamCaption}\item[{Input\+Binding}]{binding\+Mask}{, }\item[{out Input\+Action}]{action}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_pointer_input_a47edbdf675df46a45bc84f1b17a2c3de}\index{PointerInput@{PointerInput}!GetEnumerator@{GetEnumerator}}
+\index{GetEnumerator@{GetEnumerator}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{GetEnumerator()}{GetEnumerator()}}
+{\footnotesize\ttfamily \label{class_pointer_input_a47edbdf675df46a45bc84f1b17a2c3de} 
+IEnumerator$<$ Input\+Action $>$ Pointer\+Input.\+Get\+Enumerator (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_pointer_input_a0f73d4827a8d1e29b81204c7846e6006}\index{PointerInput@{PointerInput}!asset@{asset}}
+\index{asset@{asset}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{asset}{asset}}
+{\footnotesize\ttfamily \label{class_pointer_input_a0f73d4827a8d1e29b81204c7846e6006} 
+Input\+Action\+Asset Pointer\+Input.\+asset\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_pointer_input_a000994433d66ccfdc738a0a2409e4b5a}\index{PointerInput@{PointerInput}!bindingMask@{bindingMask}}
+\index{bindingMask@{bindingMask}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{bindingMask}{bindingMask}}
+{\footnotesize\ttfamily \label{class_pointer_input_a000994433d66ccfdc738a0a2409e4b5a} 
+Input\+Binding? Pointer\+Input.\+binding\+Mask\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_pointer_input_a41a7a8fd63555eb1d5fa7878faa2d4df}\index{PointerInput@{PointerInput}!bindings@{bindings}}
+\index{bindings@{bindings}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{bindings}{bindings}}
+{\footnotesize\ttfamily \label{class_pointer_input_a41a7a8fd63555eb1d5fa7878faa2d4df} 
+IEnumerable$<$Input\+Binding$>$ Pointer\+Input.\+bindings\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_pointer_input_a3cfa3d4040859258657fee440c944745}\index{PointerInput@{PointerInput}!controlSchemes@{controlSchemes}}
+\index{controlSchemes@{controlSchemes}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{controlSchemes}{controlSchemes}}
+{\footnotesize\ttfamily \label{class_pointer_input_a3cfa3d4040859258657fee440c944745} 
+Read\+Only\+Array$<$Input\+Control\+Scheme$>$ Pointer\+Input.\+control\+Schemes\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_pointer_input_af2c07b52003d8dd2ad892a558ffd0995}\index{PointerInput@{PointerInput}!Default@{Default}}
+\index{Default@{Default}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{Default}{Default}}
+{\footnotesize\ttfamily \label{class_pointer_input_af2c07b52003d8dd2ad892a558ffd0995} 
+\mbox{\hyperlink{struct_pointer_input_1_1_default_actions}{Default\+Actions}} Pointer\+Input.\+Default\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_pointer_input_ad5136feb7ac3839aba3ab37d4f4f1dfb}\index{PointerInput@{PointerInput}!DefaultScheme@{DefaultScheme}}
+\index{DefaultScheme@{DefaultScheme}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{DefaultScheme}{DefaultScheme}}
+{\footnotesize\ttfamily \label{class_pointer_input_ad5136feb7ac3839aba3ab37d4f4f1dfb} 
+Input\+Control\+Scheme Pointer\+Input.\+Default\+Scheme\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_pointer_input_acb7b767dfae255e910e752109da056ff}\index{PointerInput@{PointerInput}!devices@{devices}}
+\index{devices@{devices}!PointerInput@{PointerInput}}
+\doxysubsubsection{\texorpdfstring{devices}{devices}}
+{\footnotesize\ttfamily \label{class_pointer_input_acb7b767dfae255e910e752109da056ff} 
+Read\+Only\+Array$<$Input\+Device$>$? Pointer\+Input.\+devices\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Samples/\+Apple vision\+OS XR Plugin/2.\+0.\+4/\+Metal Sample -\/ Built-\/in/\+Scripts/\+Input/\mbox{\hyperlink{_pointer_input_8cs}{Pointer\+Input.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="PolySpatial.Samples.PlayButton" name="PolySpatial.Samples.PlayButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="23,153,196,193"/>
+<area shape="rect" id="Node000002" href="$class_poly_spatial_1_1_samples_1_1_hub_button.html" title=" " alt="" coords="5,79,214,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,120,112,152,107,152,107,120"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="54,5,165,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="112,46,112,79,107,79,107,46"/>
+</map>

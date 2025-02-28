@@ -1,0 +1,36 @@
+﻿2.3.8
+Changelog:
+-Fixed glTF2 node names encoding bug.
+-Fixed glTF2 matrix decomposition bug.
+-Fixed glTF2 specular materials.
+-Fixed "infinite-loop" error when loading Zip files without suitable model files.
+-Fixed FBX cameras/lights importing.
+-Fixed textures double processing bug.
+-Refactored glTF2 Draco loader (Added missing dequantization methods).
+-Removed the ShowLoadingWarnings asset loader option from non-development builds, increasing model loading performance.
+-Updated IxMilia.ThreeMf.
+-Added the "Enable debug libraries" settings. Use this setting to enable TriLib debug libraries and output precise stack traces.
+-Added glTF2 user properties parsing.
+-Added a new Asset Viewer progress indicator.
+-Added a Directory Picker to the WebGL Standalone File Browser. Use the "AssetLoaderFilePicker.LoadModelFromDirectoryPickerAsync" method to allow users to select a folder containing the model and its resources.
+-Added vertex color debug mode to Asset Viewer.
+-Added the RawData field to TextureLoadingContext. You can assign raw RGBA data from custom TextureMappers to this field to handle custom texture formats.
+-Added the ApplyAvatarHipsCompensation asset loader option. Turn off this field if your avatars seem to hover over the ground.
+-Added the LoadTexturesViaWebRequest asset loader option. Turn on this field to load textures using the UnityWebRequest class (experimental). UnityWebRequest is the fastest way to load PNG/JPG textures but uses more memory than the other methods.
+-Added the MaxObjectsToRename asset loader option. Use this field to set the maximum number of objects TriLib can rename. Renaming is an expensive process, so it's advised to keep a low value.
+-Added the UseSharedMaterials asset loader option. Turn on this field to use renderers' "sharedMaterials" property instead of "materials" property.
+-Added the UseSharedMeshes asset loader option. Turn off this field to use mesh filters "mesh" property instead of "sharedMesh" property.
+-Added the MeshWorldTransform asset loader option. Use this field to define a transformation applied in world space to all mesh vertices.
+-Added the ConvertTexturesAs2D asset loader option. Turn off this field to keep processed/composed textures as RenderTextures.
+-Added the UpdateSkinnedMeshRendererWhenOfscreen asset loader option. Turn on this field to update SkinnedMeshRenderers when they're offscreen.
+-Added the BlendShapeMapper asset loader option. Use this field to set a BlendShapeMapper to use with the loaded model. BlendShapeMappers can replace the Unity built-in blend shape playback system.
+Version Notes:
+This TriLib version introduces "TriLib Tools".
+
+There are three tools available:
+- TriLib Blend Shape Optimization Scripts: A TriLib replacement for Unity's Blend Shape API, offering up to 2000% faster processing times.
+- TriLib Material Mappers: glTF2 and Autodesk Interactive specialized Material Mappers. These mappers do not require texture conversion.
+- TriLib TIFF Texture Loader: Adds TIFF texture support for TriLib, enabling seamless runtime loading of models that require TIFF textures.
+
+TriLib tools link:
+https://rickomax.itch.io/

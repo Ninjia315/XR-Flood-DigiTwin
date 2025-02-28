@@ -1,0 +1,246 @@
+{
+	"ipAddress": "163.221.194.136",
+	"display_size": {"x":1.2,"y":9,"z":0.6},
+	"markers": [
+	    {
+	        "name" : "IMD lab QR",
+	        "defaultToLoad": "Yamatogawa_Overview",
+	        "link" : "https://drive.google.com/uc?export=download&id=1tTe57-Gw2Dm22LUUhwGJzrW1rIixY5lC",
+	        "printwidth": 0.126
+	    }
+    ],
+  	"assets": [
+        {
+            "id" : "Yamatogawa_Osaka_side",
+            "initialScale": 0.0005,
+            "conversionValue": 1,
+			"models": [
+                    {"url": "Osaka_v2_lod3_34.57951051942944_135.45583459048814_34.6123737511753_135.55766216812367.glb", "screenVisibleFraction": 0.30},
+                    {"url": "Osaka_v2_lod1_34.56302891795941_135.43932311897228_34.628854040190376_135.57144632867616.glb", "screenVisibleFraction": 0.01}
+            ],
+            "originLatLonAlt": {"x": 34.5949192, "y": 135.5057144, "z": 37.89},
+            "minLatLonAlt": {"x": 34.563028917959407, "y": 135.43932311897228, "z": 0},
+            "maxLatLonAlt": {"x": 34.628854040190376, "y": 135.57144632867616, "z": 0},
+            "assetBundles" : [],
+            "landmarks": [
+                {
+                    "label": "BREAK\nPOINT",
+                    "position": {"x": 34.602999, "y": 135.469467, "z": 40},
+                    "level": 0
+                },
+                {
+                    "label": "Suminoe\nStation",
+                    "position": {"x": 34.60512461840045, "y": 135.48713591432494, "z": 40},
+                    "level": 1
+                },
+                {
+                    "label": "Asaka\nStation",
+                    "position": {"x": 34.58450828570177, "y": 135.5026133055162, "z": 40},
+                    "level": 1
+                },
+                {
+                    "label": "Sakai\nCity Hall",
+                    "position": {"x": 34.57425045072312, "y": 135.48282774033086, "z": 40},
+                    "level": 2
+                },
+                {
+                    "label": "Sakai\nStation",
+                    "position": {"x": 34.5816473754192, "y": 135.46894355485486, "z": 40},
+                    "level": 1
+                },
+                {
+                    "label": "Sugimotochou\nStation",
+                    "position": {"x": 34.59378202931238, "y": 135.5028567473802, "z": 40},
+                    "level": 1
+                },
+                {
+                    "label": "Oriono\nBridge",
+                    "position": {"x": 34.595643933990175, "y": 135.4906337302793, "z": 40},
+                    "level": 3
+                }
+            ],
+            "panoramas": [
+                {
+                    "position": {"x": 34.585501, "y": 135.501647, "z": 0},
+                    "offsetInVR": {"x": 0, "y": -0.5, "z": 0},
+                    "spherical360ImageUrl": "Panoramas/Osaka_panorama_2_1.jpg",
+                    "depthImageUrl": "Panoramas/Osaka_panorama_2_1.depthmap.jpg",
+                    "rotationFromNorthDegrees": 178.0,
+                    "modelUrl": "Osaka_panorama_2_1_HD_lod6_34.58496338294999_135.50090630411074_34.58633381285533_135.5026320227701.glb"
+                },
+                {
+                    "position": {"x": 34.603133, "y": 135.469552, "z": 0},
+                    "offsetInVR": {"x": 0, "y": -0.5, "z": 0},
+                    "spherical360ImageUrl": "Panoramas/BreakingPoint_Osaka.jpg",
+                    "depthImageUrl": "Panoramas/BreakingPoint_Osaka.depthmap.jpg",
+                    "rotationFromNorthDegrees": 69.0
+                },
+                {
+                    "position": {"x": 34.609064, "y": 135.483687, "z": 0},
+                    "offsetInVR": {"x": 0, "y": -0.5, "z": 0},
+                    "spherical360ImageUrl": "Panoramas/Osaka_3.jpg",
+                    "depthImageUrl": "Panoramas/Osaka_3.depthmap.jpg",
+                    "rotationFromNorthDegrees": 17.0
+                }
+            ]
+        },
+        {
+            "id" : "Yamatogawa_Nara_side",
+            "initialScale": 0.0003,
+            "conversionValue": 1,
+            "models":[
+				{"url": "Yamato_Nara_small_lod3_34.579511393635606_135.67008673361937_34.609644807378054_135.7224169839286.fbx.glb", "screenVisibleFraction": 0.8},
+                {
+                    "url": "Nara_Oji_Districts_lod2_34.574048347429155_135.65903307303685_34.6288345348284_135.73620954247605.glb",
+                    "screenVisibleFraction": 0.3,
+                    "originLatLonAlt": {"x":34.59922409,"y":135.6984863,"z":38}
+                },
+                {
+                    "url": "Nara_Oji_Districts_lod1_34.56305931153286_135.65905560753976_34.628877935755575_135.7471977971771.glb",
+                    "screenVisibleFraction": 0.05,
+                    "originLatLonAlt": {"x":34.59922409,"y":135.6984863,"z":38}
+                }
+			],
+            "originLatLonAlt": {"x": 34.594804763793945, "y": 135.69652557373047, "z": 38},
+            "minLatLonAlt": {"x": 34.574150630431319, "y": 135.6642262193719, "z": 0},
+            "maxLatLonAlt": {"x": 34.624298292763555, "y": 135.73273527405027, "z": 0},
+            "assetBundles" : [],
+            "landmarks": [
+                {
+                    "label": "新王寺駅",
+                    "position": {"x": 34.597693919785925, "y": 135.704443329129, "z": 48},
+                    "level": 1
+                },
+                {
+                    "label": "王寺中学校",
+                    "icon": 1,
+                    "position": {"x": 34.59416909108756, "y": 135.70350846002594, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "文化福祉センター",
+                    "icon": 2,
+                    "position": {"x": 34.57322116051657, "y": 135.6958078718558, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "大和川ふれあい広場",
+                    "icon": 3,
+                    "position": {"x": 34.600448572961156, "y": 135.70596309662156, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "地域交流センター",
+                    "icon": 4,
+                    "position": {"x": 34.59823365634519, "y": 135.70458405429363, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "王寺町\nやわらぎ\n会館",
+                    "position": {"x": 34.594984465435424, "y": 135.70604667950948, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "西和警察署",
+                    "icon": 5,
+                    "position": {"x": 34.59104636322482, "y": 135.71132105429314, "z": 70},
+                    "level": 2
+                },
+                {
+                    "label": "西和消防署",
+                    "icon": 6,
+                    "position": {"x": 34.59457063233627, "y": 135.70744542545748, "z": 48},
+                    "level": 1
+                },
+                {
+                    "label": "消防団屯所",
+                    "icon": 7,
+                    "position": {"x": 34.59209721165704, "y": 135.6996669689897, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "恵王病院",
+                    "icon": 8,
+                    "position": {"x": 34.59609503152547, "y": 135.7027246677856, "z": 70},
+                    "level": 1
+                },
+                {
+                    "label": "王寺健民運動場",
+                    "icon": 9,
+                    "position": {"x": 34.58915443786307, "y": 135.69825912545724, "z": 58},
+                    "level": 2
+                },
+                {
+                    "label": "アンダーパス\n（地下通路）",
+                    "icon": 10,
+                    "position": {"x": 34.597703008223526, "y": 135.70077902261025, "z": 48},
+                    "level": 3
+                },
+                {
+                    "label": "防災重点ため池",
+                    "icon": 11,
+                    "position": {"x": 34.59382146852492, "y": 135.71319058101227, "z": 48},
+                    "level": 3
+                },
+                {
+                    "label": "防災重点ため池",
+                    "icon": 11,
+                    "position": {"x": 34.59304407862887, "y": 135.70305074463664, "z": 48},
+                    "level": 3
+                },
+            ],
+            "panoramas": [
+                {
+                    "position": {"x": 34.596349, "y": 135.704436, "z": 38},
+                    "offsetInVR": {"x": 0, "y": -0.5, "z": 0},
+                    "spherical360ImageUrl": "Panoramas/Oji_station.jpg",
+                    "depthImageUrl": "Panoramas/Oji_station.depthmap.jpg",
+                    "rotationFromNorthDegrees": 140.0,
+                    "invertDepth": false
+                },
+                {
+                    "position": {"x": 34.598398, "y": 135.703722, "z": 38},
+                    "offsetInVR": {"x": 0, "y": -0.5, "z": 0},
+                    "spherical360ImageUrl": "Panoramas/Oji_Station_2.jpg",
+                    "depthImageUrl": "Panoramas/Oji_Station_2.depthmap.jpg",
+                    "rotationFromNorthDegrees": 90.0,
+                    "invertDepth": false
+                }
+            ]
+        },
+        {
+            "id" : "Yamatogawa_Overview",
+            "initialScale": 0.00008,
+            "conversionValue": 1,
+            "models":[
+                {"url": "Overview_of_Yamatogawa_lod1_34.54110020771423_135.43920854163832_34.65073192592439_135.79130825422953.glb", "screenVisibleFraction": 0.0},
+            ],
+            "originLatLonAlt": {"x": 34.58664322, "y": 135.613945, "z": 37.95},
+            "assetBundles" : [],
+            "landmarks": [
+                {
+                    "label": "Nara Oji\n area",
+                    "position": {"x": 34.594804763793945, "y": 135.69652557373047, "z": 37.94},
+                    "level": 0,
+                    "referenceAssetId": "Yamatogawa_Nara_side"
+                },
+                {
+                    "label": "Osaka harbor\n area",
+                    "position": {"x": 34.5949192, "y": 135.5057144, "z": 37.89},
+                    "level": 0,
+                    "referenceAssetId": "Yamatogawa_Osaka_side"
+                }
+            ],
+            "panoramas": [
+                {
+                    "position": {"x": 34.596349, "y": 135.704436, "z": 0},
+                    "offsetInVR": {"x": 0, "y": 0, "z": 0},
+                    "spherical360ImageUrl": "Panoramas/panoramic.color.jpg",
+                    "depthImageUrl": "Panoramas/panoramic.depth.jpg",
+                    "rotationFromNorthDegrees": 0,
+                    "invertDepth": true
+                }
+            ]
+        }
+    ]
+}

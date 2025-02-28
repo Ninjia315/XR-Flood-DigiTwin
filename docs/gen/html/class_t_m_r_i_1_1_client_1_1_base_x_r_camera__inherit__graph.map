@@ -1,0 +1,11 @@
+<map id="TMRI.Client.BaseXRCamera" name="TMRI.Client.BaseXRCamera">
+<area shape="rect" id="Node000001" title=" " alt="" coords="146,79,337,105"/>
+<area shape="rect" id="Node000003" href="$class_t_m_r_i_1_1_client_1_1_magic_leap_x_r_camera.html" title=" " alt="" coords="5,153,230,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,115,140,154,137,150,206,110"/>
+<area shape="rect" id="Node000004" href="$class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera.html" title=" " alt="" coords="254,153,477,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="277,110,346,150,343,154,274,115"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="186,5,297,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,46,244,79,239,79,239,46"/>
+<area shape="rect" id="Node000005" href="$class_t_m_r_i_1_1_client_1_1_stereo_camera.html" title=" " alt="" coords="275,226,456,252"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="368,194,368,226,363,226,363,194"/>
+</map>

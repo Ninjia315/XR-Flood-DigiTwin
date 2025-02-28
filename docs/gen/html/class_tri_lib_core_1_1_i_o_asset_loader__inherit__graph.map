@@ -1,0 +1,9 @@
+<map id="TriLibCore.IOAssetLoader" name="TriLibCore.IOAssetLoader">
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,79,181,105"/>
+<area shape="rect" id="Node000003" href="$class_tri_lib_core_1_1_asset_loader_file_picker.html" title="Represents an Asset Loader which loads files using a platform&#45;specific file picker." alt="" coords="5,153,185,193"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="89,120,90,152,84,152,84,120"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="106,120,106,152,100,152,101,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="39,5,151,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,46,91,78,85,79,84,46"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="106,46,105,79,99,78,101,46"/>
+</map>

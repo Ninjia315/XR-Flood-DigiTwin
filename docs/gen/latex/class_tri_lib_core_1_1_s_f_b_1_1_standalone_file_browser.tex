@@ -1,0 +1,532 @@
+\doxysection{Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser Class Reference}
+\hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser}{}\label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+
+
+Represents a platform-\/specific file browser.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7e07161066d2279c914269b8532341b0}{Open\+File\+Panel}} (string title, string directory, string extension, bool multiselect)
+\begin{DoxyCompactList}\small\item\em Native open file dialog. \end{DoxyCompactList}\item 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a710b23b2e1f4a328ebcfa5e45401474c}{Open\+File\+Panel}} (string title, string directory, \mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]} extensions, bool multiselect)
+\begin{DoxyCompactList}\small\item\em Native open file dialog. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a18bb727fad7a4cc85d9ec6ebe6501ed3}{Open\+File\+Panel\+Async}} (string title, string directory, string extension, bool multiselect, Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$ cb)
+\begin{DoxyCompactList}\small\item\em Native open file dialog async. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_acfbe87c25c2df8c122dcc1252aa36e1d}{Open\+File\+Panel\+Async}} (string title, string directory, \mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]} extensions, bool multiselect, Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$ cb)
+\begin{DoxyCompactList}\small\item\em Native open file dialog async. \end{DoxyCompactList}\item 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7b6941bc4fc4a7adefb57727d45e9e76}{Open\+Folder\+Panel}} (string title, string directory, bool multiselect)
+\begin{DoxyCompactList}\small\item\em Native open folder dialog. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a461beafc1d2d9f57caf729de191884e4}{Open\+Folder\+Panel\+Async}} (string title, string directory, bool multiselect, Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$ cb)
+\begin{DoxyCompactList}\small\item\em Native open folder dialog async. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_af28a93b98e1ce71cc2270a47a62c2472}{Save\+File\+Panel}} (string title, string directory, string default\+Name, string extension)
+\begin{DoxyCompactList}\small\item\em Native save file dialog. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a552b150acfa719f9307f23ccd3dfccf7}{Save\+File\+Panel}} (string title, string directory, string default\+Name, \mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]} extensions)
+\begin{DoxyCompactList}\small\item\em Native save file dialog. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a47c8d8361139c8fc3421f990b1393a89}{Save\+File\+Panel\+Async}} (string title, string directory, string default\+Name, string extension, Action$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ cb, byte\mbox{[}$\,$\mbox{]} data=null)
+\begin{DoxyCompactList}\small\item\em Native save file dialog async. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a698e9674f1da0714833904d10e007e56}{Save\+File\+Panel\+Async}} (string title, string directory, string default\+Name, \mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]} extensions, Action$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ cb, byte\mbox{[}$\,$\mbox{]} data=null)
+\begin{DoxyCompactList}\small\item\em Native save file dialog async. \end{DoxyCompactList}\item 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7e07161066d2279c914269b8532341b0}{Open\+File\+Panel}} (string title, string directory, string extension, bool multiselect)
+\begin{DoxyCompactList}\small\item\em Native open file dialog. \end{DoxyCompactList}\item 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a710b23b2e1f4a328ebcfa5e45401474c}{Open\+File\+Panel}} (string title, string directory, \mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]} extensions, bool multiselect)
+\begin{DoxyCompactList}\small\item\em Native open file dialog. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a18bb727fad7a4cc85d9ec6ebe6501ed3}{Open\+File\+Panel\+Async}} (string title, string directory, string extension, bool multiselect, Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$ cb)
+\begin{DoxyCompactList}\small\item\em Native open file dialog async. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_acfbe87c25c2df8c122dcc1252aa36e1d}{Open\+File\+Panel\+Async}} (string title, string directory, \mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]} extensions, bool multiselect, Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$ cb)
+\begin{DoxyCompactList}\small\item\em Native open file dialog async. \end{DoxyCompactList}\item 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7b6941bc4fc4a7adefb57727d45e9e76}{Open\+Folder\+Panel}} (string title, string directory, bool multiselect)
+\begin{DoxyCompactList}\small\item\em Native open folder dialog. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a461beafc1d2d9f57caf729de191884e4}{Open\+Folder\+Panel\+Async}} (string title, string directory, bool multiselect, Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$ cb)
+\begin{DoxyCompactList}\small\item\em Native open folder dialog async. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_af28a93b98e1ce71cc2270a47a62c2472}{Save\+File\+Panel}} (string title, string directory, string default\+Name, string extension)
+\begin{DoxyCompactList}\small\item\em Native save file dialog. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a552b150acfa719f9307f23ccd3dfccf7}{Save\+File\+Panel}} (string title, string directory, string default\+Name, \mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]} extensions)
+\begin{DoxyCompactList}\small\item\em Native save file dialog. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a47c8d8361139c8fc3421f990b1393a89}{Save\+File\+Panel\+Async}} (string title, string directory, string default\+Name, string extension, Action$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ cb, byte\mbox{[}$\,$\mbox{]} data=null)
+\begin{DoxyCompactList}\small\item\em Native save file dialog async. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a698e9674f1da0714833904d10e007e56}{Save\+File\+Panel\+Async}} (string title, string directory, string default\+Name, \mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]} extensions, Action$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ cb, byte\mbox{[}$\,$\mbox{]} data=null)
+\begin{DoxyCompactList}\small\item\em Native save file dialog async. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a platform-\/specific file browser. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a710b23b2e1f4a328ebcfa5e45401474c}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFilePanel@{OpenFilePanel}}
+\index{OpenFilePanel@{OpenFilePanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFilePanel()}{OpenFilePanel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a710b23b2e1f4a328ebcfa5e45401474c} 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+File\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{\mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]}}]{extensions}{, }\item[{bool}]{multiselect}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open file dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em extensions} & List of extension filters. Filter Example\+: new \doxylink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}("{}\+Image Files"{}, "{}jpg"{}, "{}png"{})\\
+\hline
+{\em multiselect} & Allow multiple file selection\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns array of chosen items. Zero length array when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a710b23b2e1f4a328ebcfa5e45401474c}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFilePanel@{OpenFilePanel}}
+\index{OpenFilePanel@{OpenFilePanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFilePanel()}{OpenFilePanel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a710b23b2e1f4a328ebcfa5e45401474c} 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+File\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{\mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]}}]{extensions}{, }\item[{bool}]{multiselect}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open file dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em extensions} & List of extension filters. Filter Example\+: new \doxylink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}("{}\+Image Files"{}, "{}jpg"{}, "{}png"{})\\
+\hline
+{\em multiselect} & Allow multiple file selection\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns array of chosen items. Zero length array when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7e07161066d2279c914269b8532341b0}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFilePanel@{OpenFilePanel}}
+\index{OpenFilePanel@{OpenFilePanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFilePanel()}{OpenFilePanel()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7e07161066d2279c914269b8532341b0} 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+File\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{extension}{, }\item[{bool}]{multiselect}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open file dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em extension} & Allowed extension\\
+\hline
+{\em multiselect} & Allow multiple file selection\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns array of chosen items. Zero length array when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7e07161066d2279c914269b8532341b0}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFilePanel@{OpenFilePanel}}
+\index{OpenFilePanel@{OpenFilePanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFilePanel()}{OpenFilePanel()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7e07161066d2279c914269b8532341b0} 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+File\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{extension}{, }\item[{bool}]{multiselect}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open file dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em extension} & Allowed extension\\
+\hline
+{\em multiselect} & Allow multiple file selection\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns array of chosen items. Zero length array when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_acfbe87c25c2df8c122dcc1252aa36e1d}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFilePanelAsync@{OpenFilePanelAsync}}
+\index{OpenFilePanelAsync@{OpenFilePanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFilePanelAsync()}{OpenFilePanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_acfbe87c25c2df8c122dcc1252aa36e1d} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+File\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{\mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]}}]{extensions}{, }\item[{bool}]{multiselect}{, }\item[{Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$}]{cb}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open file dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em extensions} & List of extension filters. Filter Example\+: new \doxylink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}("{}\+Image Files"{}, "{}jpg"{}, "{}png"{})\\
+\hline
+{\em multiselect} & Allow multiple file selection\\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_acfbe87c25c2df8c122dcc1252aa36e1d}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFilePanelAsync@{OpenFilePanelAsync}}
+\index{OpenFilePanelAsync@{OpenFilePanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFilePanelAsync()}{OpenFilePanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_acfbe87c25c2df8c122dcc1252aa36e1d} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+File\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{\mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]}}]{extensions}{, }\item[{bool}]{multiselect}{, }\item[{Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$}]{cb}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open file dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em extensions} & List of extension filters. Filter Example\+: new \doxylink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}("{}\+Image Files"{}, "{}jpg"{}, "{}png"{})\\
+\hline
+{\em multiselect} & Allow multiple file selection\\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a18bb727fad7a4cc85d9ec6ebe6501ed3}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFilePanelAsync@{OpenFilePanelAsync}}
+\index{OpenFilePanelAsync@{OpenFilePanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFilePanelAsync()}{OpenFilePanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a18bb727fad7a4cc85d9ec6ebe6501ed3} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+File\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{extension}{, }\item[{bool}]{multiselect}{, }\item[{Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$}]{cb}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open file dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em extension} & Allowed extension\\
+\hline
+{\em multiselect} & Allow multiple file selection\\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a18bb727fad7a4cc85d9ec6ebe6501ed3}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFilePanelAsync@{OpenFilePanelAsync}}
+\index{OpenFilePanelAsync@{OpenFilePanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFilePanelAsync()}{OpenFilePanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a18bb727fad7a4cc85d9ec6ebe6501ed3} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+File\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{extension}{, }\item[{bool}]{multiselect}{, }\item[{Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$}]{cb}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open file dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em extension} & Allowed extension\\
+\hline
+{\em multiselect} & Allow multiple file selection\\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7b6941bc4fc4a7adefb57727d45e9e76}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFolderPanel@{OpenFolderPanel}}
+\index{OpenFolderPanel@{OpenFolderPanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFolderPanel()}{OpenFolderPanel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7b6941bc4fc4a7adefb57727d45e9e76} 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+Folder\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{bool}]{multiselect}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open folder dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & \\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em multiselect} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns array of chosen items. Zero length array when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7b6941bc4fc4a7adefb57727d45e9e76}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFolderPanel@{OpenFolderPanel}}
+\index{OpenFolderPanel@{OpenFolderPanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFolderPanel()}{OpenFolderPanel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a7b6941bc4fc4a7adefb57727d45e9e76} 
+static IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+Folder\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{bool}]{multiselect}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open folder dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & \\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em multiselect} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns array of chosen items. Zero length array when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a461beafc1d2d9f57caf729de191884e4}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFolderPanelAsync@{OpenFolderPanelAsync}}
+\index{OpenFolderPanelAsync@{OpenFolderPanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFolderPanelAsync()}{OpenFolderPanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a461beafc1d2d9f57caf729de191884e4} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+Folder\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{bool}]{multiselect}{, }\item[{Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$}]{cb}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open folder dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & \\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em multiselect} & \\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a461beafc1d2d9f57caf729de191884e4}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!OpenFolderPanelAsync@{OpenFolderPanelAsync}}
+\index{OpenFolderPanelAsync@{OpenFolderPanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{OpenFolderPanelAsync()}{OpenFolderPanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a461beafc1d2d9f57caf729de191884e4} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Open\+Folder\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{bool}]{multiselect}{, }\item[{Action$<$ IList$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$ $>$}]{cb}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native open folder dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & \\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em multiselect} & \\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a552b150acfa719f9307f23ccd3dfccf7}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!SaveFilePanel@{SaveFilePanel}}
+\index{SaveFilePanel@{SaveFilePanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{SaveFilePanel()}{SaveFilePanel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a552b150acfa719f9307f23ccd3dfccf7} 
+static \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Save\+File\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{default\+Name}{, }\item[{\mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]}}]{extensions}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native save file dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em default\+Name} & Default file name\\
+\hline
+{\em extensions} & List of extension filters. Filter Example\+: new \doxylink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}("{}\+Image Files"{}, "{}jpg"{}, "{}png"{})\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns chosen item. Null when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a552b150acfa719f9307f23ccd3dfccf7}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!SaveFilePanel@{SaveFilePanel}}
+\index{SaveFilePanel@{SaveFilePanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{SaveFilePanel()}{SaveFilePanel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a552b150acfa719f9307f23ccd3dfccf7} 
+static \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Save\+File\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{default\+Name}{, }\item[{\mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]}}]{extensions}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native save file dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em default\+Name} & Default file name\\
+\hline
+{\em extensions} & List of extension filters. Filter Example\+: new \doxylink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}("{}\+Image Files"{}, "{}jpg"{}, "{}png"{})\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns chosen item. Null when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_af28a93b98e1ce71cc2270a47a62c2472}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!SaveFilePanel@{SaveFilePanel}}
+\index{SaveFilePanel@{SaveFilePanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{SaveFilePanel()}{SaveFilePanel()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_af28a93b98e1ce71cc2270a47a62c2472} 
+static \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Save\+File\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{default\+Name}{, }\item[{string}]{extension}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native save file dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em default\+Name} & Default file name\\
+\hline
+{\em extension} & File extension\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns chosen item. Null when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_af28a93b98e1ce71cc2270a47a62c2472}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!SaveFilePanel@{SaveFilePanel}}
+\index{SaveFilePanel@{SaveFilePanel}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{SaveFilePanel()}{SaveFilePanel()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_af28a93b98e1ce71cc2270a47a62c2472} 
+static \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Save\+File\+Panel (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{default\+Name}{, }\item[{string}]{extension}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native save file dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em default\+Name} & Default file name\\
+\hline
+{\em extension} & File extension\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns chosen item. Null when cancelled
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a698e9674f1da0714833904d10e007e56}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!SaveFilePanelAsync@{SaveFilePanelAsync}}
+\index{SaveFilePanelAsync@{SaveFilePanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{SaveFilePanelAsync()}{SaveFilePanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a698e9674f1da0714833904d10e007e56} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Save\+File\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{default\+Name}{, }\item[{\mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]}}]{extensions}{, }\item[{Action$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$}]{cb}{, }\item[{byte\mbox{[}$\,$\mbox{]}}]{data}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native save file dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em default\+Name} & Default file name\\
+\hline
+{\em extensions} & List of extension filters. Filter Example\+: new \doxylink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}("{}\+Image Files"{}, "{}jpg"{}, "{}png"{})\\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+{\em data} & Data to be saved (used on Web\+GL platform)\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a698e9674f1da0714833904d10e007e56}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!SaveFilePanelAsync@{SaveFilePanelAsync}}
+\index{SaveFilePanelAsync@{SaveFilePanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{SaveFilePanelAsync()}{SaveFilePanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a698e9674f1da0714833904d10e007e56} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Save\+File\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{default\+Name}{, }\item[{\mbox{\hyperlink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}}\mbox{[}$\,$\mbox{]}}]{extensions}{, }\item[{Action$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$}]{cb}{, }\item[{byte\mbox{[}$\,$\mbox{]}}]{data}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native save file dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em default\+Name} & Default file name\\
+\hline
+{\em extensions} & List of extension filters. Filter Example\+: new \doxylink{struct_tri_lib_core_1_1_s_f_b_1_1_extension_filter}{Extension\+Filter}("{}\+Image Files"{}, "{}jpg"{}, "{}png"{})\\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+{\em data} & Data to be saved (used on Web\+GL platform)\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a47c8d8361139c8fc3421f990b1393a89}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!SaveFilePanelAsync@{SaveFilePanelAsync}}
+\index{SaveFilePanelAsync@{SaveFilePanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{SaveFilePanelAsync()}{SaveFilePanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a47c8d8361139c8fc3421f990b1393a89} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Save\+File\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{default\+Name}{, }\item[{string}]{extension}{, }\item[{Action$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$}]{cb}{, }\item[{byte\mbox{[}$\,$\mbox{]}}]{data}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native save file dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em default\+Name} & Default file name\\
+\hline
+{\em extension} & File extension\\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+{\em data} & Data to be saved (used on Web\+GL platform)\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a47c8d8361139c8fc3421f990b1393a89}\index{TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}!SaveFilePanelAsync@{SaveFilePanelAsync}}
+\index{SaveFilePanelAsync@{SaveFilePanelAsync}!TriLibCore.SFB.StandaloneFileBrowser@{TriLibCore.SFB.StandaloneFileBrowser}}
+\doxysubsubsection{\texorpdfstring{SaveFilePanelAsync()}{SaveFilePanelAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_s_f_b_1_1_standalone_file_browser_a47c8d8361139c8fc3421f990b1393a89} 
+static void Tri\+Lib\+Core.\+SFB.\+Standalone\+File\+Browser.\+Save\+File\+Panel\+Async (\begin{DoxyParamCaption}\item[{string}]{title}{, }\item[{string}]{directory}{, }\item[{string}]{default\+Name}{, }\item[{string}]{extension}{, }\item[{Action$<$ \mbox{\hyperlink{class_tri_lib_core_1_1_s_f_b_1_1_item_with_stream}{Item\+With\+Stream}} $>$}]{cb}{, }\item[{byte\mbox{[}$\,$\mbox{]}}]{data}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Native save file dialog async. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & Dialog title\\
+\hline
+{\em directory} & Root directory\\
+\hline
+{\em default\+Name} & Default file name\\
+\hline
+{\em extension} & File extension\\
+\hline
+{\em cb} & Panel action callback\\
+\hline
+{\em data} & Data to be saved (used on Web\+GL platform)\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Standalone\+File\+Browser/\+Standalone\+File\+Browser/\mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_standalone_file_browser_8cs}{Standalone\+File\+Browser.\+cs}}\item 
+docs/src/server/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Standalone\+File\+Browser/\+Standalone\+File\+Browser/\mbox{\hyperlink{server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_standalone_file_browser_8cs}{Standalone\+File\+Browser.\+cs}}\end{DoxyCompactItemize}

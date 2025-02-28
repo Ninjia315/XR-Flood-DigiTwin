@@ -1,0 +1,9 @@
+<map id="TMRI.Client.ISettingsListener" name="TMRI.Client.ISettingsListener">
+<area shape="rect" id="Node000001" title=" " alt="" coords="198,5,393,31"/>
+<area shape="rect" id="Node000002" href="$class_connection_state_listener.html" title=" " alt="" coords="5,79,170,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,39,124,81,122,76,245,34"/>
+<area shape="rect" id="Node000003" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene.html" title=" " alt="" coords="194,79,397,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="298,46,298,79,293,79,293,46"/>
+<area shape="rect" id="Node000004" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_state.html" title=" " alt="" coords="421,79,581,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="345,34,467,76,465,81,344,39"/>
+</map>

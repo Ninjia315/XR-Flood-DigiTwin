@@ -1,0 +1,1044 @@
+\doxysection{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer Class Reference}
+\hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer}{}\label{class_tri_lib_core_1_1_samples_1_1_asset_viewer}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+
+
+Represents a Tri\+Lib sample which allows the user to load models and HDR skyboxes from the local file-\/system.  
+
+
+
+
+Inheritance diagram for Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_tri_lib_core_1_1_samples_1_1_asset_viewer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{class_tri_lib_core_1_1_samples_1_1_asset_viewer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a93fbe9121893f2c833c589c4adf88082}{Load\+Model\+From\+File}} ()
+\begin{DoxyCompactList}\small\item\em Shows the file picker for loading a model from the local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a3e4ca37bfef37c599fe4acb0de662684}{Load\+Model\+From\+Directory}} ()
+\begin{DoxyCompactList}\small\item\em Shows the directory picker for loading a model from the local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a62a01114fa6105df7f3229871e2f72ef}{Load\+Model\+From\+URLWith\+Dialog\+Values}} ()
+\begin{DoxyCompactList}\small\item\em Shows the URL selector for loading a model from network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae40188bf94a7d7debfb9320c33190b99}{Load\+Skybox\+From\+File}} ()
+\begin{DoxyCompactList}\small\item\em Shows the file picker for loading a skybox from the local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ad01d6d3169b3475f2322b164c34448a0}{Clear\+Skybox}} ()
+\begin{DoxyCompactList}\small\item\em Removes the skybox texture. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae29ebb09642fce1d809600bb0003d0fe}{Reset\+Model\+Scale}} ()
+\begin{DoxyCompactList}\small\item\em Resets the model scale when loading a new model. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ed8360358e1b8884df5a9ae6aa7694e}{Play\+Animation}} ()
+\begin{DoxyCompactList}\small\item\em Plays the selected animation. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5a194eaa57225bf47a95db6256c67e06}{Stop\+Animation}} ()
+\begin{DoxyCompactList}\small\item\em Stop playing the selected animation. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_afaa178993fa845a8360b5787296a5296}{Playback\+Animation\+Changed}} (int index)
+\begin{DoxyCompactList}\small\item\em Switches to the animation selected on the Dropdown. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5fe308e2113b22c8d334627109bf9a5f}{Camera\+Changed}} (int index)
+\begin{DoxyCompactList}\small\item\em Switches to the camera selected on the Dropdown. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a56bf359db46dd23d5f41f3d7859ccfed}{Playback\+Slider\+Changed}} (float value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the Animation slider value has been changed by the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a0225df0f45b82f70084a5f8d637e0505}{On\+Debug\+Options\+Dropdown\+Changed}} (int value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the user changes the debug options dropdown value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a59b751ff073ea6f1c8f0410586d5d77e}{On\+Skybox\+Exposure\+Changed}} (float exposure)
+\begin{DoxyCompactList}\small\item\em Event triggered when the skybox exposure Slider has changed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ddcc5f72bb7f633487dee7cefe55d1c}{On\+Point\+Cloud\+Toggle\+Changed}} (bool value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the "{}\+Load Point Cloud"{} toggle is toggled. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a00fe3ef6d3b9f2f4a27e3417a927a39e}{On\+Point\+Size\+Slider\+Changed}} (float value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the "{}\+Point Size"{} slider value changes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d8f68d93a55881919d658fbe19f44e}{On\+Fast\+Load\+Toggle\+Changed}} (bool value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the "{}\+Fast Mode"{} toggle is toggled. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a2cee99f43ebe37ccae3a2b455b9d2f62}{Set\+Custom\+Bounds}} (Bounds bounds)
+\begin{DoxyCompactList}\small\item\em Fits the camera into a custom given bounds. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a93fbe9121893f2c833c589c4adf88082}{Load\+Model\+From\+File}} ()
+\begin{DoxyCompactList}\small\item\em Shows the file picker for loading a model from the local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a3e4ca37bfef37c599fe4acb0de662684}{Load\+Model\+From\+Directory}} ()
+\begin{DoxyCompactList}\small\item\em Shows the directory picker for loading a model from the local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a62a01114fa6105df7f3229871e2f72ef}{Load\+Model\+From\+URLWith\+Dialog\+Values}} ()
+\begin{DoxyCompactList}\small\item\em Shows the URL selector for loading a model from network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae40188bf94a7d7debfb9320c33190b99}{Load\+Skybox\+From\+File}} ()
+\begin{DoxyCompactList}\small\item\em Shows the file picker for loading a skybox from the local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ad01d6d3169b3475f2322b164c34448a0}{Clear\+Skybox}} ()
+\begin{DoxyCompactList}\small\item\em Removes the skybox texture. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae29ebb09642fce1d809600bb0003d0fe}{Reset\+Model\+Scale}} ()
+\begin{DoxyCompactList}\small\item\em Resets the model scale when loading a new model. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ed8360358e1b8884df5a9ae6aa7694e}{Play\+Animation}} ()
+\begin{DoxyCompactList}\small\item\em Plays the selected animation. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5a194eaa57225bf47a95db6256c67e06}{Stop\+Animation}} ()
+\begin{DoxyCompactList}\small\item\em Stop playing the selected animation. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_afaa178993fa845a8360b5787296a5296}{Playback\+Animation\+Changed}} (int index)
+\begin{DoxyCompactList}\small\item\em Switches to the animation selected on the Dropdown. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5fe308e2113b22c8d334627109bf9a5f}{Camera\+Changed}} (int index)
+\begin{DoxyCompactList}\small\item\em Switches to the camera selected on the Dropdown. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a56bf359db46dd23d5f41f3d7859ccfed}{Playback\+Slider\+Changed}} (float value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the Animation slider value has been changed by the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a0225df0f45b82f70084a5f8d637e0505}{On\+Debug\+Options\+Dropdown\+Changed}} (int value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the user changes the debug options dropdown value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a59b751ff073ea6f1c8f0410586d5d77e}{On\+Skybox\+Exposure\+Changed}} (float exposure)
+\begin{DoxyCompactList}\small\item\em Event triggered when the skybox exposure Slider has changed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ddcc5f72bb7f633487dee7cefe55d1c}{On\+Point\+Cloud\+Toggle\+Changed}} (bool value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the "{}\+Load Point Cloud"{} toggle is toggled. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a00fe3ef6d3b9f2f4a27e3417a927a39e}{On\+Point\+Size\+Slider\+Changed}} (float value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the "{}\+Point Size"{} slider value changes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d8f68d93a55881919d658fbe19f44e}{On\+Fast\+Load\+Toggle\+Changed}} (bool value)
+\begin{DoxyCompactList}\small\item\em Event triggered when the "{}\+Fast Mode"{} toggle is toggled. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a2cee99f43ebe37ccae3a2b455b9d2f62}{Set\+Custom\+Bounds}} (Bounds bounds)
+\begin{DoxyCompactList}\small\item\em Fits the camera into a custom given bounds. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ae1a43c150d9c2ac6220003ba58789d20}{Show\+Help}} ()
+\begin{DoxyCompactList}\small\item\em Shows the help box. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a5375ad8afd18785434e506989b3c19b3}{Hide\+Help}} ()
+\begin{DoxyCompactList}\small\item\em Hides the help box. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a42bcb7c8e4d71438df2ef8dc004587df}{Show\+Model\+Url\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Shows the model URL dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a59fa4c5fcd705725d0886aa90f812434}{Hide\+Model\+Url\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Hides the model URL dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ae1a43c150d9c2ac6220003ba58789d20}{Show\+Help}} ()
+\begin{DoxyCompactList}\small\item\em Shows the help box. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a5375ad8afd18785434e506989b3c19b3}{Hide\+Help}} ()
+\begin{DoxyCompactList}\small\item\em Hides the help box. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a42bcb7c8e4d71438df2ef8dc004587df}{Show\+Model\+Url\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Shows the model URL dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a59fa4c5fcd705725d0886aa90f812434}{Hide\+Model\+Url\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Hides the model URL dialog. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d3f422f9042101e33182d2cfef2b00}{Start}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the viewer. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a51ffe1924db01755753ba47eb51f38e4}{Process\+Input}} ()
+\begin{DoxyCompactList}\small\item\em Handles the input and moves the Camera accordingly. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a02d4f5d86373a4240db0f45c2fcece0a}{On\+Begin\+Load\+Model}} (bool has\+Files)
+\begin{DoxyCompactList}\small\item\em Event triggered when the user selects a file or cancels the Model selection dialog. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a758f7790b4c489b1e45f0f6b84f475c9}{On\+Load}} (Asset\+Loader\+Context asset\+Loader\+Context)
+\begin{DoxyCompactList}\small\item\em Event triggered when the Model Meshes and hierarchy are loaded. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ab2dcb8e50ebdff029a66fb43cc626462}{Model\+Transform\+Changed}} ()
+\begin{DoxyCompactList}\small\item\em Changes the camera placement when the Model has changed. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_aa493daebb73e70faf2cbf99a61638327}{On\+Error}} (IContextualized\+Error contextualized\+Error)
+\begin{DoxyCompactList}\small\item\em Event is triggered when any error occurs. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af5d59fbf93c7751de1d125d30b0a5fea}{On\+Materials\+Load}} (Asset\+Loader\+Context asset\+Loader\+Context)
+\begin{DoxyCompactList}\small\item\em Event is triggered when the Model (including Textures and Materials) has been fully loaded. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d3f422f9042101e33182d2cfef2b00}{Start}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the viewer. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a51ffe1924db01755753ba47eb51f38e4}{Process\+Input}} ()
+\begin{DoxyCompactList}\small\item\em Handles the input and moves the Camera accordingly. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a02d4f5d86373a4240db0f45c2fcece0a}{On\+Begin\+Load\+Model}} (bool has\+Files)
+\begin{DoxyCompactList}\small\item\em Event triggered when the user selects a file or cancels the Model selection dialog. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a758f7790b4c489b1e45f0f6b84f475c9}{On\+Load}} (Asset\+Loader\+Context asset\+Loader\+Context)
+\begin{DoxyCompactList}\small\item\em Event triggered when the Model Meshes and hierarchy are loaded. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ab2dcb8e50ebdff029a66fb43cc626462}{Model\+Transform\+Changed}} ()
+\begin{DoxyCompactList}\small\item\em Changes the camera placement when the Model has changed. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_aa493daebb73e70faf2cbf99a61638327}{On\+Error}} (IContextualized\+Error contextualized\+Error)
+\begin{DoxyCompactList}\small\item\em Event is triggered when any error occurs. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af5d59fbf93c7751de1d125d30b0a5fea}{On\+Materials\+Load}} (Asset\+Loader\+Context asset\+Loader\+Context)
+\begin{DoxyCompactList}\small\item\em Event is triggered when the Model (including Textures and Materials) has been fully loaded. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ae942c0c95960d3f767086dc7caca2032}{Update\+Camera}} ()
+\begin{DoxyCompactList}\small\item\em Updates the Camera based on mouse Input. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a89823d5d6a6ef9b2f6a70b8101c0cb0d}{Load\+Model\+From\+File}} (Game\+Object wrapper\+Game\+Object=null, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load=null)
+\begin{DoxyCompactList}\small\item\em Shows the file picker for loading a model from local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a1b418fb527801df3f5d5b0b84de539f9}{Load\+Model\+From\+Directory}} (Game\+Object wrapper\+Game\+Object=null, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load=null)
+\begin{DoxyCompactList}\small\item\em Shows the directory picker for loading a model from local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a71123de8c7065f92aba9a594805280a0}{Load\+Model\+From\+URL}} (Unity\+Web\+Request request, string file\+Extension, Game\+Object wrapper\+Game\+Object=null, object custom\+Data=null, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load=null)
+\begin{DoxyCompactList}\small\item\em Loads a model from a URL. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ab7e0b50b118c2fa58bac88ddedb14f8d}{Load\+Model\+From\+URLWith\+Dialog\+Values}} ()
+\begin{DoxyCompactList}\small\item\em Shows the URL selector for loading a model from network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a662e01437085f918b0da9141693f6d09}{Set\+Loading}} (bool value)
+\begin{DoxyCompactList}\small\item\em Enables/disables the loading flag. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_aac0733d6407cad53882a86610e827eaf}{Is\+Loading}} ()
+\begin{DoxyCompactList}\small\item\em Gets a flag indicating whether the model is loading or not. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a784f8ca52471d5ccbf24d2b32c8999c1}{On\+Progress}} (Asset\+Loader\+Context asset\+Loader\+Context, float value)
+\begin{DoxyCompactList}\small\item\em Event that is triggered when the Model loading progress changes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ae942c0c95960d3f767086dc7caca2032}{Update\+Camera}} ()
+\begin{DoxyCompactList}\small\item\em Updates the Camera based on mouse Input. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a89823d5d6a6ef9b2f6a70b8101c0cb0d}{Load\+Model\+From\+File}} (Game\+Object wrapper\+Game\+Object=null, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load=null)
+\begin{DoxyCompactList}\small\item\em Shows the file picker for loading a model from local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a1b418fb527801df3f5d5b0b84de539f9}{Load\+Model\+From\+Directory}} (Game\+Object wrapper\+Game\+Object=null, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load=null)
+\begin{DoxyCompactList}\small\item\em Shows the directory picker for loading a model from local file-\/system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a71123de8c7065f92aba9a594805280a0}{Load\+Model\+From\+URL}} (Unity\+Web\+Request request, string file\+Extension, Game\+Object wrapper\+Game\+Object=null, object custom\+Data=null, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load=null)
+\begin{DoxyCompactList}\small\item\em Loads a model from a URL. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ab7e0b50b118c2fa58bac88ddedb14f8d}{Load\+Model\+From\+URLWith\+Dialog\+Values}} ()
+\begin{DoxyCompactList}\small\item\em Shows the URL selector for loading a model from network. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a662e01437085f918b0da9141693f6d09}{Set\+Loading}} (bool value)
+\begin{DoxyCompactList}\small\item\em Enables/disables the loading flag. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_aac0733d6407cad53882a86610e827eaf}{Is\+Loading}} ()
+\begin{DoxyCompactList}\small\item\em Gets a flag indicating whether the model is loading or not. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a784f8ca52471d5ccbf24d2b32c8999c1}{On\+Progress}} (Asset\+Loader\+Context asset\+Loader\+Context, float value)
+\begin{DoxyCompactList}\small\item\em Event that is triggered when the Model loading progress changes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system}{Tri\+Lib\+Core.\+Samples.\+Abstract\+Input\+System}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_ad6e3bc46c192a6cd23de2fd6dd33fc9b}{Get\+Mouse\+Button}} (int index)
+\begin{DoxyCompactList}\small\item\em Helper method to get a mouse button using the legacy and new input systems. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_a7702571ec7bb1f2ba6d94ed40daf14a1}{Get\+Mouse\+Button\+Down}} (int index)
+\begin{DoxyCompactList}\small\item\em Helper method to get a mouse button down using the legacy and new input systems. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_a81accacdc97d8196a7dbf19f4fa6b63a}{Get\+Axis}} (string axis\+Name)
+\begin{DoxyCompactList}\small\item\em Helper method to get an axis value using the legacy and new input systems. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_ac9a21fed1556277d278bc582d3189871}{Get\+Key}} (Key\+Code key\+Code)
+\begin{DoxyCompactList}\small\item\em Helper method to return a keyboard key using the legacy and new input systems. \end{DoxyCompactList}\item 
+Vector2 \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_ae124766278620ced14f78d1bb8039078}{Get\+Mouse\+Scroll\+Delta}} ()
+\begin{DoxyCompactList}\small\item\em Helper method to return the mouse scroll delta using the legacy and new input systems. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_ad6e3bc46c192a6cd23de2fd6dd33fc9b}{Get\+Mouse\+Button}} (int index)
+\begin{DoxyCompactList}\small\item\em Helper method to get a mouse button using the legacy and new input systems. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_a7702571ec7bb1f2ba6d94ed40daf14a1}{Get\+Mouse\+Button\+Down}} (int index)
+\begin{DoxyCompactList}\small\item\em Helper method to get a mouse button down using the legacy and new input systems. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_a81accacdc97d8196a7dbf19f4fa6b63a}{Get\+Axis}} (string axis\+Name)
+\begin{DoxyCompactList}\small\item\em Helper method to get an axis value using the legacy and new input systems. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_ac9a21fed1556277d278bc582d3189871}{Get\+Key}} (Key\+Code key\+Code)
+\begin{DoxyCompactList}\small\item\em Helper method to return a keyboard key using the legacy and new input systems. \end{DoxyCompactList}\item 
+Vector2 \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_abstract_input_system_ae124766278620ced14f78d1bb8039078}{Get\+Mouse\+Scroll\+Delta}} ()
+\begin{DoxyCompactList}\small\item\em Helper method to return the mouse scroll delta using the legacy and new input systems. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af7fb0ab37a9853e1e76690086340d703}{Skybox}}
+\begin{DoxyCompactList}\small\item\em Skybox game object. \end{DoxyCompactList}\item 
+Canvas\+Scaler \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a8a4ef7d92d5cbedfb62e106b4305f2ed}{Canvas\+Scaler}}
+\begin{DoxyCompactList}\small\item\em Scene Canvas\+Scaler. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a0f0ee524cc75e87b977ddc59874a9db1}{Camera\+Distance}} = 1f
+\begin{DoxyCompactList}\small\item\em Current camera distance. \end{DoxyCompactList}\item 
+Vector3 \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_affaff6abf8a87f0146dbde39fac96a3b}{Camera\+Pivot}}
+\begin{DoxyCompactList}\small\item\em Current camera pivot position. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_abd588bc9a99919cff66d034ebd2c1eda}{Input\+Multiplier}} = 1f
+\begin{DoxyCompactList}\small\item\em Input multiplier based on loaded model bounds. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+Slider \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_aac6f37658f721bfde17c98868339cfa5}{Playback\+Slider}}
+\begin{DoxyCompactList}\small\item\em Animation playback slider. \end{DoxyCompactList}\item 
+Text \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a534962487290d6d1868ee6e330ab4d10}{Playback\+Time}}
+\begin{DoxyCompactList}\small\item\em Animation playback time. \end{DoxyCompactList}\item 
+Dropdown \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_aca9b7cd381fb40318853315f3005acaf}{Playback\+Animation}}
+\begin{DoxyCompactList}\small\item\em Animation selector. \end{DoxyCompactList}\item 
+Selectable \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a9a9b6e7a760841880659f58a3e8da913}{Play}}
+\begin{DoxyCompactList}\small\item\em Play button. \end{DoxyCompactList}\item 
+Selectable \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a4e85accaba3f0a0734a3a42f62a159c8}{Stop}}
+\begin{DoxyCompactList}\small\item\em Stop button. \end{DoxyCompactList}\item 
+Asset\+Loader\+Options \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a8ea1a6444ba57d4e5eb7be198e162a15}{Asset\+Loader\+Options}}
+\begin{DoxyCompactList}\small\item\em Options used in this sample. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_tri_lib_core_1_1_asset_loader_file_picker}{Asset\+Loader\+File\+Picker}} \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a4ae6285adaca4c5fee475ddc76ce9c30}{File\+Picker\+Asset\+Loader}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{class_tri_lib_core_1_1_asset_loader_file_picker}{Asset\+Loader\+File\+Picker} instance created for this viewer. \end{DoxyCompactList}\item 
+long \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a703d2a41351833876067a839772ad299}{Peak\+Memory}}
+\begin{DoxyCompactList}\small\item\em Holds the peak memory used to load the model. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const float \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ab0008e4320caf6e66da7dee772778c7a}{Camera\+Distance\+Ratio}} = 2f
+\begin{DoxyCompactList}\small\item\em Camera distance ratio based on model bounds. \end{DoxyCompactList}\item 
+const float \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af1c309f926bdc3716b4336619d7ee500}{Min\+Camera\+Distance}} = 0.\+01f
+\begin{DoxyCompactList}\small\item\em minimum camera distance. \end{DoxyCompactList}\item 
+const float \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a1605848e63642fea6470373a69617ea5}{Skybox\+Scale}} = 100f
+\begin{DoxyCompactList}\small\item\em Skybox scale based on model bounds. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes inherited from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+const float \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a7c90f3808380239334fa7ab8a89fbc4d}{Input\+Multiplier\+Ratio}} = 0.\+1f
+\begin{DoxyCompactList}\small\item\em Mouse input multiplier. Higher values will make the mouse movement more sensible. \end{DoxyCompactList}\item 
+const float \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_af7397e7e6ffeee5c765703503dc7e87b}{Max\+Pitch}} = 80f
+\begin{DoxyCompactList}\small\item\em Maximum camera pitch and light pitch (rotation around local X-\/axis). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+Vector2 \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a631d8abbcedf981e9d228170e124f867}{Camera\+Angle}}
+\begin{DoxyCompactList}\small\item\em Current camera pitch and yaw angles. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base}{Asset\+Viewer\+Base}} \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a7b3c67bda8c0c0e92f6b1851e8d97a21}{Instance}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the Asset Viewer Singleton instance. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_aa5982de11178fadbaf5318f2ba2b18ec}{Root\+Game\+Object}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Loaded game object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a Tri\+Lib sample which allows the user to load models and HDR skyboxes from the local file-\/system. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5fe308e2113b22c8d334627109bf9a5f}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!CameraChanged@{CameraChanged}}
+\index{CameraChanged@{CameraChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{CameraChanged()}{CameraChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5fe308e2113b22c8d334627109bf9a5f} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Camera\+Changed (\begin{DoxyParamCaption}\item[{int}]{index}{}\end{DoxyParamCaption})}
+
+
+
+Switches to the camera selected on the Dropdown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The selected Camera index.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5fe308e2113b22c8d334627109bf9a5f}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!CameraChanged@{CameraChanged}}
+\index{CameraChanged@{CameraChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{CameraChanged()}{CameraChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5fe308e2113b22c8d334627109bf9a5f} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Camera\+Changed (\begin{DoxyParamCaption}\item[{int}]{index}{}\end{DoxyParamCaption})}
+
+
+
+Switches to the camera selected on the Dropdown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The selected Camera index.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ad01d6d3169b3475f2322b164c34448a0}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!ClearSkybox@{ClearSkybox}}
+\index{ClearSkybox@{ClearSkybox}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{ClearSkybox()}{ClearSkybox()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ad01d6d3169b3475f2322b164c34448a0} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Clear\+Skybox (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Removes the skybox texture. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ad01d6d3169b3475f2322b164c34448a0}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!ClearSkybox@{ClearSkybox}}
+\index{ClearSkybox@{ClearSkybox}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{ClearSkybox()}{ClearSkybox()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ad01d6d3169b3475f2322b164c34448a0} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Clear\+Skybox (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Removes the skybox texture. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a3e4ca37bfef37c599fe4acb0de662684}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!LoadModelFromDirectory@{LoadModelFromDirectory}}
+\index{LoadModelFromDirectory@{LoadModelFromDirectory}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromDirectory()}{LoadModelFromDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a3e4ca37bfef37c599fe4acb0de662684} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Load\+Model\+From\+Directory (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Shows the directory picker for loading a model from the local file-\/system. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a3e4ca37bfef37c599fe4acb0de662684}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!LoadModelFromDirectory@{LoadModelFromDirectory}}
+\index{LoadModelFromDirectory@{LoadModelFromDirectory}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromDirectory()}{LoadModelFromDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a3e4ca37bfef37c599fe4acb0de662684} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Load\+Model\+From\+Directory (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Shows the directory picker for loading a model from the local file-\/system. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a93fbe9121893f2c833c589c4adf88082}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!LoadModelFromFile@{LoadModelFromFile}}
+\index{LoadModelFromFile@{LoadModelFromFile}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromFile()}{LoadModelFromFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a93fbe9121893f2c833c589c4adf88082} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Load\+Model\+From\+File (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Shows the file picker for loading a model from the local file-\/system. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a93fbe9121893f2c833c589c4adf88082}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!LoadModelFromFile@{LoadModelFromFile}}
+\index{LoadModelFromFile@{LoadModelFromFile}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromFile()}{LoadModelFromFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a93fbe9121893f2c833c589c4adf88082} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Load\+Model\+From\+File (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Shows the file picker for loading a model from the local file-\/system. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a62a01114fa6105df7f3229871e2f72ef}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!LoadModelFromURLWithDialogValues@{LoadModelFromURLWithDialogValues}}
+\index{LoadModelFromURLWithDialogValues@{LoadModelFromURLWithDialogValues}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromURLWithDialogValues()}{LoadModelFromURLWithDialogValues()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a62a01114fa6105df7f3229871e2f72ef} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Load\+Model\+From\+URLWith\+Dialog\+Values (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Shows the URL selector for loading a model from network. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a62a01114fa6105df7f3229871e2f72ef}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!LoadModelFromURLWithDialogValues@{LoadModelFromURLWithDialogValues}}
+\index{LoadModelFromURLWithDialogValues@{LoadModelFromURLWithDialogValues}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromURLWithDialogValues()}{LoadModelFromURLWithDialogValues()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a62a01114fa6105df7f3229871e2f72ef} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Load\+Model\+From\+URLWith\+Dialog\+Values (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Shows the URL selector for loading a model from network. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae40188bf94a7d7debfb9320c33190b99}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!LoadSkyboxFromFile@{LoadSkyboxFromFile}}
+\index{LoadSkyboxFromFile@{LoadSkyboxFromFile}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{LoadSkyboxFromFile()}{LoadSkyboxFromFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae40188bf94a7d7debfb9320c33190b99} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Load\+Skybox\+From\+File (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Shows the file picker for loading a skybox from the local file-\/system. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae40188bf94a7d7debfb9320c33190b99}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!LoadSkyboxFromFile@{LoadSkyboxFromFile}}
+\index{LoadSkyboxFromFile@{LoadSkyboxFromFile}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{LoadSkyboxFromFile()}{LoadSkyboxFromFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae40188bf94a7d7debfb9320c33190b99} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Load\+Skybox\+From\+File (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Shows the file picker for loading a skybox from the local file-\/system. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ab2dcb8e50ebdff029a66fb43cc626462}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!ModelTransformChanged@{ModelTransformChanged}}
+\index{ModelTransformChanged@{ModelTransformChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{ModelTransformChanged()}{ModelTransformChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ab2dcb8e50ebdff029a66fb43cc626462} 
+virtual void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Model\+Transform\+Changed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Changes the camera placement when the Model has changed. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ab2dcb8e50ebdff029a66fb43cc626462}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!ModelTransformChanged@{ModelTransformChanged}}
+\index{ModelTransformChanged@{ModelTransformChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{ModelTransformChanged()}{ModelTransformChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ab2dcb8e50ebdff029a66fb43cc626462} 
+virtual void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Model\+Transform\+Changed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Changes the camera placement when the Model has changed. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a02d4f5d86373a4240db0f45c2fcece0a}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnBeginLoadModel@{OnBeginLoadModel}}
+\index{OnBeginLoadModel@{OnBeginLoadModel}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnBeginLoadModel()}{OnBeginLoadModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a02d4f5d86373a4240db0f45c2fcece0a} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Begin\+Load\+Model (\begin{DoxyParamCaption}\item[{bool}]{has\+Files}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Event triggered when the user selects a file or cancels the Model selection dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em has\+Files} & If any file has been selected, this value is {\ttfamily true}, otherwise it is {\ttfamily false}.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ace3ef9bc258a92f43e140ff1e02158d7}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a02d4f5d86373a4240db0f45c2fcece0a}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnBeginLoadModel@{OnBeginLoadModel}}
+\index{OnBeginLoadModel@{OnBeginLoadModel}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnBeginLoadModel()}{OnBeginLoadModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a02d4f5d86373a4240db0f45c2fcece0a} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Begin\+Load\+Model (\begin{DoxyParamCaption}\item[{bool}]{has\+Files}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Event triggered when the user selects a file or cancels the Model selection dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em has\+Files} & If any file has been selected, this value is {\ttfamily true}, otherwise it is {\ttfamily false}.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ace3ef9bc258a92f43e140ff1e02158d7}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a0225df0f45b82f70084a5f8d637e0505}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnDebugOptionsDropdownChanged@{OnDebugOptionsDropdownChanged}}
+\index{OnDebugOptionsDropdownChanged@{OnDebugOptionsDropdownChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnDebugOptionsDropdownChanged()}{OnDebugOptionsDropdownChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a0225df0f45b82f70084a5f8d637e0505} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Debug\+Options\+Dropdown\+Changed (\begin{DoxyParamCaption}\item[{int}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the user changes the debug options dropdown value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The dropdown value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a0225df0f45b82f70084a5f8d637e0505}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnDebugOptionsDropdownChanged@{OnDebugOptionsDropdownChanged}}
+\index{OnDebugOptionsDropdownChanged@{OnDebugOptionsDropdownChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnDebugOptionsDropdownChanged()}{OnDebugOptionsDropdownChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a0225df0f45b82f70084a5f8d637e0505} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Debug\+Options\+Dropdown\+Changed (\begin{DoxyParamCaption}\item[{int}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the user changes the debug options dropdown value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The dropdown value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_aa493daebb73e70faf2cbf99a61638327}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnError@{OnError}}
+\index{OnError@{OnError}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnError()}{OnError()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_aa493daebb73e70faf2cbf99a61638327} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Error (\begin{DoxyParamCaption}\item[{IContextualized\+Error}]{contextualized\+Error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Event is triggered when any error occurs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contextualized\+Error} & The Contextualized Error that has occurred.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_af7f47d3c3ca215b3068cb24c0e6b8f6e}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_aa493daebb73e70faf2cbf99a61638327}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnError@{OnError}}
+\index{OnError@{OnError}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnError()}{OnError()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_aa493daebb73e70faf2cbf99a61638327} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Error (\begin{DoxyParamCaption}\item[{IContextualized\+Error}]{contextualized\+Error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Event is triggered when any error occurs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contextualized\+Error} & The Contextualized Error that has occurred.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_af7f47d3c3ca215b3068cb24c0e6b8f6e}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d8f68d93a55881919d658fbe19f44e}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnFastLoadToggleChanged@{OnFastLoadToggleChanged}}
+\index{OnFastLoadToggleChanged@{OnFastLoadToggleChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnFastLoadToggleChanged()}{OnFastLoadToggleChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d8f68d93a55881919d658fbe19f44e} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Fast\+Load\+Toggle\+Changed (\begin{DoxyParamCaption}\item[{bool}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the "{}\+Fast Mode"{} toggle is toggled. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The toggle value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d8f68d93a55881919d658fbe19f44e}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnFastLoadToggleChanged@{OnFastLoadToggleChanged}}
+\index{OnFastLoadToggleChanged@{OnFastLoadToggleChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnFastLoadToggleChanged()}{OnFastLoadToggleChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d8f68d93a55881919d658fbe19f44e} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Fast\+Load\+Toggle\+Changed (\begin{DoxyParamCaption}\item[{bool}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the "{}\+Fast Mode"{} toggle is toggled. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The toggle value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a758f7790b4c489b1e45f0f6b84f475c9}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnLoad@{OnLoad}}
+\index{OnLoad@{OnLoad}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnLoad()}{OnLoad()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a758f7790b4c489b1e45f0f6b84f475c9} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Load (\begin{DoxyParamCaption}\item[{Asset\+Loader\+Context}]{asset\+Loader\+Context}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Event triggered when the Model Meshes and hierarchy are loaded. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em asset\+Loader\+Context} & The Asset Loader Context reference. Asset Loader Context contains the Model loading data.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a645af08b06f625d9a979d05f7dd3b404}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a758f7790b4c489b1e45f0f6b84f475c9}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnLoad@{OnLoad}}
+\index{OnLoad@{OnLoad}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnLoad()}{OnLoad()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a758f7790b4c489b1e45f0f6b84f475c9} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Load (\begin{DoxyParamCaption}\item[{Asset\+Loader\+Context}]{asset\+Loader\+Context}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Event triggered when the Model Meshes and hierarchy are loaded. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em asset\+Loader\+Context} & The Asset Loader Context reference. Asset Loader Context contains the Model loading data.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a645af08b06f625d9a979d05f7dd3b404}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af5d59fbf93c7751de1d125d30b0a5fea}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnMaterialsLoad@{OnMaterialsLoad}}
+\index{OnMaterialsLoad@{OnMaterialsLoad}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnMaterialsLoad()}{OnMaterialsLoad()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af5d59fbf93c7751de1d125d30b0a5fea} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Materials\+Load (\begin{DoxyParamCaption}\item[{Asset\+Loader\+Context}]{asset\+Loader\+Context}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Event is triggered when the Model (including Textures and Materials) has been fully loaded. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em asset\+Loader\+Context} & The Asset Loader Context reference. Asset Loader Context contains the Model loading data.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ae2d83b9cdd7d9c713294b85390246353}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af5d59fbf93c7751de1d125d30b0a5fea}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnMaterialsLoad@{OnMaterialsLoad}}
+\index{OnMaterialsLoad@{OnMaterialsLoad}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnMaterialsLoad()}{OnMaterialsLoad()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af5d59fbf93c7751de1d125d30b0a5fea} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Materials\+Load (\begin{DoxyParamCaption}\item[{Asset\+Loader\+Context}]{asset\+Loader\+Context}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Event is triggered when the Model (including Textures and Materials) has been fully loaded. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em asset\+Loader\+Context} & The Asset Loader Context reference. Asset Loader Context contains the Model loading data.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ae2d83b9cdd7d9c713294b85390246353}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ddcc5f72bb7f633487dee7cefe55d1c}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnPointCloudToggleChanged@{OnPointCloudToggleChanged}}
+\index{OnPointCloudToggleChanged@{OnPointCloudToggleChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnPointCloudToggleChanged()}{OnPointCloudToggleChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ddcc5f72bb7f633487dee7cefe55d1c} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Point\+Cloud\+Toggle\+Changed (\begin{DoxyParamCaption}\item[{bool}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the "{}\+Load Point Cloud"{} toggle is toggled. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The toggle value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ddcc5f72bb7f633487dee7cefe55d1c}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnPointCloudToggleChanged@{OnPointCloudToggleChanged}}
+\index{OnPointCloudToggleChanged@{OnPointCloudToggleChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnPointCloudToggleChanged()}{OnPointCloudToggleChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ddcc5f72bb7f633487dee7cefe55d1c} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Point\+Cloud\+Toggle\+Changed (\begin{DoxyParamCaption}\item[{bool}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the "{}\+Load Point Cloud"{} toggle is toggled. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The toggle value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a00fe3ef6d3b9f2f4a27e3417a927a39e}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnPointSizeSliderChanged@{OnPointSizeSliderChanged}}
+\index{OnPointSizeSliderChanged@{OnPointSizeSliderChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnPointSizeSliderChanged()}{OnPointSizeSliderChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a00fe3ef6d3b9f2f4a27e3417a927a39e} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Point\+Size\+Slider\+Changed (\begin{DoxyParamCaption}\item[{float}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the "{}\+Point Size"{} slider value changes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The slider value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a00fe3ef6d3b9f2f4a27e3417a927a39e}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnPointSizeSliderChanged@{OnPointSizeSliderChanged}}
+\index{OnPointSizeSliderChanged@{OnPointSizeSliderChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnPointSizeSliderChanged()}{OnPointSizeSliderChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a00fe3ef6d3b9f2f4a27e3417a927a39e} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Point\+Size\+Slider\+Changed (\begin{DoxyParamCaption}\item[{float}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the "{}\+Point Size"{} slider value changes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The slider value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a59b751ff073ea6f1c8f0410586d5d77e}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnSkyboxExposureChanged@{OnSkyboxExposureChanged}}
+\index{OnSkyboxExposureChanged@{OnSkyboxExposureChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnSkyboxExposureChanged()}{OnSkyboxExposureChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a59b751ff073ea6f1c8f0410586d5d77e} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Skybox\+Exposure\+Changed (\begin{DoxyParamCaption}\item[{float}]{exposure}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the skybox exposure Slider has changed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exposure} & The new exposure value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a59b751ff073ea6f1c8f0410586d5d77e}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!OnSkyboxExposureChanged@{OnSkyboxExposureChanged}}
+\index{OnSkyboxExposureChanged@{OnSkyboxExposureChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{OnSkyboxExposureChanged()}{OnSkyboxExposureChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a59b751ff073ea6f1c8f0410586d5d77e} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+On\+Skybox\+Exposure\+Changed (\begin{DoxyParamCaption}\item[{float}]{exposure}{}\end{DoxyParamCaption})}
+
+
+
+Event triggered when the skybox exposure Slider has changed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exposure} & The new exposure value.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ed8360358e1b8884df5a9ae6aa7694e}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!PlayAnimation@{PlayAnimation}}
+\index{PlayAnimation@{PlayAnimation}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{PlayAnimation()}{PlayAnimation()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ed8360358e1b8884df5a9ae6aa7694e} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Play\+Animation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Plays the selected animation. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a74e552db6ae6fbe1dbbbbf1ccd5e3b8e}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ed8360358e1b8884df5a9ae6aa7694e}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!PlayAnimation@{PlayAnimation}}
+\index{PlayAnimation@{PlayAnimation}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{PlayAnimation()}{PlayAnimation()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a7ed8360358e1b8884df5a9ae6aa7694e} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Play\+Animation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Plays the selected animation. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a74e552db6ae6fbe1dbbbbf1ccd5e3b8e}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_afaa178993fa845a8360b5787296a5296}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!PlaybackAnimationChanged@{PlaybackAnimationChanged}}
+\index{PlaybackAnimationChanged@{PlaybackAnimationChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{PlaybackAnimationChanged()}{PlaybackAnimationChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_afaa178993fa845a8360b5787296a5296} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Playback\+Animation\+Changed (\begin{DoxyParamCaption}\item[{int}]{index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Switches to the animation selected on the Dropdown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The selected Animation index.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_af1218cec6303ef11d9d5ff504050efb8}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_afaa178993fa845a8360b5787296a5296}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!PlaybackAnimationChanged@{PlaybackAnimationChanged}}
+\index{PlaybackAnimationChanged@{PlaybackAnimationChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{PlaybackAnimationChanged()}{PlaybackAnimationChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_afaa178993fa845a8360b5787296a5296} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Playback\+Animation\+Changed (\begin{DoxyParamCaption}\item[{int}]{index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Switches to the animation selected on the Dropdown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The selected Animation index.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_af1218cec6303ef11d9d5ff504050efb8}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a56bf359db46dd23d5f41f3d7859ccfed}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!PlaybackSliderChanged@{PlaybackSliderChanged}}
+\index{PlaybackSliderChanged@{PlaybackSliderChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{PlaybackSliderChanged()}{PlaybackSliderChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a56bf359db46dd23d5f41f3d7859ccfed} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Playback\+Slider\+Changed (\begin{DoxyParamCaption}\item[{float}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Event triggered when the Animation slider value has been changed by the user. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The Animation playback normalized position.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_aa717499b44b751c9bd3545f605c2f533}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a56bf359db46dd23d5f41f3d7859ccfed}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!PlaybackSliderChanged@{PlaybackSliderChanged}}
+\index{PlaybackSliderChanged@{PlaybackSliderChanged}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{PlaybackSliderChanged()}{PlaybackSliderChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a56bf359db46dd23d5f41f3d7859ccfed} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Playback\+Slider\+Changed (\begin{DoxyParamCaption}\item[{float}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Event triggered when the Animation slider value has been changed by the user. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The Animation playback normalized position.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_aa717499b44b751c9bd3545f605c2f533}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a51ffe1924db01755753ba47eb51f38e4}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!ProcessInput@{ProcessInput}}
+\index{ProcessInput@{ProcessInput}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{ProcessInput()}{ProcessInput()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a51ffe1924db01755753ba47eb51f38e4} 
+virtual void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Process\+Input (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Handles the input and moves the Camera accordingly. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a51ffe1924db01755753ba47eb51f38e4}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!ProcessInput@{ProcessInput}}
+\index{ProcessInput@{ProcessInput}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{ProcessInput()}{ProcessInput()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a51ffe1924db01755753ba47eb51f38e4} 
+virtual void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Process\+Input (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Handles the input and moves the Camera accordingly. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae29ebb09642fce1d809600bb0003d0fe}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!ResetModelScale@{ResetModelScale}}
+\index{ResetModelScale@{ResetModelScale}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{ResetModelScale()}{ResetModelScale()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae29ebb09642fce1d809600bb0003d0fe} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Reset\+Model\+Scale (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Resets the model scale when loading a new model. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae29ebb09642fce1d809600bb0003d0fe}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!ResetModelScale@{ResetModelScale}}
+\index{ResetModelScale@{ResetModelScale}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{ResetModelScale()}{ResetModelScale()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ae29ebb09642fce1d809600bb0003d0fe} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Reset\+Model\+Scale (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Resets the model scale when loading a new model. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a2cee99f43ebe37ccae3a2b455b9d2f62}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!SetCustomBounds@{SetCustomBounds}}
+\index{SetCustomBounds@{SetCustomBounds}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{SetCustomBounds()}{SetCustomBounds()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a2cee99f43ebe37ccae3a2b455b9d2f62} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Set\+Custom\+Bounds (\begin{DoxyParamCaption}\item[{Bounds}]{bounds}{}\end{DoxyParamCaption})}
+
+
+
+Fits the camera into a custom given bounds. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bounds} & The bounds to fit the camera to.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a2cee99f43ebe37ccae3a2b455b9d2f62}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!SetCustomBounds@{SetCustomBounds}}
+\index{SetCustomBounds@{SetCustomBounds}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{SetCustomBounds()}{SetCustomBounds()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a2cee99f43ebe37ccae3a2b455b9d2f62} 
+void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Set\+Custom\+Bounds (\begin{DoxyParamCaption}\item[{Bounds}]{bounds}{}\end{DoxyParamCaption})}
+
+
+
+Fits the camera into a custom given bounds. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bounds} & The bounds to fit the camera to.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d3f422f9042101e33182d2cfef2b00}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!Start@{Start}}
+\index{Start@{Start}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d3f422f9042101e33182d2cfef2b00} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Initializes the viewer. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ad91d145ac16e30dacb2f3b6ddde9468c}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d3f422f9042101e33182d2cfef2b00}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!Start@{Start}}
+\index{Start@{Start}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a49d3f422f9042101e33182d2cfef2b00} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Initializes the viewer. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_ad91d145ac16e30dacb2f3b6ddde9468c}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5a194eaa57225bf47a95db6256c67e06}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!StopAnimation@{StopAnimation}}
+\index{StopAnimation@{StopAnimation}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{StopAnimation()}{StopAnimation()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5a194eaa57225bf47a95db6256c67e06} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Stop\+Animation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Stop playing the selected animation. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a4c3483cfe8a94689352885328c420656}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5a194eaa57225bf47a95db6256c67e06}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!StopAnimation@{StopAnimation}}
+\index{StopAnimation@{StopAnimation}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{StopAnimation()}{StopAnimation()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a5a194eaa57225bf47a95db6256c67e06} 
+override void Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Stop\+Animation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Stop playing the selected animation. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_tri_lib_core_1_1_samples_1_1_asset_viewer_base_a4c3483cfe8a94689352885328c420656}{Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer\+Base}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a0f0ee524cc75e87b977ddc59874a9db1}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!CameraDistance@{CameraDistance}}
+\index{CameraDistance@{CameraDistance}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{CameraDistance}{CameraDistance}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a0f0ee524cc75e87b977ddc59874a9db1} 
+float Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Camera\+Distance = 1f\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Current camera distance. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ab0008e4320caf6e66da7dee772778c7a}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!CameraDistanceRatio@{CameraDistanceRatio}}
+\index{CameraDistanceRatio@{CameraDistanceRatio}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{CameraDistanceRatio}{CameraDistanceRatio}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_ab0008e4320caf6e66da7dee772778c7a} 
+const float Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Camera\+Distance\+Ratio = 2f\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Camera distance ratio based on model bounds. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_affaff6abf8a87f0146dbde39fac96a3b}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!CameraPivot@{CameraPivot}}
+\index{CameraPivot@{CameraPivot}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{CameraPivot}{CameraPivot}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_affaff6abf8a87f0146dbde39fac96a3b} 
+Vector3 Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Camera\+Pivot\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Current camera pivot position. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a8a4ef7d92d5cbedfb62e106b4305f2ed}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!CanvasScaler@{CanvasScaler}}
+\index{CanvasScaler@{CanvasScaler}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{CanvasScaler}{CanvasScaler}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a8a4ef7d92d5cbedfb62e106b4305f2ed} 
+Canvas\+Scaler Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Canvas\+Scaler\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Scene Canvas\+Scaler. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_abd588bc9a99919cff66d034ebd2c1eda}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!InputMultiplier@{InputMultiplier}}
+\index{InputMultiplier@{InputMultiplier}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{InputMultiplier}{InputMultiplier}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_abd588bc9a99919cff66d034ebd2c1eda} 
+float Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Input\+Multiplier = 1f\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Input multiplier based on loaded model bounds. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af1c309f926bdc3716b4336619d7ee500}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!MinCameraDistance@{MinCameraDistance}}
+\index{MinCameraDistance@{MinCameraDistance}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{MinCameraDistance}{MinCameraDistance}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af1c309f926bdc3716b4336619d7ee500} 
+const float Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Min\+Camera\+Distance = 0.\+01f\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+minimum camera distance. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af7fb0ab37a9853e1e76690086340d703}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!Skybox@{Skybox}}
+\index{Skybox@{Skybox}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{Skybox}{Skybox}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_af7fb0ab37a9853e1e76690086340d703} 
+Game\+Object Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Skybox\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Skybox game object. 
+
+\Hypertarget{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a1605848e63642fea6470373a69617ea5}\index{TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}!SkyboxScale@{SkyboxScale}}
+\index{SkyboxScale@{SkyboxScale}!TriLibCore.Samples.AssetViewer@{TriLibCore.Samples.AssetViewer}}
+\doxysubsubsection{\texorpdfstring{SkyboxScale}{SkyboxScale}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_samples_1_1_asset_viewer_a1605848e63642fea6470373a69617ea5} 
+const float Tri\+Lib\+Core.\+Samples.\+Asset\+Viewer.\+Skybox\+Scale = 100f\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Skybox scale based on model bounds. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Samples/\+Asset\+Viewer/\+Scripts/\mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_samples_2_asset_viewer_2_scripts_2_asset_viewer_8cs}{Asset\+Viewer.\+cs}}\item 
+docs/src/server/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Samples/\+Asset\+Viewer/\+Scripts/\mbox{\hyperlink{server_2_assets_2_tri_lib_2_tri_lib_samples_2_asset_viewer_2_scripts_2_asset_viewer_8cs}{Asset\+Viewer.\+cs}}\end{DoxyCompactItemize}

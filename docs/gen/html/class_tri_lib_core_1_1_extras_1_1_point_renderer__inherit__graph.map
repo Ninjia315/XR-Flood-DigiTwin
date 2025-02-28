@@ -1,0 +1,6 @@
+<map id="TriLibCore.Extras.PointRenderer" name="TriLibCore.Extras.PointRenderer">
+<area shape="rect" id="Node000001" title="Represents a class that renders point clouds and is compatible with every Unity platform." alt="" coords="5,79,216,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="55,5,166,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,46,106,78,101,79,99,46"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="122,46,120,79,115,78,117,46"/>
+</map>

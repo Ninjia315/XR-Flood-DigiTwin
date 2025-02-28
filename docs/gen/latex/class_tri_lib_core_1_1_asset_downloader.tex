@@ -1,0 +1,294 @@
+\doxysection{Tri\+Lib\+Core.\+Asset\+Downloader Class Reference}
+\hypertarget{class_tri_lib_core_1_1_asset_downloader}{}\label{class_tri_lib_core_1_1_asset_downloader}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}
+
+
+Represents a class to download and load Models.  
+
+
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}{Http\+Request\+Method}} \{ \newline
+\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}{Get}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9}{Post}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373}{Put}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18}{Delete}}
+, \newline
+\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe}{Head}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}{Get}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9}{Post}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373}{Put}}
+, \newline
+\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18}{Delete}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe}{Head}}
+ \}
+\begin{DoxyCompactList}\small\item\em Represents an HTTP Request method. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}{Http\+Request\+Method}} \{ \newline
+\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}{Get}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9}{Post}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373}{Put}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18}{Delete}}
+, \newline
+\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe}{Head}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}{Get}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9}{Post}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373}{Put}}
+, \newline
+\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18}{Delete}}
+, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe}{Head}}
+ \}
+\begin{DoxyCompactList}\small\item\em Represents an HTTP Request method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Unity\+Web\+Request \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a44c5be7ebf793824be36ffd33f88fb07}{Create\+Web\+Request}} (string uri, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}{Http\+Request\+Method}} http\+Request\+Method=\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}{Http\+Request\+Method.\+Get}}, string data=null, int timeout=2000)
+\begin{DoxyCompactList}\small\item\em Creates a Unity Web Request from the given parameters. \end{DoxyCompactList}\item 
+static Coroutine \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_aaabca4038aba706653378c68460a6e39}{Load\+Model\+From\+Uri}} (Unity\+Web\+Request unity\+Web\+Request, Action$<$ Asset\+Loader\+Context $>$ on\+Load, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load, Action$<$ Asset\+Loader\+Context, float $>$ on\+Progress, Action$<$ IContextualized\+Error $>$ on\+Error=null, Game\+Object wrapper\+Game\+Object=null, Asset\+Loader\+Options asset\+Loader\+Options=null, object custom\+Context\+Data=null, string file\+Extension=null, bool? is\+Zip\+File=null, bool halt\+Task=false)
+\begin{DoxyCompactList}\small\item\em Loads a Model from the given URI Asynchronously (Accepts zip files). \end{DoxyCompactList}\item 
+static Unity\+Web\+Request \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a44c5be7ebf793824be36ffd33f88fb07}{Create\+Web\+Request}} (string uri, \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}{Http\+Request\+Method}} http\+Request\+Method=\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}{Http\+Request\+Method.\+Get}}, string data=null, int timeout=2000)
+\begin{DoxyCompactList}\small\item\em Creates a Unity Web Request from the given parameters. \end{DoxyCompactList}\item 
+static Coroutine \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_aaabca4038aba706653378c68460a6e39}{Load\+Model\+From\+Uri}} (Unity\+Web\+Request unity\+Web\+Request, Action$<$ Asset\+Loader\+Context $>$ on\+Load, Action$<$ Asset\+Loader\+Context $>$ on\+Materials\+Load, Action$<$ Asset\+Loader\+Context, float $>$ on\+Progress, Action$<$ IContextualized\+Error $>$ on\+Error=null, Game\+Object wrapper\+Game\+Object=null, Asset\+Loader\+Options asset\+Loader\+Options=null, object custom\+Context\+Data=null, string file\+Extension=null, bool? is\+Zip\+File=null, bool halt\+Task=false)
+\begin{DoxyCompactList}\small\item\em Loads a Model from the given URI Asynchronously (Accepts zip files). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a class to download and load Models. 
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!HttpRequestMethod@{HttpRequestMethod}}
+\index{HttpRequestMethod@{HttpRequestMethod}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}
+\doxysubsubsection{\texorpdfstring{HttpRequestMethod}{HttpRequestMethod}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80} 
+enum \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}{Tri\+Lib\+Core.\+Asset\+Downloader.\+Http\+Request\+Method}}}
+
+
+
+Represents an HTTP Request method. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Get@{Get}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Get@{Get}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def} 
+Get&The HTTP GET method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Post@{Post}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Post@{Post}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9} 
+Post&The HTTP POST method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Put@{Put}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Put@{Put}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373} 
+Put&The HTTP PUT method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Delete@{Delete}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Delete@{Delete}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18} 
+Delete&The HTTP DELETE method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Head@{Head}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Head@{Head}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe} 
+Head&The HTTP HEAD method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Get@{Get}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Get@{Get}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def} 
+Get&The HTTP GET method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Post@{Post}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Post@{Post}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9} 
+Post&The HTTP POST method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Put@{Put}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Put@{Put}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373} 
+Put&The HTTP PUT method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Delete@{Delete}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Delete@{Delete}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18} 
+Delete&The HTTP DELETE method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Head@{Head}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Head@{Head}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe} 
+Head&The HTTP HEAD method. \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!HttpRequestMethod@{HttpRequestMethod}}
+\index{HttpRequestMethod@{HttpRequestMethod}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}
+\doxysubsubsection{\texorpdfstring{HttpRequestMethod}{HttpRequestMethod}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80} 
+enum \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}{Tri\+Lib\+Core.\+Asset\+Downloader.\+Http\+Request\+Method}}}
+
+
+
+Represents an HTTP Request method. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Get@{Get}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Get@{Get}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def} 
+Get&The HTTP GET method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Post@{Post}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Post@{Post}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9} 
+Post&The HTTP POST method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Put@{Put}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Put@{Put}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373} 
+Put&The HTTP PUT method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Delete@{Delete}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Delete@{Delete}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18} 
+Delete&The HTTP DELETE method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Head@{Head}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Head@{Head}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe} 
+Head&The HTTP HEAD method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Get@{Get}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Get@{Get}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def} 
+Get&The HTTP GET method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Post@{Post}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Post@{Post}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a03d947a2158373c3b9d74325850cb8b9} 
+Post&The HTTP POST method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Put@{Put}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Put@{Put}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ad0bf1810982e9728fcf3ac444a015373} 
+Put&The HTTP PUT method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Delete@{Delete}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Delete@{Delete}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80af2a6c498fb90ee345d997f888fce3b18} 
+Delete&The HTTP DELETE method. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Head@{Head}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!Head@{Head}}}\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe}\label{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80a98921133d10fbdb0fb6dbb7b2648befe} 
+Head&The HTTP HEAD method. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a44c5be7ebf793824be36ffd33f88fb07}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!CreateWebRequest@{CreateWebRequest}}
+\index{CreateWebRequest@{CreateWebRequest}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}
+\doxysubsubsection{\texorpdfstring{CreateWebRequest()}{CreateWebRequest()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_downloader_a44c5be7ebf793824be36ffd33f88fb07} 
+static Unity\+Web\+Request Tri\+Lib\+Core.\+Asset\+Downloader.\+Create\+Web\+Request (\begin{DoxyParamCaption}\item[{string}]{uri}{, }\item[{\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}{Http\+Request\+Method}}}]{http\+Request\+Method}{ = {\ttfamily \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}{Http\+Request\+Method\+::\+Get}}}, }\item[{string}]{data}{ = {\ttfamily null}, }\item[{int}]{timeout}{ = {\ttfamily 2000}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Creates a Unity Web Request from the given parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em uri} & The Request URI (URL).\\
+\hline
+{\em http\+Request\+Method} & The HTTP Request method to use.\\
+\hline
+{\em data} & The Custom Data that was sent along the Request.\\
+\hline
+{\em timeout} & The Request timeout in seconds).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The created unity web request.
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_asset_downloader_a44c5be7ebf793824be36ffd33f88fb07}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!CreateWebRequest@{CreateWebRequest}}
+\index{CreateWebRequest@{CreateWebRequest}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}
+\doxysubsubsection{\texorpdfstring{CreateWebRequest()}{CreateWebRequest()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_downloader_a44c5be7ebf793824be36ffd33f88fb07} 
+static Unity\+Web\+Request Tri\+Lib\+Core.\+Asset\+Downloader.\+Create\+Web\+Request (\begin{DoxyParamCaption}\item[{string}]{uri}{, }\item[{\mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80}{Http\+Request\+Method}}}]{http\+Request\+Method}{ = {\ttfamily \mbox{\hyperlink{class_tri_lib_core_1_1_asset_downloader_a2aa6bd3d0a69c877755ad6fb95c81e80ac55582518cba2c464f29f5bae1c68def}{Http\+Request\+Method\+::\+Get}}}, }\item[{string}]{data}{ = {\ttfamily null}, }\item[{int}]{timeout}{ = {\ttfamily 2000}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Creates a Unity Web Request from the given parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em uri} & The Request URI (URL).\\
+\hline
+{\em http\+Request\+Method} & The HTTP Request method to use.\\
+\hline
+{\em data} & The Custom Data that was sent along the Request.\\
+\hline
+{\em timeout} & The Request timeout in seconds).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The created unity web request.
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_asset_downloader_aaabca4038aba706653378c68460a6e39}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!LoadModelFromUri@{LoadModelFromUri}}
+\index{LoadModelFromUri@{LoadModelFromUri}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromUri()}{LoadModelFromUri()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_downloader_aaabca4038aba706653378c68460a6e39} 
+static Coroutine Tri\+Lib\+Core.\+Asset\+Downloader.\+Load\+Model\+From\+Uri (\begin{DoxyParamCaption}\item[{Unity\+Web\+Request}]{unity\+Web\+Request}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Load}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Materials\+Load}{, }\item[{Action$<$ Asset\+Loader\+Context, float $>$}]{on\+Progress}{, }\item[{Action$<$ IContextualized\+Error $>$}]{on\+Error}{ = {\ttfamily null}, }\item[{Game\+Object}]{wrapper\+Game\+Object}{ = {\ttfamily null}, }\item[{Asset\+Loader\+Options}]{asset\+Loader\+Options}{ = {\ttfamily null}, }\item[{object}]{custom\+Context\+Data}{ = {\ttfamily null}, }\item[{string}]{file\+Extension}{ = {\ttfamily null}, }\item[{bool?}]{is\+Zip\+File}{ = {\ttfamily null}, }\item[{bool}]{halt\+Task}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Loads a Model from the given URI Asynchronously (Accepts zip files). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em unity\+Web\+Request} & The Unity Web Request used to load the Model. You can use the Create\+Web\+Request method to create a new Unity Web Request or pass your instance.\\
+\hline
+{\em on\+Load} & The Method to call on the Main Thread when the Model is loaded but resources may still pending.\\
+\hline
+{\em on\+Materials\+Load} & The Method to call on the Main Thread when the Model and resources are loaded.\\
+\hline
+{\em on\+Progress} & The Method to call when the Model loading progress changes.\\
+\hline
+{\em on\+Error} & The Method to call on the Main Thread when any error occurs.\\
+\hline
+{\em wrapper\+Game\+Object} & The Game \doxylink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object} that will be the parent of the loaded Game \doxylink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object}. Can be null.\\
+\hline
+{\em asset\+Loader\+Options} & The options to use when loading the Model.\\
+\hline
+{\em custom\+Context\+Data} & The Custom Data that will be passed along the Context.\\
+\hline
+{\em file\+Extension} & The extension of the URI Model or the Model inside the Zip file.\\
+\hline
+{\em is\+Zip\+File} & Pass {\ttfamily true} if your file is a Zip file.\\
+\hline
+{\em halt\+Task} & Turn on this field to avoid loading the model immediately and chain the Tasks.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Asset\+Loader\+Context used to load the model.
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_asset_downloader_aaabca4038aba706653378c68460a6e39}\index{TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}!LoadModelFromUri@{LoadModelFromUri}}
+\index{LoadModelFromUri@{LoadModelFromUri}!TriLibCore.AssetDownloader@{TriLibCore.AssetDownloader}}
+\doxysubsubsection{\texorpdfstring{LoadModelFromUri()}{LoadModelFromUri()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_downloader_aaabca4038aba706653378c68460a6e39} 
+static Coroutine Tri\+Lib\+Core.\+Asset\+Downloader.\+Load\+Model\+From\+Uri (\begin{DoxyParamCaption}\item[{Unity\+Web\+Request}]{unity\+Web\+Request}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Load}{, }\item[{Action$<$ Asset\+Loader\+Context $>$}]{on\+Materials\+Load}{, }\item[{Action$<$ Asset\+Loader\+Context, float $>$}]{on\+Progress}{, }\item[{Action$<$ IContextualized\+Error $>$}]{on\+Error}{ = {\ttfamily null}, }\item[{Game\+Object}]{wrapper\+Game\+Object}{ = {\ttfamily null}, }\item[{Asset\+Loader\+Options}]{asset\+Loader\+Options}{ = {\ttfamily null}, }\item[{object}]{custom\+Context\+Data}{ = {\ttfamily null}, }\item[{string}]{file\+Extension}{ = {\ttfamily null}, }\item[{bool?}]{is\+Zip\+File}{ = {\ttfamily null}, }\item[{bool}]{halt\+Task}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Loads a Model from the given URI Asynchronously (Accepts zip files). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em unity\+Web\+Request} & The Unity Web Request used to load the Model. You can use the Create\+Web\+Request method to create a new Unity Web Request or pass your instance.\\
+\hline
+{\em on\+Load} & The Method to call on the Main Thread when the Model is loaded but resources may still pending.\\
+\hline
+{\em on\+Materials\+Load} & The Method to call on the Main Thread when the Model and resources are loaded.\\
+\hline
+{\em on\+Progress} & The Method to call when the Model loading progress changes.\\
+\hline
+{\em on\+Error} & The Method to call on the Main Thread when any error occurs.\\
+\hline
+{\em wrapper\+Game\+Object} & The Game \doxylink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object} that will be the parent of the loaded Game \doxylink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object}. Can be null.\\
+\hline
+{\em asset\+Loader\+Options} & The options to use when loading the Model.\\
+\hline
+{\em custom\+Context\+Data} & The Custom Data that will be passed along the Context.\\
+\hline
+{\em file\+Extension} & The extension of the URI Model or the Model inside the Zip file.\\
+\hline
+{\em is\+Zip\+File} & Pass {\ttfamily true} if your file is a Zip file.\\
+\hline
+{\em halt\+Task} & Turn on this field to avoid loading the model immediately and chain the Tasks.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The Asset\+Loader\+Context used to load the model.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Core/\+Scripts/\+Asset\+Loaders/\mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_core_2_scripts_2_asset_loaders_2_asset_downloader_8cs}{Asset\+Downloader.\+cs}}\item 
+docs/src/server/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Core/\+Scripts/\+Asset\+Loaders/\mbox{\hyperlink{server_2_assets_2_tri_lib_2_tri_lib_core_2_scripts_2_asset_loaders_2_asset_downloader_8cs}{Asset\+Downloader.\+cs}}\end{DoxyCompactItemize}

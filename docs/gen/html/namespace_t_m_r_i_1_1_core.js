@@ -1,0 +1,48 @@
+var namespace_t_m_r_i_1_1_core =
+[
+    [ "AssetHandler", "class_t_m_r_i_1_1_core_1_1_asset_handler.html", "class_t_m_r_i_1_1_core_1_1_asset_handler" ],
+    [ "AssetPlatformLink", "class_t_m_r_i_1_1_core_1_1_asset_platform_link.html", "class_t_m_r_i_1_1_core_1_1_asset_platform_link" ],
+    [ "ClientInfo", "class_t_m_r_i_1_1_core_1_1_client_info.html", "class_t_m_r_i_1_1_core_1_1_client_info" ],
+    [ "FloodDataPlayer", "class_t_m_r_i_1_1_core_1_1_flood_data_player.html", "class_t_m_r_i_1_1_core_1_1_flood_data_player" ],
+    [ "FloodShader", "class_t_m_r_i_1_1_core_1_1_flood_shader.html", "class_t_m_r_i_1_1_core_1_1_flood_shader" ],
+    [ "FloodVisualizationData", "class_t_m_r_i_1_1_core_1_1_flood_visualization_data.html", "class_t_m_r_i_1_1_core_1_1_flood_visualization_data" ],
+    [ "GeoCoordinateConverter", "class_t_m_r_i_1_1_core_1_1_geo_coordinate_converter.html", null ],
+    [ "GeoData", "class_t_m_r_i_1_1_core_1_1_geo_data.html", "class_t_m_r_i_1_1_core_1_1_geo_data" ],
+    [ "GeoImageVisualizationData", "class_t_m_r_i_1_1_core_1_1_geo_image_visualization_data.html", "class_t_m_r_i_1_1_core_1_1_geo_image_visualization_data" ],
+    [ "GoogleDriveDownloader", "class_t_m_r_i_1_1_core_1_1_google_drive_downloader.html", "class_t_m_r_i_1_1_core_1_1_google_drive_downloader" ],
+    [ "HitData", "class_t_m_r_i_1_1_core_1_1_hit_data.html", "class_t_m_r_i_1_1_core_1_1_hit_data" ],
+    [ "IAssetListener", "interface_t_m_r_i_1_1_core_1_1_i_asset_listener.html", "interface_t_m_r_i_1_1_core_1_1_i_asset_listener" ],
+    [ "IClipBoxListener", "interface_t_m_r_i_1_1_core_1_1_i_clip_box_listener.html", "interface_t_m_r_i_1_1_core_1_1_i_clip_box_listener" ],
+    [ "IFloodVisualizationListener", "interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener.html", "interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener" ],
+    [ "ILegendListener", "interface_t_m_r_i_1_1_core_1_1_i_legend_listener.html", "interface_t_m_r_i_1_1_core_1_1_i_legend_listener" ],
+    [ "Landmark", "class_t_m_r_i_1_1_core_1_1_landmark.html", "class_t_m_r_i_1_1_core_1_1_landmark" ],
+    [ "LineDrawing", "class_t_m_r_i_1_1_core_1_1_line_drawing.html", "class_t_m_r_i_1_1_core_1_1_line_drawing" ],
+    [ "MapProjector", "class_t_m_r_i_1_1_core_1_1_map_projector.html", "class_t_m_r_i_1_1_core_1_1_map_projector" ],
+    [ "MeshRendererMaterials", "class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials.html", "class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials" ],
+    [ "ModelLOD", "class_t_m_r_i_1_1_core_1_1_model_l_o_d.html", "class_t_m_r_i_1_1_core_1_1_model_l_o_d" ],
+    [ "PositionAndFloodInfo", "class_t_m_r_i_1_1_core_1_1_position_and_flood_info.html", "class_t_m_r_i_1_1_core_1_1_position_and_flood_info" ],
+    [ "SerializableAsset", "class_t_m_r_i_1_1_core_1_1_serializable_asset.html", "class_t_m_r_i_1_1_core_1_1_serializable_asset" ],
+    [ "SerializableConfigFile", "class_t_m_r_i_1_1_core_1_1_serializable_config_file.html", "class_t_m_r_i_1_1_core_1_1_serializable_config_file" ],
+    [ "SerializableGeoImage", "class_t_m_r_i_1_1_core_1_1_serializable_geo_image.html", "class_t_m_r_i_1_1_core_1_1_serializable_geo_image" ],
+    [ "SerializableLandmark", "class_t_m_r_i_1_1_core_1_1_serializable_landmark.html", "class_t_m_r_i_1_1_core_1_1_serializable_landmark" ],
+    [ "SerializableLandmarkType", "class_t_m_r_i_1_1_core_1_1_serializable_landmark_type.html", "class_t_m_r_i_1_1_core_1_1_serializable_landmark_type" ],
+    [ "SerializablePanorama", "class_t_m_r_i_1_1_core_1_1_serializable_panorama.html", "class_t_m_r_i_1_1_core_1_1_serializable_panorama" ],
+    [ "SerializablePose", "class_t_m_r_i_1_1_core_1_1_serializable_pose.html", "class_t_m_r_i_1_1_core_1_1_serializable_pose" ],
+    [ "SerializableQuaternion", "class_t_m_r_i_1_1_core_1_1_serializable_quaternion.html", "class_t_m_r_i_1_1_core_1_1_serializable_quaternion" ],
+    [ "SerializableTrackingmarker", "class_t_m_r_i_1_1_core_1_1_serializable_trackingmarker.html", "class_t_m_r_i_1_1_core_1_1_serializable_trackingmarker" ],
+    [ "SerializableVector3", "class_t_m_r_i_1_1_core_1_1_serializable_vector3.html", "class_t_m_r_i_1_1_core_1_1_serializable_vector3" ],
+    [ "Vector3d", "struct_t_m_r_i_1_1_core_1_1_vector3d.html", "struct_t_m_r_i_1_1_core_1_1_vector3d" ],
+    [ "WebsocketMessage", "class_t_m_r_i_1_1_core_1_1_websocket_message.html", "class_t_m_r_i_1_1_core_1_1_websocket_message" ],
+    [ "WebsocketServerRoom", "class_t_m_r_i_1_1_core_1_1_websocket_server_room.html", "class_t_m_r_i_1_1_core_1_1_websocket_server_room" ],
+    [ "FloodVisualizationType", "namespace_t_m_r_i_1_1_core.html#a2b3efe218045853904ac5a049ace9454", [
+      [ "Realistic", "namespace_t_m_r_i_1_1_core.html#a2b3efe218045853904ac5a049ace9454a408c999fd189536e1a4f0337ef7216bd", null ],
+      [ "Depth", "namespace_t_m_r_i_1_1_core.html#a2b3efe218045853904ac5a049ace9454a675056ad1441b6375b2c5abd48c27ef1", null ],
+      [ "Speed", "namespace_t_m_r_i_1_1_core.html#a2b3efe218045853904ac5a049ace9454a44877c6aa8e93fa5a91c9361211464fb", null ],
+      [ "Realistic_Alt", "namespace_t_m_r_i_1_1_core.html#a2b3efe218045853904ac5a049ace9454a71b84954cf6a63651b4a3c5c99872398", null ],
+      [ "Depth_Alt", "namespace_t_m_r_i_1_1_core.html#a2b3efe218045853904ac5a049ace9454a1b02d7e58819d45000bb675a5279eae4", null ]
+    ] ],
+    [ "XRMode", "namespace_t_m_r_i_1_1_core.html#aceb4f3d3f1ded1f6d9f862c74e667adb", [
+      [ "AR", "namespace_t_m_r_i_1_1_core.html#aceb4f3d3f1ded1f6d9f862c74e667adba5b61a1b298a0d06efa6933a97e68d763", null ],
+      [ "VR", "namespace_t_m_r_i_1_1_core.html#aceb4f3d3f1ded1f6d9f862c74e667adbaef8a9f751393cecaf3e811c30ee3e756", null ]
+    ] ]
+];

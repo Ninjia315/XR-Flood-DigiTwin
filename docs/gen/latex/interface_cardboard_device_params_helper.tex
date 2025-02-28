@@ -1,0 +1,78 @@
+\doxysection{Cardboard\+Device\+Params\+Helper Class Reference}
+\hypertarget{interface_cardboard_device_params_helper}{}\label{interface_cardboard_device_params_helper}\index{CardboardDeviceParamsHelper@{CardboardDeviceParamsHelper}}
+
+
+{\ttfamily \#include $<$device\+\_\+params\+\_\+helper.\+h$>$}
+
+
+
+Inheritance diagram for Cardboard\+Device\+Params\+Helper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{interface_cardboard_device_params_helper__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cardboard\+Device\+Params\+Helper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{interface_cardboard_device_params_helper__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(nullable NSData \texorpdfstring{$\ast$}{*}) + \mbox{\hyperlink{interface_cardboard_device_params_helper_a5ec248d4ceddee9e215c3dee37e867e2}{read\+Serialized\+Device\+Params}}
+\item 
+(void) + \mbox{\hyperlink{interface_cardboard_device_params_helper_a0e8aca36b223d88770f1dd9e84b3b150}{resolve\+And\+Update\+Viewer\+Profile\+From\+URL\+:with\+Completion\+:}}
+\item 
+(void) + \mbox{\hyperlink{interface_cardboard_device_params_helper_aff6c6390f4d0e0ab700eb5f87c1bdfa3}{save\+Cardboard\+V1\+Params}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Helper class to read and write cardboard device params. 
+
+\doxysubsection{Method Documentation}
+\Hypertarget{interface_cardboard_device_params_helper_a5ec248d4ceddee9e215c3dee37e867e2}\index{CardboardDeviceParamsHelper@{CardboardDeviceParamsHelper}!readSerializedDeviceParams@{readSerializedDeviceParams}}
+\index{readSerializedDeviceParams@{readSerializedDeviceParams}!CardboardDeviceParamsHelper@{CardboardDeviceParamsHelper}}
+\doxysubsubsection{\texorpdfstring{readSerializedDeviceParams}{readSerializedDeviceParams}}
+{\footnotesize\ttfamily \label{interface_cardboard_device_params_helper_a5ec248d4ceddee9e215c3dee37e867e2} 
++ (nullable NSData \texorpdfstring{$\ast$}{*}) read\+Serialized\+Device\+Params \begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}}
+
+Reads currently saved device params. Returns nil if no params are saved yet.
+
+\begin{DoxyReturn}{Returns}
+The currently saved encoded device params. 
+\end{DoxyReturn}
+\Hypertarget{interface_cardboard_device_params_helper_a0e8aca36b223d88770f1dd9e84b3b150}\index{CardboardDeviceParamsHelper@{CardboardDeviceParamsHelper}!resolveAndUpdateViewerProfileFromURL:withCompletion:@{resolveAndUpdateViewerProfileFromURL:withCompletion:}}
+\index{resolveAndUpdateViewerProfileFromURL:withCompletion:@{resolveAndUpdateViewerProfileFromURL:withCompletion:}!CardboardDeviceParamsHelper@{CardboardDeviceParamsHelper}}
+\doxysubsubsection{\texorpdfstring{resolveAndUpdateViewerProfileFromURL:withCompletion:}{resolveAndUpdateViewerProfileFromURL:withCompletion:}}
+{\footnotesize\ttfamily \label{interface_cardboard_device_params_helper_a0e8aca36b223d88770f1dd9e84b3b150} 
++ (void) resolve\+And\+Update\+Viewer\+Profile\+From\+URL\+: \begin{DoxyParamCaption}\item[{(nullable NSURL \texorpdfstring{$\ast$}{*})}]{url}{}\item[{with\+Completion\+:(nonnull void(\texorpdfstring{$^\wedge$}{\string^})(BOOL success, NSError \texorpdfstring{$\ast$}{*}\+\_\+\+Nullable))}]{completion}{}\end{DoxyParamCaption}}
+
+Loads and validates the device parameters from the given URL. Upon success it saves the viewer profile data and calls the completion block with the result of validation and an optional error.
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & The URL to retrieve the device params from. \\
+\hline
+{\em completion} & Callback to be executed upon completion. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{interface_cardboard_device_params_helper_aff6c6390f4d0e0ab700eb5f87c1bdfa3}\index{CardboardDeviceParamsHelper@{CardboardDeviceParamsHelper}!saveCardboardV1Params@{saveCardboardV1Params}}
+\index{saveCardboardV1Params@{saveCardboardV1Params}!CardboardDeviceParamsHelper@{CardboardDeviceParamsHelper}}
+\doxysubsubsection{\texorpdfstring{saveCardboardV1Params}{saveCardboardV1Params}}
+{\footnotesize\ttfamily \label{interface_cardboard_device_params_helper_aff6c6390f4d0e0ab700eb5f87c1bdfa3} 
++ (void) save\+Cardboard\+V1\+Params \begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}}
+
+Writes Cardboard V1 device parameters in storage. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Packages/com.\+imd.\+tmri.\+client/\+Runtime/\+Cardboard/\+Plugins/i\+OS/lib\+Cardboard\+Utility/\mbox{\hyperlink{device__params__helper_8h}{device\+\_\+params\+\_\+helper.\+h}}\end{DoxyCompactItemize}

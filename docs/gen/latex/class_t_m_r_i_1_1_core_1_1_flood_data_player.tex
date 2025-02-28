@@ -1,0 +1,125 @@
+\doxysection{TMRI.\+Core.\+Flood\+Data\+Player Class Reference}
+\hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player}{}\label{class_t_m_r_i_1_1_core_1_1_flood_data_player}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+
+
+Inheritance diagram for TMRI.\+Core.\+Flood\+Data\+Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_t_m_r_i_1_1_core_1_1_flood_data_player__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMRI.\+Core.\+Flood\+Data\+Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_r_i_1_1_core_1_1_flood_data_player__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player_ad9526d3468b329607ca144736aa3b876}{Update\+Flood\+Visualization\+Type}} (\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}} flood\+Type)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player_a6425dd6a007e954b815253a2ef185b08}{On\+Asset\+Loading}} (string asset\+ID)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player_a1ccf6c884e2daecd1c80fac12e317fe9}{On\+Asset\+Changed}} (string asset\+ID)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player_a69cfb91073235d7388a84a84f08be696}{Current\+Time\+Step}}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player_adc883c023f78e08afc8bd0dc6a4936be}{Autoplay}}
+\item 
+float \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player_ad05461d76800fd676ddcb98b2cb131e2}{Autoplay\+Speed\+Seconds}} = 1f
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player_ad00cfdc47624e9629f01b85987174857}{Max\+Time\+Step}}
+\item 
+\mbox{\hyperlink{class_geometry_data_reader}{Geometry\+Data\+Reader}} \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player_a68bfeddc45d9c3dc17e07b85bb486189}{current\+Data\+Reader}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}} \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player_a89daa4ef7959304cd489135a50bfa244}{last\+Visualization\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player_a1ccf6c884e2daecd1c80fac12e317fe9}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}!OnAssetChanged@{OnAssetChanged}}
+\index{OnAssetChanged@{OnAssetChanged}!TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+\doxysubsubsection{\texorpdfstring{OnAssetChanged()}{OnAssetChanged()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_flood_data_player_a1ccf6c884e2daecd1c80fac12e317fe9} 
+void TMRI.\+Core.\+Flood\+Data\+Player.\+On\+Asset\+Changed (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_asset_listener_ae816e5d0db39e55bbdd77b93ebc2d131}{TMRI.\+Core.\+IAsset\+Listener}}.
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player_a6425dd6a007e954b815253a2ef185b08}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}!OnAssetLoading@{OnAssetLoading}}
+\index{OnAssetLoading@{OnAssetLoading}!TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+\doxysubsubsection{\texorpdfstring{OnAssetLoading()}{OnAssetLoading()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_flood_data_player_a6425dd6a007e954b815253a2ef185b08} 
+void TMRI.\+Core.\+Flood\+Data\+Player.\+On\+Asset\+Loading (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_asset_listener_aa13f952c90ea705eecbf8c0df969741f}{TMRI.\+Core.\+IAsset\+Listener}}.
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player_ad9526d3468b329607ca144736aa3b876}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}!UpdateFloodVisualizationType@{UpdateFloodVisualizationType}}
+\index{UpdateFloodVisualizationType@{UpdateFloodVisualizationType}!TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+\doxysubsubsection{\texorpdfstring{UpdateFloodVisualizationType()}{UpdateFloodVisualizationType()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_flood_data_player_ad9526d3468b329607ca144736aa3b876} 
+void TMRI.\+Core.\+Flood\+Data\+Player.\+Update\+Flood\+Visualization\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}}}]{flood\+Type}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player_adc883c023f78e08afc8bd0dc6a4936be}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}!Autoplay@{Autoplay}}
+\index{Autoplay@{Autoplay}!TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+\doxysubsubsection{\texorpdfstring{Autoplay}{Autoplay}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_flood_data_player_adc883c023f78e08afc8bd0dc6a4936be} 
+bool TMRI.\+Core.\+Flood\+Data\+Player.\+Autoplay}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player_ad05461d76800fd676ddcb98b2cb131e2}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}!AutoplaySpeedSeconds@{AutoplaySpeedSeconds}}
+\index{AutoplaySpeedSeconds@{AutoplaySpeedSeconds}!TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+\doxysubsubsection{\texorpdfstring{AutoplaySpeedSeconds}{AutoplaySpeedSeconds}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_flood_data_player_ad05461d76800fd676ddcb98b2cb131e2} 
+float TMRI.\+Core.\+Flood\+Data\+Player.\+Autoplay\+Speed\+Seconds = 1f}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player_a68bfeddc45d9c3dc17e07b85bb486189}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}!currentDataReader@{currentDataReader}}
+\index{currentDataReader@{currentDataReader}!TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+\doxysubsubsection{\texorpdfstring{currentDataReader}{currentDataReader}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_flood_data_player_a68bfeddc45d9c3dc17e07b85bb486189} 
+\mbox{\hyperlink{class_geometry_data_reader}{Geometry\+Data\+Reader}} TMRI.\+Core.\+Flood\+Data\+Player.\+current\+Data\+Reader}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player_a69cfb91073235d7388a84a84f08be696}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}!CurrentTimeStep@{CurrentTimeStep}}
+\index{CurrentTimeStep@{CurrentTimeStep}!TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+\doxysubsubsection{\texorpdfstring{CurrentTimeStep}{CurrentTimeStep}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_flood_data_player_a69cfb91073235d7388a84a84f08be696} 
+int TMRI.\+Core.\+Flood\+Data\+Player.\+Current\+Time\+Step}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player_ad00cfdc47624e9629f01b85987174857}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}!MaxTimeStep@{MaxTimeStep}}
+\index{MaxTimeStep@{MaxTimeStep}!TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+\doxysubsubsection{\texorpdfstring{MaxTimeStep}{MaxTimeStep}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_flood_data_player_ad00cfdc47624e9629f01b85987174857} 
+int TMRI.\+Core.\+Flood\+Data\+Player.\+Max\+Time\+Step}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_flood_data_player_a89daa4ef7959304cd489135a50bfa244}\index{TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}!lastVisualizationType@{lastVisualizationType}}
+\index{lastVisualizationType@{lastVisualizationType}!TMRI.Core.FloodDataPlayer@{TMRI.Core.FloodDataPlayer}}
+\doxysubsubsection{\texorpdfstring{lastVisualizationType}{lastVisualizationType}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_flood_data_player_a89daa4ef7959304cd489135a50bfa244} 
+\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}} TMRI.\+Core.\+Flood\+Data\+Player.\+last\+Visualization\+Type\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/server/\+Packages/com.\+imd.\+tmri.\+core/\+Runtime/\mbox{\hyperlink{_flood_data_player_8cs}{Flood\+Data\+Player.\+cs}}\end{DoxyCompactItemize}

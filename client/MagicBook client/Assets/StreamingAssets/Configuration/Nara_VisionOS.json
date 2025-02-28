@@ -1,0 +1,252 @@
+{
+	"ipAddress": "192.168.0.100",
+	"display_size": {"x":1.2,"y":9,"z":0.6},
+	"markers": [
+	    {
+	        "name" : "IMD lab QR",
+	        "defaultToLoad": "Yamatogawa_Nara_side",
+	        "link" : "https://drive.google.com/uc?export=download&id=1tTe57-Gw2Dm22LUUhwGJzrW1rIixY5lC",
+	        "printwidth": 0.126
+	    }
+    ],
+  	"assets": [
+        {
+            "id" : "Yamatogawa_Nara_side",
+            "initialScale": 0.0003,
+            "conversionValue": 1,
+            "lodMultiplier": 0.7,
+            "models":[
+                {
+                    "url": "Models/Nara_Oji_Districts_lod2_34.574048347429155_135.65903307303685_34.6288345348284_135.73620954247605.glb",
+                    "screenVisibleFraction": 0.0,
+                    "originLatLonAlt": {"x":34.59922409,"y":135.6984863,"z":38}
+                }
+			],
+            "originLatLonAlt": {"x": 34.594804763793945, "y": 135.69652557373047, "z": 38},
+            "minLatLonAlt": {"x": 34.574150630431319, "y": 135.6642262193719, "z": 0},
+            "maxLatLonAlt": {"x": 34.624298292763555, "y": 135.73273527405027, "z": 0},
+            "assetBundles" : [],
+            "landmarks": [
+                {
+                    "label": "新王寺駅",
+                    "position": {"x": 34.597693919785925, "y": 135.704443329129, "z": 48},
+                    "level": 1
+                },
+                {
+                    "label": "王寺中学校",
+                    "icon": 1,
+                    "position": {"x": 34.59416909108756, "y": 135.70350846002594, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "文化福祉センター",
+                    "icon": 2,
+                    "position": {"x": 34.57322116051657, "y": 135.6958078718558, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "大和川ふれあい広場",
+                    "icon": 3,
+                    "position": {"x": 34.600448572961156, "y": 135.70596309662156, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "地域交流センター",
+                    "icon": 4,
+                    "position": {"x": 34.59823365634519, "y": 135.70458405429363, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "王寺町\nやわらぎ\n会館",
+                    "position": {"x": 34.594984465435424, "y": 135.70604667950948, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "西和警察署",
+                    "icon": 5,
+                    "position": {"x": 34.59104636322482, "y": 135.71132105429314, "z": 70},
+                    "level": 2
+                },
+                {
+                    "label": "西和消防署",
+                    "icon": 6,
+                    "position": {"x": 34.59457063233627, "y": 135.70744542545748, "z": 48},
+                    "level": 1
+                },
+                {
+                    "label": "消防団屯所",
+                    "icon": 7,
+                    "position": {"x": 34.59209721165704, "y": 135.6996669689897, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "恵王病院",
+                    "icon": 8,
+                    "position": {"x": 34.59609503152547, "y": 135.7027246677856, "z": 70},
+                    "level": 1
+                },
+                {
+                    "label": "王寺健民運動場",
+                    "icon": 9,
+                    "position": {"x": 34.58915443786307, "y": 135.69825912545724, "z": 58},
+                    "level": 2
+                },
+                {
+                    "label": "アンダーパス\n（地下通路）",
+                    "icon": 10,
+                    "position": {"x": 34.597703008223526, "y": 135.70077902261025, "z": 48},
+                    "level": 3
+                },
+                {
+                    "label": "防災重点ため池",
+                    "icon": 11,
+                    "position": {"x": 34.59382146852492, "y": 135.71319058101227, "z": 48},
+                    "level": 3
+                },
+                {
+                    "label": "防災重点ため池",
+                    "icon": 11,
+                    "position": {"x": 34.59304407862887, "y": 135.70305074463664, "z": 48},
+                    "level": 3
+                },
+            ],
+            "panoramas": [
+                {
+                    "position": {"x": 34.596349, "y": 135.704436, "z": 38},
+                    "offsetInVR": {"x": 0, "y": -0.5, "z": 0},
+                    "spherical360ImageUrl": "Panoramas/Oji_station.jpg",
+                    "depthImageUrl": "Panoramas/Oji_station.depthmap.jpg",
+                    "rotationFromNorthDegrees": 140.0,
+                    "invertDepth": false
+                },
+                {
+                    "position": {"x": 34.598398, "y": 135.703722, "z": 38},
+                    "offsetInVR": {"x": 0, "y": -0.5, "z": 0},
+                    "spherical360ImageUrl": "Panoramas/Oji_Station_2.jpg",
+                    "depthImageUrl": "Panoramas/Oji_Station_2.depthmap.jpg",
+                    "rotationFromNorthDegrees": 90.0,
+                    "invertDepth": false
+                }
+            ]
+        },
+        {
+            "id" : "Nara_Kawanishi",
+            "initialScale": 0.0003,
+            "conversionValue": 1,
+            "models":
+            [
+                {
+                    "url": "Models/Kawanishi_lod3_34.582234618199074_135.75253136748182_34.598674177298875_135.796575158702.glb",
+                    "screenVisibleFraction": 0.0
+                }
+            ],
+            "originLatLonAlt": {"x": 34.58999443, "y": 135.7739792, "z": 37.95},
+            "minLatLonAlt": {"x": 34.58227375225181, "y": 135.75325012207034, "z": 0},
+            "maxLatLonAlt": {"x": 34.59771271577095, "y": 135.79470634460452, "z": 0},
+            "assetBundles" : [],
+            "landmarks": [
+                {
+                    "label": "川西町中央体育館",
+                    "icon": 1,
+                    "position": {"x": 34.5871614926376, "y": 135.7737975613166, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "川西小学校体育館",
+                    "icon": 1,
+                    "position": {"x": 34.58465924517182, "y": 135.77677056976256, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "川西町梅戸体育館",
+                    "icon": 1,
+                    "position": {"x": 34.5850962685679, "y": 135.76609018315827, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "川西町ふれあい\nセンター",
+                    "icon": 1,
+                    "position": {"x": 34.581344538349754, "y": 135.76010936420013, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "川西町保健\nセンター",
+                    "icon": 2,
+                    "position": {"x": 34.58362277207943, "y": 135.7751340542928, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "防災行政無線\n（吐田）",
+                    "icon": 12,
+                    "position": {"x": 34.590687572921766, "y": 135.77363697589954, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "防災行政無線\n（南吐田）",
+                    "icon": 12,
+                    "position": {"x": 34.59188094855676, "y": 135.76200269505674, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "防災行政無線\n（唐院）",
+                    "icon": 12,
+                    "position": {"x": 34.58245349981266, "y": 135.76327191899443, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "医療機関\n（医院）",
+                    "icon": 8,
+                    "position": {"x": 34.58086035023192, "y": 135.76573832598783, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "医療機関\n（医院）",
+                    "icon": 8,
+                    "position": {"x": 34.58576849769418, "y": 135.7864009358094, "z": 48},
+                    "level": 2
+                },
+                {
+                    "label": "川西町下永体育館",
+                    "icon": 1,
+                    "position": {"x": 34.588723038629134, "y": 135.79429011999332, "z": 48},
+                    "level": 2
+                }
+            ],
+            "panoramas": [
+                {
+                    "multiplePanoramasUrl": "Panoramas/Kawanishi_area"
+                },
+            ]
+        },
+        {
+            "id" : "Yamatogawa_Overview",
+            "initialScale": 0.00008,
+            "conversionValue": 1,
+            "models":[
+                {"url": "Models/Overview_of_Yamatogawa_lod1_34.54110020771423_135.43920854163832_34.65073192592439_135.79130825422953.glb", "screenVisibleFraction": 0.0},
+            ],
+            "originLatLonAlt": {"x": 34.58664322, "y": 135.613945, "z": 37.95},
+            "assetBundles" : [],
+            "landmarks": [
+                {
+                    "label": "王寺町&三郷町\nOji & Sango",
+                    "position": {"x": 34.594804763793945, "y": 135.69652557373047, "z": 37.94},
+                    "level": 0,
+                    "referenceAssetId": "Yamatogawa_Nara_side"
+                },
+                {
+                    "label": "川西町\nKawanishi",
+                    "position": {"x": 34.590583189130946, "y": 135.76683046002523, "z": 40},
+                    "level": 0,
+                    "referenceAssetId": "Nara_Kawanishi"
+                },
+                {
+                    "label": "破堤点\nBreach point",
+                    "position": {"x": 34.602999, "y": 135.469467, "z": 40},
+                    "level": 0
+                }
+            ],
+            "panoramas": []
+        }
+    ]
+}

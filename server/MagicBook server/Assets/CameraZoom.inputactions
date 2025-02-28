@@ -1,0 +1,74 @@
+{
+    "name": "CameraZoom",
+    "maps": [
+        {
+            "name": "CameraZoom",
+            "id": "81287eb2-78fe-4b8d-9944-29abb8a30a80",
+            "actions": [
+                {
+                    "name": "ZoomInOut",
+                    "type": "Value",
+                    "id": "6cb9e91d-fb38-4275-9038-8a9333263e95",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LookAround",
+                    "type": "Value",
+                    "id": "4c6ae5b6-ce46-4e50-b7c0-4686868bfa23",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ActivateLook",
+                    "type": "Button",
+                    "id": "e56db9db-190e-4f53-8917-7bc81900090b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "891058c5-0d0f-485d-aaf6-d0b8cc1bf194",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ZoomInOut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ccd23f2b-7f7c-4cfe-aabc-54c69ef910ca",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LookAround",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05512738-3d50-4504-a00b-ec785d4616f7",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActivateLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

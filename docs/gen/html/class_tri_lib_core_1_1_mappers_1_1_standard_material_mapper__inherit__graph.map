@@ -1,0 +1,10 @@
+<map id="TriLibCore.Mappers.StandardMaterialMapper" name="TriLibCore.Mappers.StandardMaterialMapper">
+<area shape="rect" id="Node000001" title="Represents a Material Mapper that converts TriLib Materials into Unity Standard Materials." alt="" coords="164,39,355,79"/>
+<area shape="rect" id="Node000003" href="$class_tri_lib_core_1_1_mappers_1_1_autodesk_interactive_standard_material_mapper.html" title=" " alt="" coords="403,5,626,46"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="370,42,402,38,403,43,371,47"/>
+<area shape="rect" id="Node000004" href="$class_tri_lib_core_1_1_mappers_1_1gl_t_f2_standard_material_mapper.html" title=" " alt="" coords="428,71,601,111"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="370,70,428,78,428,83,370,76"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,46,116,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,65,163,65,163,71,131,70"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="131,48,163,47,163,53,131,53"/>
+</map>

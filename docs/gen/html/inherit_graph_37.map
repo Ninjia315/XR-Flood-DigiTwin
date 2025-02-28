@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,46,128,72"/>
+<area shape="rect" id="Node000001" href="$class_tri_lib_core_1_1_mappers_1_1_by_bones_root_bone_mapper.html" title="Represents a Mapper that looks for the Game Object which has only a Transform component and has the b..." alt="" coords="176,5,368,46"/>
+<area shape="poly" id="edge42_Node000000_Node000001" title=" " alt="" coords="143,44,175,39,176,44,144,49"/>
+<area shape="rect" id="Node000002" href="$class_tri_lib_core_1_1_mappers_1_1_by_name_root_bone_mapper.html" title="Represents a Mapper that searches for a root bone on the Models by the bone names." alt="" coords="177,71,367,111"/>
+<area shape="poly" id="edge43_Node000000_Node000002" title=" " alt="" coords="143,68,177,73,176,79,143,74"/>
+</map>

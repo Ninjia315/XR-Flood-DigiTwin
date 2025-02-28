@@ -1,0 +1,16 @@
+<map id="PanoramaBehaviour.PanoramaVRBehaviour" name="PanoramaBehaviour.PanoramaVRBehaviour">
+<area shape="rect" id="Node000001" title=" " alt="" coords="88,349,288,390"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,47,48,92,48,267,54,293,71,315,94,333,122,346,119,351,92,337,67,319,49,296,42,267,42,92,50,46"/>
+<area shape="rect" id="Node000006" href="$class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback.html" title="Base class for all objects wishing to receive network callbacks from the TMRI system." alt="" coords="82,80,293,106"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="96,37,168,78,165,82,94,41"/>
+<area shape="rect" id="Node000003" href="$interface_t_m_r_i_1_1_client_1_1_i_base_x_r_camera_listener.html" title=" " alt="" coords="266,245,461,286"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="330,298,286,327,239,351,237,346,284,323,327,293"/>
+<area shape="rect" id="Node000004" href="$class_flood_info_panel.html" title=" " alt="" coords="134,253,242,278"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="190,294,190,348,185,348,185,294"/>
+<area shape="rect" id="Node000005" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback.html" title="A base class for objects who&#39;s properties are shared accross the network session. An object inheritin..." alt="" coords="82,163,293,188"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="190,204,190,252,185,252,185,204"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="190,122,190,163,185,163,185,122"/>
+<area shape="rect" id="Node000007" href="$interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener.html" title=" " alt="" coords="317,155,517,196"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="352,204,220,255,219,250,350,200"/>
+</map>

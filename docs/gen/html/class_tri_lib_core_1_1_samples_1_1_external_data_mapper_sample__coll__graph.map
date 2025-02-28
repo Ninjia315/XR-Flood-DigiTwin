@@ -1,0 +1,6 @@
+<map id="TriLibCore.Samples.ExternalDataMapperSample" name="TriLibCore.Samples.ExternalDataMapperSample">
+<area shape="rect" id="Node000001" title="Represents a class that finds external resources at the given model base path." alt="" coords="5,79,194,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="29,5,170,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,46,94,79,89,79,88,47"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="111,47,110,79,105,79,105,46"/>
+</map>

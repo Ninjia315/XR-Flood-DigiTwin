@@ -1,0 +1,118 @@
+\doxysection{Unity\+Engine.\+XR.\+Hands.\+Samples.\+Visualizer\+Sample.\+Hand\+Processor Class Reference}
+\hypertarget{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor}{}\label{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor}\index{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}}
+
+
+Example hand processor that applies transformations on the root poses to modify the hands skeleton. Note it is possible to modify the bones directly for more advanced use cases that are not shown here.  
+
+
+
+
+Inheritance diagram for Unity\+Engine.\+XR.\+Hands.\+Samples.\+Visualizer\+Sample.\+Hand\+Processor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Unity\+Engine.\+XR.\+Hands.\+Samples.\+Visualizer\+Sample.\+Hand\+Processor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2}{Processor\+Example\+Mode}} \{ \mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2a6adf97f83acf6453d4a6a4b1070f3754}{None}}
+, \mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2a7d2f4f11883a6048b4d25e8cfaff5d03}{Smoothing}}
+, \mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2a9b8958acb7be504bb5f55f17c0eea366}{Invert}}
+ \}
+\begin{DoxyCompactList}\small\item\em The mode to use for the sample processor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a2e6a76ba5d28f4293cca0e06e53672ba}{Process\+Joints}} (XRHand\+Subsystem subsystem, XRHand\+Subsystem.\+Update\+Success\+Flags success\+Flags, XRHand\+Subsystem.\+Update\+Type update\+Type)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_aef2267a4d1bdc25c1b222e203bf9435d}{callback\+Order}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2}{Processor\+Example\+Mode}} \mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a722fab4f624958ee4bfba4dd27c1b4ef}{processor\+Example\+Mode}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2}{Processor\+Example\+Mode} to use for the sample processor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Example hand processor that applies transformations on the root poses to modify the hands skeleton. Note it is possible to modify the bones directly for more advanced use cases that are not shown here. 
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2}\index{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}!ProcessorExampleMode@{ProcessorExampleMode}}
+\index{ProcessorExampleMode@{ProcessorExampleMode}!UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}}
+\doxysubsubsection{\texorpdfstring{ProcessorExampleMode}{ProcessorExampleMode}}
+{\footnotesize\ttfamily \label{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2} 
+enum \mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2}{Unity\+Engine.\+XR.\+Hands.\+Samples.\+Visualizer\+Sample.\+Hand\+Processor.\+Processor\+Example\+Mode}}}
+
+
+
+The mode to use for the sample processor. 
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{None@{None}!UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}}\index{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}!None@{None}}}\Hypertarget{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2a6adf97f83acf6453d4a6a4b1070f3754}\label{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2a6adf97f83acf6453d4a6a4b1070f3754} 
+None&No processing is applied. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Smoothing@{Smoothing}!UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}}\index{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}!Smoothing@{Smoothing}}}\Hypertarget{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2a7d2f4f11883a6048b4d25e8cfaff5d03}\label{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2a7d2f4f11883a6048b4d25e8cfaff5d03} 
+Smoothing&Smooths the hand root pose of the left and right hands with interpolated positions. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Invert@{Invert}!UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}}\index{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}!Invert@{Invert}}}\Hypertarget{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2a9b8958acb7be504bb5f55f17c0eea366}\label{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2a9b8958acb7be504bb5f55f17c0eea366} 
+Invert&Inverts the left and right hands. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a2e6a76ba5d28f4293cca0e06e53672ba}\index{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}!ProcessJoints@{ProcessJoints}}
+\index{ProcessJoints@{ProcessJoints}!UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}}
+\doxysubsubsection{\texorpdfstring{ProcessJoints()}{ProcessJoints()}}
+{\footnotesize\ttfamily \label{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a2e6a76ba5d28f4293cca0e06e53672ba} 
+void Unity\+Engine.\+XR.\+Hands.\+Samples.\+Visualizer\+Sample.\+Hand\+Processor.\+Process\+Joints (\begin{DoxyParamCaption}\item[{XRHand\+Subsystem}]{subsystem}{, }\item[{XRHand\+Subsystem.\+Update\+Success\+Flags}]{success\+Flags}{, }\item[{XRHand\+Subsystem.\+Update\+Type}]{update\+Type}{}\end{DoxyParamCaption})}
+
+
+
+
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_aef2267a4d1bdc25c1b222e203bf9435d}\index{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}!callbackOrder@{callbackOrder}}
+\index{callbackOrder@{callbackOrder}!UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}}
+\doxysubsubsection{\texorpdfstring{callbackOrder}{callbackOrder}}
+{\footnotesize\ttfamily \label{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_aef2267a4d1bdc25c1b222e203bf9435d} 
+int Unity\+Engine.\+XR.\+Hands.\+Samples.\+Visualizer\+Sample.\+Hand\+Processor.\+callback\+Order\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+
+
+\Hypertarget{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a722fab4f624958ee4bfba4dd27c1b4ef}\index{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}!processorExampleMode@{processorExampleMode}}
+\index{processorExampleMode@{processorExampleMode}!UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor@{UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor}}
+\doxysubsubsection{\texorpdfstring{processorExampleMode}{processorExampleMode}}
+{\footnotesize\ttfamily \label{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a722fab4f624958ee4bfba4dd27c1b4ef} 
+\mbox{\hyperlink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2}{Processor\+Example\+Mode}} Unity\+Engine.\+XR.\+Hands.\+Samples.\+Visualizer\+Sample.\+Hand\+Processor.\+processor\+Example\+Mode\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The \doxylink{class_unity_engine_1_1_x_r_1_1_hands_1_1_samples_1_1_visualizer_sample_1_1_hand_processor_a03efd3becd2203a9da770fa62bd5e9b2}{Processor\+Example\+Mode} to use for the sample processor. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Samples/\+XR Hands/1.\+4.\+0/\+Hand\+Visualizer/\+Scripts/\mbox{\hyperlink{_hand_processor_8cs}{Hand\+Processor.\+cs}}\end{DoxyCompactItemize}

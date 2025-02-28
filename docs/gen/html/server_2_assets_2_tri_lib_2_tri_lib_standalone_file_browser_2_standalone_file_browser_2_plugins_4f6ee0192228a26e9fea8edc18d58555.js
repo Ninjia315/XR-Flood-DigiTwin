@@ -1,0 +1,12 @@
+var server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_plugins_4f6ee0192228a26e9fea8edc18d58555 =
+[
+    [ "StandaloneFileBrowser", "interface_standalone_file_browser.html", null ],
+    [ "callbackFunc", "server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_plugins_4f6ee0192228a26e9fea8edc18d58555.html#aca5e238bbda820791509f53705f3e452", null ],
+    [ "DialogOpenFilePanel", "server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_plugins_4f6ee0192228a26e9fea8edc18d58555.html#a1fb1a24bf9a1585931024d4c1adcf012", null ],
+    [ "DialogOpenFilePanelAsync", "server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_plugins_4f6ee0192228a26e9fea8edc18d58555.html#a2eb832e068ecd360a42fa9a524500004", null ],
+    [ "DialogOpenFolderPanel", "server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_plugins_4f6ee0192228a26e9fea8edc18d58555.html#ace9d6e9b58b8d9d76cbd35db977f4810", null ],
+    [ "DialogOpenFolderPanelAsync", "server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_plugins_4f6ee0192228a26e9fea8edc18d58555.html#aee3a4010b6077a7d83ecd662002448d9", null ],
+    [ "DialogSaveFilePanel", "server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_plugins_4f6ee0192228a26e9fea8edc18d58555.html#a8b99f956db44aba7c259d67950de5220", null ],
+    [ "DialogSaveFilePanelAsync", "server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_plugins_4f6ee0192228a26e9fea8edc18d58555.html#a8f61206185107b3081a0eaa5e03d74c3", null ],
+    [ "UnityGetGLViewController", "server_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_plugins_4f6ee0192228a26e9fea8edc18d58555.html#aec365a56930a64d5f26c0bde705cc89d", null ]
+];

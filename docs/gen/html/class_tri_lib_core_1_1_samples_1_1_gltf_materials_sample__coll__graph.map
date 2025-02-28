@@ -1,0 +1,5 @@
+<map id="TriLibCore.Samples.GltfMaterialsSample" name="TriLibCore.Samples.GltfMaterialsSample">
+<area shape="rect" id="Node000001" title="Represents a sample that loads a Model from a file&#45;picker, and uses a custom Material Mapper to creat..." alt="" coords="5,79,220,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,5,168,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,46,115,79,110,79,110,46"/>
+</map>

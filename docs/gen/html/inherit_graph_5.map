@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,136,108,161"/>
+<area shape="rect" id="Node000001" href="$class_genesis_1_1_editor_1_1_genesis_import_panorama_editor_window.html" title=" " alt="" coords="156,5,351,46"/>
+<area shape="poly" id="edge5_Node000000_Node000001" title=" " alt="" coords="77,122,112,88,154,57,180,44,182,49,157,61,115,93,81,126"/>
+<area shape="rect" id="Node000002" href="$class_import_leia_pix_depth_editor_window.html" title=" " alt="" coords="168,71,338,111"/>
+<area shape="poly" id="edge6_Node000000_Node000002" title=" " alt="" coords="117,128,180,109,182,115,119,133"/>
+<area shape="rect" id="Node000003" href="$class_material_preprocessor.html" title=" " alt="" coords="181,136,326,161"/>
+<area shape="poly" id="edge7_Node000000_Node000003" title=" " alt="" coords="123,146,181,146,181,151,123,151"/>
+<area shape="rect" id="Node000004" href="$class_samples_window.html" title=" " alt="" coords="194,185,313,210"/>
+<area shape="poly" id="edge8_Node000000_Node000004" title=" " alt="" coords="123,163,156,171,198,182,197,187,155,176,122,168"/>
+<area shape="rect" id="Node000005" href="$class_tri_lib_core_1_1_editor_1_1_tri_lib_version_notes.html" title=" " alt="" coords="176,235,330,275"/>
+<area shape="poly" id="edge9_Node000000_Node000005" title=" " alt="" coords="85,169,118,196,157,221,181,232,179,237,154,225,115,200,81,174"/>
+</map>

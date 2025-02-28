@@ -1,0 +1,5 @@
+<map id="TMPro.TMP_DigitValidator" name="TMPro.TMP_DigitValidator">
+<area shape="rect" id="Node000001" title="EXample of a Custom Character Input Validator to only allow digits from 0 to 9." alt="" coords="5,79,182,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="26,5,161,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,46,96,79,91,79,91,46"/>
+</map>

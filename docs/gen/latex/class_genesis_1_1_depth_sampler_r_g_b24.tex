@@ -1,0 +1,84 @@
+\doxysection{Genesis.\+Depth\+Sampler\+RGB24 Class Reference}
+\hypertarget{class_genesis_1_1_depth_sampler_r_g_b24}{}\label{class_genesis_1_1_depth_sampler_r_g_b24}\index{Genesis.DepthSamplerRGB24@{Genesis.DepthSamplerRGB24}}
+
+
+Allows bilinear sampling from a texture while treating it as a grayscale image using the red channel as the depth value.  
+
+
+
+
+Inheritance diagram for Genesis.\+Depth\+Sampler\+RGB24\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_genesis_1_1_depth_sampler_r_g_b24__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Genesis.\+Depth\+Sampler\+RGB24\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_genesis_1_1_depth_sampler_r_g_b24__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_genesis_1_1_depth_sampler_r_g_b24_ae07c2f00b00cdac1f91342ec913598a6}{Depth\+Sampler\+RGB24}} (Texture2D depth\+Texture)
+\item 
+override float \mbox{\hyperlink{class_genesis_1_1_depth_sampler_r_g_b24_a2bb1f9c4f9ea8ae5fa48c5e9292c8d6f}{Sample\+Bilinear}} (Vector2 uv)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_genesis_1_1_depth_sampler-1-g}{Genesis.\+Depth\+Sampler$<$ T $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_genesis_1_1_depth_sampler-1-g_adabb1ca80ffe1538d2cf27d8b028fe0c}{Sample\+Bilinear}} (Vector2 uv)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_genesis_1_1_depth_sampler-1-g}{Genesis.\+Depth\+Sampler$<$ T $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_genesis_1_1_depth_sampler-1-g_a0eb20cab12099001ac6f9ef630636279}{Depth\+Sampler}} (Texture2D depth\+Texture)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_genesis_1_1_depth_sampler-1-g}{Genesis.\+Depth\+Sampler$<$ T $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+Native\+Array$<$ T $>$ \mbox{\hyperlink{class_genesis_1_1_depth_sampler-1-g_acd7fc8596713a297fa9cd938f8763a84}{Depth\+Data}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_genesis_1_1_depth_sampler-1-g_a2afefedb1e0cab99a8c7f0633946c8f0}{Width}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_genesis_1_1_depth_sampler-1-g_a73d34633590ba6280b27da8783104d11}{Height}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Allows bilinear sampling from a texture while treating it as a grayscale image using the red channel as the depth value. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_genesis_1_1_depth_sampler_r_g_b24_ae07c2f00b00cdac1f91342ec913598a6}\index{Genesis.DepthSamplerRGB24@{Genesis.DepthSamplerRGB24}!DepthSamplerRGB24@{DepthSamplerRGB24}}
+\index{DepthSamplerRGB24@{DepthSamplerRGB24}!Genesis.DepthSamplerRGB24@{Genesis.DepthSamplerRGB24}}
+\doxysubsubsection{\texorpdfstring{DepthSamplerRGB24()}{DepthSamplerRGB24()}}
+{\footnotesize\ttfamily \label{class_genesis_1_1_depth_sampler_r_g_b24_ae07c2f00b00cdac1f91342ec913598a6} 
+Genesis.\+Depth\+Sampler\+RGB24.\+Depth\+Sampler\+RGB24 (\begin{DoxyParamCaption}\item[{Texture2D}]{depth\+Texture}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_genesis_1_1_depth_sampler_r_g_b24_a2bb1f9c4f9ea8ae5fa48c5e9292c8d6f}\index{Genesis.DepthSamplerRGB24@{Genesis.DepthSamplerRGB24}!SampleBilinear@{SampleBilinear}}
+\index{SampleBilinear@{SampleBilinear}!Genesis.DepthSamplerRGB24@{Genesis.DepthSamplerRGB24}}
+\doxysubsubsection{\texorpdfstring{SampleBilinear()}{SampleBilinear()}}
+{\footnotesize\ttfamily \label{class_genesis_1_1_depth_sampler_r_g_b24_a2bb1f9c4f9ea8ae5fa48c5e9292c8d6f} 
+override float Genesis.\+Depth\+Sampler\+RGB24.\+Sample\+Bilinear (\begin{DoxyParamCaption}\item[{Vector2}]{uv}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_genesis_1_1_i_depth_sampler_a2ebe192c399e18d1676a43b8a4f859ae}{Genesis.\+IDepth\+Sampler}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Packages/com.\+doji.\+genesis/\+Runtime/\+Scripts/\mbox{\hyperlink{_depth_sampler_8cs}{Depth\+Sampler.\+cs}}\end{DoxyCompactItemize}

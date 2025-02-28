@@ -1,0 +1,98 @@
+\doxysection{Flood\+Data\+Listener Class Reference}
+\hypertarget{class_flood_data_listener}{}\label{class_flood_data_listener}\index{FloodDataListener@{FloodDataListener}}
+
+
+Inheritance diagram for Flood\+Data\+Listener\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_flood_data_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Flood\+Data\+Listener\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flood_data_listener__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_flood_data_listener_a88950ce1cbfbf6b4e6d1d77aa57b96ae}{Affected\+Buildings}}
+\item 
+\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene}{TMRIOnline\+Scene}} \mbox{\hyperlink{class_flood_data_listener_ac7cfcc4074e45061331f6cdc0617912a}{online\+Scene}}
+\item 
+\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player}{Flood\+Data\+Player}} \mbox{\hyperlink{class_flood_data_listener_aa217782bac99f43f67e5c5ac8f55b31e}{data\+Player}}
+\item 
+Unity\+Event$<$ float $>$ \mbox{\hyperlink{class_flood_data_listener_a7c313f3a4f8e1f6789a8df5ebe9ec186}{On\+Max\+Files\+Changed}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_flood_data_listener_a81ab62d3bff24ffd8c14790413739d16}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a2fe9d96e3be9689b34aee523c5f6830d}{do\+On\+Websocket\+Connected}} (Web\+Socket w)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651}{Send}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c}{is\+Connection\+Open}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a}{On\+Enable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_flood_data_listener_a81ab62d3bff24ffd8c14790413739d16}\index{FloodDataListener@{FloodDataListener}!OnTMRIMessage@{OnTMRIMessage}}
+\index{OnTMRIMessage@{OnTMRIMessage}!FloodDataListener@{FloodDataListener}}
+\doxysubsubsection{\texorpdfstring{OnTMRIMessage()}{OnTMRIMessage()}}
+{\footnotesize\ttfamily \label{class_flood_data_listener_a81ab62d3bff24ffd8c14790413739d16} 
+override void Flood\+Data\+Listener.\+On\+TMRIMessage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Since the operator sends an event every time the timestep changes (even while playing) we do not want to fight with those events by playing our own; so always turn auto-\/play OFF
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_flood_data_listener_a88950ce1cbfbf6b4e6d1d77aa57b96ae}\index{FloodDataListener@{FloodDataListener}!AffectedBuildings@{AffectedBuildings}}
+\index{AffectedBuildings@{AffectedBuildings}!FloodDataListener@{FloodDataListener}}
+\doxysubsubsection{\texorpdfstring{AffectedBuildings}{AffectedBuildings}}
+{\footnotesize\ttfamily \label{class_flood_data_listener_a88950ce1cbfbf6b4e6d1d77aa57b96ae} 
+List$<$Game\+Object$>$ Flood\+Data\+Listener.\+Affected\+Buildings}
+
+\Hypertarget{class_flood_data_listener_aa217782bac99f43f67e5c5ac8f55b31e}\index{FloodDataListener@{FloodDataListener}!dataPlayer@{dataPlayer}}
+\index{dataPlayer@{dataPlayer}!FloodDataListener@{FloodDataListener}}
+\doxysubsubsection{\texorpdfstring{dataPlayer}{dataPlayer}}
+{\footnotesize\ttfamily \label{class_flood_data_listener_aa217782bac99f43f67e5c5ac8f55b31e} 
+\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player}{Flood\+Data\+Player}} Flood\+Data\+Listener.\+data\+Player}
+
+\Hypertarget{class_flood_data_listener_ac7cfcc4074e45061331f6cdc0617912a}\index{FloodDataListener@{FloodDataListener}!onlineScene@{onlineScene}}
+\index{onlineScene@{onlineScene}!FloodDataListener@{FloodDataListener}}
+\doxysubsubsection{\texorpdfstring{onlineScene}{onlineScene}}
+{\footnotesize\ttfamily \label{class_flood_data_listener_ac7cfcc4074e45061331f6cdc0617912a} 
+\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene}{TMRIOnline\+Scene}} Flood\+Data\+Listener.\+online\+Scene}
+
+\Hypertarget{class_flood_data_listener_a7c313f3a4f8e1f6789a8df5ebe9ec186}\index{FloodDataListener@{FloodDataListener}!OnMaxFilesChanged@{OnMaxFilesChanged}}
+\index{OnMaxFilesChanged@{OnMaxFilesChanged}!FloodDataListener@{FloodDataListener}}
+\doxysubsubsection{\texorpdfstring{OnMaxFilesChanged}{OnMaxFilesChanged}}
+{\footnotesize\ttfamily \label{class_flood_data_listener_a7c313f3a4f8e1f6789a8df5ebe9ec186} 
+Unity\+Event$<$float$>$ Flood\+Data\+Listener.\+On\+Max\+Files\+Changed}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Scripts/\mbox{\hyperlink{_flood_data_listener_8cs}{Flood\+Data\+Listener.\+cs}}\end{DoxyCompactItemize}

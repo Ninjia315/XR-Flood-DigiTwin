@@ -1,0 +1,10 @@
+<map id="TMRI.Client.TMRIPlayer" name="TMRI.Client.TMRIPlayer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="137,169,303,195"/>
+<area shape="rect" id="Node000002" href="$class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback.html" title="Base class for all objects wishing to receive network callbacks from the TMRI system." alt="" coords="5,80,216,106"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,114,206,166,203,170,136,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="164,5,276,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="191,42,130,82,127,78,188,38"/>
+<area shape="rect" id="Node000004" href="$class_t_m_r_i_1_1_client_1_1_toggle_x_r_mode.html" title=" " alt="" coords="239,80,424,106"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="253,38,315,78,312,82,250,42"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="306,118,237,170,234,166,303,113"/>
+</map>

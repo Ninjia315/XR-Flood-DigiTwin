@@ -1,0 +1,206 @@
+\doxysection{Flood\+Info\+Panel Class Reference}
+\hypertarget{class_flood_info_panel}{}\label{class_flood_info_panel}\index{FloodInfoPanel@{FloodInfoPanel}}
+
+
+Inheritance diagram for Flood\+Info\+Panel\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flood_info_panel__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Flood\+Info\+Panel\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flood_info_panel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_flood_info_panel_ad96b3bca05eb96ace489dfa1d299169a}{Set\+Flood\+Info}} (float? depth=null, float? speed=null, float? altitude=null)
+\item 
+void \mbox{\hyperlink{class_flood_info_panel_a1ce183787447bb6d8d9e5284932e0fe2}{Set\+Flood\+Info}} (float depth, float speed, bool active, bool with\+Notify=true)
+\item 
+void \mbox{\hyperlink{class_flood_info_panel_a120fa2ffc5828c2d1ef848152c01d54e}{Set\+Active}} (bool active)
+\item 
+void \mbox{\hyperlink{class_flood_info_panel_affc9969935d66c3b3b5fac81c3b3bce6}{Set\+Flood\+Visualization\+Type}} (\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}} type)
+\item 
+void \mbox{\hyperlink{class_flood_info_panel_adad90d931f4d735b8a8848d5c6c7ab1e}{On\+Flood\+Time\+Step\+Updated}} (int time\+Step)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c}{is\+Connection\+Open}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a}{On\+Enable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+TMP\+\_\+\+Text \mbox{\hyperlink{class_flood_info_panel_a6d283f390a35a3710b659c2321f00b7d}{Depth\+Text}}
+\item 
+TMP\+\_\+\+Text \mbox{\hyperlink{class_flood_info_panel_a82b4ef91bface6aab7a7e3f8204daf56}{Speed\+Text}}
+\item 
+TMP\+\_\+\+Text \mbox{\hyperlink{class_flood_info_panel_ac828828648c22d199305ad9d9df24cd3}{Altitude\+Text}}
+\item 
+string \mbox{\hyperlink{class_flood_info_panel_abe8928f3b3eece31764c1c0601296e60}{Network\+ID}}
+\item 
+bool \mbox{\hyperlink{class_flood_info_panel_abb976594c0afe0e45b4e96dd4e744ee3}{Listen\+For\+Network\+Update}} = true
+\item 
+Layer\+Mask \mbox{\hyperlink{class_flood_info_panel_a7c6679ba830e7ea5092ef4fdf2870f48}{Update\+Info\+Raycast\+Layer\+Mask}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_flood_info_panel_aa9a3f43b1274dc7dcaec4fbb99764745}{On\+State\+Message}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback}{TMRI.\+Client.\+TMRIState\+Callback}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a21e7d53559af94292cdc02124438a868}{On\+State\+Message}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a11d33db1f6dd9f4127ff6e3cbefcf700}{do\+On\+Websocket\+Connected}} (Web\+Socket w)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_af7f710890cdbe576963b415482769b16}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651}{Send}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_flood_info_panel}{Flood\+Info\+Panel}} \mbox{\hyperlink{class_flood_info_panel_af535c998da3fdfeffb6212280f039a3b}{instance}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_flood_info_panel_aa5747c31f5ab445fb469a1df28ef3d01}{is\+Dirty}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+override string \mbox{\hyperlink{class_flood_info_panel_ad5ef62f54f970eed9cb3eddb40b57924}{ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback}{TMRI.\+Client.\+TMRIState\+Callback}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a89b69230b74b26e2f6859f8c5a736b7e}{ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The network ID that will be used to determine if this object is shared or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_flood_info_panel_adad90d931f4d735b8a8848d5c6c7ab1e}\index{FloodInfoPanel@{FloodInfoPanel}!OnFloodTimeStepUpdated@{OnFloodTimeStepUpdated}}
+\index{OnFloodTimeStepUpdated@{OnFloodTimeStepUpdated}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{OnFloodTimeStepUpdated()}{OnFloodTimeStepUpdated()}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_adad90d931f4d735b8a8848d5c6c7ab1e} 
+void Flood\+Info\+Panel.\+On\+Flood\+Time\+Step\+Updated (\begin{DoxyParamCaption}\item[{int}]{time\+Step}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener_a04128e86008b89a158c5b6fdf218f984}{TMRI.\+Core.\+IFlood\+Visualization\+Listener}}.
+
+\Hypertarget{class_flood_info_panel_aa9a3f43b1274dc7dcaec4fbb99764745}\index{FloodInfoPanel@{FloodInfoPanel}!OnStateMessage@{OnStateMessage}}
+\index{OnStateMessage@{OnStateMessage}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{OnStateMessage()}{OnStateMessage()}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_aa9a3f43b1274dc7dcaec4fbb99764745} 
+override void Flood\+Info\+Panel.\+On\+State\+Message (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_flood_info_panel_a120fa2ffc5828c2d1ef848152c01d54e}\index{FloodInfoPanel@{FloodInfoPanel}!SetActive@{SetActive}}
+\index{SetActive@{SetActive}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{SetActive()}{SetActive()}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_a120fa2ffc5828c2d1ef848152c01d54e} 
+void Flood\+Info\+Panel.\+Set\+Active (\begin{DoxyParamCaption}\item[{bool}]{active}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_flood_info_panel_a1ce183787447bb6d8d9e5284932e0fe2}\index{FloodInfoPanel@{FloodInfoPanel}!SetFloodInfo@{SetFloodInfo}}
+\index{SetFloodInfo@{SetFloodInfo}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{SetFloodInfo()}{SetFloodInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_a1ce183787447bb6d8d9e5284932e0fe2} 
+void Flood\+Info\+Panel.\+Set\+Flood\+Info (\begin{DoxyParamCaption}\item[{float}]{depth}{, }\item[{float}]{speed}{, }\item[{bool}]{active}{, }\item[{bool}]{with\+Notify}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+\Hypertarget{class_flood_info_panel_ad96b3bca05eb96ace489dfa1d299169a}\index{FloodInfoPanel@{FloodInfoPanel}!SetFloodInfo@{SetFloodInfo}}
+\index{SetFloodInfo@{SetFloodInfo}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{SetFloodInfo()}{SetFloodInfo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_ad96b3bca05eb96ace489dfa1d299169a} 
+void Flood\+Info\+Panel.\+Set\+Flood\+Info (\begin{DoxyParamCaption}\item[{float?}]{depth}{ = {\ttfamily null}, }\item[{float?}]{speed}{ = {\ttfamily null}, }\item[{float?}]{altitude}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+\Hypertarget{class_flood_info_panel_affc9969935d66c3b3b5fac81c3b3bce6}\index{FloodInfoPanel@{FloodInfoPanel}!SetFloodVisualizationType@{SetFloodVisualizationType}}
+\index{SetFloodVisualizationType@{SetFloodVisualizationType}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{SetFloodVisualizationType()}{SetFloodVisualizationType()}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_affc9969935d66c3b3b5fac81c3b3bce6} 
+void Flood\+Info\+Panel.\+Set\+Flood\+Visualization\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}}}]{type}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener_abe1d944b2d9420ebe3ca491ad7083d95}{TMRI.\+Core.\+IFlood\+Visualization\+Listener}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_flood_info_panel_ac828828648c22d199305ad9d9df24cd3}\index{FloodInfoPanel@{FloodInfoPanel}!AltitudeText@{AltitudeText}}
+\index{AltitudeText@{AltitudeText}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{AltitudeText}{AltitudeText}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_ac828828648c22d199305ad9d9df24cd3} 
+TMP\+\_\+\+Text Flood\+Info\+Panel.\+Altitude\+Text}
+
+\Hypertarget{class_flood_info_panel_a6d283f390a35a3710b659c2321f00b7d}\index{FloodInfoPanel@{FloodInfoPanel}!DepthText@{DepthText}}
+\index{DepthText@{DepthText}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{DepthText}{DepthText}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_a6d283f390a35a3710b659c2321f00b7d} 
+TMP\+\_\+\+Text Flood\+Info\+Panel.\+Depth\+Text}
+
+\Hypertarget{class_flood_info_panel_abb976594c0afe0e45b4e96dd4e744ee3}\index{FloodInfoPanel@{FloodInfoPanel}!ListenForNetworkUpdate@{ListenForNetworkUpdate}}
+\index{ListenForNetworkUpdate@{ListenForNetworkUpdate}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{ListenForNetworkUpdate}{ListenForNetworkUpdate}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_abb976594c0afe0e45b4e96dd4e744ee3} 
+bool Flood\+Info\+Panel.\+Listen\+For\+Network\+Update = true}
+
+\Hypertarget{class_flood_info_panel_abe8928f3b3eece31764c1c0601296e60}\index{FloodInfoPanel@{FloodInfoPanel}!NetworkID@{NetworkID}}
+\index{NetworkID@{NetworkID}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{NetworkID}{NetworkID}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_abe8928f3b3eece31764c1c0601296e60} 
+string Flood\+Info\+Panel.\+Network\+ID}
+
+\Hypertarget{class_flood_info_panel_a82b4ef91bface6aab7a7e3f8204daf56}\index{FloodInfoPanel@{FloodInfoPanel}!SpeedText@{SpeedText}}
+\index{SpeedText@{SpeedText}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{SpeedText}{SpeedText}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_a82b4ef91bface6aab7a7e3f8204daf56} 
+TMP\+\_\+\+Text Flood\+Info\+Panel.\+Speed\+Text}
+
+\Hypertarget{class_flood_info_panel_a7c6679ba830e7ea5092ef4fdf2870f48}\index{FloodInfoPanel@{FloodInfoPanel}!UpdateInfoRaycastLayerMask@{UpdateInfoRaycastLayerMask}}
+\index{UpdateInfoRaycastLayerMask@{UpdateInfoRaycastLayerMask}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{UpdateInfoRaycastLayerMask}{UpdateInfoRaycastLayerMask}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_a7c6679ba830e7ea5092ef4fdf2870f48} 
+Layer\+Mask Flood\+Info\+Panel.\+Update\+Info\+Raycast\+Layer\+Mask}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_flood_info_panel_ad5ef62f54f970eed9cb3eddb40b57924}\index{FloodInfoPanel@{FloodInfoPanel}!ID@{ID}}
+\index{ID@{ID}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{ID}{ID}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_ad5ef62f54f970eed9cb3eddb40b57924} 
+override string Flood\+Info\+Panel.\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}
+
+\Hypertarget{class_flood_info_panel_af535c998da3fdfeffb6212280f039a3b}\index{FloodInfoPanel@{FloodInfoPanel}!instance@{instance}}
+\index{instance@{instance}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{instance}{instance}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_af535c998da3fdfeffb6212280f039a3b} 
+\mbox{\hyperlink{class_flood_info_panel}{Flood\+Info\+Panel}} Flood\+Info\+Panel.\+instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+\Hypertarget{class_flood_info_panel_aa5747c31f5ab445fb469a1df28ef3d01}\index{FloodInfoPanel@{FloodInfoPanel}!isDirty@{isDirty}}
+\index{isDirty@{isDirty}!FloodInfoPanel@{FloodInfoPanel}}
+\doxysubsubsection{\texorpdfstring{isDirty}{isDirty}}
+{\footnotesize\ttfamily \label{class_flood_info_panel_aa5747c31f5ab445fb469a1df28ef3d01} 
+bool Flood\+Info\+Panel.\+is\+Dirty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Scripts/\mbox{\hyperlink{_flood_info_panel_8cs}{Flood\+Info\+Panel.\+cs}}\end{DoxyCompactItemize}

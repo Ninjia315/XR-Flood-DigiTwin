@@ -1,0 +1,7 @@
+<map id="WorldCanvas" name="WorldCanvas">
+<area shape="rect" id="Node000001" title=" " alt="" coords="99,94,199,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,117,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,47,137,91,134,95,84,51"/>
+<area shape="rect" id="Node000003" href="$interface_t_m_r_i_1_1_client_1_1_i_base_x_r_camera_listener.html" title=" " alt="" coords="141,5,336,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,58,165,95,161,91,203,54"/>
+</map>

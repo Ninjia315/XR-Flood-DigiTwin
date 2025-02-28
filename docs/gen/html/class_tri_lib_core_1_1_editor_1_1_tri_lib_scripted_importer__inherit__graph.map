@@ -1,0 +1,18 @@
+<map id="TriLibCore.Editor.TriLibScriptedImporter" name="TriLibCore.Editor.TriLibScriptedImporter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="171,104,325,145"/>
+<area shape="rect" id="Node000003" href="$class_tri_lib_core_1_1_editor_1_1_tri_lib3_m_f_scripted_importer.html" title=" " alt="" coords="373,5,534,46"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="320,94,372,69,425,44,427,49,374,73,322,99"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="282,93,372,45,373,44,375,49,374,49,285,98"/>
+<area shape="rect" id="Node000004" href="$class_tri_lib_core_1_1_editor_1_1_tri_lib_g_l_t_f_scripted_importer.html" title=" " alt="" coords="376,71,531,111"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="340,116,377,109,378,115,341,121"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="338,98,376,92,377,97,339,103"/>
+<area shape="rect" id="Node000005" href="$class_tri_lib_core_1_1_editor_1_1_tri_lib_p_l_y_scripted_importer.html" title=" " alt="" coords="376,136,531,177"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="341,145,376,150,376,156,340,150"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="341,127,376,133,376,138,340,132"/>
+<area shape="rect" id="Node000006" href="$class_tri_lib_core_1_1_editor_1_1_tri_lib_s_t_l_scripted_importer.html" title=" " alt="" coords="376,201,531,242"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="285,151,374,198,377,199,375,204,372,203,283,156"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="324,149,374,174,427,198,425,203,372,179,322,154"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,112,123,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,131,170,131,170,136,138,136"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="138,113,170,113,170,118,138,118"/>
+</map>

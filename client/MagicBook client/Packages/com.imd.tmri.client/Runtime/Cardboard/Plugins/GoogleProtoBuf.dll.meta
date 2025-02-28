@@ -1,0 +1,73 @@
+fileFormatVersion: 2
+guid: 6f4a65a4c28d44d12b16dbc6e5d4d0ba
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 3
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 1
+  validateReferences: 1
+  platformData:
+    Android:
+      enabled: 1
+      settings:
+        AndroidLibraryDependee: UnityLibrary
+        AndroidSharedLibraryType: Executable
+        CPU: ARMv7
+    Any:
+      enabled: 1
+      settings:
+        Exclude Android: 0
+        Exclude Editor: 0
+        Exclude Linux64: 0
+        Exclude OSXUniversal: 0
+        Exclude VisionOS: 0
+        Exclude Win: 0
+        Exclude Win64: 0
+        Exclude iOS: 0
+    Editor:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+        DefaultValueInitialized: true
+        OS: AnyOS
+    Linux64:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+    OSXUniversal:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+    VisionOS:
+      enabled: 1
+      settings:
+        AddToEmbeddedBinaries: false
+        CPU: AnyCPU
+        CompileFlags: 
+        FrameworkDependencies: 
+    Win:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+    Win64:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+    iOS:
+      enabled: 1
+      settings:
+        AddToEmbeddedBinaries: false
+        CPU: AnyCPU
+        CompileFlags: 
+        FrameworkDependencies: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,9 @@
+<map id="ServerFloodMeshInteractable" name="ServerFloodMeshInteractable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="117,79,309,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,36,188,76,186,81,99,40"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="140,5,286,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,46,216,79,210,79,210,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="310,5,438,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="334,40,242,81,239,76,332,35"/>
+</map>

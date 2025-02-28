@@ -1,0 +1,23 @@
+\doxysection{Notification\+Observer.\+h}
+\hypertarget{_notification_observer_8h_source}{}\label{_notification_observer_8h_source}\index{docs/src/client/Packages/com.imd.tmri.client/Runtime/Cardboard/Plugins/iOS/libCardboardUtility/NotificationObserver.h@{docs/src/client/Packages/com.imd.tmri.client/Runtime/Cardboard/Plugins/iOS/libCardboardUtility/NotificationObserver.h}}
+\mbox{\hyperlink{_notification_observer_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#import\ <Foundation/Foundation.h>}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ NS\_ASSUME\_NONNULL\_BEGIN}
+\DoxyCodeLine{00004\ \textcolor{keyword}{typedef}\ void\ (*\mbox{\hyperlink{_notification_observer_8h_aff1bb8fff3514638e58b3adce8925f20}{QRScannedCallback}})(bool);}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{@interface\ }\mbox{\hyperlink{interface_notification_observer}{NotificationObserver}}\ :\ NSObject}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ +(\mbox{\hyperlink{_notification_observer_8h_aff1bb8fff3514638e58b3adce8925f20}{QRScannedCallback}})\ \mbox{\hyperlink{interface_notification_observer_ac7522af04249063ab1056536f836e39e}{qrScannedCallback}};}
+\DoxyCodeLine{00009\ +(void)\ setQrScannedCallback:\ (nullable\ \mbox{\hyperlink{_notification_observer_8h_aff1bb8fff3514638e58b3adce8925f20}{QRScannedCallback}})\ \_callback;}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ +(void)\ RegisterQRCallback:\ (nullable\ \mbox{\hyperlink{_notification_observer_8h_aff1bb8fff3514638e58b3adce8925f20}{QRScannedCallback}})\ \_callback;}
+\DoxyCodeLine{00012\ +(void)\ \mbox{\hyperlink{interface_notification_observer_a8a454d93bd2d6736db66c7bff189a13b}{DeRegisterQRCallback}};}
+\DoxyCodeLine{00013\ +(void)\ QRObserver:\ (NSNotification\ *)\ name;}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{@end}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ NS\_ASSUME\_NONNULL\_END}
+
+\end{DoxyCode}

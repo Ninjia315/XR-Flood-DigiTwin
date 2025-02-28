@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &56414190487204587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3606212069566033897}
+  - component: {fileID: 926933706386070161}
+  m_Layer: 0
+  m_Name: GenerateMeshPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3606212069566033897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56414190487204587}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &926933706386070161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56414190487204587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8052eb25e424c989eeee372e95c436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vertexConsideredIdenticalThreshold: 1
+  ReconstructOnStart: 1
+  FlipNormals: 1
+  ParallelTasksCount: 1
+  MinMaxBasedOnChunk: 0
+  PreloadedMeshCount: -1
+  ChunkedMeshPrefab: {fileID: 3930079080710179204, guid: a17a63748436a47f9bdde8878e420278,
+    type: 3}
+  FloodShaders:
+  - FloodType: 0
+    FloodMaterial: {fileID: 2100000, guid: d90e538ad832f4ef58497a2c58488d5a, type: 2}
+  - FloodType: 1
+    FloodMaterial: {fileID: 2100000, guid: 04065ae98b0904908a3945b77954fea0, type: 2}
+  - FloodType: 2
+    FloodMaterial: {fileID: 2100000, guid: 32201c816a3e94e2aa78d8c02c0fc5d6, type: 2}
+  - FloodType: 3
+    FloodMaterial: {fileID: 2100000, guid: 27a47e2b4ec9440288df17a0dd63dcc6, type: 2}
+  - FloodType: 4
+    FloodMaterial: {fileID: 2100000, guid: fc39341b6b88a482d9b38497015e8a5b, type: 2}
+  DefaultMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  MinWorldXZ: {x: 0, y: 0, z: 0}
+  MaxWorldXZ: {x: 0, y: 0, z: 0}
+  UniformUVs: 0
+  MaxHeightOverallChunks: 0

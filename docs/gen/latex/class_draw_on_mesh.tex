@@ -1,0 +1,194 @@
+\doxysection{Draw\+On\+Mesh Class Reference}
+\hypertarget{class_draw_on_mesh}{}\label{class_draw_on_mesh}\index{DrawOnMesh@{DrawOnMesh}}
+
+
+Inheritance diagram for Draw\+On\+Mesh\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draw_on_mesh__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Draw\+On\+Mesh\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_draw_on_mesh__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_draw_on_mesh_a43699886dae16e7ab6727e6cbc71f034}{Add\+Line\+Drawing}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_line_drawing}{Line\+Drawing}} drawing, int player\+Number)
+\item 
+void \mbox{\hyperlink{class_draw_on_mesh_ac76a4d305bb0eb0ed977838494b14095}{On\+Drag}} (Raycast\+Hit hit\+Info)
+\item 
+void \mbox{\hyperlink{class_draw_on_mesh_a8134e81d5c47dec44f133a20af68178e}{On\+Down}} (Raycast\+Hit hit\+Info)
+\item 
+void \mbox{\hyperlink{class_draw_on_mesh_a88187f861474d8d94a7cfef49133a587}{On\+Up}} (Raycast\+Hit hit\+Info)
+\item 
+void \mbox{\hyperlink{class_draw_on_mesh_a16259c879c0a4d622275f3054cddd2ac}{On\+Tapped}} (Raycast\+Hit hit\+Info)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c}{is\+Connection\+Open}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a}{On\+Enable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Line\+Renderer \mbox{\hyperlink{class_draw_on_mesh_a4ea716e5819b695838e84861fe5a7c78}{drawing\+Prefab}}
+\item 
+float \mbox{\hyperlink{class_draw_on_mesh_a9ceeb27e2aee27048e8bf10fdd6ad4c4}{ZOffset}}
+\item 
+string \mbox{\hyperlink{class_draw_on_mesh_a9de637ddde9ffe09ea532435f3df5fc1}{Network\+ID}}
+\item 
+Material \mbox{\hyperlink{class_draw_on_mesh_ac55294b182f54f35d38b05925c8aebb9}{\+\_\+gaze\+Material}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_draw_on_mesh_a23176d1420c875af74a43700cc2cc190}{On\+State\+Message}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback}{TMRI.\+Client.\+TMRIState\+Callback}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a21e7d53559af94292cdc02124438a868}{On\+State\+Message}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a11d33db1f6dd9f4127ff6e3cbefcf700}{do\+On\+Websocket\+Connected}} (Web\+Socket w)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_af7f710890cdbe576963b415482769b16}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651}{Send}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Material \mbox{\hyperlink{class_draw_on_mesh_ad81fa051b1bdcbce675a5363d31529b0}{Gaze\+Material}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+override string \mbox{\hyperlink{class_draw_on_mesh_ad03ddc386ccaa8b92c25168e7ff82c65}{ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback}{TMRI.\+Client.\+TMRIState\+Callback}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a89b69230b74b26e2f6859f8c5a736b7e}{ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The network ID that will be used to determine if this object is shared or not. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_draw_on_mesh_a43699886dae16e7ab6727e6cbc71f034}\index{DrawOnMesh@{DrawOnMesh}!AddLineDrawing@{AddLineDrawing}}
+\index{AddLineDrawing@{AddLineDrawing}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{AddLineDrawing()}{AddLineDrawing()}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_a43699886dae16e7ab6727e6cbc71f034} 
+void Draw\+On\+Mesh.\+Add\+Line\+Drawing (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_line_drawing}{Line\+Drawing}}}]{drawing}{, }\item[{int}]{player\+Number}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_draw_on_mesh_a8134e81d5c47dec44f133a20af68178e}\index{DrawOnMesh@{DrawOnMesh}!OnDown@{OnDown}}
+\index{OnDown@{OnDown}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{OnDown()}{OnDown()}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_a8134e81d5c47dec44f133a20af68178e} 
+void Draw\+On\+Mesh.\+On\+Down (\begin{DoxyParamCaption}\item[{Raycast\+Hit}]{hit\+Info}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_reticle_pointer_interactable_ab40b4516c49bb0f9df5fa3f5e8ccc99d}{TMRI.\+Client.\+Reticle\+Pointer\+Interactable}}.
+
+\Hypertarget{class_draw_on_mesh_ac76a4d305bb0eb0ed977838494b14095}\index{DrawOnMesh@{DrawOnMesh}!OnDrag@{OnDrag}}
+\index{OnDrag@{OnDrag}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{OnDrag()}{OnDrag()}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_ac76a4d305bb0eb0ed977838494b14095} 
+void Draw\+On\+Mesh.\+On\+Drag (\begin{DoxyParamCaption}\item[{Raycast\+Hit}]{hit\+Info}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_reticle_pointer_interactable_a73c9fc9a1a3f33f82023cb2ae6334e82}{TMRI.\+Client.\+Reticle\+Pointer\+Interactable}}.
+
+\Hypertarget{class_draw_on_mesh_a23176d1420c875af74a43700cc2cc190}\index{DrawOnMesh@{DrawOnMesh}!OnStateMessage@{OnStateMessage}}
+\index{OnStateMessage@{OnStateMessage}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{OnStateMessage()}{OnStateMessage()}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_a23176d1420c875af74a43700cc2cc190} 
+override void Draw\+On\+Mesh.\+On\+State\+Message (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_draw_on_mesh_a16259c879c0a4d622275f3054cddd2ac}\index{DrawOnMesh@{DrawOnMesh}!OnTapped@{OnTapped}}
+\index{OnTapped@{OnTapped}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{OnTapped()}{OnTapped()}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_a16259c879c0a4d622275f3054cddd2ac} 
+void Draw\+On\+Mesh.\+On\+Tapped (\begin{DoxyParamCaption}\item[{Raycast\+Hit}]{hit\+Info}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_reticle_pointer_interactable_a7cea738d87bcb6dbcf68375f223f23b5}{TMRI.\+Client.\+Reticle\+Pointer\+Interactable}}.
+
+\Hypertarget{class_draw_on_mesh_a88187f861474d8d94a7cfef49133a587}\index{DrawOnMesh@{DrawOnMesh}!OnUp@{OnUp}}
+\index{OnUp@{OnUp}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{OnUp()}{OnUp()}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_a88187f861474d8d94a7cfef49133a587} 
+void Draw\+On\+Mesh.\+On\+Up (\begin{DoxyParamCaption}\item[{Raycast\+Hit}]{hit\+Info}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_reticle_pointer_interactable_a929de1abf5f1f15265bcb7a02ffcb5cc}{TMRI.\+Client.\+Reticle\+Pointer\+Interactable}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_draw_on_mesh_ac55294b182f54f35d38b05925c8aebb9}\index{DrawOnMesh@{DrawOnMesh}!\_gazeMaterial@{\_gazeMaterial}}
+\index{\_gazeMaterial@{\_gazeMaterial}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{\_gazeMaterial}{\_gazeMaterial}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_ac55294b182f54f35d38b05925c8aebb9} 
+Material Draw\+On\+Mesh.\+\_\+gaze\+Material}
+
+\Hypertarget{class_draw_on_mesh_a4ea716e5819b695838e84861fe5a7c78}\index{DrawOnMesh@{DrawOnMesh}!drawingPrefab@{drawingPrefab}}
+\index{drawingPrefab@{drawingPrefab}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{drawingPrefab}{drawingPrefab}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_a4ea716e5819b695838e84861fe5a7c78} 
+Line\+Renderer Draw\+On\+Mesh.\+drawing\+Prefab}
+
+\Hypertarget{class_draw_on_mesh_a9de637ddde9ffe09ea532435f3df5fc1}\index{DrawOnMesh@{DrawOnMesh}!NetworkID@{NetworkID}}
+\index{NetworkID@{NetworkID}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{NetworkID}{NetworkID}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_a9de637ddde9ffe09ea532435f3df5fc1} 
+string Draw\+On\+Mesh.\+Network\+ID}
+
+\Hypertarget{class_draw_on_mesh_a9ceeb27e2aee27048e8bf10fdd6ad4c4}\index{DrawOnMesh@{DrawOnMesh}!ZOffset@{ZOffset}}
+\index{ZOffset@{ZOffset}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{ZOffset}{ZOffset}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_a9ceeb27e2aee27048e8bf10fdd6ad4c4} 
+float Draw\+On\+Mesh.\+ZOffset}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_draw_on_mesh_ad81fa051b1bdcbce675a5363d31529b0}\index{DrawOnMesh@{DrawOnMesh}!GazeMaterial@{GazeMaterial}}
+\index{GazeMaterial@{GazeMaterial}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{GazeMaterial}{GazeMaterial}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_ad81fa051b1bdcbce675a5363d31529b0} 
+Material Draw\+On\+Mesh.\+Gaze\+Material\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_reticle_pointer_interactable_a1704c4db1c70cfb0102ff864693e4f86}{TMRI.\+Client.\+Reticle\+Pointer\+Interactable}}.
+
+\Hypertarget{class_draw_on_mesh_ad03ddc386ccaa8b92c25168e7ff82c65}\index{DrawOnMesh@{DrawOnMesh}!ID@{ID}}
+\index{ID@{ID}!DrawOnMesh@{DrawOnMesh}}
+\doxysubsubsection{\texorpdfstring{ID}{ID}}
+{\footnotesize\ttfamily \label{class_draw_on_mesh_ad03ddc386ccaa8b92c25168e7ff82c65} 
+override string Draw\+On\+Mesh.\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Scripts/\mbox{\hyperlink{_draw_on_mesh_8cs}{Draw\+On\+Mesh.\+cs}}\end{DoxyCompactItemize}

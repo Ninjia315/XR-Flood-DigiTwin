@@ -1,0 +1,6 @@
+<map id="TriLibCore.Mappers.LegacyToHumanoidAnimationClipMapper" name="TriLibCore.Mappers.LegacyToHumanoidAnimationClipMapper">
+<area shape="rect" id="Node000001" title="Represents a Mapper that converts legacy Animation Clips into humanoid Animation Clips." alt="" coords="5,79,224,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="42,5,187,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,46,109,79,104,79,103,47"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="126,47,125,79,120,79,120,46"/>
+</map>

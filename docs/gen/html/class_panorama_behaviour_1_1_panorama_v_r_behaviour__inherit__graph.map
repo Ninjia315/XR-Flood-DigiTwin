@@ -1,0 +1,7 @@
+<map id="PanoramaBehaviour.PanoramaVRBehaviour" name="PanoramaBehaviour.PanoramaVRBehaviour">
+<area shape="rect" id="Node000001" title=" " alt="" coords="49,94,249,135"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,117,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,48,131,92,128,96,82,51"/>
+<area shape="rect" id="Node000003" href="$interface_t_m_r_i_1_1_client_1_1_i_base_x_r_camera_listener.html" title=" " alt="" coords="141,5,336,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,59,171,95,167,92,205,55"/>
+</map>

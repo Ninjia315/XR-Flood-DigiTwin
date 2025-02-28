@@ -1,0 +1,13 @@
+<map id="PolySpatial.Samples.SpatialUI" name="PolySpatial.Samples.SpatialUI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="165,112,365,137"/>
+<area shape="rect" id="Node000003" href="$class_poly_spatial_1_1_samples_1_1_spatial_u_i_button.html" title=" " alt="" coords="413,5,599,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="307,102,412,57,444,44,446,49,414,61,309,107"/>
+<area shape="rect" id="Node000004" href="$class_poly_spatial_1_1_samples_1_1_spatial_u_i_dropdown.html" title=" " alt="" coords="413,71,599,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="377,106,412,101,413,107,378,111"/>
+<area shape="rect" id="Node000005" href="$class_poly_spatial_1_1_samples_1_1_spatial_u_i_slider.html" title=" " alt="" coords="413,136,599,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="381,137,413,141,412,147,380,142"/>
+<area shape="rect" id="Node000006" href="$class_poly_spatial_1_1_samples_1_1_spatial_u_i_toggle.html" title=" " alt="" coords="413,201,599,242"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="310,141,414,186,446,198,444,203,412,191,308,146"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,112,117,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,122,164,122,164,127,132,127"/>
+</map>

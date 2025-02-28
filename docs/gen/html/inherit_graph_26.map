@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,78,116,104"/>
+<area shape="rect" id="Node000001" href="$class_tri_lib_core_1_1_h_d_r_p_1_1_mappers_1_1_h_d_r_p_material_mapper.html" title="Represents a Material Mapper that converts TriLib Materials into Unity HDRP Materials." alt="" coords="186,5,366,46"/>
+<area shape="poly" id="edge31_Node000000_Node000001" title=" " alt="" coords="117,71,163,56,204,44,206,49,164,62,119,76"/>
+<area shape="rect" id="Node000002" href="$class_tri_lib_core_1_1_mappers_1_1_standard_material_mapper.html" title="Represents a Material Mapper that converts TriLib Materials into Unity Standard Materials." alt="" coords="181,71,372,111"/>
+<area shape="poly" id="edge32_Node000000_Node000002" title=" " alt="" coords="131,88,180,88,180,94,131,94"/>
+<area shape="rect" id="Node000005" href="$class_tri_lib_core_1_1_u_r_p_1_1_mappers_1_1_universal_r_p_material_mapper.html" title="Represents a Material Mapper that converts TriLib Materials into Unity UniversalRP Materials." alt="" coords="164,136,389,177"/>
+<area shape="poly" id="edge35_Node000000_Node000005" title=" " alt="" coords="119,106,164,120,206,133,204,138,163,126,117,111"/>
+<area shape="rect" id="Node000003" href="$class_tri_lib_core_1_1_mappers_1_1_autodesk_interactive_standard_material_mapper.html" title=" " alt="" coords="437,39,660,79"/>
+<area shape="poly" id="edge33_Node000002_Node000003" title=" " alt="" coords="387,75,436,69,437,75,387,81"/>
+<area shape="rect" id="Node000004" href="$class_tri_lib_core_1_1_mappers_1_1gl_t_f2_standard_material_mapper.html" title=" " alt="" coords="462,104,635,145"/>
+<area shape="poly" id="edge34_Node000002_Node000004" title=" " alt="" coords="388,102,462,111,462,116,387,107"/>
+</map>

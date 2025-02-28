@@ -1,0 +1,10 @@
+<map id="TriLibCore.Utils.MaterialsHelper" name="TriLibCore.Utils.MaterialsHelper">
+<area shape="rect" id="Node000001" title=" " alt="" coords="171,39,340,79"/>
+<area shape="rect" id="Node000003" href="$class_tri_lib_core_1_1_utils_1_1_autodesk_interactive_materials_helper.html" title="Represents a series of AutodeskInteractiveStandardMaterialMapper helper methods." alt="" coords="396,5,570,46"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="355,42,396,36,396,41,356,47"/>
+<area shape="rect" id="Node000004" href="$class_tri_lib_core_1_1_utils_1_1_gltf_materials_helper.html" title="Represents a series of GltfMaterialsMapper helper methods." alt="" coords="388,71,578,111"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="356,70,388,75,387,80,355,76"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,46,123,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,65,170,65,170,71,138,70"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="138,48,170,47,170,53,138,53"/>
+</map>

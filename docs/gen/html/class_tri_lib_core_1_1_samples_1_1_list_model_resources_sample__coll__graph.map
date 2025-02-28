@@ -1,0 +1,6 @@
+<map id="TriLibCore.Samples.ListModelResourcesSample" name="TriLibCore.Samples.ListModelResourcesSample">
+<area shape="rect" id="Node000001" title="Represents a sample that loads the &quot;TriLibSample.obj&quot; Model from the &quot;Models&quot; folder and lists the Mo..." alt="" coords="5,79,202,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="48,5,159,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,46,98,79,93,79,92,47"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="115,47,114,79,109,79,109,46"/>
+</map>

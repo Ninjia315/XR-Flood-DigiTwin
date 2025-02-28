@@ -1,0 +1,7 @@
+<map id="UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor" name="UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor">
+<area shape="rect" id="Node000001" title="Example hand processor that applies transformations on the root poses to modify the hands skeleton...." alt="" coords="26,79,242,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,41,118,77,114,80,80,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="140,5,275,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,44,154,80,150,77,184,41"/>
+</map>

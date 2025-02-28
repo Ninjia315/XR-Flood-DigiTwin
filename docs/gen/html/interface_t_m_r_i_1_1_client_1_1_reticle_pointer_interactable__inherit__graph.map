@@ -1,0 +1,11 @@
+<map id="TMRI.Client.ReticlePointerInteractable" name="TMRI.Client.ReticlePointerInteractable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,184,113"/>
+<area shape="rect" id="Node000002" href="$class_basic_reticle_pointer_interaction.html" title=" " alt="" coords="232,5,429,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,64,231,40,269,29,271,34,232,45,163,69"/>
+<area shape="rect" id="Node000003" href="$class_draw_on_mesh.html" title=" " alt="" coords="280,55,381,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,79,279,70,280,76,199,84"/>
+<area shape="rect" id="Node000004" href="$class_flood_mesh_interactable.html" title=" " alt="" coords="254,104,407,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="199,101,254,106,253,112,199,106"/>
+<area shape="rect" id="Node000005" href="$class_geometry_interactable.html" title=" " alt="" coords="257,153,404,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="164,116,232,140,271,150,269,155,231,145,162,121"/>
+</map>

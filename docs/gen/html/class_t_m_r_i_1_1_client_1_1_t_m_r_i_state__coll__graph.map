@@ -1,0 +1,12 @@
+<map id="TMRI.Client.TMRIState" name="TMRI.Client.TMRIState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="50,169,210,195"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,45,38,75,37,90,41,105,54,125,70,141,107,166,104,171,67,146,49,128,36,107,32,91,32,74,43,43"/>
+<area shape="rect" id="Node000004" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_state.html" title=" " alt="" coords="50,80,210,106"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="85,41,121,78,117,82,81,44"/>
+<area shape="rect" id="Node000003" href="$interface_t_m_r_i_1_1_client_1_1_i_settings_listener.html" title=" " alt="" coords="185,5,380,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="299,44,308,75,308,92,302,107,282,130,257,148,229,162,202,171,200,166,227,157,254,144,278,127,297,105,303,91,303,76,294,46"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="245,40,157,82,155,77,242,36"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="133,122,133,169,128,169,128,122"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="227,86,237,93,229,100,211,102,211,97,227,95,232,93,225,91"/>
+</map>

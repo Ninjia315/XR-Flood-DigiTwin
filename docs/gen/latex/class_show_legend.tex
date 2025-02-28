@@ -1,0 +1,175 @@
+\doxysection{Show\+Legend Class Reference}
+\hypertarget{class_show_legend}{}\label{class_show_legend}\index{ShowLegend@{ShowLegend}}
+
+
+Inheritance diagram for Show\+Legend\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_show_legend__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Show\+Legend\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_show_legend__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_show_legend_ab4afed1d15c660798a5753105dde910b}{Set\+Flood\+Visualization\+Type}} (\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}} type)
+\item 
+void \mbox{\hyperlink{class_show_legend_a30b260a1b798b0e2d64ac58fa5c3649a}{Set\+Legend\+Image}} (string id, Texture2D img)
+\item 
+void \mbox{\hyperlink{class_show_legend_a56a36461a827b16d557bcbfa93168005}{Remove\+Legend\+Image}} (string id)
+\item 
+void \mbox{\hyperlink{class_show_legend_a586222df390a96ead35f7e6d9f0aa2a5}{On\+Asset\+Loading}} (string asset\+ID)
+\item 
+void \mbox{\hyperlink{class_show_legend_a60b4abd7e18356cd21f25c55bc29cd83}{On\+Asset\+Changed}} (string asset\+ID)
+\item 
+void \mbox{\hyperlink{class_show_legend_aff5693bfac79152b3392d6be40886e4c}{On\+Flood\+Time\+Step\+Updated}} (int time\+Step)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_show_legend_aa09629650aefe414571ad256437982ad}{Absolute\+Depth\+Container}}
+\item 
+Game\+Object \mbox{\hyperlink{class_show_legend_adf305b41045d5f0d5ad13ec96defda05}{Relative\+Depth\+Container}}
+\item 
+Game\+Object \mbox{\hyperlink{class_show_legend_aff73f3fee988b2089b6cad2fbd46cf6d}{Open\+Legend\+Button}}
+\item 
+Game\+Object \mbox{\hyperlink{class_show_legend_a5115ea5410fce0c8311037a81b7637e2}{Toggle\+Container}}
+\item 
+TMP\+\_\+\+Text \mbox{\hyperlink{class_show_legend_ad2440053b1b8faee148d928d9c183fef}{Max\+Depth\+Text}}
+\item 
+bool \mbox{\hyperlink{class_show_legend_a22060709bf9b46efa547704ec269e229}{Only\+HMD}}
+\item 
+Game\+Object \mbox{\hyperlink{class_show_legend_ac766110ba6fcbcc1b499c1f9ff89ae3a}{Legend\+Template\+Prefab}}
+\item 
+float \mbox{\hyperlink{class_show_legend_ae6f82c0200bb7040fda7b02ce95c5624}{Placement\+Offset}} = 0.\+1f
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_show_legend_a60b4abd7e18356cd21f25c55bc29cd83}\index{ShowLegend@{ShowLegend}!OnAssetChanged@{OnAssetChanged}}
+\index{OnAssetChanged@{OnAssetChanged}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{OnAssetChanged()}{OnAssetChanged()}}
+{\footnotesize\ttfamily \label{class_show_legend_a60b4abd7e18356cd21f25c55bc29cd83} 
+void Show\+Legend.\+On\+Asset\+Changed (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_asset_listener_ae816e5d0db39e55bbdd77b93ebc2d131}{TMRI.\+Core.\+IAsset\+Listener}}.
+
+\Hypertarget{class_show_legend_a586222df390a96ead35f7e6d9f0aa2a5}\index{ShowLegend@{ShowLegend}!OnAssetLoading@{OnAssetLoading}}
+\index{OnAssetLoading@{OnAssetLoading}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{OnAssetLoading()}{OnAssetLoading()}}
+{\footnotesize\ttfamily \label{class_show_legend_a586222df390a96ead35f7e6d9f0aa2a5} 
+void Show\+Legend.\+On\+Asset\+Loading (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_asset_listener_aa13f952c90ea705eecbf8c0df969741f}{TMRI.\+Core.\+IAsset\+Listener}}.
+
+\Hypertarget{class_show_legend_aff5693bfac79152b3392d6be40886e4c}\index{ShowLegend@{ShowLegend}!OnFloodTimeStepUpdated@{OnFloodTimeStepUpdated}}
+\index{OnFloodTimeStepUpdated@{OnFloodTimeStepUpdated}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{OnFloodTimeStepUpdated()}{OnFloodTimeStepUpdated()}}
+{\footnotesize\ttfamily \label{class_show_legend_aff5693bfac79152b3392d6be40886e4c} 
+void Show\+Legend.\+On\+Flood\+Time\+Step\+Updated (\begin{DoxyParamCaption}\item[{int}]{time\+Step}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener_a04128e86008b89a158c5b6fdf218f984}{TMRI.\+Core.\+IFlood\+Visualization\+Listener}}.
+
+\Hypertarget{class_show_legend_a56a36461a827b16d557bcbfa93168005}\index{ShowLegend@{ShowLegend}!RemoveLegendImage@{RemoveLegendImage}}
+\index{RemoveLegendImage@{RemoveLegendImage}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{RemoveLegendImage()}{RemoveLegendImage()}}
+{\footnotesize\ttfamily \label{class_show_legend_a56a36461a827b16d557bcbfa93168005} 
+void Show\+Legend.\+Remove\+Legend\+Image (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_legend_listener_acb0e47145b75bab4a369e055a7253678}{TMRI.\+Core.\+ILegend\+Listener}}.
+
+\Hypertarget{class_show_legend_ab4afed1d15c660798a5753105dde910b}\index{ShowLegend@{ShowLegend}!SetFloodVisualizationType@{SetFloodVisualizationType}}
+\index{SetFloodVisualizationType@{SetFloodVisualizationType}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{SetFloodVisualizationType()}{SetFloodVisualizationType()}}
+{\footnotesize\ttfamily \label{class_show_legend_ab4afed1d15c660798a5753105dde910b} 
+void Show\+Legend.\+Set\+Flood\+Visualization\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}}}]{type}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener_abe1d944b2d9420ebe3ca491ad7083d95}{TMRI.\+Core.\+IFlood\+Visualization\+Listener}}.
+
+\Hypertarget{class_show_legend_a30b260a1b798b0e2d64ac58fa5c3649a}\index{ShowLegend@{ShowLegend}!SetLegendImage@{SetLegendImage}}
+\index{SetLegendImage@{SetLegendImage}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{SetLegendImage()}{SetLegendImage()}}
+{\footnotesize\ttfamily \label{class_show_legend_a30b260a1b798b0e2d64ac58fa5c3649a} 
+void Show\+Legend.\+Set\+Legend\+Image (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{Texture2D}]{img}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_legend_listener_a679c050ad4413ac5be9ac2c63d76d23a}{TMRI.\+Core.\+ILegend\+Listener}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_show_legend_aa09629650aefe414571ad256437982ad}\index{ShowLegend@{ShowLegend}!AbsoluteDepthContainer@{AbsoluteDepthContainer}}
+\index{AbsoluteDepthContainer@{AbsoluteDepthContainer}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{AbsoluteDepthContainer}{AbsoluteDepthContainer}}
+{\footnotesize\ttfamily \label{class_show_legend_aa09629650aefe414571ad256437982ad} 
+Game\+Object Show\+Legend.\+Absolute\+Depth\+Container}
+
+\Hypertarget{class_show_legend_ac766110ba6fcbcc1b499c1f9ff89ae3a}\index{ShowLegend@{ShowLegend}!LegendTemplatePrefab@{LegendTemplatePrefab}}
+\index{LegendTemplatePrefab@{LegendTemplatePrefab}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{LegendTemplatePrefab}{LegendTemplatePrefab}}
+{\footnotesize\ttfamily \label{class_show_legend_ac766110ba6fcbcc1b499c1f9ff89ae3a} 
+Game\+Object Show\+Legend.\+Legend\+Template\+Prefab}
+
+\Hypertarget{class_show_legend_ad2440053b1b8faee148d928d9c183fef}\index{ShowLegend@{ShowLegend}!MaxDepthText@{MaxDepthText}}
+\index{MaxDepthText@{MaxDepthText}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{MaxDepthText}{MaxDepthText}}
+{\footnotesize\ttfamily \label{class_show_legend_ad2440053b1b8faee148d928d9c183fef} 
+TMP\+\_\+\+Text Show\+Legend.\+Max\+Depth\+Text}
+
+\Hypertarget{class_show_legend_a22060709bf9b46efa547704ec269e229}\index{ShowLegend@{ShowLegend}!OnlyHMD@{OnlyHMD}}
+\index{OnlyHMD@{OnlyHMD}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{OnlyHMD}{OnlyHMD}}
+{\footnotesize\ttfamily \label{class_show_legend_a22060709bf9b46efa547704ec269e229} 
+bool Show\+Legend.\+Only\+HMD}
+
+\Hypertarget{class_show_legend_aff73f3fee988b2089b6cad2fbd46cf6d}\index{ShowLegend@{ShowLegend}!OpenLegendButton@{OpenLegendButton}}
+\index{OpenLegendButton@{OpenLegendButton}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{OpenLegendButton}{OpenLegendButton}}
+{\footnotesize\ttfamily \label{class_show_legend_aff73f3fee988b2089b6cad2fbd46cf6d} 
+Game\+Object Show\+Legend.\+Open\+Legend\+Button}
+
+\Hypertarget{class_show_legend_ae6f82c0200bb7040fda7b02ce95c5624}\index{ShowLegend@{ShowLegend}!PlacementOffset@{PlacementOffset}}
+\index{PlacementOffset@{PlacementOffset}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{PlacementOffset}{PlacementOffset}}
+{\footnotesize\ttfamily \label{class_show_legend_ae6f82c0200bb7040fda7b02ce95c5624} 
+float Show\+Legend.\+Placement\+Offset = 0.\+1f}
+
+\Hypertarget{class_show_legend_adf305b41045d5f0d5ad13ec96defda05}\index{ShowLegend@{ShowLegend}!RelativeDepthContainer@{RelativeDepthContainer}}
+\index{RelativeDepthContainer@{RelativeDepthContainer}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{RelativeDepthContainer}{RelativeDepthContainer}}
+{\footnotesize\ttfamily \label{class_show_legend_adf305b41045d5f0d5ad13ec96defda05} 
+Game\+Object Show\+Legend.\+Relative\+Depth\+Container}
+
+\Hypertarget{class_show_legend_a5115ea5410fce0c8311037a81b7637e2}\index{ShowLegend@{ShowLegend}!ToggleContainer@{ToggleContainer}}
+\index{ToggleContainer@{ToggleContainer}!ShowLegend@{ShowLegend}}
+\doxysubsubsection{\texorpdfstring{ToggleContainer}{ToggleContainer}}
+{\footnotesize\ttfamily \label{class_show_legend_a5115ea5410fce0c8311037a81b7637e2} 
+Game\+Object Show\+Legend.\+Toggle\+Container}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Scripts/\mbox{\hyperlink{_show_legend_8cs}{Show\+Legend.\+cs}}\end{DoxyCompactItemize}

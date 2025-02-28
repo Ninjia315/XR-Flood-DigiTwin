@@ -1,0 +1,18 @@
+<map id="TriLibCore.Samples.AbstractInputSystem" name="TriLibCore.Samples.AbstractInputSystem">
+<area shape="rect" id="Node000001" title="Represents a class to abstract input system actions." alt="" coords="198,79,387,120"/>
+<area shape="rect" id="Node000003" href="$class_tri_lib_core_1_1_samples_1_1_asset_viewer_base.html" title="Represents a base class used in TriLib samples." alt="" coords="105,168,280,208"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="252,132,209,169,206,165,248,128"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="268,132,224,169,221,165,265,128"/>
+<area shape="rect" id="Node000006" href="$class_tri_lib_core_1_1_samples_1_1_avatar_controller.html" title="Represents a class used to control an avatar on TriLib samples." alt="" coords="303,168,482,208"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="320,128,364,165,361,169,317,132"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="337,128,379,165,376,169,333,132"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="237,5,348,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="287,46,287,79,282,79,281,47"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="304,47,303,79,298,79,298,46"/>
+<area shape="rect" id="Node000004" href="$class_tri_lib_core_1_1_samples_1_1_asset_viewer.html" title="Represents a TriLib sample which allows the user to load models and HDR skyboxes from the local file&#45;..." alt="" coords="5,256,180,297"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="152,220,109,258,106,254,148,216"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="168,221,124,258,121,254,165,217"/>
+<area shape="rect" id="Node000005" href="$class_tri_lib_core_1_1_samples_1_1_avatar_loader.html" title="Represents a TriLib sample which allows the user to load and control a custom avatar." alt="" coords="203,256,382,297"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="220,217,264,254,261,258,217,221"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="237,216,279,254,276,258,233,220"/>
+</map>

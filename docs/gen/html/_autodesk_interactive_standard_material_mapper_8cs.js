@@ -1,0 +1,4 @@
+var _autodesk_interactive_standard_material_mapper_8cs =
+[
+    [ "TriLibCore.Mappers.AutodeskInteractiveStandardMaterialMapper", "class_tri_lib_core_1_1_mappers_1_1_autodesk_interactive_standard_material_mapper.html", "class_tri_lib_core_1_1_mappers_1_1_autodesk_interactive_standard_material_mapper" ]
+];

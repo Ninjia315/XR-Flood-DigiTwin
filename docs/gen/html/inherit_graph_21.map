@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,205,31"/>
+<area shape="rect" id="Node000001" href="$class_tri_lib_core_1_1_tri_lib_settings.html" title="Represents the TriLib project settings provider. You can override this behavior to store the settings..." alt="" coords="255,5,420,31"/>
+<area shape="poly" id="edge25_Node000000_Node000001" title=" " alt="" coords="220,16,254,16,254,21,220,21"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="46,59,164,84"/>
+<area shape="poly" id="edge26_Node000002_Node000001" title=" " alt="" coords="178,52,277,29,279,34,180,57"/>
+<area shape="rect" id="Node000003" href="$class_tri_lib_core_1_1_utils_1_1_materials_helper.html" title=" " alt="" coords="253,55,422,96"/>
+<area shape="poly" id="edge27_Node000002_Node000003" title=" " alt="" coords="179,70,252,71,252,77,179,75"/>
+<area shape="rect" id="Node000004" href="$class_tri_lib_core_1_1_utils_1_1_autodesk_interactive_materials_helper.html" title="Represents a series of AutodeskInteractiveStandardMaterialMapper helper methods." alt="" coords="478,22,652,62"/>
+<area shape="poly" id="edge28_Node000003_Node000004" title=" " alt="" coords="437,58,478,52,478,58,438,63"/>
+<area shape="rect" id="Node000005" href="$class_tri_lib_core_1_1_utils_1_1_gltf_materials_helper.html" title="Represents a series of GltfMaterialsMapper helper methods." alt="" coords="470,87,660,128"/>
+<area shape="poly" id="edge29_Node000003_Node000005" title=" " alt="" coords="438,87,470,91,469,97,437,92"/>
+</map>

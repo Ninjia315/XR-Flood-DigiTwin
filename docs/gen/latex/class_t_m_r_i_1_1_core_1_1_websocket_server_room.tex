@@ -1,0 +1,192 @@
+\doxysection{TMRI.\+Core.\+Websocket\+Server\+Room Class Reference}
+\hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room}{}\label{class_t_m_r_i_1_1_core_1_1_websocket_server_room}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+
+
+Inheritance diagram for TMRI.\+Core.\+Websocket\+Server\+Room\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_t_m_r_i_1_1_core_1_1_websocket_server_room__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMRI.\+Core.\+Websocket\+Server\+Room\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_t_m_r_i_1_1_core_1_1_websocket_server_room__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_device_web_socket_behaviour}{Device\+Web\+Socket\+Behaviour}}
+\item 
+class \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_room_connected_client}{Room\+Connected\+Client}}
+\item 
+class \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_state}{State}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a923f7035dc932bd3b0da31b73e5bcdc8}{Port}} = 8082
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_ace7742ac8c626a66bc9fa99c192573eb}{Endpoint}} = "{}/room"{}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a93addcfe46a2a8970b4474542e1b3642}{Lobby\+Endpoint}} = "{}/lobby"{}
+\item 
+Game\+Object \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a8be245163757059dc2cea02813a824f2}{Optional\+Client\+Prefab}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a50ac8668723914d0e935d86bc8fc26f1}{All\+Sessions\+Broadcast}} (string data)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a0d1403882843eb982ff9db81361a22ec}{Image\+Target\+Sessions\+Broadcast}} (string image\+Target, string data)
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a22360c900ebe7c96d4a024a956e34ead}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_abeee9e386e53ece884d47a2fd9dd9163}{On\+GUI}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Web\+Socket\+Server \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a0b8926e8ac17dcfb3e02b94d206f6d40}{wssv}}
+\item 
+Web\+Socket\+Service\+Host \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a87e6c5aa11ec01f764ac37f37988fe18}{room}}
+\item 
+Action \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a57f87a6e792f306919160a0a3bdf0891}{do\+In\+Unity\+Thread}}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a09b6f37cdbb65742405a6829c3abfc4c}{initialized}}
+\item 
+Dictionary$<$ string, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_room_connected_client}{Room\+Connected\+Client}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a81b4d877b059204ba8706332c7b04edc}{clients}} = new Dictionary$<$string, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_room_connected_client}{Room\+Connected\+Client}}$>$()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Dictionary$<$ string, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_state}{State}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a07aa8174707e6890d5c558d7e1ffb182}{state}} = new()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+IEnumerable$<$ Web\+Socket\+Session\+Manager $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a9e9a58931b61e246516f98963630e602}{session\+Managers}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a71d4c458c5a6028286ad88c2327e6740}{Full\+Address}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a50ac8668723914d0e935d86bc8fc26f1}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!AllSessionsBroadcast@{AllSessionsBroadcast}}
+\index{AllSessionsBroadcast@{AllSessionsBroadcast}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{AllSessionsBroadcast()}{AllSessionsBroadcast()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a50ac8668723914d0e935d86bc8fc26f1} 
+void TMRI.\+Core.\+Websocket\+Server\+Room.\+All\+Sessions\+Broadcast (\begin{DoxyParamCaption}\item[{string}]{data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a0d1403882843eb982ff9db81361a22ec}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!ImageTargetSessionsBroadcast@{ImageTargetSessionsBroadcast}}
+\index{ImageTargetSessionsBroadcast@{ImageTargetSessionsBroadcast}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{ImageTargetSessionsBroadcast()}{ImageTargetSessionsBroadcast()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a0d1403882843eb982ff9db81361a22ec} 
+void TMRI.\+Core.\+Websocket\+Server\+Room.\+Image\+Target\+Sessions\+Broadcast (\begin{DoxyParamCaption}\item[{string}]{image\+Target}{, }\item[{string}]{data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_abeee9e386e53ece884d47a2fd9dd9163}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!OnGUI@{OnGUI}}
+\index{OnGUI@{OnGUI}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{OnGUI()}{OnGUI()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_abeee9e386e53ece884d47a2fd9dd9163} 
+void TMRI.\+Core.\+Websocket\+Server\+Room.\+On\+GUI (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a22360c900ebe7c96d4a024a956e34ead}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!Update@{Update}}
+\index{Update@{Update}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a22360c900ebe7c96d4a024a956e34ead} 
+virtual void TMRI.\+Core.\+Websocket\+Server\+Room.\+Update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_websocket_server_with_g_u_i_a314871ba8579d8ba4e61cf5ac9320856}{Websocket\+Server\+With\+GUI}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a81b4d877b059204ba8706332c7b04edc}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!clients@{clients}}
+\index{clients@{clients}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{clients}{clients}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a81b4d877b059204ba8706332c7b04edc} 
+Dictionary$<$string, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_room_connected_client}{Room\+Connected\+Client}}$>$ TMRI.\+Core.\+Websocket\+Server\+Room.\+clients = new Dictionary$<$string, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_room_connected_client}{Room\+Connected\+Client}}$>$()\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a57f87a6e792f306919160a0a3bdf0891}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!doInUnityThread@{doInUnityThread}}
+\index{doInUnityThread@{doInUnityThread}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{doInUnityThread}{doInUnityThread}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a57f87a6e792f306919160a0a3bdf0891} 
+Action TMRI.\+Core.\+Websocket\+Server\+Room.\+do\+In\+Unity\+Thread\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_ace7742ac8c626a66bc9fa99c192573eb}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!Endpoint@{Endpoint}}
+\index{Endpoint@{Endpoint}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{Endpoint}{Endpoint}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_ace7742ac8c626a66bc9fa99c192573eb} 
+string TMRI.\+Core.\+Websocket\+Server\+Room.\+Endpoint = "{}/room"{}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a09b6f37cdbb65742405a6829c3abfc4c}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!initialized@{initialized}}
+\index{initialized@{initialized}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{initialized}{initialized}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a09b6f37cdbb65742405a6829c3abfc4c} 
+bool TMRI.\+Core.\+Websocket\+Server\+Room.\+initialized\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a93addcfe46a2a8970b4474542e1b3642}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!LobbyEndpoint@{LobbyEndpoint}}
+\index{LobbyEndpoint@{LobbyEndpoint}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{LobbyEndpoint}{LobbyEndpoint}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a93addcfe46a2a8970b4474542e1b3642} 
+string TMRI.\+Core.\+Websocket\+Server\+Room.\+Lobby\+Endpoint = "{}/lobby"{}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a8be245163757059dc2cea02813a824f2}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!OptionalClientPrefab@{OptionalClientPrefab}}
+\index{OptionalClientPrefab@{OptionalClientPrefab}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{OptionalClientPrefab}{OptionalClientPrefab}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a8be245163757059dc2cea02813a824f2} 
+Game\+Object TMRI.\+Core.\+Websocket\+Server\+Room.\+Optional\+Client\+Prefab}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a923f7035dc932bd3b0da31b73e5bcdc8}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!Port@{Port}}
+\index{Port@{Port}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{Port}{Port}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a923f7035dc932bd3b0da31b73e5bcdc8} 
+int TMRI.\+Core.\+Websocket\+Server\+Room.\+Port = 8082}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a87e6c5aa11ec01f764ac37f37988fe18}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!room@{room}}
+\index{room@{room}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{room}{room}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a87e6c5aa11ec01f764ac37f37988fe18} 
+Web\+Socket\+Service\+Host TMRI.\+Core.\+Websocket\+Server\+Room.\+room\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a07aa8174707e6890d5c558d7e1ffb182}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!state@{state}}
+\index{state@{state}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a07aa8174707e6890d5c558d7e1ffb182} 
+Dictionary$<$string, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_state}{State}}$>$ TMRI.\+Core.\+Websocket\+Server\+Room.\+state = new()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a0b8926e8ac17dcfb3e02b94d206f6d40}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!wssv@{wssv}}
+\index{wssv@{wssv}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{wssv}{wssv}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a0b8926e8ac17dcfb3e02b94d206f6d40} 
+Web\+Socket\+Server TMRI.\+Core.\+Websocket\+Server\+Room.\+wssv\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a71d4c458c5a6028286ad88c2327e6740}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!FullAddress@{FullAddress}}
+\index{FullAddress@{FullAddress}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{FullAddress}{FullAddress}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a71d4c458c5a6028286ad88c2327e6740} 
+string TMRI.\+Core.\+Websocket\+Server\+Room.\+Full\+Address\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a9e9a58931b61e246516f98963630e602}\index{TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}!sessionManagers@{sessionManagers}}
+\index{sessionManagers@{sessionManagers}!TMRI.Core.WebsocketServerRoom@{TMRI.Core.WebsocketServerRoom}}
+\doxysubsubsection{\texorpdfstring{sessionManagers}{sessionManagers}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_websocket_server_room_a9e9a58931b61e246516f98963630e602} 
+IEnumerable$<$Web\+Socket\+Session\+Manager$>$ TMRI.\+Core.\+Websocket\+Server\+Room.\+session\+Managers\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/server/\+Packages/com.\+imd.\+tmri.\+core/\+Runtime/\mbox{\hyperlink{_websocket_server_room_8cs}{Websocket\+Server\+Room.\+cs}}\end{DoxyCompactItemize}

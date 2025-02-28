@@ -1,0 +1,117 @@
+\doxysection{LODMesh Class Reference}
+\hypertarget{class_l_o_d_mesh}{}\label{class_l_o_d_mesh}\index{LODMesh@{LODMesh}}
+
+
+Inheritance diagram for LODMesh\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_l_o_d_mesh__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for LODMesh\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_l_o_d_mesh__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_l_o_d_mesh_a2d0a2876d97359b996cc4c9ba3229548}{Is\+Part\+Of\+LOD}} (Mesh\+Renderer mr)
+\item 
+bool \mbox{\hyperlink{class_l_o_d_mesh_ab4a7e89f3e538bef3b46aa8b7239d2fb}{Remove\+From\+LOD}} (Mesh\+Renderer mr)
+\item 
+void \mbox{\hyperlink{class_l_o_d_mesh_afb8f69c4c37fd9f68a58fd9742e19a8e}{Add\+LODGroup}} ()
+\item 
+float \mbox{\hyperlink{class_l_o_d_mesh_aeb166df21bb0481a33de1faa6056a917}{Compute\+Overlap\+Volume}} (Collider colA)
+\item 
+void \mbox{\hyperlink{class_l_o_d_mesh_a3ff15079b91025125243e8a38f33e13f}{Reset\+LODSize}} (float model\+Scale, float multiplier=1f)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_l_o_d_mesh_a6afbae6c40550f5094b302d71f5234ef}{Num\+LODs}}
+\item 
+List$<$ Collider $>$ \mbox{\hyperlink{class_l_o_d_mesh_a54d8de45f8a0b7bf1ce3200305dda57b}{overlapping\+Colliders}}
+\item 
+float \mbox{\hyperlink{class_l_o_d_mesh_a1b4bdd863560e5452da03f0796f50319}{overlap\+Casting\+Multiplier}} = 0.\+5f
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+LODGroup \mbox{\hyperlink{class_l_o_d_mesh_a6b0f24b9c5c0f1846d3e0fd80c89bae3}{lod\+Group}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_l_o_d_mesh_afb8f69c4c37fd9f68a58fd9742e19a8e}\index{LODMesh@{LODMesh}!AddLODGroup@{AddLODGroup}}
+\index{AddLODGroup@{AddLODGroup}!LODMesh@{LODMesh}}
+\doxysubsubsection{\texorpdfstring{AddLODGroup()}{AddLODGroup()}}
+{\footnotesize\ttfamily \label{class_l_o_d_mesh_afb8f69c4c37fd9f68a58fd9742e19a8e} 
+void LODMesh.\+Add\+LODGroup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_l_o_d_mesh_aeb166df21bb0481a33de1faa6056a917}\index{LODMesh@{LODMesh}!ComputeOverlapVolume@{ComputeOverlapVolume}}
+\index{ComputeOverlapVolume@{ComputeOverlapVolume}!LODMesh@{LODMesh}}
+\doxysubsubsection{\texorpdfstring{ComputeOverlapVolume()}{ComputeOverlapVolume()}}
+{\footnotesize\ttfamily \label{class_l_o_d_mesh_aeb166df21bb0481a33de1faa6056a917} 
+float LODMesh.\+Compute\+Overlap\+Volume (\begin{DoxyParamCaption}\item[{Collider}]{colA}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_l_o_d_mesh_a2d0a2876d97359b996cc4c9ba3229548}\index{LODMesh@{LODMesh}!IsPartOfLOD@{IsPartOfLOD}}
+\index{IsPartOfLOD@{IsPartOfLOD}!LODMesh@{LODMesh}}
+\doxysubsubsection{\texorpdfstring{IsPartOfLOD()}{IsPartOfLOD()}}
+{\footnotesize\ttfamily \label{class_l_o_d_mesh_a2d0a2876d97359b996cc4c9ba3229548} 
+bool LODMesh.\+Is\+Part\+Of\+LOD (\begin{DoxyParamCaption}\item[{Mesh\+Renderer}]{mr}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_l_o_d_mesh_ab4a7e89f3e538bef3b46aa8b7239d2fb}\index{LODMesh@{LODMesh}!RemoveFromLOD@{RemoveFromLOD}}
+\index{RemoveFromLOD@{RemoveFromLOD}!LODMesh@{LODMesh}}
+\doxysubsubsection{\texorpdfstring{RemoveFromLOD()}{RemoveFromLOD()}}
+{\footnotesize\ttfamily \label{class_l_o_d_mesh_ab4a7e89f3e538bef3b46aa8b7239d2fb} 
+bool LODMesh.\+Remove\+From\+LOD (\begin{DoxyParamCaption}\item[{Mesh\+Renderer}]{mr}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_l_o_d_mesh_a3ff15079b91025125243e8a38f33e13f}\index{LODMesh@{LODMesh}!ResetLODSize@{ResetLODSize}}
+\index{ResetLODSize@{ResetLODSize}!LODMesh@{LODMesh}}
+\doxysubsubsection{\texorpdfstring{ResetLODSize()}{ResetLODSize()}}
+{\footnotesize\ttfamily \label{class_l_o_d_mesh_a3ff15079b91025125243e8a38f33e13f} 
+void LODMesh.\+Reset\+LODSize (\begin{DoxyParamCaption}\item[{float}]{model\+Scale}{, }\item[{float}]{multiplier}{ = {\ttfamily 1f}}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_l_o_d_mesh_a6afbae6c40550f5094b302d71f5234ef}\index{LODMesh@{LODMesh}!NumLODs@{NumLODs}}
+\index{NumLODs@{NumLODs}!LODMesh@{LODMesh}}
+\doxysubsubsection{\texorpdfstring{NumLODs}{NumLODs}}
+{\footnotesize\ttfamily \label{class_l_o_d_mesh_a6afbae6c40550f5094b302d71f5234ef} 
+int LODMesh.\+Num\+LODs}
+
+\Hypertarget{class_l_o_d_mesh_a1b4bdd863560e5452da03f0796f50319}\index{LODMesh@{LODMesh}!overlapCastingMultiplier@{overlapCastingMultiplier}}
+\index{overlapCastingMultiplier@{overlapCastingMultiplier}!LODMesh@{LODMesh}}
+\doxysubsubsection{\texorpdfstring{overlapCastingMultiplier}{overlapCastingMultiplier}}
+{\footnotesize\ttfamily \label{class_l_o_d_mesh_a1b4bdd863560e5452da03f0796f50319} 
+float LODMesh.\+overlap\+Casting\+Multiplier = 0.\+5f}
+
+\Hypertarget{class_l_o_d_mesh_a54d8de45f8a0b7bf1ce3200305dda57b}\index{LODMesh@{LODMesh}!overlappingColliders@{overlappingColliders}}
+\index{overlappingColliders@{overlappingColliders}!LODMesh@{LODMesh}}
+\doxysubsubsection{\texorpdfstring{overlappingColliders}{overlappingColliders}}
+{\footnotesize\ttfamily \label{class_l_o_d_mesh_a54d8de45f8a0b7bf1ce3200305dda57b} 
+List$<$Collider$>$ LODMesh.\+overlapping\+Colliders}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_l_o_d_mesh_a6b0f24b9c5c0f1846d3e0fd80c89bae3}\index{LODMesh@{LODMesh}!lodGroup@{lodGroup}}
+\index{lodGroup@{lodGroup}!LODMesh@{LODMesh}}
+\doxysubsubsection{\texorpdfstring{lodGroup}{lodGroup}}
+{\footnotesize\ttfamily \label{class_l_o_d_mesh_a6b0f24b9c5c0f1846d3e0fd80c89bae3} 
+LODGroup LODMesh.\+lod\+Group\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/server/\+Packages/com.\+imd.\+tmri.\+core/\+Runtime/\mbox{\hyperlink{_l_o_d_mesh_8cs}{LODMesh.\+cs}}\end{DoxyCompactItemize}

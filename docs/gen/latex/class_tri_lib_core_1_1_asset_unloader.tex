@@ -1,0 +1,132 @@
+\doxysection{Tri\+Lib\+Core.\+Asset\+Unloader Class Reference}
+\hypertarget{class_tri_lib_core_1_1_asset_unloader}{}\label{class_tri_lib_core_1_1_asset_unloader}\index{TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}}
+
+
+Represents a Class to destroy every Asset (Textures, Materials, Meshes) loaded by Tri\+Lib for this Game\+Object.  
+
+
+
+
+Inheritance diagram for Tri\+Lib\+Core.\+Asset\+Unloader\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{class_tri_lib_core_1_1_asset_unloader__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\+Lib\+Core.\+Asset\+Unloader\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{class_tri_lib_core_1_1_asset_unloader__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_tri_lib_core_1_1_asset_unloader_a1f692a496f8b1ab2e58285ff1a1c5022}{Get\+Next\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Gets the next allocation Identifier. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{class_tri_lib_core_1_1_asset_unloader_a1f692a496f8b1ab2e58285ff1a1c5022}{Get\+Next\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Gets the next allocation Identifier. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object}} $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_asset_unloader_a63ebd7a443a0f4dd91b7d4292453e98d}{Allocations}}
+\begin{DoxyCompactList}\small\item\em Assets Allocation List. \end{DoxyCompactList}\item 
+object \mbox{\hyperlink{class_tri_lib_core_1_1_asset_unloader_a3b4e52b158c9bda4d21b2661a7f08538}{Custom\+Data}}
+\begin{DoxyCompactList}\small\item\em Custom data used to load the model. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_tri_lib_core_1_1_asset_unloader_a2afaa08e89d4ee5e4b1723bc6904173c}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The Asset Unloader unique identifier. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_tri_lib_core_1_1_asset_unloader_a68c7180532887e4c5b19fb8b5b5dc1c6}{Has\+Registered\+Unloaders}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns whether there is any \doxylink{class_tri_lib_core_1_1_asset_unloader}{Asset\+Unloader} instance active. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a Class to destroy every Asset (Textures, Materials, Meshes) loaded by Tri\+Lib for this Game\+Object. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tri_lib_core_1_1_asset_unloader_a1f692a496f8b1ab2e58285ff1a1c5022}\index{TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}!GetNextId@{GetNextId}}
+\index{GetNextId@{GetNextId}!TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}}
+\doxysubsubsection{\texorpdfstring{GetNextId()}{GetNextId()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_unloader_a1f692a496f8b1ab2e58285ff1a1c5022} 
+static int Tri\+Lib\+Core.\+Asset\+Unloader.\+Get\+Next\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Gets the next allocation Identifier. 
+
+\begin{DoxyReturn}{Returns}
+The Allocation Identifier.
+\end{DoxyReturn}
+\Hypertarget{class_tri_lib_core_1_1_asset_unloader_a1f692a496f8b1ab2e58285ff1a1c5022}\index{TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}!GetNextId@{GetNextId}}
+\index{GetNextId@{GetNextId}!TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}}
+\doxysubsubsection{\texorpdfstring{GetNextId()}{GetNextId()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_unloader_a1f692a496f8b1ab2e58285ff1a1c5022} 
+static int Tri\+Lib\+Core.\+Asset\+Unloader.\+Get\+Next\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Gets the next allocation Identifier. 
+
+\begin{DoxyReturn}{Returns}
+The Allocation Identifier.
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_tri_lib_core_1_1_asset_unloader_a63ebd7a443a0f4dd91b7d4292453e98d}\index{TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}!Allocations@{Allocations}}
+\index{Allocations@{Allocations}!TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}}
+\doxysubsubsection{\texorpdfstring{Allocations}{Allocations}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_unloader_a63ebd7a443a0f4dd91b7d4292453e98d} 
+List$<$ \mbox{\hyperlink{_mesh_swift_u_i_driver_8cs_aef19bab18b9814edeef255c43e4f6bbc}{Object}} $>$ Tri\+Lib\+Core.\+Asset\+Unloader.\+Allocations}
+
+
+
+Assets Allocation List. 
+
+\Hypertarget{class_tri_lib_core_1_1_asset_unloader_a3b4e52b158c9bda4d21b2661a7f08538}\index{TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}!CustomData@{CustomData}}
+\index{CustomData@{CustomData}!TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}}
+\doxysubsubsection{\texorpdfstring{CustomData}{CustomData}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_unloader_a3b4e52b158c9bda4d21b2661a7f08538} 
+object Tri\+Lib\+Core.\+Asset\+Unloader.\+Custom\+Data}
+
+
+
+Custom data used to load the model. 
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_tri_lib_core_1_1_asset_unloader_a68c7180532887e4c5b19fb8b5b5dc1c6}\index{TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}!HasRegisteredUnloaders@{HasRegisteredUnloaders}}
+\index{HasRegisteredUnloaders@{HasRegisteredUnloaders}!TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}}
+\doxysubsubsection{\texorpdfstring{HasRegisteredUnloaders}{HasRegisteredUnloaders}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_unloader_a68c7180532887e4c5b19fb8b5b5dc1c6} 
+static bool Tri\+Lib\+Core.\+Asset\+Unloader.\+Has\+Registered\+Unloaders\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Returns whether there is any \doxylink{class_tri_lib_core_1_1_asset_unloader}{Asset\+Unloader} instance active. 
+
+\Hypertarget{class_tri_lib_core_1_1_asset_unloader_a2afaa08e89d4ee5e4b1723bc6904173c}\index{TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}!Id@{Id}}
+\index{Id@{Id}!TriLibCore.AssetUnloader@{TriLibCore.AssetUnloader}}
+\doxysubsubsection{\texorpdfstring{Id}{Id}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_asset_unloader_a2afaa08e89d4ee5e4b1723bc6904173c} 
+int Tri\+Lib\+Core.\+Asset\+Unloader.\+Id\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The Asset Unloader unique identifier. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Core/\+Scripts/\+Misc/\mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_core_2_scripts_2_misc_2_asset_unloader_8cs}{Asset\+Unloader.\+cs}}\item 
+docs/src/server/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Core/\+Scripts/\+Misc/\mbox{\hyperlink{server_2_assets_2_tri_lib_2_tri_lib_core_2_scripts_2_misc_2_asset_unloader_8cs}{Asset\+Unloader.\+cs}}\end{DoxyCompactItemize}

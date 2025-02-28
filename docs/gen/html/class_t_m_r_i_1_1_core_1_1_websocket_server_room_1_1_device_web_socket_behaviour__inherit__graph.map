@@ -1,0 +1,9 @@
+<map id="TMRI.Core.WebsocketServerRoom.DeviceWebSocketBehaviour" name="TMRI.Core.WebsocketServerRoom.DeviceWebSocketBehaviour">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,232,120"/>
+<area shape="rect" id="Node000003" href="$class_t_m_r_i_1_1_core_1_1_websocket_server_room_1_1_room_connected_client.html" title=" " alt="" coords="22,168,215,208"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,135,121,167,116,167,116,135"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="49,5,188,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,46,121,79,116,79,116,46"/>
+<area shape="rect" id="Node000004" href="$class_websocket_server_with_g_u_i_1_1_asset_enabled_client.html" title=" " alt="" coords="12,256,225,297"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,224,121,256,116,256,116,224"/>
+</map>

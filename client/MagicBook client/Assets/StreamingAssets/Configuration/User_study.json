@@ -1,0 +1,148 @@
+{
+	"ipAddress": "163.221.126.252",
+	"display_size": {"x":0.6,"y":9,"z":1.0},
+	"markers": [
+	    {
+	        "name" : "IMD lab QR",
+	        "defaultToLoad": "Kizugawa",
+	        "link" : "https://drive.google.com/uc?export=download&id=1Oq3b8X8oUVk9wipmSOenaP7gY0C80Oqm",
+	        "printwidth": 0.175
+	    }
+    ],
+  	"assets": [
+        {
+            "id" : "Kizugawa",
+            "initialScale": 0.0003,
+            "conversionValue": 1,
+            "lodMultiplier": 1.0,
+            "models":
+            [
+                {
+                    "url": "https://drive.google.com/uc?export=download&id=1o-9oDEDdeYFaeHEBXS_DoWSEQdAbTnLT",
+                    "lodLevel": 1,
+                    "triangles": 11671,
+                    "screenVisibleFraction": 0
+                },
+                {
+                    "url": "https://drive.google.com/uc?export=download&id=1_vpbwD5l99DZfLGn1YuwXCN-vB6lMQBF",
+                    "lodLevel": 3,
+                    "triangles": 425451,
+                    "screenVisibleFraction": 0
+                },
+                {
+                    "url": "https://drive.google.com/file/d/1r1jhK1ZmhvUn-XRe_eO_kNfi1qCKHVgz/view?usp=drive_link",
+                    "lodLevel": 4,
+                    "triangles": 2789650,
+                    "screenVisibleFraction": 0
+                },
+            ],
+            "originLatLonAlt": {"x": 34.75469589, "y": 135.8183975, "z": 37.69},
+            "minLatLonAlt": {"x": 34.71686902062959, "y": 135.79090689984403, "z": 0},
+            "maxLatLonAlt": {"x": 34.80457697478258, "y": 135.85714423528336, "z": 0},
+            "assetBundles" : [],
+            "landmarks": [
+                {
+                    "label": "木津川市立木津中学校",
+                    "icon": 1,
+                    "position": {"x": 34.736067, "y": 135.804684, "z": 48},
+                    "level": 0
+                },
+                {
+                    "label": "木津川市立相楽小学校",
+                    "icon": 1,
+                    "position": {"x": 34.736525, "y": 135.801058, "z": 48},
+                    "level": 0
+                },
+            ],
+            "landmarkListUrl": "https://drive.google.com/file/d/1tWaTHH_8VKUFNEHQHTvyu4E99yNjwCwl/view?usp=drive_link",
+            "panoramas": [
+                {
+                    "position": {"x": 34.75041675270184, "y": 135.821011012738, "z": 48},
+                    "offsetInVR": {"x": 0, "y": 0.0, "z": 0},
+                    "spherical360ImageUrl": "https://drive.google.com/uc?export=download&id=1eDJLIhODoCAStJeCgod5Qb4m_GJ1RCuG",
+                    "depthImageUrl": "https://drive.google.com/uc?export=download&id=1IfpVSBqqRFQzK0_wfbQofX4l4jlaKMsV",
+                    "rotationFromNorthDegrees": 87.4273681640625,
+                    "invertDepth": false
+                },
+                {
+                    "position": {"x": 34.737109, "y": 135.820955, "z": 34},
+                    "spherical360ImageUrl": "https://drive.google.com/file/d/1K8mmHRsxSJCKrA6l9KSYZxoTGMUGrPal/view?usp=drive_link",
+                    "depthImageUrl": "https://drive.google.com/file/d/1v1M00XStaHH3-roITJmrbhUW9IC47u-0/view?usp=drive_link",
+                    "rotationFromNorthDegrees": 184
+                },
+            ],
+            "geoImages": [
+                {
+                    "id": "洪水浸水想定区域",
+                    "minLatLon": {"x": 34.735018, "y": 135.786381, "z": 0},
+                    "maxLatLon": {"x": 34.787338, "y": 135.820026, "z": 0},
+                    "imageUrl": "https://drive.google.com/file/d/1qWL-1gUY343aeZyvp57mPr02m9Gmzr5C/view?usp=drive_link",
+                    "legendImageUrl": "https://drive.google.com/file/d/18WWOq4QGaok9AbHhv871yKXDSNW-h2aP/view?usp=drive_link",
+                    "opacity": 0.5
+                },
+                {
+                    "id": "地形分類",
+                    "minLatLon": {"x": 34.726906, "y": 135.779428, "z": 0},
+                    "maxLatLon": {"x": 34.767669, "y": 135.838480, "z": 0},
+                    "imageUrl": "https://drive.google.com/uc?export=download&id=1lgRaTr5PN7q-TAtlsJvlXgRoqI-prM9p",
+                    "opacity": 0.5
+                },
+                {
+                    "id": "浸水継続時間",
+                    "minLatLon": {"x": 34.727117, "y": 135.784063, "z": 0},
+                    "maxLatLon": {"x": 34.775425, "y": 135.838480, "z": 0},
+                    "imageUrl": "https://drive.google.com/uc?export=download&id=1Y_OgkuTXtHKkb-brvNKXkAqcZxBM7ajq",
+                    "legendImageUrl": "https://drive.google.com/uc?export=download&id=1Hd2QsvUNDwli9BgCH3N6b1mAE4JTQIpT",
+                    "opacity": 0.5
+                },
+                {
+                    "id": "家屋倒壊等氾濫想定区域",
+                    "minLatLon": {"x": 34.735229, "y": 135.785351, "z": 0},
+                    "maxLatLon": {"x": 34.788537, "y": 135.832644, "z": 0},
+                    "imageUrl": "https://drive.google.com/uc?export=download&id=1u4sATE3aqqiIdBxhWxNXXqAUvXoPDQfp",
+                    "opacity": 0.5
+                }
+            ],
+            "geoData": {
+                "dataUrls": [
+                    "https://drive.google.com/open?id=1PeOZ77ZZ5739Twp-mtXfrTBg4XXbXFVQ&usp=drive_copy",
+                    "https://drive.google.com/open?id=150b51pE62yGR4GTaBI4aiAfumOqo1k8D&usp=drive_copy",
+                    "https://drive.google.com/open?id=1fjrRLbySAoaUD4X5EaQtFyQ_QM7NDWvB&usp=drive_copy",
+                    "https://drive.google.com/open?id=1skChspDgsKN5HyhaTIolW4TA-veACyDK&usp=drive_copy",
+                    "https://drive.google.com/open?id=1vRvs1bxFTvmN-_jV3MemufOpwsEmVKhZ&usp=drive_copy",
+                    "https://drive.google.com/open?id=1lASYh1owrztxnhqfwXc9IHiPutFbEzlC&usp=drive_copy",
+                    "https://drive.google.com/open?id=1XwJSn3tOTMb0FzgmK79Zj_1gNeAW330B&usp=drive_copy",
+                    "https://drive.google.com/open?id=129GZl1A4TN4GcKdSR6MCXO5OCZvmnEcv&usp=drive_copy",
+                    "https://drive.google.com/open?id=1lqfS4qbRgJkCYw7Hs4twA8fJ3KFtb_yr&usp=drive_copy",
+                    "https://drive.google.com/open?id=1NaTpc5fneHLFiYbRXbLz-O6v441AJnPT&usp=drive_copy",
+                    "https://drive.google.com/open?id=1AxWmEoK8_-Hav60iVGzm55jyF1EYS9g0&usp=drive_copy",
+                    "https://drive.google.com/open?id=1YEie5JRwPaQgTaQDkUdWjWhNHYaoIlLl&usp=drive_copy",
+                    "https://drive.google.com/open?id=1yny1c2vlZbJ52vmKl6FyhMRgoWysxcWq&usp=drive_copy",
+                    "https://drive.google.com/open?id=1wPSeQPTllW_Yfq_6aLsMlfRyhNahDGK_&usp=drive_copy",
+                    "https://drive.google.com/open?id=1ayKl5jgV570_NCgzcGVcJouKczu2j412&usp=drive_copy",
+                    
+                    ],
+                "fileStartIndex": 0,
+                "scale": 1.0,
+                "delimiter": ",",
+                "numColumns": 23,
+                "elevationColumnIndex": 1,
+                "dataValueColumnIndex": 2,
+                "latLngShapeStartColumnIndex": 4,
+                "xDegreesOffset": 0.25
+            }
+        }
+    ],
+    "landmarkTypes": 
+    [
+        {"id":1, "name":"指定緊急避難場所", "iconUrl": "https://drive.google.com/uc?export=download&id=1JAhfWNs4cYGBcVPbKTqYdB_qYUK277XI"},
+        {"id":2, "name":"指定避難場所", "iconUrl": "https://drive.google.com/uc?export=download&id=1ojt5Xgvf0jN6DZBoUvBcafvKV-dawkwI"},
+        {"id":3, "name":"主な集会所等", "iconUrl": "https://drive.google.com/uc?export=download&id=1ybKirFJTNvMfodYkuodClpiqaUESYvvb"},
+        {"id":4, "name":"ヘリ発着可能箇所", "iconUrl": "https://drive.google.com/file/d/1-PC6yvGufTDZD7sXsgmsFAooCWSgVXv4/view?usp=drive_link"},
+        {"id":5, "name":"公立病院", "iconUrl": "https://drive.google.com/uc?export=download&id=18S2pWIZtz_crOLZSFF4MOb6zD1TcoXyu"},
+        {"id":6, "name":"自然災害伝承碑", "iconUrl": "https://drive.google.com/uc?export=download&id=1sQ5sGtYwIbddFSJ6oAMHi5WCAJmkJelM"},
+        {"id":7, "name":"樋門", "iconUrl": "https://drive.google.com/uc?export=download&id=1ceXNCAlyxdCq0W-42tgQ1bD2SQJOfkZK"},
+        {"id":8, "name":"水位観測所", "iconUrl": "https://drive.google.com/uc?export=download&id=1zjj_a2oO7dAFYSK2D3rJD5F880PlEBhe"},
+        {"id":9, "name":"雨量観測所", "iconUrl": "https://drive.google.com/uc?export=download&id=1yzR2gj8xvG42FuA08jHbr00d_IvFMzC6"}
+    ]
+}

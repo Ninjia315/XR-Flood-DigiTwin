@@ -1,0 +1,4 @@
+var client_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_tri_lib_000834f811ac5e027c45a7973dd2d8f3 =
+[
+    [ "TriLibCore.Mappers.FilePickerExternalDataMapper", "class_tri_lib_core_1_1_mappers_1_1_file_picker_external_data_mapper.html", "class_tri_lib_core_1_1_mappers_1_1_file_picker_external_data_mapper" ]
+];

@@ -1,0 +1,189 @@
+\doxysection{TMRI.\+Client.\+Panoramic\+XRCamera Class Reference}
+\hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera}{}\label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+
+
+Inheritance diagram for TMRI.\+Client.\+Panoramic\+XRCamera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMRI.\+Client.\+Panoramic\+XRCamera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_afe21668b818b910a37e966076f66de0a}{Awake}} ()
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aee294eac0b2940c77b5db6419b2bbe64}{Start}} ()
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a204cc78fdcb6390b797dcf4480cf07d4}{Enable\+VR}} (float field\+Of\+View)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a3ae22ef39520f74387535a18d507e3ee}{Enable\+AR}} (float field\+Of\+View)
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aa260e045cd367daa4e57471fd007ff3f}{On\+XRTransition\+Start}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a1e08e960be1cdfcd6e0b5a00b3e18d16}{Update}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_x_r_camera}{TMRI.\+Client.\+Base\+XRCamera}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_x_r_camera_af3ed89371dedd09f81754494578a38a0}{Set\+FoV}} (float field\+Of\+View)
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_x_r_camera_ab1e4188d13b5074b9242d00f24f68cf9}{Toggle\+Stereo\+Mono}} (float field\+Of\+View, Camera\+Clear\+Flags mono\+Camera\+Clear\+Flags)
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_x_r_camera_a00d3dadf217952307d2c5d547f11d1f0}{Set\+Stereo\+Disparity}} (float value)
+\item 
+virtual Transform \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_x_r_camera_a96aecb28c7330ada4dec5acf3ca26589}{Get\+Animateable\+Transform}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Material \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aee8fc969295dceb04c7353ee2540f210}{panoramic\+Material}}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aae84a200dbff562b58670f46f0d5c3ba}{use\+Camera\+Depth\+Texture}}
+\item 
+Layer\+Mask \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_ac14463984811aa7a71e8207cbdba1040}{UICamera\+Culling\+Mask}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Camera \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a5961498d6db2c20a8861524f72d553a6}{my\+Camera}}
+\item 
+Camera \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aee3c1f4e25efd129d08a8a8523156fa1}{depth\+Only\+Camera}}
+\item 
+Camera \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a3bcf48ec9bb399892328a1f86f017b46}{ui\+Camera}}
+\item 
+Material \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a32fff6444156d8ccedf232a0fb803a27}{cached\+Skybox\+Mat}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_afe21668b818b910a37e966076f66de0a}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!Awake@{Awake}}
+\index{Awake@{Awake}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_afe21668b818b910a37e966076f66de0a} 
+virtual void TMRI.\+Client.\+Panoramic\+XRCamera.\+Awake (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_stereo_camera_a4d03de9e0650bb7b799e3ea7dbee283f}{TMRI.\+Client.\+Stereo\+Camera}}.
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a3ae22ef39520f74387535a18d507e3ee}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!EnableAR@{EnableAR}}
+\index{EnableAR@{EnableAR}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{EnableAR()}{EnableAR()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a3ae22ef39520f74387535a18d507e3ee} 
+override void TMRI.\+Client.\+Panoramic\+XRCamera.\+Enable\+AR (\begin{DoxyParamCaption}\item[{float}]{field\+Of\+View}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_x_r_camera_a9969795fd73ef6d2722d6fb7be934c4b}{TMRI.\+Client.\+Base\+XRCamera}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_stereo_camera_a097cf948ef6794465765f44574323158}{TMRI.\+Client.\+Stereo\+Camera}}.
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a204cc78fdcb6390b797dcf4480cf07d4}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!EnableVR@{EnableVR}}
+\index{EnableVR@{EnableVR}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{EnableVR()}{EnableVR()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a204cc78fdcb6390b797dcf4480cf07d4} 
+override void TMRI.\+Client.\+Panoramic\+XRCamera.\+Enable\+VR (\begin{DoxyParamCaption}\item[{float}]{field\+Of\+View}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_x_r_camera_a6189be6ea92a4ea2f8bc868ebfa3fe4b}{TMRI.\+Client.\+Base\+XRCamera}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_stereo_camera_a6bd83ed3cc07f51bb41b031fe3f12155}{TMRI.\+Client.\+Stereo\+Camera}}.
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aa260e045cd367daa4e57471fd007ff3f}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!OnXRTransitionStart@{OnXRTransitionStart}}
+\index{OnXRTransitionStart@{OnXRTransitionStart}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{OnXRTransitionStart()}{OnXRTransitionStart()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aa260e045cd367daa4e57471fd007ff3f} 
+override void TMRI.\+Client.\+Panoramic\+XRCamera.\+On\+XRTransition\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_x_r_camera_a055fdb9c48f5e8bf25a57743427fbb35}{TMRI.\+Client.\+Base\+XRCamera}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_stereo_camera_a36d507eda9e986938e473aa7e2249b80}{TMRI.\+Client.\+Stereo\+Camera}}.
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aee294eac0b2940c77b5db6419b2bbe64}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!Start@{Start}}
+\index{Start@{Start}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aee294eac0b2940c77b5db6419b2bbe64} 
+override void TMRI.\+Client.\+Panoramic\+XRCamera.\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_x_r_camera_adfb08466e3b5a4ce07e9e947d5f35ae4}{TMRI.\+Client.\+Base\+XRCamera}}.
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a1e08e960be1cdfcd6e0b5a00b3e18d16}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!Update@{Update}}
+\index{Update@{Update}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a1e08e960be1cdfcd6e0b5a00b3e18d16} 
+virtual void TMRI.\+Client.\+Panoramic\+XRCamera.\+Update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a32fff6444156d8ccedf232a0fb803a27}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!cachedSkyboxMat@{cachedSkyboxMat}}
+\index{cachedSkyboxMat@{cachedSkyboxMat}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{cachedSkyboxMat}{cachedSkyboxMat}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a32fff6444156d8ccedf232a0fb803a27} 
+Material TMRI.\+Client.\+Panoramic\+XRCamera.\+cached\+Skybox\+Mat\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aee3c1f4e25efd129d08a8a8523156fa1}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!depthOnlyCamera@{depthOnlyCamera}}
+\index{depthOnlyCamera@{depthOnlyCamera}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{depthOnlyCamera}{depthOnlyCamera}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aee3c1f4e25efd129d08a8a8523156fa1} 
+Camera TMRI.\+Client.\+Panoramic\+XRCamera.\+depth\+Only\+Camera\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a5961498d6db2c20a8861524f72d553a6}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!myCamera@{myCamera}}
+\index{myCamera@{myCamera}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{myCamera}{myCamera}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a5961498d6db2c20a8861524f72d553a6} 
+Camera TMRI.\+Client.\+Panoramic\+XRCamera.\+my\+Camera\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aee8fc969295dceb04c7353ee2540f210}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!panoramicMaterial@{panoramicMaterial}}
+\index{panoramicMaterial@{panoramicMaterial}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{panoramicMaterial}{panoramicMaterial}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aee8fc969295dceb04c7353ee2540f210} 
+Material TMRI.\+Client.\+Panoramic\+XRCamera.\+panoramic\+Material}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a3bcf48ec9bb399892328a1f86f017b46}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!uiCamera@{uiCamera}}
+\index{uiCamera@{uiCamera}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{uiCamera}{uiCamera}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_a3bcf48ec9bb399892328a1f86f017b46} 
+Camera TMRI.\+Client.\+Panoramic\+XRCamera.\+ui\+Camera\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_ac14463984811aa7a71e8207cbdba1040}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!UICameraCullingMask@{UICameraCullingMask}}
+\index{UICameraCullingMask@{UICameraCullingMask}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{UICameraCullingMask}{UICameraCullingMask}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_ac14463984811aa7a71e8207cbdba1040} 
+Layer\+Mask TMRI.\+Client.\+Panoramic\+XRCamera.\+UICamera\+Culling\+Mask}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aae84a200dbff562b58670f46f0d5c3ba}\index{TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}!useCameraDepthTexture@{useCameraDepthTexture}}
+\index{useCameraDepthTexture@{useCameraDepthTexture}!TMRI.Client.PanoramicXRCamera@{TMRI.Client.PanoramicXRCamera}}
+\doxysubsubsection{\texorpdfstring{useCameraDepthTexture}{useCameraDepthTexture}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_panoramic_x_r_camera_aae84a200dbff562b58670f46f0d5c3ba} 
+bool TMRI.\+Client.\+Panoramic\+XRCamera.\+use\+Camera\+Depth\+Texture}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Packages/com.\+imd.\+tmri.\+client/\+Runtime/\mbox{\hyperlink{_panoramic_x_r_camera_8cs}{Panoramic\+XRCamera.\+cs}}\end{DoxyCompactItemize}

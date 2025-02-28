@@ -1,0 +1,7 @@
+<map id="PointerInput" name="PointerInput">
+<area shape="rect" id="Node000001" title=" " alt="" coords="111,79,202,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,162,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,40,146,77,143,80,105,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="186,5,277,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,44,171,81,167,77,206,40"/>
+</map>

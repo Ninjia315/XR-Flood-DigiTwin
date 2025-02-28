@@ -1,0 +1,240 @@
+\doxysection{TMRI.\+Client.\+TMRIOnline\+Scene Class Reference}
+\hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene}{}\label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+
+
+Inheritance diagram for TMRI.\+Client.\+TMRIOnline\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMRI.\+Client.\+TMRIOnline\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+interface \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_1_1_i_panorama_behaviour}{IPanorama\+Behaviour}}
+\item 
+class \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_1_1_named_shader}{Named\+Shader}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a2e7f13b6d9312122b5320ab3ecb9e511}{Get\+Current\+Asset}} ()
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ad5c2c76f0cbeb951a67e676c0d887bff}{On\+TMRISettings}} (\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_settings}{TMRISettings}} settings)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a3c65c1ee91ba03eb131ccaafd98bd709}{Force\+LOD}} (int lod\+Level)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c}{is\+Connection\+Open}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a}{On\+Enable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_1_1_named_shader}{Named\+Shader}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a2a7cc805ee6f6e38d72f89ff8da33991}{Shaders\+To\+Replace}}
+\item 
+Game\+Object \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a5e8a0d90d0b36f463d20d15cbc00e1d7}{loading\+Prefab}}
+\item 
+Mono\+Behaviour \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a0d6d6c4698a6754d42114088a0bfa425}{tracker\+Component}}
+\item 
+Game\+Object \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_adf56eb05972c091a2f9fee775ff40bc7}{target\+GO}}
+\item 
+Game\+Object \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a7fd60522b590e6f4aba16dc7b21f2187}{landmark\+Prefab}}
+\item 
+Game\+Object \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ae1575fa60c25b53568b97c07b0267c6b}{panorama\+Prefab}}
+\item 
+Game\+Object \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a21e67d2b05121d0e6c5d2ecfb9354e53}{map\+Area\+Prefab}}
+\item 
+Game\+Object \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ad6f839bfca22f1e145e4e536ccbcd8e2}{map\+Projector\+Prefab}}
+\item 
+\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player}{Flood\+Data\+Player}} \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ae068c85e30aa8577a5ed857685de4272}{flood\+Data\+Player}}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_aa101fd9d47db726f4e0930a18d708b17}{current\+Geo\+Image\+ID}}
+\item 
+Layer\+Mask \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a8a2c5b4c6d394295aea83fa5d0501fbb}{geo\+Images\+Ignore\+Layers}}
+\item 
+Game\+Object \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a0c3c5fbba8519a869da7001936d2cc58}{geometry\+Components}}
+\item 
+LODGroup \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a53048f2409979b7cc5c7edf7aa481653}{lod\+Group}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static ? bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ae94f009f3311a29236c10ed3ca392982}{UIVisible}}
+\item 
+static List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_landmark_type}{Serializable\+Landmark\+Type}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ac14661d36c2293e74438f223a7aeb4f0}{Landmarks\+Types\+Visible}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a81ea00d193dafeb3a170dd429e7f95f7}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a2fe9d96e3be9689b34aee523c5f6830d}{do\+On\+Websocket\+Connected}} (Web\+Socket w)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651}{Send}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a75b1ca4f3676c3806541f7b64f5e8c60}{Is\+Asset\+Changing}} = false\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a3c65c1ee91ba03eb131ccaafd98bd709}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!ForceLOD@{ForceLOD}}
+\index{ForceLOD@{ForceLOD}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{ForceLOD()}{ForceLOD()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a3c65c1ee91ba03eb131ccaafd98bd709} 
+void TMRI.\+Client.\+TMRIOnline\+Scene.\+Force\+LOD (\begin{DoxyParamCaption}\item[{int}]{lod\+Level}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a2e7f13b6d9312122b5320ab3ecb9e511}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!GetCurrentAsset@{GetCurrentAsset}}
+\index{GetCurrentAsset@{GetCurrentAsset}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{GetCurrentAsset()}{GetCurrentAsset()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a2e7f13b6d9312122b5320ab3ecb9e511} 
+string TMRI.\+Client.\+TMRIOnline\+Scene.\+Get\+Current\+Asset (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a81ea00d193dafeb3a170dd429e7f95f7}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!OnTMRIMessage@{OnTMRIMessage}}
+\index{OnTMRIMessage@{OnTMRIMessage}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{OnTMRIMessage()}{OnTMRIMessage()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a81ea00d193dafeb3a170dd429e7f95f7} 
+override void TMRI.\+Client.\+TMRIOnline\+Scene.\+On\+TMRIMessage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ad5c2c76f0cbeb951a67e676c0d887bff}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!OnTMRISettings@{OnTMRISettings}}
+\index{OnTMRISettings@{OnTMRISettings}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{OnTMRISettings()}{OnTMRISettings()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ad5c2c76f0cbeb951a67e676c0d887bff} 
+void TMRI.\+Client.\+TMRIOnline\+Scene.\+On\+TMRISettings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_settings}{TMRISettings}}}]{settings}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_i_settings_listener_a8da06265241ca695fd9bc3b0aae6a925}{TMRI.\+Client.\+ISettings\+Listener}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_aa101fd9d47db726f4e0930a18d708b17}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!currentGeoImageID@{currentGeoImageID}}
+\index{currentGeoImageID@{currentGeoImageID}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{currentGeoImageID}{currentGeoImageID}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_aa101fd9d47db726f4e0930a18d708b17} 
+string TMRI.\+Client.\+TMRIOnline\+Scene.\+current\+Geo\+Image\+ID}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ae068c85e30aa8577a5ed857685de4272}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!floodDataPlayer@{floodDataPlayer}}
+\index{floodDataPlayer@{floodDataPlayer}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{floodDataPlayer}{floodDataPlayer}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ae068c85e30aa8577a5ed857685de4272} 
+\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_data_player}{Flood\+Data\+Player}} TMRI.\+Client.\+TMRIOnline\+Scene.\+flood\+Data\+Player}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a8a2c5b4c6d394295aea83fa5d0501fbb}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!geoImagesIgnoreLayers@{geoImagesIgnoreLayers}}
+\index{geoImagesIgnoreLayers@{geoImagesIgnoreLayers}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{geoImagesIgnoreLayers}{geoImagesIgnoreLayers}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a8a2c5b4c6d394295aea83fa5d0501fbb} 
+Layer\+Mask TMRI.\+Client.\+TMRIOnline\+Scene.\+geo\+Images\+Ignore\+Layers}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a0c3c5fbba8519a869da7001936d2cc58}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!geometryComponents@{geometryComponents}}
+\index{geometryComponents@{geometryComponents}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{geometryComponents}{geometryComponents}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a0c3c5fbba8519a869da7001936d2cc58} 
+Game\+Object TMRI.\+Client.\+TMRIOnline\+Scene.\+geometry\+Components}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a7fd60522b590e6f4aba16dc7b21f2187}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!landmarkPrefab@{landmarkPrefab}}
+\index{landmarkPrefab@{landmarkPrefab}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{landmarkPrefab}{landmarkPrefab}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a7fd60522b590e6f4aba16dc7b21f2187} 
+Game\+Object TMRI.\+Client.\+TMRIOnline\+Scene.\+landmark\+Prefab}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ac14661d36c2293e74438f223a7aeb4f0}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!LandmarksTypesVisible@{LandmarksTypesVisible}}
+\index{LandmarksTypesVisible@{LandmarksTypesVisible}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{LandmarksTypesVisible}{LandmarksTypesVisible}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ac14661d36c2293e74438f223a7aeb4f0} 
+List$<$\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_landmark_type}{Serializable\+Landmark\+Type}}$>$ TMRI.\+Client.\+TMRIOnline\+Scene.\+Landmarks\+Types\+Visible\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a5e8a0d90d0b36f463d20d15cbc00e1d7}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!loadingPrefab@{loadingPrefab}}
+\index{loadingPrefab@{loadingPrefab}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{loadingPrefab}{loadingPrefab}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a5e8a0d90d0b36f463d20d15cbc00e1d7} 
+Game\+Object TMRI.\+Client.\+TMRIOnline\+Scene.\+loading\+Prefab}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a53048f2409979b7cc5c7edf7aa481653}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!lodGroup@{lodGroup}}
+\index{lodGroup@{lodGroup}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{lodGroup}{lodGroup}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a53048f2409979b7cc5c7edf7aa481653} 
+LODGroup TMRI.\+Client.\+TMRIOnline\+Scene.\+lod\+Group}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a21e67d2b05121d0e6c5d2ecfb9354e53}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!mapAreaPrefab@{mapAreaPrefab}}
+\index{mapAreaPrefab@{mapAreaPrefab}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{mapAreaPrefab}{mapAreaPrefab}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a21e67d2b05121d0e6c5d2ecfb9354e53} 
+Game\+Object TMRI.\+Client.\+TMRIOnline\+Scene.\+map\+Area\+Prefab}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ad6f839bfca22f1e145e4e536ccbcd8e2}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!mapProjectorPrefab@{mapProjectorPrefab}}
+\index{mapProjectorPrefab@{mapProjectorPrefab}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{mapProjectorPrefab}{mapProjectorPrefab}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ad6f839bfca22f1e145e4e536ccbcd8e2} 
+Game\+Object TMRI.\+Client.\+TMRIOnline\+Scene.\+map\+Projector\+Prefab}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ae1575fa60c25b53568b97c07b0267c6b}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!panoramaPrefab@{panoramaPrefab}}
+\index{panoramaPrefab@{panoramaPrefab}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{panoramaPrefab}{panoramaPrefab}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ae1575fa60c25b53568b97c07b0267c6b} 
+Game\+Object TMRI.\+Client.\+TMRIOnline\+Scene.\+panorama\+Prefab}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a2a7cc805ee6f6e38d72f89ff8da33991}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!ShadersToReplace@{ShadersToReplace}}
+\index{ShadersToReplace@{ShadersToReplace}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{ShadersToReplace}{ShadersToReplace}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a2a7cc805ee6f6e38d72f89ff8da33991} 
+List$<$\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_1_1_named_shader}{Named\+Shader}}$>$ TMRI.\+Client.\+TMRIOnline\+Scene.\+Shaders\+To\+Replace}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_adf56eb05972c091a2f9fee775ff40bc7}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!targetGO@{targetGO}}
+\index{targetGO@{targetGO}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{targetGO}{targetGO}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_adf56eb05972c091a2f9fee775ff40bc7} 
+Game\+Object TMRI.\+Client.\+TMRIOnline\+Scene.\+target\+GO}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a0d6d6c4698a6754d42114088a0bfa425}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!trackerComponent@{trackerComponent}}
+\index{trackerComponent@{trackerComponent}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{trackerComponent}{trackerComponent}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a0d6d6c4698a6754d42114088a0bfa425} 
+Mono\+Behaviour TMRI.\+Client.\+TMRIOnline\+Scene.\+tracker\+Component}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ae94f009f3311a29236c10ed3ca392982}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!UIVisible@{UIVisible}}
+\index{UIVisible@{UIVisible}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{UIVisible}{UIVisible}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_ae94f009f3311a29236c10ed3ca392982} 
+? bool TMRI.\+Client.\+TMRIOnline\+Scene.\+UIVisible\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a75b1ca4f3676c3806541f7b64f5e8c60}\index{TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}!IsAssetChanging@{IsAssetChanging}}
+\index{IsAssetChanging@{IsAssetChanging}!TMRI.Client.TMRIOnlineScene@{TMRI.Client.TMRIOnlineScene}}
+\doxysubsubsection{\texorpdfstring{IsAssetChanging}{IsAssetChanging}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_a75b1ca4f3676c3806541f7b64f5e8c60} 
+bool TMRI.\+Client.\+TMRIOnline\+Scene.\+Is\+Asset\+Changing = false\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Packages/com.\+imd.\+tmri.\+client/\+Runtime/\mbox{\hyperlink{_t_m_r_i_online_scene_8cs}{TMRIOnline\+Scene.\+cs}}\end{DoxyCompactItemize}

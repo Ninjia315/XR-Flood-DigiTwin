@@ -1,0 +1,6 @@
+<map id="TriLibCore.Mappers.ByBonesRootBoneMapper" name="TriLibCore.Mappers.ByBonesRootBoneMapper">
+<area shape="rect" id="Node000001" title="Represents a Mapper that looks for the Game Object which has only a Transform component and has the b..." alt="" coords="5,79,198,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="40,5,163,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,46,96,79,91,79,90,47"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="113,47,112,79,107,79,107,46"/>
+</map>

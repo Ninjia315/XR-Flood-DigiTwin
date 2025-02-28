@@ -1,0 +1,75 @@
+\doxysection{TMRI.\+Core.\+Mesh\+Renderer\+Materials Class Reference}
+\hypertarget{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials}{}\label{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials}\index{TMRI.Core.MeshRendererMaterials@{TMRI.Core.MeshRendererMaterials}}
+
+
+Inheritance diagram for TMRI.\+Core.\+Mesh\+Renderer\+Materials\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMRI.\+Core.\+Mesh\+Renderer\+Materials\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a965477aca607828898a0c1088529a0fc}{On\+Clip\+Box\+Changed}} (Matrix4x4 world\+To\+Local, Matrix4x4 local\+To\+World)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a5ffadfd5660988070ae0a133ace50809}{Set\+Material\+By\+Flood\+Type}} (\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}} type)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a12fad693bf44f8f66d83eb61998ceef1}{Clone\+Materials}} (List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_shader}{Flood\+Shader}} $>$ original)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_shader}{Flood\+Shader}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a608c6ef1a7cd63ac049659a7a9d75a92}{Available\+Materials}} = new()\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a12fad693bf44f8f66d83eb61998ceef1}\index{TMRI.Core.MeshRendererMaterials@{TMRI.Core.MeshRendererMaterials}!CloneMaterials@{CloneMaterials}}
+\index{CloneMaterials@{CloneMaterials}!TMRI.Core.MeshRendererMaterials@{TMRI.Core.MeshRendererMaterials}}
+\doxysubsubsection{\texorpdfstring{CloneMaterials()}{CloneMaterials()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a12fad693bf44f8f66d83eb61998ceef1} 
+void TMRI.\+Core.\+Mesh\+Renderer\+Materials.\+Clone\+Materials (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_shader}{Flood\+Shader}} $>$}]{original}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a965477aca607828898a0c1088529a0fc}\index{TMRI.Core.MeshRendererMaterials@{TMRI.Core.MeshRendererMaterials}!OnClipBoxChanged@{OnClipBoxChanged}}
+\index{OnClipBoxChanged@{OnClipBoxChanged}!TMRI.Core.MeshRendererMaterials@{TMRI.Core.MeshRendererMaterials}}
+\doxysubsubsection{\texorpdfstring{OnClipBoxChanged()}{OnClipBoxChanged()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a965477aca607828898a0c1088529a0fc} 
+void TMRI.\+Core.\+Mesh\+Renderer\+Materials.\+On\+Clip\+Box\+Changed (\begin{DoxyParamCaption}\item[{Matrix4x4}]{world\+To\+Local}{, }\item[{Matrix4x4}]{local\+To\+World}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_clip_box_listener_a40f7d493211c155d981a683fb2008284}{TMRI.\+Core.\+IClip\+Box\+Listener}}.
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a5ffadfd5660988070ae0a133ace50809}\index{TMRI.Core.MeshRendererMaterials@{TMRI.Core.MeshRendererMaterials}!SetMaterialByFloodType@{SetMaterialByFloodType}}
+\index{SetMaterialByFloodType@{SetMaterialByFloodType}!TMRI.Core.MeshRendererMaterials@{TMRI.Core.MeshRendererMaterials}}
+\doxysubsubsection{\texorpdfstring{SetMaterialByFloodType()}{SetMaterialByFloodType()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a5ffadfd5660988070ae0a133ace50809} 
+void TMRI.\+Core.\+Mesh\+Renderer\+Materials.\+Set\+Material\+By\+Flood\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}}}]{type}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a608c6ef1a7cd63ac049659a7a9d75a92}\index{TMRI.Core.MeshRendererMaterials@{TMRI.Core.MeshRendererMaterials}!AvailableMaterials@{AvailableMaterials}}
+\index{AvailableMaterials@{AvailableMaterials}!TMRI.Core.MeshRendererMaterials@{TMRI.Core.MeshRendererMaterials}}
+\doxysubsubsection{\texorpdfstring{AvailableMaterials}{AvailableMaterials}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_mesh_renderer_materials_a608c6ef1a7cd63ac049659a7a9d75a92} 
+List$<$\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_shader}{Flood\+Shader}}$>$ TMRI.\+Core.\+Mesh\+Renderer\+Materials.\+Available\+Materials = new()\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/server/\+Packages/com.\+imd.\+tmri.\+core/\+Runtime/\mbox{\hyperlink{_mesh_renderer_materials_8cs}{Mesh\+Renderer\+Materials.\+cs}}\end{DoxyCompactItemize}

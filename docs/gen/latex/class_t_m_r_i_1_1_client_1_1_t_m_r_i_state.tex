@@ -1,0 +1,415 @@
+\doxysection{TMRI.\+Client.\+TMRIState Class Reference}
+\hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state}{}\label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+
+
+Inheritance diagram for TMRI.\+Client.\+TMRIState\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMRI.\+Client.\+TMRIState\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94}{See\+Through\+Mode}} \{ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94a5d9b47bd3b65072e0d5daf55f01da086}{Mono}}
+, \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94a2ba53caf0b026c896771f6182bb2dced}{Video\+See\+Through}}
+, \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94ad9c452c1035e745d1198d1b957724755}{Optical\+See\+Through}}
+, \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94ade4657520f74a9de815899b7d026654e}{Cardboard}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_aff40cafd71db2e1c27e1ca1edd040cd1}{Set\+Host\+IP}} (string ip)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a05304e61f5b9696d9f8cc28dd4bda46b}{is\+Null}} (string id)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_aa85b0de8221332a2c6912defb54e1e46}{is\+Me}} (string id)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ab4b49c67041bb17f4dd826027041f90e}{is\+Other}} (string id)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a3f8e10fef4f67f0f34055c9d983dc199}{is\+Connection\+Open}} ()
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a9e00f72b996d21bbe1cd235edbcaddcd}{Get\+Player\+Number}} (string id)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a71a580c39865514b8d6883a08f61a385}{Start\+Web\+Socket}} (\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_settings}{TMRISettings}} settings=null)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a4d5d0f9d5ea1c310a35656381804bcec}{Restart}} ()
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a74b08d0f2c8f1ef8b5b79ae099db2c47}{On\+Image\+Target\+Change}} (string image\+Target\+Name)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a80560fefecbfd00afb5eab756642f9e8}{Enter}} (int scene\+Index)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a7694e541a43fdcb2c11f236ee69ace28}{On\+TMRISettings}} (\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_settings}{TMRISettings}} settings)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ac813c29d8c55e393ab2d4af6f3c8617e}{Image\+Target}}
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a357cf1b13e4b5a482ad8934e46715639}{Shared\+Scene\+Index}} = 0
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_af0e7e92ad4c247a61e94099f191f6d59}{Main\+Scene\+Index\+\_\+\+Cardboard}} = -\/1
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a141a54e905744240a3a2d89294205a9d}{Main\+Scene\+Index\+\_\+\+Magic\+Leap}} = -\/1
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a7df76d2fd4403bf9675283be1744f43b}{Main\+Scene\+Index\+\_\+\+Simple}} = 0
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a3d63a99fe4c793e29d98b92e26ad3bb2}{Main\+Scene\+Index\+\_\+\+Hololens}} = -\/1
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a441396f2ee3a9d9b8903ea3cd526c3fb}{Main\+Scene\+Index\+\_\+\+Vision\+Pro}} = -\/1
+\item 
+\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94}{See\+Through\+Mode}} \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a1a64795e0c5ed467032c0c124e5f618e}{Active\+See\+Through\+Mode}} = \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94a5d9b47bd3b65072e0d5daf55f01da086}{See\+Through\+Mode.\+Mono}}
+\item 
+readonly List$<$ Color $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a603a01f8556aa2165f1f6b047ac806e7}{Player\+Number\+Color}}
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ae7b430dfecee19c09e337725b5142150}{Port}} = 8082
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a4dde3fb4244b791cf63d05931f6388d3}{Host\+IP}} = "{}127.\+0.\+0.\+1"{}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a096e7475651873859f29725b147f7709}{Endpoint}} = "{}/room"{}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_aa6fe391d5c43fab6965a898de6ad2970}{Auto\+Start\+Websocket\+With\+Default\+Settings}} = true
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a987f298243beff42dad02012ffa4f596}{Optional\+Configuration\+URL}}
+\item 
+float \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a8811618c68f94b3fc9b73291a97a65bd}{Report\+Battery\+Level\+Repeat\+Seconds}} = 10f
+\item 
+float \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a416155812cd92baafa8fea7829349b0e}{Keep\+Alive\+Repeat\+Seconds}} = 5f
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ad409b54d7179fa2f3159cb5d6f5a426c}{Read\+Only\+ID}}
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a33dd14a7d38d78e16b9aa4bc630d3407}{Current\+Scene\+Index}}
+\item 
+Action$<$ Web\+Socket $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a54706c7b644b537202e2cc8c58b0578e}{On\+Web\+Socket\+Set}}
+\item 
+Unity\+Event$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_client_info}{Client\+Info}}, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_client_info}{Client\+Info}}\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a1ce3d081b97f0ef81b22450483187c1b}{On\+Client\+Info\+Update}}
+\item 
+Unity\+Event \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a42b2c2e4aee1452a3a8b59cd5110f57a}{On\+Display\+Size\+Change\+Recieved}}
+\item 
+List$<$ Game\+Object $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a83a1aeccdadc9f5fa011f9d1f5cdc971}{Other\+Player\+Prefabs}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state}{TMRIState}} \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_abcd1964c069d5ad45d6bc0971838edac}{instance}}
+\item 
+static Action$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state}{TMRIState}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a839374cb80159f939307a6e6bf9b6b79}{On\+Instance}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Web\+Socket \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a631108a8a600d906c794ed8b94806905}{wscl}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Dictionary$<$ string, Game\+Object $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2420ef152c404867e492e8786548241d}{other\+Players}} = new Dictionary$<$string, Game\+Object$>$()\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2eaab275f62c8286c68e856b13c07cc8}{Connection\+State}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ad99f59c69fb45b711831a4a48076e3ac}{Main\+Scene\+Index}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!SeeThroughMode@{SeeThroughMode}}
+\index{SeeThroughMode@{SeeThroughMode}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{SeeThroughMode}{SeeThroughMode}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94} 
+enum \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94}{TMRI.\+Client.\+TMRIState.\+See\+Through\+Mode}}}
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Mono@{Mono}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!Mono@{Mono}}}\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94a5d9b47bd3b65072e0d5daf55f01da086}\label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94a5d9b47bd3b65072e0d5daf55f01da086} 
+Mono&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{VideoSeeThrough@{VideoSeeThrough}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!VideoSeeThrough@{VideoSeeThrough}}}\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94a2ba53caf0b026c896771f6182bb2dced}\label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94a2ba53caf0b026c896771f6182bb2dced} 
+Video\+See\+Through&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OpticalSeeThrough@{OpticalSeeThrough}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!OpticalSeeThrough@{OpticalSeeThrough}}}\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94ad9c452c1035e745d1198d1b957724755}\label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94ad9c452c1035e745d1198d1b957724755} 
+Optical\+See\+Through&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Cardboard@{Cardboard}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!Cardboard@{Cardboard}}}\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94ade4657520f74a9de815899b7d026654e}\label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94ade4657520f74a9de815899b7d026654e} 
+Cardboard&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a80560fefecbfd00afb5eab756642f9e8}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!Enter@{Enter}}
+\index{Enter@{Enter}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{Enter()}{Enter()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a80560fefecbfd00afb5eab756642f9e8} 
+void TMRI.\+Client.\+TMRIState.\+Enter (\begin{DoxyParamCaption}\item[{int}]{scene\+Index}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a9e00f72b996d21bbe1cd235edbcaddcd}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!GetPlayerNumber@{GetPlayerNumber}}
+\index{GetPlayerNumber@{GetPlayerNumber}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{GetPlayerNumber()}{GetPlayerNumber()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a9e00f72b996d21bbe1cd235edbcaddcd} 
+int TMRI.\+Client.\+TMRIState.\+Get\+Player\+Number (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a3f8e10fef4f67f0f34055c9d983dc199}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!isConnectionOpen@{isConnectionOpen}}
+\index{isConnectionOpen@{isConnectionOpen}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{isConnectionOpen()}{isConnectionOpen()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a3f8e10fef4f67f0f34055c9d983dc199} 
+bool TMRI.\+Client.\+TMRIState.\+is\+Connection\+Open (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_aa85b0de8221332a2c6912defb54e1e46}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!isMe@{isMe}}
+\index{isMe@{isMe}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{isMe()}{isMe()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_aa85b0de8221332a2c6912defb54e1e46} 
+bool TMRI.\+Client.\+TMRIState.\+is\+Me (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a05304e61f5b9696d9f8cc28dd4bda46b}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!isNull@{isNull}}
+\index{isNull@{isNull}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{isNull()}{isNull()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a05304e61f5b9696d9f8cc28dd4bda46b} 
+bool TMRI.\+Client.\+TMRIState.\+is\+Null (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ab4b49c67041bb17f4dd826027041f90e}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!isOther@{isOther}}
+\index{isOther@{isOther}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{isOther()}{isOther()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ab4b49c67041bb17f4dd826027041f90e} 
+bool TMRI.\+Client.\+TMRIState.\+is\+Other (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a74b08d0f2c8f1ef8b5b79ae099db2c47}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!OnImageTargetChange@{OnImageTargetChange}}
+\index{OnImageTargetChange@{OnImageTargetChange}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{OnImageTargetChange()}{OnImageTargetChange()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a74b08d0f2c8f1ef8b5b79ae099db2c47} 
+void TMRI.\+Client.\+TMRIState.\+On\+Image\+Target\+Change (\begin{DoxyParamCaption}\item[{string}]{image\+Target\+Name}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a7694e541a43fdcb2c11f236ee69ace28}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!OnTMRISettings@{OnTMRISettings}}
+\index{OnTMRISettings@{OnTMRISettings}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{OnTMRISettings()}{OnTMRISettings()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a7694e541a43fdcb2c11f236ee69ace28} 
+void TMRI.\+Client.\+TMRIState.\+On\+TMRISettings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_settings}{TMRISettings}}}]{settings}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_i_settings_listener_a8da06265241ca695fd9bc3b0aae6a925}{TMRI.\+Client.\+ISettings\+Listener}}.
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a4d5d0f9d5ea1c310a35656381804bcec}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!Restart@{Restart}}
+\index{Restart@{Restart}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{Restart()}{Restart()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a4d5d0f9d5ea1c310a35656381804bcec} 
+void TMRI.\+Client.\+TMRIState.\+Restart (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_aff40cafd71db2e1c27e1ca1edd040cd1}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!SetHostIP@{SetHostIP}}
+\index{SetHostIP@{SetHostIP}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{SetHostIP()}{SetHostIP()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_aff40cafd71db2e1c27e1ca1edd040cd1} 
+void TMRI.\+Client.\+TMRIState.\+Set\+Host\+IP (\begin{DoxyParamCaption}\item[{string}]{ip}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a71a580c39865514b8d6883a08f61a385}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!StartWebSocket@{StartWebSocket}}
+\index{StartWebSocket@{StartWebSocket}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{StartWebSocket()}{StartWebSocket()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a71a580c39865514b8d6883a08f61a385} 
+void TMRI.\+Client.\+TMRIState.\+Start\+Web\+Socket (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_settings}{TMRISettings}}}]{settings}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a1a64795e0c5ed467032c0c124e5f618e}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!ActiveSeeThroughMode@{ActiveSeeThroughMode}}
+\index{ActiveSeeThroughMode@{ActiveSeeThroughMode}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{ActiveSeeThroughMode}{ActiveSeeThroughMode}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a1a64795e0c5ed467032c0c124e5f618e} 
+\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94}{See\+Through\+Mode}} TMRI.\+Client.\+TMRIState.\+Active\+See\+Through\+Mode = \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2725c488ea635554dd3a705eb63eef94a5d9b47bd3b65072e0d5daf55f01da086}{See\+Through\+Mode.\+Mono}}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_aa6fe391d5c43fab6965a898de6ad2970}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!AutoStartWebsocketWithDefaultSettings@{AutoStartWebsocketWithDefaultSettings}}
+\index{AutoStartWebsocketWithDefaultSettings@{AutoStartWebsocketWithDefaultSettings}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{AutoStartWebsocketWithDefaultSettings}{AutoStartWebsocketWithDefaultSettings}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_aa6fe391d5c43fab6965a898de6ad2970} 
+bool TMRI.\+Client.\+TMRIState.\+Auto\+Start\+Websocket\+With\+Default\+Settings = true}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a33dd14a7d38d78e16b9aa4bc630d3407}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!CurrentSceneIndex@{CurrentSceneIndex}}
+\index{CurrentSceneIndex@{CurrentSceneIndex}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{CurrentSceneIndex}{CurrentSceneIndex}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a33dd14a7d38d78e16b9aa4bc630d3407} 
+int TMRI.\+Client.\+TMRIState.\+Current\+Scene\+Index}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a096e7475651873859f29725b147f7709}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!Endpoint@{Endpoint}}
+\index{Endpoint@{Endpoint}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{Endpoint}{Endpoint}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a096e7475651873859f29725b147f7709} 
+string TMRI.\+Client.\+TMRIState.\+Endpoint = "{}/room"{}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a4dde3fb4244b791cf63d05931f6388d3}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!HostIP@{HostIP}}
+\index{HostIP@{HostIP}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{HostIP}{HostIP}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a4dde3fb4244b791cf63d05931f6388d3} 
+string TMRI.\+Client.\+TMRIState.\+Host\+IP = "{}127.\+0.\+0.\+1"{}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ac813c29d8c55e393ab2d4af6f3c8617e}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!ImageTarget@{ImageTarget}}
+\index{ImageTarget@{ImageTarget}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{ImageTarget}{ImageTarget}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ac813c29d8c55e393ab2d4af6f3c8617e} 
+string TMRI.\+Client.\+TMRIState.\+Image\+Target}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_abcd1964c069d5ad45d6bc0971838edac}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!instance@{instance}}
+\index{instance@{instance}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{instance}{instance}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_abcd1964c069d5ad45d6bc0971838edac} 
+\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state}{TMRIState}} TMRI.\+Client.\+TMRIState.\+instance\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a416155812cd92baafa8fea7829349b0e}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!KeepAliveRepeatSeconds@{KeepAliveRepeatSeconds}}
+\index{KeepAliveRepeatSeconds@{KeepAliveRepeatSeconds}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{KeepAliveRepeatSeconds}{KeepAliveRepeatSeconds}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a416155812cd92baafa8fea7829349b0e} 
+float TMRI.\+Client.\+TMRIState.\+Keep\+Alive\+Repeat\+Seconds = 5f}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_af0e7e92ad4c247a61e94099f191f6d59}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!MainSceneIndex\_Cardboard@{MainSceneIndex\_Cardboard}}
+\index{MainSceneIndex\_Cardboard@{MainSceneIndex\_Cardboard}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{MainSceneIndex\_Cardboard}{MainSceneIndex\_Cardboard}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_af0e7e92ad4c247a61e94099f191f6d59} 
+int TMRI.\+Client.\+TMRIState.\+Main\+Scene\+Index\+\_\+\+Cardboard = -\/1}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a3d63a99fe4c793e29d98b92e26ad3bb2}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!MainSceneIndex\_Hololens@{MainSceneIndex\_Hololens}}
+\index{MainSceneIndex\_Hololens@{MainSceneIndex\_Hololens}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{MainSceneIndex\_Hololens}{MainSceneIndex\_Hololens}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a3d63a99fe4c793e29d98b92e26ad3bb2} 
+int TMRI.\+Client.\+TMRIState.\+Main\+Scene\+Index\+\_\+\+Hololens = -\/1}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a141a54e905744240a3a2d89294205a9d}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!MainSceneIndex\_MagicLeap@{MainSceneIndex\_MagicLeap}}
+\index{MainSceneIndex\_MagicLeap@{MainSceneIndex\_MagicLeap}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{MainSceneIndex\_MagicLeap}{MainSceneIndex\_MagicLeap}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a141a54e905744240a3a2d89294205a9d} 
+int TMRI.\+Client.\+TMRIState.\+Main\+Scene\+Index\+\_\+\+Magic\+Leap = -\/1}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a7df76d2fd4403bf9675283be1744f43b}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!MainSceneIndex\_Simple@{MainSceneIndex\_Simple}}
+\index{MainSceneIndex\_Simple@{MainSceneIndex\_Simple}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{MainSceneIndex\_Simple}{MainSceneIndex\_Simple}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a7df76d2fd4403bf9675283be1744f43b} 
+int TMRI.\+Client.\+TMRIState.\+Main\+Scene\+Index\+\_\+\+Simple = 0}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a441396f2ee3a9d9b8903ea3cd526c3fb}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!MainSceneIndex\_VisionPro@{MainSceneIndex\_VisionPro}}
+\index{MainSceneIndex\_VisionPro@{MainSceneIndex\_VisionPro}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{MainSceneIndex\_VisionPro}{MainSceneIndex\_VisionPro}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a441396f2ee3a9d9b8903ea3cd526c3fb} 
+int TMRI.\+Client.\+TMRIState.\+Main\+Scene\+Index\+\_\+\+Vision\+Pro = -\/1}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a1ce3d081b97f0ef81b22450483187c1b}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!OnClientInfoUpdate@{OnClientInfoUpdate}}
+\index{OnClientInfoUpdate@{OnClientInfoUpdate}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{OnClientInfoUpdate}{OnClientInfoUpdate}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a1ce3d081b97f0ef81b22450483187c1b} 
+Unity\+Event$<$\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_client_info}{Client\+Info}}, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_client_info}{Client\+Info}}\mbox{[}$\,$\mbox{]}$>$ TMRI.\+Client.\+TMRIState.\+On\+Client\+Info\+Update}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a42b2c2e4aee1452a3a8b59cd5110f57a}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!OnDisplaySizeChangeRecieved@{OnDisplaySizeChangeRecieved}}
+\index{OnDisplaySizeChangeRecieved@{OnDisplaySizeChangeRecieved}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{OnDisplaySizeChangeRecieved}{OnDisplaySizeChangeRecieved}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a42b2c2e4aee1452a3a8b59cd5110f57a} 
+Unity\+Event TMRI.\+Client.\+TMRIState.\+On\+Display\+Size\+Change\+Recieved}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a839374cb80159f939307a6e6bf9b6b79}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!OnInstance@{OnInstance}}
+\index{OnInstance@{OnInstance}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{OnInstance}{OnInstance}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a839374cb80159f939307a6e6bf9b6b79} 
+Action$<$\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state}{TMRIState}}$>$ TMRI.\+Client.\+TMRIState.\+On\+Instance\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a54706c7b644b537202e2cc8c58b0578e}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!OnWebSocketSet@{OnWebSocketSet}}
+\index{OnWebSocketSet@{OnWebSocketSet}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{OnWebSocketSet}{OnWebSocketSet}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a54706c7b644b537202e2cc8c58b0578e} 
+Action$<$Web\+Socket$>$ TMRI.\+Client.\+TMRIState.\+On\+Web\+Socket\+Set}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a987f298243beff42dad02012ffa4f596}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!OptionalConfigurationURL@{OptionalConfigurationURL}}
+\index{OptionalConfigurationURL@{OptionalConfigurationURL}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{OptionalConfigurationURL}{OptionalConfigurationURL}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a987f298243beff42dad02012ffa4f596} 
+string TMRI.\+Client.\+TMRIState.\+Optional\+Configuration\+URL}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a83a1aeccdadc9f5fa011f9d1f5cdc971}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!OtherPlayerPrefabs@{OtherPlayerPrefabs}}
+\index{OtherPlayerPrefabs@{OtherPlayerPrefabs}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{OtherPlayerPrefabs}{OtherPlayerPrefabs}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a83a1aeccdadc9f5fa011f9d1f5cdc971} 
+List$<$Game\+Object$>$ TMRI.\+Client.\+TMRIState.\+Other\+Player\+Prefabs}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a603a01f8556aa2165f1f6b047ac806e7}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!PlayerNumberColor@{PlayerNumberColor}}
+\index{PlayerNumberColor@{PlayerNumberColor}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{PlayerNumberColor}{PlayerNumberColor}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a603a01f8556aa2165f1f6b047ac806e7} 
+readonly List$<$Color$>$ TMRI.\+Client.\+TMRIState.\+Player\+Number\+Color}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \textcolor{keyword}{new}(\textcolor{keyword}{new}[]}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ Color.red,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ Color.blue,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ Color.green,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ Color.yellow,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ Color.gray,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ Color.cyan,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ Color.magenta,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ Color.black}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \})}
+
+\end{DoxyCode}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ae7b430dfecee19c09e337725b5142150}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!Port@{Port}}
+\index{Port@{Port}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{Port}{Port}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ae7b430dfecee19c09e337725b5142150} 
+int TMRI.\+Client.\+TMRIState.\+Port = 8082}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ad409b54d7179fa2f3159cb5d6f5a426c}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!ReadOnlyID@{ReadOnlyID}}
+\index{ReadOnlyID@{ReadOnlyID}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{ReadOnlyID}{ReadOnlyID}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ad409b54d7179fa2f3159cb5d6f5a426c} 
+string TMRI.\+Client.\+TMRIState.\+Read\+Only\+ID}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a8811618c68f94b3fc9b73291a97a65bd}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!ReportBatteryLevelRepeatSeconds@{ReportBatteryLevelRepeatSeconds}}
+\index{ReportBatteryLevelRepeatSeconds@{ReportBatteryLevelRepeatSeconds}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{ReportBatteryLevelRepeatSeconds}{ReportBatteryLevelRepeatSeconds}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a8811618c68f94b3fc9b73291a97a65bd} 
+float TMRI.\+Client.\+TMRIState.\+Report\+Battery\+Level\+Repeat\+Seconds = 10f}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a357cf1b13e4b5a482ad8934e46715639}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!SharedSceneIndex@{SharedSceneIndex}}
+\index{SharedSceneIndex@{SharedSceneIndex}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{SharedSceneIndex}{SharedSceneIndex}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a357cf1b13e4b5a482ad8934e46715639} 
+int TMRI.\+Client.\+TMRIState.\+Shared\+Scene\+Index = 0}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2eaab275f62c8286c68e856b13c07cc8}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!ConnectionState@{ConnectionState}}
+\index{ConnectionState@{ConnectionState}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{ConnectionState}{ConnectionState}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2eaab275f62c8286c68e856b13c07cc8} 
+string TMRI.\+Client.\+TMRIState.\+Connection\+State\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ad99f59c69fb45b711831a4a48076e3ac}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!MainSceneIndex@{MainSceneIndex}}
+\index{MainSceneIndex@{MainSceneIndex}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{MainSceneIndex}{MainSceneIndex}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_ad99f59c69fb45b711831a4a48076e3ac} 
+int TMRI.\+Client.\+TMRIState.\+Main\+Scene\+Index\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2420ef152c404867e492e8786548241d}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!otherPlayers@{otherPlayers}}
+\index{otherPlayers@{otherPlayers}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{otherPlayers}{otherPlayers}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a2420ef152c404867e492e8786548241d} 
+Dictionary$<$string, Game\+Object$>$ TMRI.\+Client.\+TMRIState.\+other\+Players = new Dictionary$<$string, Game\+Object$>$()\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a631108a8a600d906c794ed8b94806905}\index{TMRI.Client.TMRIState@{TMRI.Client.TMRIState}!wscl@{wscl}}
+\index{wscl@{wscl}!TMRI.Client.TMRIState@{TMRI.Client.TMRIState}}
+\doxysubsubsection{\texorpdfstring{wscl}{wscl}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_a631108a8a600d906c794ed8b94806905} 
+Web\+Socket TMRI.\+Client.\+TMRIState.\+wscl\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Packages/com.\+imd.\+tmri.\+client/\+Runtime/\mbox{\hyperlink{_t_m_r_i_state_8cs}{TMRIState.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['readdata_0',['ReadData',['../class_geometry_data_reader.html#abe2cfc45a09fd011b52618be2f770d9a',1,'GeometryDataReader']]],
+  ['readserializeddeviceparams_1',['readSerializedDeviceParams',['../interface_cardboard_device_params_helper.html#a5ec248d4ceddee9e215c3dee37e867e2',1,'CardboardDeviceParamsHelper']]],
+  ['registerobserver_2',['registerObserver',['../_custom_library_8h.html#ab187ad18916aba07e78c0dd562daa182',1,'registerObserver(QRScannedCallback _callback):&#160;CustomLibrary.mm'],['../_custom_library_8mm.html#ab187ad18916aba07e78c0dd562daa182',1,'registerObserver(QRScannedCallback _callback):&#160;CustomLibrary.mm']]],
+  ['registerqrcallback_3a_3',['RegisterQRCallback:',['../interface_notification_observer.html#a8fb6c73be637f89e1eba3759ecbf3089',1,'NotificationObserver']]],
+  ['removecallbacks_4',['RemoveCallbacks',['../struct_pointer_input_1_1_default_actions.html#a6c831f1aa4325d88d3ff5fe024062ad9',1,'PointerInput::DefaultActions']]],
+  ['removefromlod_5',['RemoveFromLOD',['../class_l_o_d_mesh.html#ab4a7e89f3e538bef3b46aa8b7239d2fb',1,'LODMesh']]],
+  ['removelegendimage_6',['RemoveLegendImage',['../class_show_legend.html#a56a36461a827b16d557bcbfa93168005',1,'ShowLegend.RemoveLegendImage()'],['../interface_t_m_r_i_1_1_core_1_1_i_legend_listener.html#acb0e47145b75bab4a369e055a7253678',1,'TMRI.Core.ILegendListener.RemoveLegendImage()']]],
+  ['reset_7',['Reset',['../class_t_m_r_i_1_1_client_1_1_toggle_x_r_mode.html#ad0903199003a8647b2bef3022b317140',1,'TMRI::Client::ToggleXRMode']]],
+  ['resetlodsize_8',['ResetLODSize',['../class_l_o_d_mesh.html#a3ff15079b91025125243e8a38f33e13f',1,'LODMesh']]],
+  ['resetmodelscale_9',['ResetModelScale',['../class_tri_lib_core_1_1_samples_1_1_asset_viewer.html#ae29ebb09642fce1d809600bb0003d0fe',1,'TriLibCore.Samples.AssetViewer.ResetModelScale()'],['../class_tri_lib_core_1_1_samples_1_1_asset_viewer.html#ae29ebb09642fce1d809600bb0003d0fe',1,'TriLibCore.Samples.AssetViewer.ResetModelScale()']]],
+  ['resetposeclicked_10',['ResetPoseClicked',['../class_websocket_server_with_g_u_i.html#a719c3251839082a4f7ad5486323d1599',1,'WebsocketServerWithGUI']]],
+  ['resetposition_11',['ResetPosition',['../class_poly_spatial_1_1_samples_1_1_volume_content_anchor.html#a595ca15996c877e013299315cd241266',1,'PolySpatial::Samples::VolumeContentAnchor']]],
+  ['resolveandupdateviewerprofilefromurl_3awithcompletion_3a_12',['resolveAndUpdateViewerProfileFromURL:withCompletion:',['../interface_cardboard_device_params_helper.html#a0e8aca36b223d88770f1dd9e84b3b150',1,'CardboardDeviceParamsHelper']]],
+  ['restart_13',['Restart',['../class_t_m_r_i_1_1_client_1_1_t_m_r_i_state.html#a4d5d0f9d5ea1c310a35656381804bcec',1,'TMRI::Client::TMRIState']]],
+  ['result_14',['Result',['../struct_genesis_1_1_utilities_1_1_result-1-g.html#ad4e59478d4126b97e93c02e84e31a629',1,'Genesis::Utilities::Result-1-g']]],
+  ['returnassetsfromconfig_15',['ReturnAssetsFromConfig',['../class_t_m_r_i_1_1_core_1_1_asset_handler.html#ae02971c56b0c6f49e3e185e300c20e76',1,'TMRI::Core::AssetHandler']]],
+  ['returndefaultdisplaysize_16',['ReturnDefaultDisplaySize',['../class_t_m_r_i_1_1_core_1_1_asset_handler.html#aae09f5f610bfcc6b8c0027610fea0606',1,'TMRI::Core::AssetHandler']]],
+  ['returntrackingmarkersfromconfig_17',['ReturnTrackingmarkersFromConfig',['../class_t_m_r_i_1_1_core_1_1_asset_handler.html#a4b4b12ebd67a6e0b20312a6f632b84e4',1,'TMRI::Core::AssetHandler']]],
+  ['returnvalidmodellods_18',['ReturnValidModelLODs',['../class_t_m_r_i_1_1_core_1_1_asset_handler.html#aa1e00eb4c44daba8174ea9f156065e73',1,'TMRI::Core::AssetHandler']]],
+  ['rotationx_19',['RotationX',['../class_t_m_r_i_1_1_client_1_1_image_target_content.html#ab5143b4f40ee833d04b1cacc91f0f4ff',1,'TMRI::Client::ImageTargetContent']]],
+  ['rotationy_20',['RotationY',['../class_t_m_r_i_1_1_client_1_1_image_target_content.html#afcb621f4241daee9b0ea11a8d6996fa5',1,'TMRI::Client::ImageTargetContent']]],
+  ['rotationz_21',['RotationZ',['../class_t_m_r_i_1_1_client_1_1_image_target_content.html#a5a0978c4240cdc0f750ec012bd8ddee6',1,'TMRI::Client::ImageTargetContent']]],
+  ['runmethod_22',['RunMethod',['../class_tri_lib_core_1_1_coroutine_helper.html#affb3767fa2bce4a644f20482e91ff6fc',1,'TriLibCore.CoroutineHelper.RunMethod(IEnumerator enumerator)'],['../class_tri_lib_core_1_1_coroutine_helper.html#affb3767fa2bce4a644f20482e91ff6fc',1,'TriLibCore.CoroutineHelper.RunMethod(IEnumerator enumerator)']]]
+];

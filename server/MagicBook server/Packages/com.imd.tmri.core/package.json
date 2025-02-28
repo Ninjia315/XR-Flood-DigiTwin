@@ -1,0 +1,26 @@
+{
+  "name": "com.imd.tmri.core",
+  "version": "1.0.0",
+  "displayName": "TMRI core",
+  "description": "Contains core functionality for TMRI that is shared between server and client.",
+  "unity": "2022.3",
+  "unityRelease": "5f1",
+  "documentationUrl": "https://imdl.naist.jp/",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+ },
+ "keywords": [
+    "AR",
+    "XR",
+    "VR",
+    "MR",
+    "Mixed",
+    "Reality",
+    "Transitional"
+  ],
+  "author": {
+    "name": "IMD",
+    "email": "geert.lugtenberg.gf3@is.naist.jp",
+    "url": "https://imdl.naist.jp/"
+  }
+}

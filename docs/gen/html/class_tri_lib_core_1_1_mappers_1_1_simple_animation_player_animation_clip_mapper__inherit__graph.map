@@ -1,0 +1,6 @@
+<map id="TriLibCore.Mappers.SimpleAnimationPlayerAnimationClipMapper" name="TriLibCore.Mappers.SimpleAnimationPlayerAnimationClipMapper">
+<area shape="rect" id="Node000001" title="Represents a Mapper that creates a Simple Animation Player used to play Animation Clips by their inde..." alt="" coords="5,79,246,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="53,5,198,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,46,120,79,115,79,114,47"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="137,47,136,79,131,79,131,46"/>
+</map>

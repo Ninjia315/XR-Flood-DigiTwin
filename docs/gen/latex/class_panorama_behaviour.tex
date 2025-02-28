@@ -1,0 +1,133 @@
+\doxysection{Panorama\+Behaviour Class Reference}
+\hypertarget{class_panorama_behaviour}{}\label{class_panorama_behaviour}\index{PanoramaBehaviour@{PanoramaBehaviour}}
+
+
+Inheritance diagram for Panorama\+Behaviour\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_panorama_behaviour__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Panorama\+Behaviour\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_panorama_behaviour__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_panorama_behaviour_1_1_panorama_v_r_behaviour}{Panorama\+VRBehaviour}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_panorama_behaviour_a9f8d1a385bd52a107db10b4d5b75ea32}{Load\+Settings}} (string image\+Url, string depth\+Image\+Url, float north\+Rotation\+Degrees, Vector3 vr\+Pos, Vector3 vr\+Offset, string model\+Url, bool invert\+Depth)
+\item 
+async void \mbox{\hyperlink{class_panorama_behaviour_aa53a9263fe026444e91edff75fb79d0e}{On\+Interaction}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c}{is\+Connection\+Open}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a}{On\+Enable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_panorama_behaviour_a717bee0114a46a52fd65b32a929ab799}{skybox\+Prefab}}
+\item 
+Game\+Object \mbox{\hyperlink{class_panorama_behaviour_aa94f5b4de29a9c69edd6320e06039b47}{water\+Plane\+Prefab}}
+\item 
+Material \mbox{\hyperlink{class_panorama_behaviour_af272b7bfeff1bde6a7819de307f1ef03}{occlusion\+Material}}
+\item 
+Material \mbox{\hyperlink{class_panorama_behaviour_adac3e3b79ef6681a60376abea2245a27}{alternative\+Water\+Material}}
+\item 
+\mbox{\hyperlink{class_flood_info_panel}{Flood\+Info\+Panel}} \mbox{\hyperlink{class_panorama_behaviour_ace9f449a7881a0d228b67f82d188855f}{flood\+Info\+Prefab}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_panorama_behaviour_a692844e8297e519f356a7eb3c277d826}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{TMRI.\+Client.\+Base\+TMRICallback}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a2fe9d96e3be9689b34aee523c5f6830d}{do\+On\+Websocket\+Connected}} (Web\+Socket w)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651}{Send}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_panorama_behaviour_a9f8d1a385bd52a107db10b4d5b75ea32}\index{PanoramaBehaviour@{PanoramaBehaviour}!LoadSettings@{LoadSettings}}
+\index{LoadSettings@{LoadSettings}!PanoramaBehaviour@{PanoramaBehaviour}}
+\doxysubsubsection{\texorpdfstring{LoadSettings()}{LoadSettings()}}
+{\footnotesize\ttfamily \label{class_panorama_behaviour_a9f8d1a385bd52a107db10b4d5b75ea32} 
+void Panorama\+Behaviour.\+Load\+Settings (\begin{DoxyParamCaption}\item[{string}]{image\+Url}{, }\item[{string}]{depth\+Image\+Url}{, }\item[{float}]{north\+Rotation\+Degrees}{, }\item[{Vector3}]{vr\+Pos}{, }\item[{Vector3}]{vr\+Offset}{, }\item[{string}]{model\+Url}{, }\item[{bool}]{invert\+Depth}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_t_m_r_i_online_scene_1_1_i_panorama_behaviour_a0912f56615f7af1c43af70e4bbf2a27d}{TMRI.\+Client.\+TMRIOnline\+Scene.\+IPanorama\+Behaviour}}.
+
+\Hypertarget{class_panorama_behaviour_aa53a9263fe026444e91edff75fb79d0e}\index{PanoramaBehaviour@{PanoramaBehaviour}!OnInteraction@{OnInteraction}}
+\index{OnInteraction@{OnInteraction}!PanoramaBehaviour@{PanoramaBehaviour}}
+\doxysubsubsection{\texorpdfstring{OnInteraction()}{OnInteraction()}}
+{\footnotesize\ttfamily \label{class_panorama_behaviour_aa53a9263fe026444e91edff75fb79d0e} 
+async void Panorama\+Behaviour.\+On\+Interaction (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_panorama_behaviour_a692844e8297e519f356a7eb3c277d826}\index{PanoramaBehaviour@{PanoramaBehaviour}!OnTMRIMessage@{OnTMRIMessage}}
+\index{OnTMRIMessage@{OnTMRIMessage}!PanoramaBehaviour@{PanoramaBehaviour}}
+\doxysubsubsection{\texorpdfstring{OnTMRIMessage()}{OnTMRIMessage()}}
+{\footnotesize\ttfamily \label{class_panorama_behaviour_a692844e8297e519f356a7eb3c277d826} 
+override void Panorama\+Behaviour.\+On\+TMRIMessage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_panorama_behaviour_adac3e3b79ef6681a60376abea2245a27}\index{PanoramaBehaviour@{PanoramaBehaviour}!alternativeWaterMaterial@{alternativeWaterMaterial}}
+\index{alternativeWaterMaterial@{alternativeWaterMaterial}!PanoramaBehaviour@{PanoramaBehaviour}}
+\doxysubsubsection{\texorpdfstring{alternativeWaterMaterial}{alternativeWaterMaterial}}
+{\footnotesize\ttfamily \label{class_panorama_behaviour_adac3e3b79ef6681a60376abea2245a27} 
+Material Panorama\+Behaviour.\+alternative\+Water\+Material}
+
+\Hypertarget{class_panorama_behaviour_ace9f449a7881a0d228b67f82d188855f}\index{PanoramaBehaviour@{PanoramaBehaviour}!floodInfoPrefab@{floodInfoPrefab}}
+\index{floodInfoPrefab@{floodInfoPrefab}!PanoramaBehaviour@{PanoramaBehaviour}}
+\doxysubsubsection{\texorpdfstring{floodInfoPrefab}{floodInfoPrefab}}
+{\footnotesize\ttfamily \label{class_panorama_behaviour_ace9f449a7881a0d228b67f82d188855f} 
+\mbox{\hyperlink{class_flood_info_panel}{Flood\+Info\+Panel}} Panorama\+Behaviour.\+flood\+Info\+Prefab}
+
+\Hypertarget{class_panorama_behaviour_af272b7bfeff1bde6a7819de307f1ef03}\index{PanoramaBehaviour@{PanoramaBehaviour}!occlusionMaterial@{occlusionMaterial}}
+\index{occlusionMaterial@{occlusionMaterial}!PanoramaBehaviour@{PanoramaBehaviour}}
+\doxysubsubsection{\texorpdfstring{occlusionMaterial}{occlusionMaterial}}
+{\footnotesize\ttfamily \label{class_panorama_behaviour_af272b7bfeff1bde6a7819de307f1ef03} 
+Material Panorama\+Behaviour.\+occlusion\+Material}
+
+\Hypertarget{class_panorama_behaviour_a717bee0114a46a52fd65b32a929ab799}\index{PanoramaBehaviour@{PanoramaBehaviour}!skyboxPrefab@{skyboxPrefab}}
+\index{skyboxPrefab@{skyboxPrefab}!PanoramaBehaviour@{PanoramaBehaviour}}
+\doxysubsubsection{\texorpdfstring{skyboxPrefab}{skyboxPrefab}}
+{\footnotesize\ttfamily \label{class_panorama_behaviour_a717bee0114a46a52fd65b32a929ab799} 
+Game\+Object Panorama\+Behaviour.\+skybox\+Prefab}
+
+\Hypertarget{class_panorama_behaviour_aa94f5b4de29a9c69edd6320e06039b47}\index{PanoramaBehaviour@{PanoramaBehaviour}!waterPlanePrefab@{waterPlanePrefab}}
+\index{waterPlanePrefab@{waterPlanePrefab}!PanoramaBehaviour@{PanoramaBehaviour}}
+\doxysubsubsection{\texorpdfstring{waterPlanePrefab}{waterPlanePrefab}}
+{\footnotesize\ttfamily \label{class_panorama_behaviour_aa94f5b4de29a9c69edd6320e06039b47} 
+Game\+Object Panorama\+Behaviour.\+water\+Plane\+Prefab}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Scripts/\mbox{\hyperlink{_panorama_behaviour_8cs}{Panorama\+Behaviour.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="TriLibCore.Samples.FixMaterials" name="TriLibCore.Samples.FixMaterials">
+<area shape="rect" id="Node000001" title="Represents a class used to fix TriLib sample models depending on the rendering pipeline." alt="" coords="5,79,217,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="55,5,167,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,46,107,78,101,79,100,46"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="122,46,121,79,115,78,117,46"/>
+</map>

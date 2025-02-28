@@ -1,0 +1,138 @@
+\doxysection{Drag\+Map Class Reference}
+\hypertarget{class_drag_map}{}\label{class_drag_map}\index{DragMap@{DragMap}}
+
+
+Inheritance diagram for Drag\+Map\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_drag_map__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Drag\+Map\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_drag_map__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_drag_map_a7d10d5db1179c9558a673ac922709ba5}{Override\+Dragging}} (Base\+Event\+Data drag\+Event\+Data)
+\item 
+void \mbox{\hyperlink{class_drag_map_a5919b6cfc487441a49b4e985b4600f5e}{End\+Override\+Dragging}} (Base\+Event\+Data drag\+Event\+Data)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_drag_map_aaa6f1171c1b52807f3a3e09723fee213}{is\+Map\+Control}} = true
+\item 
+Unity\+Event$<$ Vector3 $>$ \mbox{\hyperlink{class_drag_map_a6edf552483ba1ee45c29965696888e9b}{On\+Drag}}
+\item 
+Unity\+Event$<$ Vector4 $>$ \mbox{\hyperlink{class_drag_map_a735a34bd1a6dca80ccbc35f267c368af}{On\+Rotation}}
+\item 
+Unity\+Event$<$ float $>$ \mbox{\hyperlink{class_drag_map_a34a85ca5f50f20f70d7194bdf4a9d14b}{Touch\+Map\+Scaling}}
+\item 
+Input\+Action\+Asset \mbox{\hyperlink{class_drag_map_ac031d00a26b1d167c7294871a78aacaf}{Camera\+Zoom}}
+\item 
+\mbox{\hyperlink{class_websocket_server_with_g_u_i}{Websocket\+Server\+With\+GUI}} \mbox{\hyperlink{class_drag_map_a04c2a75678d194bacc20e779f50b147e}{server\+Manager}}
+\item 
+float \mbox{\hyperlink{class_drag_map_ad43827348d2f73256036b6bbcfa7cda2}{rotation\+Angle\+Activated\+Threshold}} = 0.\+8f
+\item 
+float \mbox{\hyperlink{class_drag_map_ae896a03331443a1efdb408a3418e6dee}{pinch\+Threshold}} = 5f
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static float \mbox{\hyperlink{class_drag_map_a6d11559000626db2cb7701bd49610c05}{updatedX}}
+\item 
+static float \mbox{\hyperlink{class_drag_map_aa069c93402f96ede8aadb2d77e9c1108}{updatedZ}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_drag_map_a5919b6cfc487441a49b4e985b4600f5e}\index{DragMap@{DragMap}!EndOverrideDragging@{EndOverrideDragging}}
+\index{EndOverrideDragging@{EndOverrideDragging}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{EndOverrideDragging()}{EndOverrideDragging()}}
+{\footnotesize\ttfamily \label{class_drag_map_a5919b6cfc487441a49b4e985b4600f5e} 
+void Drag\+Map.\+End\+Override\+Dragging (\begin{DoxyParamCaption}\item[{Base\+Event\+Data}]{drag\+Event\+Data}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_drag_map_a7d10d5db1179c9558a673ac922709ba5}\index{DragMap@{DragMap}!OverrideDragging@{OverrideDragging}}
+\index{OverrideDragging@{OverrideDragging}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{OverrideDragging()}{OverrideDragging()}}
+{\footnotesize\ttfamily \label{class_drag_map_a7d10d5db1179c9558a673ac922709ba5} 
+void Drag\+Map.\+Override\+Dragging (\begin{DoxyParamCaption}\item[{Base\+Event\+Data}]{drag\+Event\+Data}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_drag_map_ac031d00a26b1d167c7294871a78aacaf}\index{DragMap@{DragMap}!CameraZoom@{CameraZoom}}
+\index{CameraZoom@{CameraZoom}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{CameraZoom}{CameraZoom}}
+{\footnotesize\ttfamily \label{class_drag_map_ac031d00a26b1d167c7294871a78aacaf} 
+Input\+Action\+Asset Drag\+Map.\+Camera\+Zoom}
+
+\Hypertarget{class_drag_map_aaa6f1171c1b52807f3a3e09723fee213}\index{DragMap@{DragMap}!isMapControl@{isMapControl}}
+\index{isMapControl@{isMapControl}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{isMapControl}{isMapControl}}
+{\footnotesize\ttfamily \label{class_drag_map_aaa6f1171c1b52807f3a3e09723fee213} 
+bool Drag\+Map.\+is\+Map\+Control = true}
+
+\Hypertarget{class_drag_map_a6edf552483ba1ee45c29965696888e9b}\index{DragMap@{DragMap}!OnDrag@{OnDrag}}
+\index{OnDrag@{OnDrag}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{OnDrag}{OnDrag}}
+{\footnotesize\ttfamily \label{class_drag_map_a6edf552483ba1ee45c29965696888e9b} 
+Unity\+Event$<$Vector3$>$ Drag\+Map.\+On\+Drag}
+
+\Hypertarget{class_drag_map_a735a34bd1a6dca80ccbc35f267c368af}\index{DragMap@{DragMap}!OnRotation@{OnRotation}}
+\index{OnRotation@{OnRotation}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{OnRotation}{OnRotation}}
+{\footnotesize\ttfamily \label{class_drag_map_a735a34bd1a6dca80ccbc35f267c368af} 
+Unity\+Event$<$Vector4$>$ Drag\+Map.\+On\+Rotation}
+
+\Hypertarget{class_drag_map_ae896a03331443a1efdb408a3418e6dee}\index{DragMap@{DragMap}!pinchThreshold@{pinchThreshold}}
+\index{pinchThreshold@{pinchThreshold}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{pinchThreshold}{pinchThreshold}}
+{\footnotesize\ttfamily \label{class_drag_map_ae896a03331443a1efdb408a3418e6dee} 
+float Drag\+Map.\+pinch\+Threshold = 5f}
+
+\Hypertarget{class_drag_map_ad43827348d2f73256036b6bbcfa7cda2}\index{DragMap@{DragMap}!rotationAngleActivatedThreshold@{rotationAngleActivatedThreshold}}
+\index{rotationAngleActivatedThreshold@{rotationAngleActivatedThreshold}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{rotationAngleActivatedThreshold}{rotationAngleActivatedThreshold}}
+{\footnotesize\ttfamily \label{class_drag_map_ad43827348d2f73256036b6bbcfa7cda2} 
+float Drag\+Map.\+rotation\+Angle\+Activated\+Threshold = 0.\+8f}
+
+\Hypertarget{class_drag_map_a04c2a75678d194bacc20e779f50b147e}\index{DragMap@{DragMap}!serverManager@{serverManager}}
+\index{serverManager@{serverManager}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{serverManager}{serverManager}}
+{\footnotesize\ttfamily \label{class_drag_map_a04c2a75678d194bacc20e779f50b147e} 
+\mbox{\hyperlink{class_websocket_server_with_g_u_i}{Websocket\+Server\+With\+GUI}} Drag\+Map.\+server\+Manager}
+
+\Hypertarget{class_drag_map_a34a85ca5f50f20f70d7194bdf4a9d14b}\index{DragMap@{DragMap}!TouchMapScaling@{TouchMapScaling}}
+\index{TouchMapScaling@{TouchMapScaling}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{TouchMapScaling}{TouchMapScaling}}
+{\footnotesize\ttfamily \label{class_drag_map_a34a85ca5f50f20f70d7194bdf4a9d14b} 
+Unity\+Event$<$float$>$ Drag\+Map.\+Touch\+Map\+Scaling}
+
+\Hypertarget{class_drag_map_a6d11559000626db2cb7701bd49610c05}\index{DragMap@{DragMap}!updatedX@{updatedX}}
+\index{updatedX@{updatedX}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{updatedX}{updatedX}}
+{\footnotesize\ttfamily \label{class_drag_map_a6d11559000626db2cb7701bd49610c05} 
+float Drag\+Map.\+updatedX\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_drag_map_aa069c93402f96ede8aadb2d77e9c1108}\index{DragMap@{DragMap}!updatedZ@{updatedZ}}
+\index{updatedZ@{updatedZ}!DragMap@{DragMap}}
+\doxysubsubsection{\texorpdfstring{updatedZ}{updatedZ}}
+{\footnotesize\ttfamily \label{class_drag_map_aa069c93402f96ede8aadb2d77e9c1108} 
+float Drag\+Map.\+updatedZ\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/server/\+Assets/\+Scripts/\mbox{\hyperlink{_drag_map_8cs}{Drag\+Map.\+cs}}\end{DoxyCompactItemize}

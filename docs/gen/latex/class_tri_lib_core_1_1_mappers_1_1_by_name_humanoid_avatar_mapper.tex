@@ -1,0 +1,150 @@
+\doxysection{Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper Class Reference}
+\hypertarget{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper}{}\label{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper}\index{TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}}
+
+
+Represents a Mapper that finds humanoid Avatar bones by name-\/matching.  
+
+
+
+
+Inheritance diagram for Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override Dictionary$<$ Bone\+Mapping, Transform $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a9099e0f9ee0fcf540cfbe62c99463137}{Map}} (Asset\+Loader\+Context asset\+Loader\+Context)
+\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_af09afd4508558faebc4dcf0abf981171}{Add\+Mapping}} (Human\+Body\+Bones human\+Body\+Bones, \mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_core_2_editor_2_scripts_2_pre_built_resources_8cs_a2f663ac116292b5751bfa2be9ee5e043}{Human\+Limit}} human\+Limit, params string\mbox{[}$\,$\mbox{]} bone\+Names)
+\begin{DoxyCompactList}\small\item\em Adds a new mapping item, containing the humanoid bone type, the limits, and the list of names to look for to the query. \end{DoxyCompactList}\item 
+override Dictionary$<$ Bone\+Mapping, Transform $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a9099e0f9ee0fcf540cfbe62c99463137}{Map}} (Asset\+Loader\+Context asset\+Loader\+Context)
+\item 
+void \mbox{\hyperlink{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_af09afd4508558faebc4dcf0abf981171}{Add\+Mapping}} (Human\+Body\+Bones human\+Body\+Bones, \mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_core_2_editor_2_scripts_2_pre_built_resources_8cs_a2f663ac116292b5751bfa2be9ee5e043}{Human\+Limit}} human\+Limit, params string\mbox{[}$\,$\mbox{]} bone\+Names)
+\begin{DoxyCompactList}\small\item\em Adds a new mapping item, containing the humanoid bone type, the limits, and the list of names to look for to the query. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String\+Comparison\+Mode \mbox{\hyperlink{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_af9e225e5ce31358961eeab09f02f9029}{string\+Comparison\+Mode}}
+\begin{DoxyCompactList}\small\item\em String comparison mode to use on the mapping. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a8abe892fb2369d0c03e528283c7563a1}{Case\+Insensitive}} = true
+\begin{DoxyCompactList}\small\item\em Is the string comparison case insensitive? \end{DoxyCompactList}\item 
+List$<$ Bone\+Mapping $>$ \mbox{\hyperlink{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a80d969bf8ff6f35279f428ce2760e908}{Bones\+Mapping}}
+\begin{DoxyCompactList}\small\item\em The human bone to Unity bone relationship list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a Mapper that finds humanoid Avatar bones by name-\/matching. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_af09afd4508558faebc4dcf0abf981171}\index{TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}!AddMapping@{AddMapping}}
+\index{AddMapping@{AddMapping}!TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}}
+\doxysubsubsection{\texorpdfstring{AddMapping()}{AddMapping()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_af09afd4508558faebc4dcf0abf981171} 
+void Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper.\+Add\+Mapping (\begin{DoxyParamCaption}\item[{Human\+Body\+Bones}]{human\+Body\+Bones}{, }\item[{\mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_core_2_editor_2_scripts_2_pre_built_resources_8cs_a2f663ac116292b5751bfa2be9ee5e043}{Human\+Limit}}}]{human\+Limit}{, }\item[{params string\mbox{[}$\,$\mbox{]}}]{bone\+Names}{}\end{DoxyParamCaption})}
+
+
+
+Adds a new mapping item, containing the humanoid bone type, the limits, and the list of names to look for to the query. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em human\+Body\+Bones} & The Human Body Bones (Humanoid Bone type).\\
+\hline
+{\em human\+Limit} & The bone Human Limit.\\
+\hline
+{\em bone\+Names} & The bones Transform names.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_af09afd4508558faebc4dcf0abf981171}\index{TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}!AddMapping@{AddMapping}}
+\index{AddMapping@{AddMapping}!TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}}
+\doxysubsubsection{\texorpdfstring{AddMapping()}{AddMapping()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_af09afd4508558faebc4dcf0abf981171} 
+void Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper.\+Add\+Mapping (\begin{DoxyParamCaption}\item[{Human\+Body\+Bones}]{human\+Body\+Bones}{, }\item[{\mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_core_2_editor_2_scripts_2_pre_built_resources_8cs_a2f663ac116292b5751bfa2be9ee5e043}{Human\+Limit}}}]{human\+Limit}{, }\item[{params string\mbox{[}$\,$\mbox{]}}]{bone\+Names}{}\end{DoxyParamCaption})}
+
+
+
+Adds a new mapping item, containing the humanoid bone type, the limits, and the list of names to look for to the query. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em human\+Body\+Bones} & The Human Body Bones (Humanoid Bone type).\\
+\hline
+{\em human\+Limit} & The bone Human Limit.\\
+\hline
+{\em bone\+Names} & The bones Transform names.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a9099e0f9ee0fcf540cfbe62c99463137}\index{TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}!Map@{Map}}
+\index{Map@{Map}!TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}}
+\doxysubsubsection{\texorpdfstring{Map()}{Map()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a9099e0f9ee0fcf540cfbe62c99463137} 
+override Dictionary$<$ Bone\+Mapping, Transform $>$ Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper.\+Map (\begin{DoxyParamCaption}\item[{Asset\+Loader\+Context}]{asset\+Loader\+Context}{}\end{DoxyParamCaption})}
+
+
+
+
+
+\Hypertarget{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a9099e0f9ee0fcf540cfbe62c99463137}\index{TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}!Map@{Map}}
+\index{Map@{Map}!TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}}
+\doxysubsubsection{\texorpdfstring{Map()}{Map()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a9099e0f9ee0fcf540cfbe62c99463137} 
+override Dictionary$<$ Bone\+Mapping, Transform $>$ Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper.\+Map (\begin{DoxyParamCaption}\item[{Asset\+Loader\+Context}]{asset\+Loader\+Context}{}\end{DoxyParamCaption})}
+
+
+
+
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a80d969bf8ff6f35279f428ce2760e908}\index{TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}!BonesMapping@{BonesMapping}}
+\index{BonesMapping@{BonesMapping}!TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}}
+\doxysubsubsection{\texorpdfstring{BonesMapping}{BonesMapping}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a80d969bf8ff6f35279f428ce2760e908} 
+List$<$ Bone\+Mapping $>$ Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper.\+Bones\+Mapping}
+
+
+
+The human bone to Unity bone relationship list. 
+
+\Hypertarget{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a8abe892fb2369d0c03e528283c7563a1}\index{TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}!CaseInsensitive@{CaseInsensitive}}
+\index{CaseInsensitive@{CaseInsensitive}!TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}}
+\doxysubsubsection{\texorpdfstring{CaseInsensitive}{CaseInsensitive}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_a8abe892fb2369d0c03e528283c7563a1} 
+bool Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper.\+Case\+Insensitive = true}
+
+
+
+Is the string comparison case insensitive? 
+
+\Hypertarget{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_af9e225e5ce31358961eeab09f02f9029}\index{TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}!stringComparisonMode@{stringComparisonMode}}
+\index{stringComparisonMode@{stringComparisonMode}!TriLibCore.Mappers.ByNameHumanoidAvatarMapper@{TriLibCore.Mappers.ByNameHumanoidAvatarMapper}}
+\doxysubsubsection{\texorpdfstring{stringComparisonMode}{stringComparisonMode}}
+{\footnotesize\ttfamily \label{class_tri_lib_core_1_1_mappers_1_1_by_name_humanoid_avatar_mapper_af9e225e5ce31358961eeab09f02f9029} 
+String\+Comparison\+Mode Tri\+Lib\+Core.\+Mappers.\+By\+Name\+Humanoid\+Avatar\+Mapper.\+string\+Comparison\+Mode}
+
+
+
+String comparison mode to use on the mapping. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Core/\+Scripts/\+Mappers/\mbox{\hyperlink{client_2_assets_2_tri_lib_2_tri_lib_core_2_scripts_2_mappers_2_by_name_humanoid_avatar_mapper_8cs}{By\+Name\+Humanoid\+Avatar\+Mapper.\+cs}}\item 
+docs/src/server/\+Assets/\+Tri\+Lib/\+Tri\+Lib\+Core/\+Scripts/\+Mappers/\mbox{\hyperlink{server_2_assets_2_tri_lib_2_tri_lib_core_2_scripts_2_mappers_2_by_name_humanoid_avatar_mapper_8cs}{By\+Name\+Humanoid\+Avatar\+Mapper.\+cs}}\end{DoxyCompactItemize}

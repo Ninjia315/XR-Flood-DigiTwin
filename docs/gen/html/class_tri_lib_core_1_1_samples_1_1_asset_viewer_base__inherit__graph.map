@@ -1,0 +1,15 @@
+<map id="TriLibCore.Samples.AssetViewerBase" name="TriLibCore.Samples.AssetViewerBase">
+<area shape="rect" id="Node000001" title="Represents a base class used in TriLib samples." alt="" coords="105,168,280,208"/>
+<area shape="rect" id="Node000004" href="$class_tri_lib_core_1_1_samples_1_1_asset_viewer.html" title="Represents a TriLib sample which allows the user to load models and HDR skyboxes from the local file&#45;..." alt="" coords="5,256,180,297"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="152,220,109,258,106,254,148,216"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="168,221,124,258,121,254,165,217"/>
+<area shape="rect" id="Node000005" href="$class_tri_lib_core_1_1_samples_1_1_avatar_loader.html" title="Represents a TriLib sample which allows the user to load and control a custom avatar." alt="" coords="203,256,382,297"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="220,217,264,254,261,258,217,221"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="237,216,279,254,276,258,233,220"/>
+<area shape="rect" id="Node000002" href="$class_tri_lib_core_1_1_samples_1_1_abstract_input_system.html" title="Represents a class to abstract input system actions." alt="" coords="98,79,287,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,135,187,167,182,167,181,135"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="204,135,203,167,198,167,199,135"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="137,5,248,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="187,46,187,79,182,79,181,47"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="204,47,203,79,198,79,198,46"/>
+</map>

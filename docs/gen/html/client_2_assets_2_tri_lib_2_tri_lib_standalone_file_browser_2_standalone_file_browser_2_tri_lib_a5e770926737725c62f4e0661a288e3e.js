@@ -1,0 +1,4 @@
+var client_2_assets_2_tri_lib_2_tri_lib_standalone_file_browser_2_standalone_file_browser_2_tri_lib_a5e770926737725c62f4e0661a288e3e =
+[
+    [ "TriLibCore.Mappers.FilePickerTextureMapper", "class_tri_lib_core_1_1_mappers_1_1_file_picker_texture_mapper.html", "class_tri_lib_core_1_1_mappers_1_1_file_picker_texture_mapper" ]
+];

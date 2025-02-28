@@ -1,0 +1,88 @@
+\doxysection{Connection\+State\+Listener Class Reference}
+\hypertarget{class_connection_state_listener}{}\label{class_connection_state_listener}\index{ConnectionStateListener@{ConnectionStateListener}}
+
+
+Inheritance diagram for Connection\+State\+Listener\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_connection_state_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Connection\+State\+Listener\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_connection_state_listener__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_connection_state_listener_a425d496bceef7947551c2e074f59e0d1}{On\+Connection\+State\+Change}} (Web\+Socket\+State state)
+\item 
+void \mbox{\hyperlink{class_connection_state_listener_a9f1a9f56fd2d9355f43e76356519a237}{On\+TMRISettings}} (\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_settings}{TMRISettings}} settings)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+TMP\+\_\+\+Text \mbox{\hyperlink{class_connection_state_listener_a0e9d537a9f2d2d695bdb881621cb4912}{connection\+State\+Text}}
+\item 
+Dictionary$<$ Web\+Socket\+State?, string $>$ \mbox{\hyperlink{class_connection_state_listener_ad5af1943dd077f14977f453983cc47e5}{State\+Color}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_connection_state_listener_a425d496bceef7947551c2e074f59e0d1}\index{ConnectionStateListener@{ConnectionStateListener}!OnConnectionStateChange@{OnConnectionStateChange}}
+\index{OnConnectionStateChange@{OnConnectionStateChange}!ConnectionStateListener@{ConnectionStateListener}}
+\doxysubsubsection{\texorpdfstring{OnConnectionStateChange()}{OnConnectionStateChange()}}
+{\footnotesize\ttfamily \label{class_connection_state_listener_a425d496bceef7947551c2e074f59e0d1} 
+void Connection\+State\+Listener.\+On\+Connection\+State\+Change (\begin{DoxyParamCaption}\item[{Web\+Socket\+State}]{state}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_i_connection_state_listener_a2821239114e77195ae986b9bd362f3a5}{TMRI.\+Client.\+IConnection\+State\+Listener}}.
+
+\Hypertarget{class_connection_state_listener_a9f1a9f56fd2d9355f43e76356519a237}\index{ConnectionStateListener@{ConnectionStateListener}!OnTMRISettings@{OnTMRISettings}}
+\index{OnTMRISettings@{OnTMRISettings}!ConnectionStateListener@{ConnectionStateListener}}
+\doxysubsubsection{\texorpdfstring{OnTMRISettings()}{OnTMRISettings()}}
+{\footnotesize\ttfamily \label{class_connection_state_listener_a9f1a9f56fd2d9355f43e76356519a237} 
+void Connection\+State\+Listener.\+On\+TMRISettings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_settings}{TMRISettings}}}]{settings}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_client_1_1_i_settings_listener_a8da06265241ca695fd9bc3b0aae6a925}{TMRI.\+Client.\+ISettings\+Listener}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_connection_state_listener_a0e9d537a9f2d2d695bdb881621cb4912}\index{ConnectionStateListener@{ConnectionStateListener}!connectionStateText@{connectionStateText}}
+\index{connectionStateText@{connectionStateText}!ConnectionStateListener@{ConnectionStateListener}}
+\doxysubsubsection{\texorpdfstring{connectionStateText}{connectionStateText}}
+{\footnotesize\ttfamily \label{class_connection_state_listener_a0e9d537a9f2d2d695bdb881621cb4912} 
+TMP\+\_\+\+Text Connection\+State\+Listener.\+connection\+State\+Text}
+
+\Hypertarget{class_connection_state_listener_ad5af1943dd077f14977f453983cc47e5}\index{ConnectionStateListener@{ConnectionStateListener}!StateColor@{StateColor}}
+\index{StateColor@{StateColor}!ConnectionStateListener@{ConnectionStateListener}}
+\doxysubsubsection{\texorpdfstring{StateColor}{StateColor}}
+{\footnotesize\ttfamily \label{class_connection_state_listener_ad5af1943dd077f14977f453983cc47e5} 
+Dictionary$<$Web\+Socket\+State?, string$>$ Connection\+State\+Listener.\+State\+Color}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \textcolor{keyword}{new}\ ()}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ [WebSocketState.Closed]\ =\ \textcolor{stringliteral}{"{}red"{}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ [WebSocketState.Open]\ =\ \textcolor{stringliteral}{"{}green"{}}}
+\DoxyCodeLine{\ \ \ \ \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Scripts/\mbox{\hyperlink{_connection_state_listener_8cs}{Connection\+State\+Listener.\+cs}}\end{DoxyCompactItemize}

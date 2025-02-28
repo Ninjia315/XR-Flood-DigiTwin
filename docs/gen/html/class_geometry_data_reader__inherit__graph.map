@@ -1,0 +1,7 @@
+<map id="GeometryDataReader" name="GeometryDataReader">
+<area shape="rect" id="Node000001" title=" " alt="" coords="70,79,218,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,39,132,77,128,81,85,44"/>
+<area shape="rect" id="Node000003" href="$interface_t_m_r_i_1_1_core_1_1_i_asset_listener.html" title=" " alt="" coords="140,5,315,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,43,159,81,156,77,200,39"/>
+</map>

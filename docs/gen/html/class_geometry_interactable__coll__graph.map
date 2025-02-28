@@ -1,0 +1,18 @@
+<map id="GeometryInteractable" name="GeometryInteractable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1068,72,1214,98"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,18,117,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,15,198,7,270,3,777,3,853,4,912,11,971,23,1044,43,1113,69,1112,74,1043,48,969,28,911,16,853,10,777,8,270,8,199,12,132,21"/>
+<area shape="rect" id="Node000007" href="$class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback.html" title="Base class for all objects wishing to receive network callbacks from the TMRI system." alt="" coords="166,43,376,69"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="132,36,166,41,165,46,131,42"/>
+<area shape="rect" id="Node000003" href="$interface_t_m_r_i_1_1_client_1_1_reticle_pointer_interactable.html" title=" " alt="" coords="686,93,865,134"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="880,103,1067,88,1068,94,881,108"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="705,158,846,184"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="851,151,1043,107,1086,96,1087,101,1044,112,852,156"/>
+<area shape="rect" id="Node000005" href="$class_flood_info_panel.html" title=" " alt="" coords="721,43,830,69"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="845,59,1068,77,1067,82,845,64"/>
+<area shape="rect" id="Node000006" href="$class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback.html" title="A base class for objects who&#39;s properties are shared accross the network session. An object inheritin..." alt="" coords="426,43,637,69"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="653,53,721,53,721,59,653,59"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="392,53,425,53,425,59,392,59"/>
+<area shape="rect" id="Node000008" href="$interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener.html" title=" " alt="" coords="431,93,632,134"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="635,86,720,66,722,71,636,91"/>
+</map>

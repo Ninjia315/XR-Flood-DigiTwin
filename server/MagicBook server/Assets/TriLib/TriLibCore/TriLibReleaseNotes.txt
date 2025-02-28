@@ -1,0 +1,6 @@
+﻿2.3.9
+Changelog:
+-Fixed FBX ASCII parser video content bug.
+-Fixed FBX embedded texture bug.
+-Fixed OBJ transparent materials bug.
+-Added Maya Arnold FBX material support.

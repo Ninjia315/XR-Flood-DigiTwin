@@ -1,0 +1,367 @@
+\doxysection{TMRI.\+Core.\+Asset\+Handler Class Reference}
+\hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler}{}\label{class_t_m_r_i_1_1_core_1_1_asset_handler}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+
+
+Inheritance diagram for TMRI.\+Core.\+Asset\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{class_t_m_r_i_1_1_core_1_1_asset_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMRI.\+Core.\+Asset\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_r_i_1_1_core_1_1_asset_handler__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_1_1_model_l_o_d_behaviour}{Model\+LODBehaviour}}
+\item 
+class {\bfseries Panorama\+Metadata}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3}{Build\+Platform}} \{ \newline
+\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a5316209ea4158d002d1ecfce7bde13cb}{Standalone\+OSX}}
+, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a0f49e6c4a47d61bb6fc6eee3dcc2e8f3}{Standalone\+Windows}}
+, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a1bdf605991920db11cbdf8508204c4eb}{i\+OS}}
+, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3ae84e30b9390cdb64db6db2c9ab87846d}{Android}}
+, \newline
+\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a50b1d35b491bb63256e0e19992aaa1b2}{WSAPlayer}}
+, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a0b387c87912fa2b6591749d0330302ba}{Vision\+OS}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_trackingmarker}{Serializable\+Trackingmarker}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a4b4b12ebd67a6e0b20312a6f632b84e4}{Return\+Trackingmarkers\+From\+Config}} ()
+\item 
+List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_asset}{Serializable\+Asset}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_ae02971c56b0c6f49e3e185e300c20e76}{Return\+Assets\+From\+Config}} ()
+\item 
+Vector3 \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_aae09f5f610bfcc6b8c0027610fea0606}{Return\+Default\+Display\+Size}} ()
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a1e5fc7a18f25f683db32797d67481c58}{Convert\+To\+Download\+Link}} (string link)
+\item 
+IEnumerable$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_model_l_o_d}{Model\+LOD}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_aa1e00eb4c44daba8174ea9f156065e73}{Return\+Valid\+Model\+LODs}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_asset}{Serializable\+Asset}} asset\+Config)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a224eee493ef9149461a90f133a44a4e9}{Has\+Cache}} (out \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_config_file}{Serializable\+Config\+File}} cached\+Config)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_ab34bd50353824277a70176cf843b2256}{Has\+Cache}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_config_file}{Serializable\+Config\+File}} config, out Dictionary$<$ string, bool $>$ tracking\+Marker, out Dictionary$<$ string, bool $>$ model)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a2ec1c606d2b2acd38310d612c5595bb1}{Start\+With\+Config\+URL}} (string configuration\+File\+URI)
+\item 
+async Task$<$ Game\+Object $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_af0928ee4d63c375a8aaa404379d2d2b3}{Get\+Asset}} (string name)
+\item 
+async Task$<$ List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_landmark}{Landmark}} $>$ $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_accc7a8da16ee0c679354d327b9be5163}{Get\+Asset\+Landmarks}} (string asset\+ID)
+\item 
+async Task$<$ List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_map_projector}{Map\+Projector}} $>$ $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_aeec6de548c02565d5ae43a6be5b40463}{Load\+Geo\+Images}} (string asset\+ID, Game\+Object map\+Projector\+Prefab, Transform parent)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a16db2661a349d0d8eaec07469db214f9}{Fill\+Geometry\+Data}} (string asset\+ID, Transform container)
+\item 
+async Task$<$ List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_panorama}{Serializable\+Panorama}} $>$ $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a053f3cb9d7b5efdd41d2d4f9bb71067f}{Get\+Asset\+Panoramas}} (string asset\+ID)
+\item 
+async Task$<$ Game\+Object $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_aac5f266aaef892be09039115383e8ff5}{Load\+GLTFFrom\+Url}} (string name, string model\+Url)
+\item 
+async Task$<$ bool $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a0320c1aa6d552571f35876efd768a4d5}{Save\+In\+Persistent\+Data}} (string identifier, byte\mbox{[}$\,$\mbox{]} blob\+To\+Save)
+\item 
+async Task$<$ byte\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_aea0b58758813c938cf2a4375e2905cce}{Load\+From\+Persistent\+Data}} (string identifier)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_abb822165b39fe97faaf53b882f42092c}{Is\+Saved}} (string identifier)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a4d58ee3d77b09dd975e01b1bf64403dd}{Asset\+Is\+Currently\+Processing}} (string name)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a9f29b796269e09f32f948495b85f67e1}{Is\+Any\+Asset\+Processing}} ()
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a162b4c3a105b27a67e350e6658dfe1f8}{On\+Asset\+Bundle\+Downloaded}} (string name, Asset\+Bundle asset\+Bundle)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a2ca0c71df40c012ed777ea206635de80}{Get\+Asset\+Origin}} (string asset\+ID, out Vector3 geographic\+Origin)
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a60771aa3ff80d68a0708c8a8e7d3b934}{Configure\+LODGroup}} (LODGroup lod\+Group, Game\+Object instantiated\+Object, Action$<$ IEnumerable$<$ Mesh\+Renderer $>$ $>$ on\+Included\+Renderer=null)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_aa6bcfe5df63a8f49c5d3a9d508860c8c}{Get\+Runtime\+Platform}} ()
+\item 
+static async Task$<$ bool $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_aae809d07287480f2213e19ba65ae09e5}{Save\+In\+Persistent\+Data}} (string identifier, byte\mbox{[}$\,$\mbox{]} blob\+To\+Save, Cancellation\+Token cancellation\+Token, string persistent\+Data\+Path)
+\item 
+static async Task$<$ byte\mbox{[}$\,$\mbox{]}$>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a4287f7aa63090548316a2f642250767b}{Load\+From\+Persistent\+Data}} (string identifier, Cancellation\+Token cancellation\+Token, string persistent\+Data\+Path)
+\item 
+static bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a8cf41bf3921234817cbb1c9a9d04e37d}{Is\+Saved}} (string identifier, string persistent\+Data\+Path)
+\item 
+static async Task$<$ Texture2D $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a1680e6817055ced4aa950ffd1a4d74ee}{Load\+Texture}} (string texture\+Path, Cancellation\+Token cancellation\+Token)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a05de805f1d78804d35d0d029d1bbecc9}{current\+Platform}} = null
+\item 
+\mbox{\hyperlink{class_generate_mesh_from_data}{Generate\+Mesh\+From\+Data}} \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a3bde26bb7a764ffbbe63e6559784f7ac}{mesh\+Prefab}}
+\item 
+Game\+Object \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_acff139ae41e5de1bb6e1e8356f67463d}{chunked\+Mesh\+Prefab}}
+\item 
+Action$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_config_file}{Serializable\+Config\+File}} $>$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_aab998321871fe851f3eb22c52e703d03}{On\+Configuration\+Loaded}}
+\item 
+Action \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_acec17b05ce8b9721fbae425738acb7cc}{On\+Configuration\+Error}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a9bf66214eab275ac5fc5c15df5b0efaf}{Has\+Config}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!BuildPlatform@{BuildPlatform}}
+\index{BuildPlatform@{BuildPlatform}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{BuildPlatform}{BuildPlatform}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3} 
+enum \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3}{TMRI.\+Core.\+Asset\+Handler.\+Build\+Platform}}}
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{StandaloneOSX@{StandaloneOSX}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!StandaloneOSX@{StandaloneOSX}}}\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a5316209ea4158d002d1ecfce7bde13cb}\label{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a5316209ea4158d002d1ecfce7bde13cb} 
+Standalone\+OSX&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{StandaloneWindows@{StandaloneWindows}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!StandaloneWindows@{StandaloneWindows}}}\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a0f49e6c4a47d61bb6fc6eee3dcc2e8f3}\label{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a0f49e6c4a47d61bb6fc6eee3dcc2e8f3} 
+Standalone\+Windows&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{iOS@{iOS}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!iOS@{iOS}}}\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a1bdf605991920db11cbdf8508204c4eb}\label{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a1bdf605991920db11cbdf8508204c4eb} 
+i\+OS&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Android@{Android}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!Android@{Android}}}\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3ae84e30b9390cdb64db6db2c9ab87846d}\label{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3ae84e30b9390cdb64db6db2c9ab87846d} 
+Android&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WSAPlayer@{WSAPlayer}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!WSAPlayer@{WSAPlayer}}}\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a50b1d35b491bb63256e0e19992aaa1b2}\label{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a50b1d35b491bb63256e0e19992aaa1b2} 
+WSAPlayer&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{VisionOS@{VisionOS}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!VisionOS@{VisionOS}}}\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a0b387c87912fa2b6591749d0330302ba}\label{class_t_m_r_i_1_1_core_1_1_asset_handler_a7be6537ac3e2021b4ababa7bdf315dd3a0b387c87912fa2b6591749d0330302ba} 
+Vision\+OS&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a4d58ee3d77b09dd975e01b1bf64403dd}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!AssetIsCurrentlyProcessing@{AssetIsCurrentlyProcessing}}
+\index{AssetIsCurrentlyProcessing@{AssetIsCurrentlyProcessing}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{AssetIsCurrentlyProcessing()}{AssetIsCurrentlyProcessing()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a4d58ee3d77b09dd975e01b1bf64403dd} 
+bool TMRI.\+Core.\+Asset\+Handler.\+Asset\+Is\+Currently\+Processing (\begin{DoxyParamCaption}\item[{string}]{name}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a60771aa3ff80d68a0708c8a8e7d3b934}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!ConfigureLODGroup@{ConfigureLODGroup}}
+\index{ConfigureLODGroup@{ConfigureLODGroup}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{ConfigureLODGroup()}{ConfigureLODGroup()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a60771aa3ff80d68a0708c8a8e7d3b934} 
+bool TMRI.\+Core.\+Asset\+Handler.\+Configure\+LODGroup (\begin{DoxyParamCaption}\item[{LODGroup}]{lod\+Group}{, }\item[{Game\+Object}]{instantiated\+Object}{, }\item[{Action$<$ IEnumerable$<$ Mesh\+Renderer $>$ $>$}]{on\+Included\+Renderer}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a1e5fc7a18f25f683db32797d67481c58}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!ConvertToDownloadLink@{ConvertToDownloadLink}}
+\index{ConvertToDownloadLink@{ConvertToDownloadLink}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{ConvertToDownloadLink()}{ConvertToDownloadLink()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a1e5fc7a18f25f683db32797d67481c58} 
+string TMRI.\+Core.\+Asset\+Handler.\+Convert\+To\+Download\+Link (\begin{DoxyParamCaption}\item[{string}]{link}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a16db2661a349d0d8eaec07469db214f9}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!FillGeometryData@{FillGeometryData}}
+\index{FillGeometryData@{FillGeometryData}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{FillGeometryData()}{FillGeometryData()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a16db2661a349d0d8eaec07469db214f9} 
+bool TMRI.\+Core.\+Asset\+Handler.\+Fill\+Geometry\+Data (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{, }\item[{Transform}]{container}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_af0928ee4d63c375a8aaa404379d2d2b3}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!GetAsset@{GetAsset}}
+\index{GetAsset@{GetAsset}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{GetAsset()}{GetAsset()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_af0928ee4d63c375a8aaa404379d2d2b3} 
+async Task$<$ Game\+Object $>$ TMRI.\+Core.\+Asset\+Handler.\+Get\+Asset (\begin{DoxyParamCaption}\item[{string}]{name}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_accc7a8da16ee0c679354d327b9be5163}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!GetAssetLandmarks@{GetAssetLandmarks}}
+\index{GetAssetLandmarks@{GetAssetLandmarks}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{GetAssetLandmarks()}{GetAssetLandmarks()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_accc7a8da16ee0c679354d327b9be5163} 
+async Task$<$ List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_landmark}{Landmark}} $>$ $>$ TMRI.\+Core.\+Asset\+Handler.\+Get\+Asset\+Landmarks (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a2ca0c71df40c012ed777ea206635de80}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!GetAssetOrigin@{GetAssetOrigin}}
+\index{GetAssetOrigin@{GetAssetOrigin}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{GetAssetOrigin()}{GetAssetOrigin()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a2ca0c71df40c012ed777ea206635de80} 
+bool TMRI.\+Core.\+Asset\+Handler.\+Get\+Asset\+Origin (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{, }\item[{out Vector3}]{geographic\+Origin}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a053f3cb9d7b5efdd41d2d4f9bb71067f}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!GetAssetPanoramas@{GetAssetPanoramas}}
+\index{GetAssetPanoramas@{GetAssetPanoramas}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{GetAssetPanoramas()}{GetAssetPanoramas()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a053f3cb9d7b5efdd41d2d4f9bb71067f} 
+async Task$<$ List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_panorama}{Serializable\+Panorama}} $>$ $>$ TMRI.\+Core.\+Asset\+Handler.\+Get\+Asset\+Panoramas (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_aa6bcfe5df63a8f49c5d3a9d508860c8c}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!GetRuntimePlatform@{GetRuntimePlatform}}
+\index{GetRuntimePlatform@{GetRuntimePlatform}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{GetRuntimePlatform()}{GetRuntimePlatform()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_aa6bcfe5df63a8f49c5d3a9d508860c8c} 
+static string TMRI.\+Core.\+Asset\+Handler.\+Get\+Runtime\+Platform (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a224eee493ef9149461a90f133a44a4e9}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!HasCache@{HasCache}}
+\index{HasCache@{HasCache}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{HasCache()}{HasCache()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a224eee493ef9149461a90f133a44a4e9} 
+bool TMRI.\+Core.\+Asset\+Handler.\+Has\+Cache (\begin{DoxyParamCaption}\item[{out \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_config_file}{Serializable\+Config\+File}}}]{cached\+Config}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_ab34bd50353824277a70176cf843b2256}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!HasCache@{HasCache}}
+\index{HasCache@{HasCache}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{HasCache()}{HasCache()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_ab34bd50353824277a70176cf843b2256} 
+bool TMRI.\+Core.\+Asset\+Handler.\+Has\+Cache (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_config_file}{Serializable\+Config\+File}}}]{config}{, }\item[{out Dictionary$<$ string, bool $>$}]{tracking\+Marker}{, }\item[{out Dictionary$<$ string, bool $>$}]{model}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a9f29b796269e09f32f948495b85f67e1}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!IsAnyAssetProcessing@{IsAnyAssetProcessing}}
+\index{IsAnyAssetProcessing@{IsAnyAssetProcessing}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{IsAnyAssetProcessing()}{IsAnyAssetProcessing()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a9f29b796269e09f32f948495b85f67e1} 
+bool TMRI.\+Core.\+Asset\+Handler.\+Is\+Any\+Asset\+Processing (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_abb822165b39fe97faaf53b882f42092c}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!IsSaved@{IsSaved}}
+\index{IsSaved@{IsSaved}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{IsSaved()}{IsSaved()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_abb822165b39fe97faaf53b882f42092c} 
+bool TMRI.\+Core.\+Asset\+Handler.\+Is\+Saved (\begin{DoxyParamCaption}\item[{string}]{identifier}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a8cf41bf3921234817cbb1c9a9d04e37d}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!IsSaved@{IsSaved}}
+\index{IsSaved@{IsSaved}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{IsSaved()}{IsSaved()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a8cf41bf3921234817cbb1c9a9d04e37d} 
+static bool TMRI.\+Core.\+Asset\+Handler.\+Is\+Saved (\begin{DoxyParamCaption}\item[{string}]{identifier}{, }\item[{string}]{persistent\+Data\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_aea0b58758813c938cf2a4375e2905cce}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!LoadFromPersistentData@{LoadFromPersistentData}}
+\index{LoadFromPersistentData@{LoadFromPersistentData}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{LoadFromPersistentData()}{LoadFromPersistentData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_aea0b58758813c938cf2a4375e2905cce} 
+async Task$<$ byte\mbox{[}$\,$\mbox{]}$>$ TMRI.\+Core.\+Asset\+Handler.\+Load\+From\+Persistent\+Data (\begin{DoxyParamCaption}\item[{string}]{identifier}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a4287f7aa63090548316a2f642250767b}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!LoadFromPersistentData@{LoadFromPersistentData}}
+\index{LoadFromPersistentData@{LoadFromPersistentData}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{LoadFromPersistentData()}{LoadFromPersistentData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a4287f7aa63090548316a2f642250767b} 
+static async Task$<$ byte\mbox{[}$\,$\mbox{]}$>$ TMRI.\+Core.\+Asset\+Handler.\+Load\+From\+Persistent\+Data (\begin{DoxyParamCaption}\item[{string}]{identifier}{, }\item[{Cancellation\+Token}]{cancellation\+Token}{, }\item[{string}]{persistent\+Data\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_aeec6de548c02565d5ae43a6be5b40463}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!LoadGeoImages@{LoadGeoImages}}
+\index{LoadGeoImages@{LoadGeoImages}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{LoadGeoImages()}{LoadGeoImages()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_aeec6de548c02565d5ae43a6be5b40463} 
+async Task$<$ List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_map_projector}{Map\+Projector}} $>$ $>$ TMRI.\+Core.\+Asset\+Handler.\+Load\+Geo\+Images (\begin{DoxyParamCaption}\item[{string}]{asset\+ID}{, }\item[{Game\+Object}]{map\+Projector\+Prefab}{, }\item[{Transform}]{parent}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_aac5f266aaef892be09039115383e8ff5}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!LoadGLTFFromUrl@{LoadGLTFFromUrl}}
+\index{LoadGLTFFromUrl@{LoadGLTFFromUrl}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{LoadGLTFFromUrl()}{LoadGLTFFromUrl()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_aac5f266aaef892be09039115383e8ff5} 
+async Task$<$ Game\+Object $>$ TMRI.\+Core.\+Asset\+Handler.\+Load\+GLTFFrom\+Url (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{string}]{model\+Url}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a1680e6817055ced4aa950ffd1a4d74ee}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!LoadTexture@{LoadTexture}}
+\index{LoadTexture@{LoadTexture}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{LoadTexture()}{LoadTexture()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a1680e6817055ced4aa950ffd1a4d74ee} 
+static async Task$<$ Texture2D $>$ TMRI.\+Core.\+Asset\+Handler.\+Load\+Texture (\begin{DoxyParamCaption}\item[{string}]{texture\+Path}{, }\item[{Cancellation\+Token}]{cancellation\+Token}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a162b4c3a105b27a67e350e6658dfe1f8}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!OnAssetBundleDownloaded@{OnAssetBundleDownloaded}}
+\index{OnAssetBundleDownloaded@{OnAssetBundleDownloaded}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{OnAssetBundleDownloaded()}{OnAssetBundleDownloaded()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a162b4c3a105b27a67e350e6658dfe1f8} 
+void TMRI.\+Core.\+Asset\+Handler.\+On\+Asset\+Bundle\+Downloaded (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{Asset\+Bundle}]{asset\+Bundle}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_ae02971c56b0c6f49e3e185e300c20e76}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!ReturnAssetsFromConfig@{ReturnAssetsFromConfig}}
+\index{ReturnAssetsFromConfig@{ReturnAssetsFromConfig}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{ReturnAssetsFromConfig()}{ReturnAssetsFromConfig()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_ae02971c56b0c6f49e3e185e300c20e76} 
+List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_asset}{Serializable\+Asset}} $>$ TMRI.\+Core.\+Asset\+Handler.\+Return\+Assets\+From\+Config (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_aae09f5f610bfcc6b8c0027610fea0606}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!ReturnDefaultDisplaySize@{ReturnDefaultDisplaySize}}
+\index{ReturnDefaultDisplaySize@{ReturnDefaultDisplaySize}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{ReturnDefaultDisplaySize()}{ReturnDefaultDisplaySize()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_aae09f5f610bfcc6b8c0027610fea0606} 
+Vector3 TMRI.\+Core.\+Asset\+Handler.\+Return\+Default\+Display\+Size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a4b4b12ebd67a6e0b20312a6f632b84e4}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!ReturnTrackingmarkersFromConfig@{ReturnTrackingmarkersFromConfig}}
+\index{ReturnTrackingmarkersFromConfig@{ReturnTrackingmarkersFromConfig}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{ReturnTrackingmarkersFromConfig()}{ReturnTrackingmarkersFromConfig()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a4b4b12ebd67a6e0b20312a6f632b84e4} 
+List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_trackingmarker}{Serializable\+Trackingmarker}} $>$ TMRI.\+Core.\+Asset\+Handler.\+Return\+Trackingmarkers\+From\+Config (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_aa1e00eb4c44daba8174ea9f156065e73}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!ReturnValidModelLODs@{ReturnValidModelLODs}}
+\index{ReturnValidModelLODs@{ReturnValidModelLODs}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{ReturnValidModelLODs()}{ReturnValidModelLODs()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_aa1e00eb4c44daba8174ea9f156065e73} 
+IEnumerable$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_model_l_o_d}{Model\+LOD}} $>$ TMRI.\+Core.\+Asset\+Handler.\+Return\+Valid\+Model\+LODs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_asset}{Serializable\+Asset}}}]{asset\+Config}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a0320c1aa6d552571f35876efd768a4d5}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!SaveInPersistentData@{SaveInPersistentData}}
+\index{SaveInPersistentData@{SaveInPersistentData}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{SaveInPersistentData()}{SaveInPersistentData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a0320c1aa6d552571f35876efd768a4d5} 
+async Task$<$ bool $>$ TMRI.\+Core.\+Asset\+Handler.\+Save\+In\+Persistent\+Data (\begin{DoxyParamCaption}\item[{string}]{identifier}{, }\item[{byte\mbox{[}$\,$\mbox{]}}]{blob\+To\+Save}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_aae809d07287480f2213e19ba65ae09e5}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!SaveInPersistentData@{SaveInPersistentData}}
+\index{SaveInPersistentData@{SaveInPersistentData}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{SaveInPersistentData()}{SaveInPersistentData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_aae809d07287480f2213e19ba65ae09e5} 
+static async Task$<$ bool $>$ TMRI.\+Core.\+Asset\+Handler.\+Save\+In\+Persistent\+Data (\begin{DoxyParamCaption}\item[{string}]{identifier}{, }\item[{byte\mbox{[}$\,$\mbox{]}}]{blob\+To\+Save}{, }\item[{Cancellation\+Token}]{cancellation\+Token}{, }\item[{string}]{persistent\+Data\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a2ec1c606d2b2acd38310d612c5595bb1}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!StartWithConfigURL@{StartWithConfigURL}}
+\index{StartWithConfigURL@{StartWithConfigURL}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{StartWithConfigURL()}{StartWithConfigURL()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a2ec1c606d2b2acd38310d612c5595bb1} 
+void TMRI.\+Core.\+Asset\+Handler.\+Start\+With\+Config\+URL (\begin{DoxyParamCaption}\item[{string}]{configuration\+File\+URI}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_acff139ae41e5de1bb6e1e8356f67463d}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!chunkedMeshPrefab@{chunkedMeshPrefab}}
+\index{chunkedMeshPrefab@{chunkedMeshPrefab}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{chunkedMeshPrefab}{chunkedMeshPrefab}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_acff139ae41e5de1bb6e1e8356f67463d} 
+Game\+Object TMRI.\+Core.\+Asset\+Handler.\+chunked\+Mesh\+Prefab}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a05de805f1d78804d35d0d029d1bbecc9}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!currentPlatform@{currentPlatform}}
+\index{currentPlatform@{currentPlatform}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{currentPlatform}{currentPlatform}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a05de805f1d78804d35d0d029d1bbecc9} 
+string TMRI.\+Core.\+Asset\+Handler.\+current\+Platform = null}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a3bde26bb7a764ffbbe63e6559784f7ac}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!meshPrefab@{meshPrefab}}
+\index{meshPrefab@{meshPrefab}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{meshPrefab}{meshPrefab}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a3bde26bb7a764ffbbe63e6559784f7ac} 
+\mbox{\hyperlink{class_generate_mesh_from_data}{Generate\+Mesh\+From\+Data}} TMRI.\+Core.\+Asset\+Handler.\+mesh\+Prefab}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_acec17b05ce8b9721fbae425738acb7cc}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!OnConfigurationError@{OnConfigurationError}}
+\index{OnConfigurationError@{OnConfigurationError}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{OnConfigurationError}{OnConfigurationError}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_acec17b05ce8b9721fbae425738acb7cc} 
+Action TMRI.\+Core.\+Asset\+Handler.\+On\+Configuration\+Error}
+
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_aab998321871fe851f3eb22c52e703d03}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!OnConfigurationLoaded@{OnConfigurationLoaded}}
+\index{OnConfigurationLoaded@{OnConfigurationLoaded}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{OnConfigurationLoaded}{OnConfigurationLoaded}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_aab998321871fe851f3eb22c52e703d03} 
+Action$<$\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_serializable_config_file}{Serializable\+Config\+File}}$>$ TMRI.\+Core.\+Asset\+Handler.\+On\+Configuration\+Loaded}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_t_m_r_i_1_1_core_1_1_asset_handler_a9bf66214eab275ac5fc5c15df5b0efaf}\index{TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}!HasConfig@{HasConfig}}
+\index{HasConfig@{HasConfig}!TMRI.Core.AssetHandler@{TMRI.Core.AssetHandler}}
+\doxysubsubsection{\texorpdfstring{HasConfig}{HasConfig}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_core_1_1_asset_handler_a9bf66214eab275ac5fc5c15df5b0efaf} 
+bool TMRI.\+Core.\+Asset\+Handler.\+Has\+Config\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/server/\+Packages/com.\+imd.\+tmri.\+core/\+Runtime/\mbox{\hyperlink{_asset_handler_8cs}{Asset\+Handler.\+cs}}\end{DoxyCompactItemize}

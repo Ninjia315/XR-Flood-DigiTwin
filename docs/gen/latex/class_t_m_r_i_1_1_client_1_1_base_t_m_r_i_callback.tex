@@ -1,0 +1,96 @@
+\doxysection{TMRI.\+Client.\+Base\+TMRICallback Class Reference}
+\hypertarget{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}{}\label{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback}\index{TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}}
+
+
+Base class for all objects wishing to receive network callbacks from the \doxylink{namespace_t_m_r_i}{TMRI} system.  
+
+
+
+
+Inheritance diagram for TMRI.\+Client.\+Base\+TMRICallback\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMRI.\+Client.\+Base\+TMRICallback\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c}{is\+Connection\+Open}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a}{On\+Enable}} ()
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75}{On\+Disable}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a2fe9d96e3be9689b34aee523c5f6830d}{do\+On\+Websocket\+Connected}} (Web\+Socket w)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651}{Send}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\item 
+void \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085}{On\+TMRIMessage}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}} msg)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for all objects wishing to receive network callbacks from the \doxylink{namespace_t_m_r_i}{TMRI} system. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a2fe9d96e3be9689b34aee523c5f6830d}\index{TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}!doOnWebsocketConnected@{doOnWebsocketConnected}}
+\index{doOnWebsocketConnected@{doOnWebsocketConnected}!TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}}
+\doxysubsubsection{\texorpdfstring{doOnWebsocketConnected()}{doOnWebsocketConnected()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a2fe9d96e3be9689b34aee523c5f6830d} 
+virtual void TMRI.\+Client.\+Base\+TMRICallback.\+do\+On\+Websocket\+Connected (\begin{DoxyParamCaption}\item[{Web\+Socket}]{w}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_t_m_r_i_1_1_client_1_1_t_m_r_i_state_callback_a11d33db1f6dd9f4127ff6e3cbefcf700}{TMRI.\+Client.\+TMRIState\+Callback}}.
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c}\index{TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}!isConnectionOpen@{isConnectionOpen}}
+\index{isConnectionOpen@{isConnectionOpen}!TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}}
+\doxysubsubsection{\texorpdfstring{isConnectionOpen()}{isConnectionOpen()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a56c7fc71c9015f2dcec5deacf61e877c} 
+bool TMRI.\+Client.\+Base\+TMRICallback.\+is\+Connection\+Open (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75}\index{TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a7035473af3b373c158763e3ef5315f75} 
+virtual void TMRI.\+Client.\+Base\+TMRICallback.\+On\+Disable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a}\index{TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a6631e2082c71038668f173cc260fd62a} 
+virtual void TMRI.\+Client.\+Base\+TMRICallback.\+On\+Enable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085}\index{TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}!OnTMRIMessage@{OnTMRIMessage}}
+\index{OnTMRIMessage@{OnTMRIMessage}!TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}}
+\doxysubsubsection{\texorpdfstring{OnTMRIMessage()}{OnTMRIMessage()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_a9daebdb6e311b6f5384e7a6e622d7085} 
+void TMRI.\+Client.\+Base\+TMRICallback.\+On\+TMRIMessage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+\Hypertarget{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651}\index{TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}!Send@{Send}}
+\index{Send@{Send}!TMRI.Client.BaseTMRICallback@{TMRI.Client.BaseTMRICallback}}
+\doxysubsubsection{\texorpdfstring{Send()}{Send()}}
+{\footnotesize\ttfamily \label{class_t_m_r_i_1_1_client_1_1_base_t_m_r_i_callback_af4636308451349fba220b79b6b187651} 
+void TMRI.\+Client.\+Base\+TMRICallback.\+Send (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_websocket_message}{Websocket\+Message}}}]{msg}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Packages/com.\+imd.\+tmri.\+client/\+Runtime/\mbox{\hyperlink{_t_m_r_i_network_object_8cs}{TMRINetwork\+Object.\+cs}}\end{DoxyCompactItemize}

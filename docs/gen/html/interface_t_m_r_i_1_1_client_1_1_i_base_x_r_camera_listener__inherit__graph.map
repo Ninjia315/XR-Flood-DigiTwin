@@ -1,0 +1,7 @@
+<map id="TMRI.Client.IBaseXRCameraListener" name="TMRI.Client.IBaseXRCameraListener">
+<area shape="rect" id="Node000001" title=" " alt="" coords="94,5,290,46"/>
+<area shape="rect" id="Node000002" href="$class_panorama_behaviour_1_1_panorama_v_r_behaviour.html" title=" " alt="" coords="5,94,206,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,59,127,95,123,92,160,55"/>
+<area shape="rect" id="Node000003" href="$class_world_canvas.html" title=" " alt="" coords="229,102,328,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,55,269,99,265,103,221,59"/>
+</map>

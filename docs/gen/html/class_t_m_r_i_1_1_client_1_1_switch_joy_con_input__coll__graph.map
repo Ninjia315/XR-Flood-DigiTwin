@@ -1,0 +1,9 @@
+<map id="TMRI.Client.SwitchJoyConInput" name="TMRI.Client.SwitchJoyConInput">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,184,187,225"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="35,5,146,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,46,98,184,93,184,89,47"/>
+<area shape="rect" id="Node000003" href="$class_t_m_r_i_1_1_client_1_1_switch_joy_con_input.html" title=" " alt="" coords="112,80,293,121"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="121,38,177,78,174,82,118,42"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,134,118,186,115,182,169,130"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="310,93,320,101,312,108,294,111,294,106,310,103,315,101,307,97"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="GeometryInteractable" name="GeometryInteractable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="157,94,304,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,117,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,43,206,91,203,96,100,48"/>
+<area shape="rect" id="Node000003" href="$interface_t_m_r_i_1_1_client_1_1_reticle_pointer_interactable.html" title=" " alt="" coords="141,5,320,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="233,62,233,93,228,93,228,62"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="344,13,485,38"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="373,48,259,96,257,91,371,43"/>
+</map>

@@ -1,0 +1,119 @@
+\doxysection{Game\+State\+UI Class Reference}
+\hypertarget{class_game_state_u_i}{}\label{class_game_state_u_i}\index{GameStateUI@{GameStateUI}}
+
+
+Inheritance diagram for Game\+State\+UI\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_game_state_u_i__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Game\+State\+UI\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_game_state_u_i__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_state_u_i_a81089761c4a39638c5345472e2522944}{Update\+UI}} (\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_client_info}{Client\+Info}} my\+Info, \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_client_info}{Client\+Info}}\mbox{[}$\,$\mbox{]} players)
+\item 
+void \mbox{\hyperlink{class_game_state_u_i_ac6ed69ab38aae8f1d6ad4a0281606f93}{Join\+Team}} (int team)
+\item 
+void \mbox{\hyperlink{class_game_state_u_i_ae859763a8f654b01f16c8e1f379f3fb8}{Enter}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_game_state_u_i_a5072d55731c07fa903ebdeb462e12c00}{image\+Target\+Name}}
+\item 
+int \mbox{\hyperlink{class_game_state_u_i_a80428fdc66787a41c0c73d480f268689}{scene\+Index}}
+\item 
+TMP\+\_\+\+Text \mbox{\hyperlink{class_game_state_u_i_a2ec514911882d4ed08802482df67048a}{teamA}}
+\item 
+TMP\+\_\+\+Text \mbox{\hyperlink{class_game_state_u_i_a782c6606a8ed652158754544b879aa5f}{teamB}}
+\item 
+TMP\+\_\+\+Text \mbox{\hyperlink{class_game_state_u_i_a01d75e311ad588a54511b0b197137162}{time}}
+\item 
+Unity\+Event$<$ string, int $>$ \mbox{\hyperlink{class_game_state_u_i_ac8d7cd9ecad631ecd6219f6629e30713}{On\+Join\+Team}}
+\item 
+Unity\+Event$<$ int $>$ \mbox{\hyperlink{class_game_state_u_i_a10fac360e8bfb0ea4bfe34913afe26c9}{On\+Enter}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_game_state_u_i_ae859763a8f654b01f16c8e1f379f3fb8}\index{GameStateUI@{GameStateUI}!Enter@{Enter}}
+\index{Enter@{Enter}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{Enter()}{Enter()}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_ae859763a8f654b01f16c8e1f379f3fb8} 
+void Game\+State\+UI.\+Enter (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_game_state_u_i_ac6ed69ab38aae8f1d6ad4a0281606f93}\index{GameStateUI@{GameStateUI}!JoinTeam@{JoinTeam}}
+\index{JoinTeam@{JoinTeam}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{JoinTeam()}{JoinTeam()}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_ac6ed69ab38aae8f1d6ad4a0281606f93} 
+void Game\+State\+UI.\+Join\+Team (\begin{DoxyParamCaption}\item[{int}]{team}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_game_state_u_i_a81089761c4a39638c5345472e2522944}\index{GameStateUI@{GameStateUI}!UpdateUI@{UpdateUI}}
+\index{UpdateUI@{UpdateUI}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{UpdateUI()}{UpdateUI()}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_a81089761c4a39638c5345472e2522944} 
+void Game\+State\+UI.\+Update\+UI (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_client_info}{Client\+Info}}}]{my\+Info}{, }\item[{\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_client_info}{Client\+Info}}\mbox{[}$\,$\mbox{]}}]{players}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_game_state_u_i_a5072d55731c07fa903ebdeb462e12c00}\index{GameStateUI@{GameStateUI}!imageTargetName@{imageTargetName}}
+\index{imageTargetName@{imageTargetName}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{imageTargetName}{imageTargetName}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_a5072d55731c07fa903ebdeb462e12c00} 
+string Game\+State\+UI.\+image\+Target\+Name}
+
+\Hypertarget{class_game_state_u_i_a10fac360e8bfb0ea4bfe34913afe26c9}\index{GameStateUI@{GameStateUI}!OnEnter@{OnEnter}}
+\index{OnEnter@{OnEnter}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{OnEnter}{OnEnter}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_a10fac360e8bfb0ea4bfe34913afe26c9} 
+Unity\+Event$<$int$>$ Game\+State\+UI.\+On\+Enter}
+
+\Hypertarget{class_game_state_u_i_ac8d7cd9ecad631ecd6219f6629e30713}\index{GameStateUI@{GameStateUI}!OnJoinTeam@{OnJoinTeam}}
+\index{OnJoinTeam@{OnJoinTeam}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{OnJoinTeam}{OnJoinTeam}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_ac8d7cd9ecad631ecd6219f6629e30713} 
+Unity\+Event$<$string, int$>$ Game\+State\+UI.\+On\+Join\+Team}
+
+\Hypertarget{class_game_state_u_i_a80428fdc66787a41c0c73d480f268689}\index{GameStateUI@{GameStateUI}!sceneIndex@{sceneIndex}}
+\index{sceneIndex@{sceneIndex}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{sceneIndex}{sceneIndex}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_a80428fdc66787a41c0c73d480f268689} 
+int Game\+State\+UI.\+scene\+Index}
+
+\Hypertarget{class_game_state_u_i_a2ec514911882d4ed08802482df67048a}\index{GameStateUI@{GameStateUI}!teamA@{teamA}}
+\index{teamA@{teamA}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{teamA}{teamA}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_a2ec514911882d4ed08802482df67048a} 
+TMP\+\_\+\+Text Game\+State\+UI.\+teamA}
+
+\Hypertarget{class_game_state_u_i_a782c6606a8ed652158754544b879aa5f}\index{GameStateUI@{GameStateUI}!teamB@{teamB}}
+\index{teamB@{teamB}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{teamB}{teamB}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_a782c6606a8ed652158754544b879aa5f} 
+TMP\+\_\+\+Text Game\+State\+UI.\+teamB}
+
+\Hypertarget{class_game_state_u_i_a01d75e311ad588a54511b0b197137162}\index{GameStateUI@{GameStateUI}!time@{time}}
+\index{time@{time}!GameStateUI@{GameStateUI}}
+\doxysubsubsection{\texorpdfstring{time}{time}}
+{\footnotesize\ttfamily \label{class_game_state_u_i_a01d75e311ad588a54511b0b197137162} 
+TMP\+\_\+\+Text Game\+State\+UI.\+time}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/client/\+Assets/\+Scripts/\mbox{\hyperlink{_game_state_u_i_8cs}{Game\+State\+UI.\+cs}}\end{DoxyCompactItemize}

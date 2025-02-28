@@ -1,0 +1,6 @@
+<map id="TriLibCore.Samples.AbstractInputSystem" name="TriLibCore.Samples.AbstractInputSystem">
+<area shape="rect" id="Node000001" title="Represents a class to abstract input system actions." alt="" coords="5,79,195,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="44,5,156,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,46,95,79,89,79,89,47"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="111,47,111,79,105,79,106,46"/>
+</map>

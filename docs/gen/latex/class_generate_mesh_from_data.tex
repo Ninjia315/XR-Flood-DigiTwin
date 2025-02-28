@@ -1,0 +1,237 @@
+\doxysection{Generate\+Mesh\+From\+Data Class Reference}
+\hypertarget{class_generate_mesh_from_data}{}\label{class_generate_mesh_from_data}\index{GenerateMeshFromData@{GenerateMeshFromData}}
+
+
+Inheritance diagram for Generate\+Mesh\+From\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_generate_mesh_from_data__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Generate\+Mesh\+From\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_generate_mesh_from_data__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Serializable\+Mesh}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_generate_mesh_from_data_aaf23c5a9ba041ea53498beb8d4c61624}{On\+Change\+To\+Shader}} (Shader shader)
+\item 
+void \mbox{\hyperlink{class_generate_mesh_from_data_ad72b6f59e6799efdd38dec4c8b946998}{Set\+Max\+Files\+From\+String}} (string number\+String)
+\item 
+void \mbox{\hyperlink{class_generate_mesh_from_data_ad2f7f9361d0180fa6aa40207b5016d4b}{Set\+Flood\+Visualization\+Type}} (\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}} type)
+\item 
+void \mbox{\hyperlink{class_generate_mesh_from_data_abdac2f7a2442aa01dc47dba87104fa0d}{On\+Flood\+Time\+Step\+Updated}} (int time\+Step)
+\item 
+void \mbox{\hyperlink{class_generate_mesh_from_data_a0f8519a4a13353032e3072fe5467aa14}{On\+Asset\+Is\+Changing}} (string asset\+Name)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Texture2D \mbox{\hyperlink{class_generate_mesh_from_data_a82c7631751a50d8cbb0b84bf1aa964e8}{Generate\+Height\+Texture}} (List$<$ float $>$ \mbox{\hyperlink{class_generate_mesh_from_data_a2fbc0fb63d295c7169d4baf254ecd9e1}{quads}}, int texture\+Width, int texture\+Height, float min\+Height, float max\+Height)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_generate_mesh_from_data_a9ba8ffc1362539e68e2e946d3ce547c2}{vertex\+Considered\+Identical\+Threshold}} = 0.\+001f
+\item 
+bool \mbox{\hyperlink{class_generate_mesh_from_data_a12a37f191c1b874208320988ce43e735}{Reconstruct\+On\+Start}}
+\item 
+bool \mbox{\hyperlink{class_generate_mesh_from_data_ae3708e4753134c3a35b1e2e8cbd04e81}{Flip\+Normals}}
+\item 
+int \mbox{\hyperlink{class_generate_mesh_from_data_ad4f5c90f36dd228bc6831eb3ab80aabf}{Parallel\+Tasks\+Count}} = 1
+\item 
+bool \mbox{\hyperlink{class_generate_mesh_from_data_a2e738d2d1c25076260a1e70dcf10406c}{Min\+Max\+Based\+On\+Chunk}}
+\item 
+int \mbox{\hyperlink{class_generate_mesh_from_data_ac3643a0d69a320357a07e6c24f7fca9e}{Preloaded\+Mesh\+Count}}
+\item 
+List$<$ \mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_shader}{Flood\+Shader}} $>$ \mbox{\hyperlink{class_generate_mesh_from_data_a5c9208f0c90fa5c05f60d5efb12f49e9}{Flood\+Shaders}}
+\item 
+Material \mbox{\hyperlink{class_generate_mesh_from_data_a3ac7a8365617708d44f01f1243078819}{Default\+Material}}
+\item 
+Vector3 \mbox{\hyperlink{class_generate_mesh_from_data_ab41c740e7ca36a55599fedae475216bb}{Min\+World\+XZ}}
+\item 
+Vector3 \mbox{\hyperlink{class_generate_mesh_from_data_a8b3f625fd39c81c7f7028ee344131a19}{Max\+World\+XZ}}
+\item 
+bool \mbox{\hyperlink{class_generate_mesh_from_data_a95a1161b9fc37bb56dc3e853d96c8e29}{Uniform\+UVs}}
+\item 
+float \mbox{\hyperlink{class_generate_mesh_from_data_a041a470773fc5188f7570137d2cef66c}{Max\+Height\+Overall\+Chunks}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_generate_mesh_from_data_ad9fa559f58b79f13e763ce763cf23d53}{Event\+Key}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+List$<$ \mbox{\hyperlink{class_geometry_data_reader_1_1_geometry_quad}{Geometry\+Data\+Reader.\+Geometry\+Quad}} $>$ \mbox{\hyperlink{class_generate_mesh_from_data_a2fbc0fb63d295c7169d4baf254ecd9e1}{quads}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Game\+Object \mbox{\hyperlink{class_generate_mesh_from_data_a2a77d80905b58ae9dcc4ad92495774f2}{Override\+Chunked\+Mesh\+Prefab}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_generate_mesh_from_data_a82c7631751a50d8cbb0b84bf1aa964e8}\index{GenerateMeshFromData@{GenerateMeshFromData}!GenerateHeightTexture@{GenerateHeightTexture}}
+\index{GenerateHeightTexture@{GenerateHeightTexture}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{GenerateHeightTexture()}{GenerateHeightTexture()}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a82c7631751a50d8cbb0b84bf1aa964e8} 
+static Texture2D Generate\+Mesh\+From\+Data.\+Generate\+Height\+Texture (\begin{DoxyParamCaption}\item[{List$<$ float $>$}]{quads}{, }\item[{int}]{texture\+Width}{, }\item[{int}]{texture\+Height}{, }\item[{float}]{min\+Height}{, }\item[{float}]{max\+Height}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_generate_mesh_from_data_a0f8519a4a13353032e3072fe5467aa14}\index{GenerateMeshFromData@{GenerateMeshFromData}!OnAssetIsChanging@{OnAssetIsChanging}}
+\index{OnAssetIsChanging@{OnAssetIsChanging}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{OnAssetIsChanging()}{OnAssetIsChanging()}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a0f8519a4a13353032e3072fe5467aa14} 
+void Generate\+Mesh\+From\+Data.\+On\+Asset\+Is\+Changing (\begin{DoxyParamCaption}\item[{string}]{asset\+Name}{}\end{DoxyParamCaption})}
+
+obj.\+game\+Object.\+Set\+Active(false);\Hypertarget{class_generate_mesh_from_data_aaf23c5a9ba041ea53498beb8d4c61624}\index{GenerateMeshFromData@{GenerateMeshFromData}!OnChangeToShader@{OnChangeToShader}}
+\index{OnChangeToShader@{OnChangeToShader}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{OnChangeToShader()}{OnChangeToShader()}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_aaf23c5a9ba041ea53498beb8d4c61624} 
+void Generate\+Mesh\+From\+Data.\+On\+Change\+To\+Shader (\begin{DoxyParamCaption}\item[{Shader}]{shader}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_shader_change_event_listener_a86860d1b3a3d9153a184818f2750b79a}{IShader\+Change\+Event\+Listener}}.
+
+\Hypertarget{class_generate_mesh_from_data_abdac2f7a2442aa01dc47dba87104fa0d}\index{GenerateMeshFromData@{GenerateMeshFromData}!OnFloodTimeStepUpdated@{OnFloodTimeStepUpdated}}
+\index{OnFloodTimeStepUpdated@{OnFloodTimeStepUpdated}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{OnFloodTimeStepUpdated()}{OnFloodTimeStepUpdated()}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_abdac2f7a2442aa01dc47dba87104fa0d} 
+void Generate\+Mesh\+From\+Data.\+On\+Flood\+Time\+Step\+Updated (\begin{DoxyParamCaption}\item[{int}]{time\+Step}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener_a04128e86008b89a158c5b6fdf218f984}{TMRI.\+Core.\+IFlood\+Visualization\+Listener}}.
+
+\Hypertarget{class_generate_mesh_from_data_ad2f7f9361d0180fa6aa40207b5016d4b}\index{GenerateMeshFromData@{GenerateMeshFromData}!SetFloodVisualizationType@{SetFloodVisualizationType}}
+\index{SetFloodVisualizationType@{SetFloodVisualizationType}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{SetFloodVisualizationType()}{SetFloodVisualizationType()}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_ad2f7f9361d0180fa6aa40207b5016d4b} 
+void Generate\+Mesh\+From\+Data.\+Set\+Flood\+Visualization\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_t_m_r_i_1_1_core_a2b3efe218045853904ac5a049ace9454}{Flood\+Visualization\+Type}}}]{type}{}\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_t_m_r_i_1_1_core_1_1_i_flood_visualization_listener_abe1d944b2d9420ebe3ca491ad7083d95}{TMRI.\+Core.\+IFlood\+Visualization\+Listener}}.
+
+\Hypertarget{class_generate_mesh_from_data_ad72b6f59e6799efdd38dec4c8b946998}\index{GenerateMeshFromData@{GenerateMeshFromData}!SetMaxFilesFromString@{SetMaxFilesFromString}}
+\index{SetMaxFilesFromString@{SetMaxFilesFromString}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{SetMaxFilesFromString()}{SetMaxFilesFromString()}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_ad72b6f59e6799efdd38dec4c8b946998} 
+void Generate\+Mesh\+From\+Data.\+Set\+Max\+Files\+From\+String (\begin{DoxyParamCaption}\item[{string}]{number\+String}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_generate_mesh_from_data_a3ac7a8365617708d44f01f1243078819}\index{GenerateMeshFromData@{GenerateMeshFromData}!DefaultMaterial@{DefaultMaterial}}
+\index{DefaultMaterial@{DefaultMaterial}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{DefaultMaterial}{DefaultMaterial}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a3ac7a8365617708d44f01f1243078819} 
+Material Generate\+Mesh\+From\+Data.\+Default\+Material}
+
+\Hypertarget{class_generate_mesh_from_data_ae3708e4753134c3a35b1e2e8cbd04e81}\index{GenerateMeshFromData@{GenerateMeshFromData}!FlipNormals@{FlipNormals}}
+\index{FlipNormals@{FlipNormals}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{FlipNormals}{FlipNormals}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_ae3708e4753134c3a35b1e2e8cbd04e81} 
+bool Generate\+Mesh\+From\+Data.\+Flip\+Normals}
+
+\Hypertarget{class_generate_mesh_from_data_a5c9208f0c90fa5c05f60d5efb12f49e9}\index{GenerateMeshFromData@{GenerateMeshFromData}!FloodShaders@{FloodShaders}}
+\index{FloodShaders@{FloodShaders}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{FloodShaders}{FloodShaders}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a5c9208f0c90fa5c05f60d5efb12f49e9} 
+List$<$\mbox{\hyperlink{class_t_m_r_i_1_1_core_1_1_flood_shader}{Flood\+Shader}}$>$ Generate\+Mesh\+From\+Data.\+Flood\+Shaders}
+
+\Hypertarget{class_generate_mesh_from_data_a041a470773fc5188f7570137d2cef66c}\index{GenerateMeshFromData@{GenerateMeshFromData}!MaxHeightOverallChunks@{MaxHeightOverallChunks}}
+\index{MaxHeightOverallChunks@{MaxHeightOverallChunks}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{MaxHeightOverallChunks}{MaxHeightOverallChunks}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a041a470773fc5188f7570137d2cef66c} 
+float Generate\+Mesh\+From\+Data.\+Max\+Height\+Overall\+Chunks}
+
+\Hypertarget{class_generate_mesh_from_data_a8b3f625fd39c81c7f7028ee344131a19}\index{GenerateMeshFromData@{GenerateMeshFromData}!MaxWorldXZ@{MaxWorldXZ}}
+\index{MaxWorldXZ@{MaxWorldXZ}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{MaxWorldXZ}{MaxWorldXZ}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a8b3f625fd39c81c7f7028ee344131a19} 
+Vector3 Generate\+Mesh\+From\+Data.\+Max\+World\+XZ}
+
+\Hypertarget{class_generate_mesh_from_data_a2e738d2d1c25076260a1e70dcf10406c}\index{GenerateMeshFromData@{GenerateMeshFromData}!MinMaxBasedOnChunk@{MinMaxBasedOnChunk}}
+\index{MinMaxBasedOnChunk@{MinMaxBasedOnChunk}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{MinMaxBasedOnChunk}{MinMaxBasedOnChunk}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a2e738d2d1c25076260a1e70dcf10406c} 
+bool Generate\+Mesh\+From\+Data.\+Min\+Max\+Based\+On\+Chunk}
+
+\Hypertarget{class_generate_mesh_from_data_ab41c740e7ca36a55599fedae475216bb}\index{GenerateMeshFromData@{GenerateMeshFromData}!MinWorldXZ@{MinWorldXZ}}
+\index{MinWorldXZ@{MinWorldXZ}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{MinWorldXZ}{MinWorldXZ}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_ab41c740e7ca36a55599fedae475216bb} 
+Vector3 Generate\+Mesh\+From\+Data.\+Min\+World\+XZ}
+
+\Hypertarget{class_generate_mesh_from_data_ad4f5c90f36dd228bc6831eb3ab80aabf}\index{GenerateMeshFromData@{GenerateMeshFromData}!ParallelTasksCount@{ParallelTasksCount}}
+\index{ParallelTasksCount@{ParallelTasksCount}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{ParallelTasksCount}{ParallelTasksCount}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_ad4f5c90f36dd228bc6831eb3ab80aabf} 
+int Generate\+Mesh\+From\+Data.\+Parallel\+Tasks\+Count = 1}
+
+\Hypertarget{class_generate_mesh_from_data_ac3643a0d69a320357a07e6c24f7fca9e}\index{GenerateMeshFromData@{GenerateMeshFromData}!PreloadedMeshCount@{PreloadedMeshCount}}
+\index{PreloadedMeshCount@{PreloadedMeshCount}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{PreloadedMeshCount}{PreloadedMeshCount}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_ac3643a0d69a320357a07e6c24f7fca9e} 
+int Generate\+Mesh\+From\+Data.\+Preloaded\+Mesh\+Count}
+
+\Hypertarget{class_generate_mesh_from_data_a12a37f191c1b874208320988ce43e735}\index{GenerateMeshFromData@{GenerateMeshFromData}!ReconstructOnStart@{ReconstructOnStart}}
+\index{ReconstructOnStart@{ReconstructOnStart}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{ReconstructOnStart}{ReconstructOnStart}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a12a37f191c1b874208320988ce43e735} 
+bool Generate\+Mesh\+From\+Data.\+Reconstruct\+On\+Start}
+
+\Hypertarget{class_generate_mesh_from_data_a95a1161b9fc37bb56dc3e853d96c8e29}\index{GenerateMeshFromData@{GenerateMeshFromData}!UniformUVs@{UniformUVs}}
+\index{UniformUVs@{UniformUVs}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{UniformUVs}{UniformUVs}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a95a1161b9fc37bb56dc3e853d96c8e29} 
+bool Generate\+Mesh\+From\+Data.\+Uniform\+UVs}
+
+\Hypertarget{class_generate_mesh_from_data_a9ba8ffc1362539e68e2e946d3ce547c2}\index{GenerateMeshFromData@{GenerateMeshFromData}!vertexConsideredIdenticalThreshold@{vertexConsideredIdenticalThreshold}}
+\index{vertexConsideredIdenticalThreshold@{vertexConsideredIdenticalThreshold}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{vertexConsideredIdenticalThreshold}{vertexConsideredIdenticalThreshold}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a9ba8ffc1362539e68e2e946d3ce547c2} 
+float Generate\+Mesh\+From\+Data.\+vertex\+Considered\+Identical\+Threshold = 0.\+001f}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_generate_mesh_from_data_ad9fa559f58b79f13e763ce763cf23d53}\index{GenerateMeshFromData@{GenerateMeshFromData}!EventKey@{EventKey}}
+\index{EventKey@{EventKey}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{EventKey}{EventKey}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_ad9fa559f58b79f13e763ce763cf23d53} 
+string Generate\+Mesh\+From\+Data.\+Event\+Key\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implements \mbox{\hyperlink{interface_i_shader_change_event_listener_a168d189c08c8af00644186ad84aec163}{IShader\+Change\+Event\+Listener}}.
+
+\Hypertarget{class_generate_mesh_from_data_a2a77d80905b58ae9dcc4ad92495774f2}\index{GenerateMeshFromData@{GenerateMeshFromData}!OverrideChunkedMeshPrefab@{OverrideChunkedMeshPrefab}}
+\index{OverrideChunkedMeshPrefab@{OverrideChunkedMeshPrefab}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{OverrideChunkedMeshPrefab}{OverrideChunkedMeshPrefab}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a2a77d80905b58ae9dcc4ad92495774f2} 
+Game\+Object Generate\+Mesh\+From\+Data.\+Override\+Chunked\+Mesh\+Prefab\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_generate_mesh_from_data_a2fbc0fb63d295c7169d4baf254ecd9e1}\index{GenerateMeshFromData@{GenerateMeshFromData}!quads@{quads}}
+\index{quads@{quads}!GenerateMeshFromData@{GenerateMeshFromData}}
+\doxysubsubsection{\texorpdfstring{quads}{quads}}
+{\footnotesize\ttfamily \label{class_generate_mesh_from_data_a2fbc0fb63d295c7169d4baf254ecd9e1} 
+List$<$\mbox{\hyperlink{class_geometry_data_reader_1_1_geometry_quad}{Geometry\+Data\+Reader.\+Geometry\+Quad}}$>$ Generate\+Mesh\+From\+Data.\+quads\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+docs/src/server/\+Packages/com.\+imd.\+tmri.\+core/\+Runtime/\mbox{\hyperlink{_generate_mesh_from_data_8cs}{Generate\+Mesh\+From\+Data.\+cs}}\end{DoxyCompactItemize}

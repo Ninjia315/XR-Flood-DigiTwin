@@ -1,0 +1,9 @@
+<map id="TMRI.Client.SplitScreenCanvas" name="TMRI.Client.SplitScreenCanvas">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,169,214,195"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="48,5,160,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,47,112,169,106,169,102,47"/>
+<area shape="rect" id="Node000003" href="$class_t_m_r_i_1_1_client_1_1_split_screen_canvas.html" title=" " alt="" coords="125,80,334,106"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="139,37,210,78,207,82,137,41"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,117,128,171,125,166,199,113"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="350,86,360,93,352,100,334,102,334,97,350,95,355,93,348,91"/>
+</map>
