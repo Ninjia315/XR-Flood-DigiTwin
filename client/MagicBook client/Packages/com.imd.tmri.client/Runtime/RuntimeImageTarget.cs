@@ -11,7 +11,7 @@ namespace TMRI.Client
 {
     public class RuntimeImageTarget : MonoBehaviour
     {
-
+        public XRReferenceImageLibrary m_ImageLibrary;
         ARTrackedImageManager m_TrackedImageManager;
 
         public Vector3 m_RotationOffset;
@@ -28,6 +28,7 @@ namespace TMRI.Client
         public UnityEvent OnRemoved;
 
         bool runtimeImageAdded;
+        bool libraryUpdateInProgress;
         AddReferenceImageJobState addJob;
 
         private void OnEnable()
@@ -37,10 +38,17 @@ namespace TMRI.Client
                 /// Creating a runtime library is only supported when there's a valid tracking subsystem in ARFoundation,
                 /// which is not the case when running in Editor mode.
 #if !UNITY_EDITOR
+                
+#if UNITY_VISIONOS
+                m_TrackedImageManager.referenceLibrary = m_TrackedImageManager.CreateRuntimeLibrary(m_ImageLibrary);
+                Debug.Log("RuntimeImageTarget: Succesfully created runtime library");
+                m_TrackedImageManager.enabled = false; //important for VisionOS
+#else
                 if(m_TrackedImageManager.referenceLibrary is not MutableRuntimeReferenceImageLibrary)
                     m_TrackedImageManager.referenceLibrary = m_TrackedImageManager.CreateRuntimeLibrary();
 #endif
 
+#endif
                 m_TrackedImageManager.trackedImagesChanged += OnChanged;
             }
         }
@@ -68,8 +76,17 @@ namespace TMRI.Client
                 }
             }
 
+#if UNITY_VISIONOS
+            if(libraryUpdateInProgress && addJob.jobHandle.IsCompleted && m_TrackedImageManager != null && !m_TrackedImageManager.enabled)
+            {
+                libraryUpdateInProgress = false;
+                m_TrackedImageManager.enabled = true; //important for VisionOS
+                Debug.Log($"RuntimeImageTarget: AddReferenceImageJob completed and enabled TrackedImageManager");
+            }
+#else
             if (addJob != null && !(addJob.status == AddReferenceImageJobStatus.Success || addJob.status == AddReferenceImageJobStatus.None))
                 Debug.Log($"AddJob status {addJob.status}");
+#endif
         }
 
         bool AddImageToTrack(Texture2D imageToAdd, string imageID, float realSize)
@@ -83,10 +100,11 @@ namespace TMRI.Client
             if (m_TrackedImageManager.referenceLibrary is MutableRuntimeReferenceImageLibrary mutableLibrary)
             {
                 addJob = mutableLibrary.ScheduleAddImageWithValidationJob(imageToAdd, imageID, realSize);
+                libraryUpdateInProgress = true;
             }
             else
             {
-                Debug.Log("TrackedImageManager reference library is not mutable!");
+                Debug.Log("RuntimeImageTarget: TrackedImageManager reference library is not mutable!");
                 return false;
             }
             return true;
@@ -110,7 +128,7 @@ namespace TMRI.Client
         {
             foreach (var newImage in eventArgs.added)
             {
-                Debug.Log($"tracked image ADDED: {newImage.referenceImage.name}");
+                Debug.Log($"RuntimeImageTarget: tracked image ADDED: {newImage.referenceImage.name}");
 
                 if (newImage.referenceImage.name != TrackedImageID)
                     continue;
@@ -147,7 +165,7 @@ namespace TMRI.Client
                 if (removedImage.referenceImage.name != TrackedImageID)
                     continue;
 
-                Debug.Log("tracked image REMOVED");
+                Debug.Log("RuntimeImageTarget: tracked image REMOVED");
 
                 // Handle removed event
                 if (ToggleActive)

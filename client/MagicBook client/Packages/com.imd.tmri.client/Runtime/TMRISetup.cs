@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using TMPro;
 using TMRI.Core;
-using Unity.Android.Gradle;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -32,6 +31,7 @@ namespace TMRI.Client
         public bool AutoStartIfServerIPDetected = false;
         public TMP_Text CacheFeedback;
         public Button StartButton;
+        public List<CanvasRenderer> OptionalDisableOnVisionPro = new();
 
         const string PlayerPrefsPrefix = "TMRISetup";
         WebCamTexture camTexture;
@@ -63,7 +63,6 @@ namespace TMRI.Client
                 arSession = FindAnyObjectByType<ARSession>();
                 if (arSession != null)
                     arSession.enabled = false;
-#endif
 
                 camTexture = new WebCamTexture();
                 camTexture.requestedHeight = Screen.height; // 480;
@@ -71,6 +70,7 @@ namespace TMRI.Client
                 camTexture.Play();
 
                 cameraFeedback.texture = camTexture;
+#endif
             }
 
             qrFoundFeedback.SetActive(false);
@@ -111,9 +111,9 @@ namespace TMRI.Client
 
                 DecodeQR(camTexture.GetPixels32());
 
-#if POLYSPATIAL_ENABLE_WEBCAM
-                Unity.PolySpatial.PolySpatialObjectUtils.MarkDirty(camTexture);
-#endif
+//#if POLYSPATIAL_ENABLE_WEBCAM
+//                Unity.PolySpatial.PolySpatialObjectUtils.MarkDirty(camTexture);
+//#endif
             }
 
         }
@@ -122,6 +122,15 @@ namespace TMRI.Client
         void Start()
         {
             StartButton.interactable = false;
+
+#if UNITY_VISIONOS && !UNITY_EDITOR
+            foreach (var cr in OptionalDisableOnVisionPro)
+            {
+                cr.SetAlpha(0f);
+                foreach (Transform child in cr.transform)
+                    child.gameObject.SetActive(false);
+            }
+#endif
 
             if (HideCanvas)
                 GetComponent<Canvas>().enabled = false;
@@ -132,10 +141,13 @@ namespace TMRI.Client
             if (string.IsNullOrEmpty(ConfigurationInput.text))
             {
 #if UNITY_VISIONOS && !UNITY_EDITOR
-                const string localDirectory = "Configuration";
-                var allConfigs = Directory.GetFiles(Path.Combine(Application.streamingAssetsPath, localDirectory));
-                if (allConfigs.Length > 0)
-                    ConfigurationInput.text = Path.Combine(localDirectory, Path.GetFileName(allConfigs[0]));
+                //const string localDirectory = "Configuration";
+                //var allConfigs = Directory.GetFiles(Path.Combine(Application.streamingAssetsPath, localDirectory));
+                //if (allConfigs.Length > 0)
+                //    ConfigurationInput.text = Path.Combine(localDirectory, Path.GetFileName(allConfigs[0]));
+
+                if(string.IsNullOrEmpty(ConfigurationInput.text))
+                    ConfigurationInput.text = ConfigurationURL;
 #else
                 ConfigurationInput.text = ConfigurationURL;
 #endif

@@ -6,6 +6,7 @@ using TMRI.Core;
 using UnityEngine.Networking;
 using System;
 using System.Linq;
+using UnityEngine.XR.ARSubsystems;
 
 namespace TMRI.Client
 {
@@ -18,6 +19,9 @@ namespace TMRI.Client
             public string Name;
             public Shader Shader;
         }
+
+        [SerializeField]
+        XRReferenceImageLibrary m_ImageLibrary;
 
         public List<NamedShader> ShadersToReplace;
         
@@ -114,7 +118,7 @@ namespace TMRI.Client
                 {
                     var runtimeIT = gameObject.AddComponent<RuntimeImageTarget>();
                     runtimeIT.FrameUpdate = true;
-                    //runtimeIT.ToggleActive = true;
+                    runtimeIT.m_ImageLibrary = m_ImageLibrary;
                     runtimeIT.TrackedImageID = marker.name;
                     runtimeIT.trackedImageSize = marker.printwidth;
                     runtimeIT.enabled = false;

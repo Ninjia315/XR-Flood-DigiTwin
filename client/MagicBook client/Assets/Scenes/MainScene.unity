@@ -653,6 +653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc75d0b5bf4c4104ba593df8bfcbaed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ImageLibrary: {fileID: 11400000, guid: 2b3288bf2d5c04d1fb5fc615c3bf34ee, type: 2}
   ShadersToReplace:
   - Name: Standard
     Shader: {fileID: 4800000, guid: 78a0c515c4a804ef685790d45c7670a3, type: 3}
