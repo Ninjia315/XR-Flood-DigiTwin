@@ -31,6 +31,7 @@ namespace TMRI.Client
         public bool AutoStartIfServerIPDetected = false;
         public TMP_Text CacheFeedback;
         public Button StartButton;
+        public Button ClearCacheButton;
         public List<CanvasRenderer> OptionalDisableOnVisionPro = new();
 
         const string PlayerPrefsPrefix = "TMRISetup";
@@ -122,6 +123,7 @@ namespace TMRI.Client
         void Start()
         {
             StartButton.interactable = false;
+            UpdateClearCacheButtonState();
 
 #if UNITY_VISIONOS && !UNITY_EDITOR
             foreach (var cr in OptionalDisableOnVisionPro)
@@ -339,6 +341,54 @@ namespace TMRI.Client
                 Debug.LogError(e.Message);
             }
             
+        }
+
+        public void ClearCacheClicked()
+        {
+            Debug.Log($"{name} ClearCacheClicked!");
+            if (!Directory.Exists(Application.persistentDataPath))
+            {
+                Debug.Log("No cache folder found");
+                return;
+            }
+
+            string[] cacheFilePath = Directory.GetFiles(Application.persistentDataPath);
+            foreach (string filePath in cacheFilePath)
+            {
+                File.Delete(filePath);  //Delete all files in the cache folder
+            }
+
+            PlayerPrefs.DeleteAll();
+            PlayerPrefs.Save();
+
+            ServerInput.text = "";
+            ConfigurationInput.text = "";  //Clear the input fields
+
+            StartButton.interactable = false;  //Disable the start button
+
+            StartCoroutine(UpdateClearCacheButtonStateNextFrame());
+
+            if (string.IsNullOrEmpty(ConfigurationURL))  //Used for testing
+            {
+                Debug.Log($"No configuration URL saved on PlayerPrefs:{ConfigurationURL}");
+            }
+
+            if (CacheFeedback != null)
+            {
+                CacheFeedback.text = "<color=red> Cache Cleared! </color>";
+            }
+        }
+
+        private IEnumerator UpdateClearCacheButtonStateNextFrame()
+        {
+            yield return null;
+            UpdateClearCacheButtonState();
+        }
+
+        private void UpdateClearCacheButtonState()
+        {
+            string[] remainingFiles = Directory.GetFiles(Application.persistentDataPath);
+            ClearCacheButton.interactable = remainingFiles.Length > 0;
         }
     }
 
